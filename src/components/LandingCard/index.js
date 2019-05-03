@@ -8,14 +8,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
-import StyledButtonGroup from 'components/StyledButtonGroup';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
+import StyledButtonGroup from '../StyledButtonGroup';
 import media from 'style/mediainjector';
-import { H2 } from 'components/Heading';
-import { ActionButton } from 'components/Button';
-import { ActionButtonLink } from 'components/ButtonLink';
-import { LegalInfo } from 'components/Paragraph';
+import { H2 } from '../Heading';
+import { ActionButton } from '../Button';
+import { ActionButtonLink } from '../ButtonLink';
+import { LegalInfo } from '../Paragraph';
 
 export const FlexSwitch = styled(FlexBox)`
   width: 100%;
