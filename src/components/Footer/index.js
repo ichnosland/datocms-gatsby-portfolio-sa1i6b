@@ -9,7 +9,7 @@ import { APPLICATION } from 'configuration';
 import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
 
-import ClearLink from 'components/ClearLink';
+import ClearLink from '../ClearLink';
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
 import messages from './messages';
