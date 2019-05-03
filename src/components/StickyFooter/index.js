@@ -6,7 +6,7 @@
 
 import styled from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 
 /*
   * Istruzioni:
