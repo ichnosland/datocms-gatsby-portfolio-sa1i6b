@@ -13,7 +13,7 @@ import { Section } from '/Section';
 import Container from '/Container';
 import SubLandingCard from '/LandingCard/SubLandingCard';
 import { H1, H2 } from '/Heading';
-import { ActionButtonLink } from '/ButtonLink';
+import { ActionButtonLink } from './ButtonLink';
 import { DesktopImage, MobileImage } from '/RespImg';
 import LandingMenuBar from '/LandingMenuBar';
 import Footer from '/Footer';
