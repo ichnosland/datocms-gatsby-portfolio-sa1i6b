@@ -19,12 +19,12 @@ import LandingMenuBar from 'components/LandingMenuBar';
 import Footer from 'components/Footer';
 import { colore } from 'style/color';
 import { landingPageToggleMenu } from 'containers/LandingPage/actions';
-
+/*
 import libro from './images/libro.png';
 import dashboard from './images/dashboard.png';
 import lezione from './images/lezione.png';
 import andamento from './images/andamento.png';
-
+*/
 import '../styles/index.sass'
 
 const TemplateWrapper = ({ children }) => (
