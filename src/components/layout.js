@@ -16,7 +16,7 @@ import provideScrollPosition from 'react-provide-scroll-position';
 import { ActionButtonLink } from './ButtonLink';
 //import { DesktopImage, MobileImage } from './RespImg';
 //import LandingMenuBar from './LandingMenuBar';
-import Footer from './Footer';
+//import Footer from './Footer';
 import { colore } from 'style/color';
 //import { landingPageToggleMenu } from 'containers/LandingPage/actions';
 /*
