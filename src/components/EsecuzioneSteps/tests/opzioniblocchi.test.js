@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import FlexBox, { FlexChild } from 'components/FlexBox';
+import FlexBox, { FlexChild } from '../FlexBox';
 import OpzioniBlocchi, { WrapOpzioniBlocchi, OpzioneBlocchi } from '../OpzioniBlocchi';
 
 const titolo = 'Titolo';

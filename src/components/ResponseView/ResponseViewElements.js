@@ -6,10 +6,10 @@
 
 import styled, { css } from 'styled-components';
 
-import FlexBox, { FlexChild } from 'components/FlexBox';
-import Div from 'components/Div';
-import LogoPlatform from 'components/LogoPlatform';
-import { ContainerStyle } from 'components/Container';
+import FlexBox, { FlexChild } from '../FlexBox';
+import Div from '../Div';
+import LogoPlatform from '../LogoPlatform';
+import { ContainerStyle } from '../Container';
 import { colore } from 'style/color';
 import media from 'style/mediainjector';
 

@@ -6,8 +6,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Div from 'components/Div';
-import ListPanel, { PanelHeader } from 'components/ListPanel';
+import Div from '../Div';
+import ListPanel, { PanelHeader } from '../ListPanel';
 import MissionTag from './MissionTag';
 
 export default class Dashboard extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function

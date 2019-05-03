@@ -8,9 +8,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Div from 'components/Div';
-import ClearLink from 'components/ClearLink';
-import Svg from 'components/Svg';
+import Div from '../Div';
+import ClearLink from '../ClearLink';
+import Svg from '../Svg';
 import { colore } from 'style/color';
 
 const labelsPaddingVertical = '4px';

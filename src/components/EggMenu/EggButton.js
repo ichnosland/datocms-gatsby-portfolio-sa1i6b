@@ -8,7 +8,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css, keyframes } from 'styled-components';
 
-import Svg from 'components/Svg';
+import Svg from '../Svg';
 import menuIcon from 'icons/menuIcons';
 import { allThemes } from 'style/theme';
 

@@ -7,7 +7,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { ClearAnchor } from 'components/Text';
+import { ClearAnchor } from '../Text';
 import WhatsAppBanner from '../WhatsAppBanner';
 
 describe('<WhatsAppBanner />', () => {

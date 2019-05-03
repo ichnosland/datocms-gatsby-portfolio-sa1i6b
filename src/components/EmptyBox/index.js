@@ -8,7 +8,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import folder from 'images/empty-folder.png';
 import { colore } from 'style/color';
 

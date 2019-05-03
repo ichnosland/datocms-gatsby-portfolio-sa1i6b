@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Svg from 'components/Svg';
-import { GhostButton } from 'components/Button';
-import { CountBadge, CountBadgeItem } from 'components/CountBadge';
+import Svg from '../Svg';
+import { GhostButton } from '../Button';
+import { CountBadge, CountBadgeItem } from '../CountBadge';
 import icon from 'icons/globals';
 import { colore } from 'style/color';
 import GraficoMedieCompito from '../GraficoIstogrammi';

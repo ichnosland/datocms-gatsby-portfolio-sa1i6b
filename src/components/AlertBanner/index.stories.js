@@ -7,10 +7,10 @@ import { ThemeProvider } from 'styled-components';
 import 'global-styles';
 import { allThemes, themeOptions } from 'style/theme';
 import { actionColorOptions } from 'style/color';
-import Div from 'components/Div';
-import { Icon } from 'components/Button';
+import Div from '../Div';
+import { Icon } from '../Button';
 import buttonicon from 'icons/buttons';
-import FlexBox from 'components/FlexBox';
+import FlexBox from '../FlexBox';
 import AlertBanner, { InfoBanner } from './index';
 
 const icona = Object.keys(buttonicon).map((icn) => (icn));

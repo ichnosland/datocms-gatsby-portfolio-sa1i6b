@@ -6,7 +6,7 @@
 
 import styled, { css } from 'styled-components';
 
-import { clearLinkStyle } from 'components/ClearLink';
+import { clearLinkStyle } from '../ClearLink';
 import { colore } from 'style/color';
 
 

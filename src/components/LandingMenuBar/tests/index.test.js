@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { ContainerFlex } from 'components/Container';
+import { ContainerFlex } from '../Container';
 import LandingMenuBar, { MenuBar, BarMenuItem, LandingMenu } from '../index';
 const Path = '/';
 

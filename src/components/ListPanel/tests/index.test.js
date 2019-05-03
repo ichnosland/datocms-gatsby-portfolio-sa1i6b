@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import ClearLink from 'components/ClearLink';
-import Spinner from 'components/Spinner';
-import ContentEditable from 'components/ContentEditable';
-import Div from 'components/Div';
-import ButtonGroup from 'components/ButtonGroup';
-import FlexBox from 'components/FlexBox';
+import ClearLink from '../ClearLink';
+import Spinner from '../Spinner';
+import ContentEditable from '../ContentEditable';
+import Div from '../Div';
+import ButtonGroup from '../ButtonGroup';
+import FlexBox from '../FlexBox';
 import ListPanel, {
   PanelListWrap,
   PanelHeader,

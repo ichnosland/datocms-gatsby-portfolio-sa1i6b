@@ -8,12 +8,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import Container from 'components/Container';
-import Div from 'components/Div';
-import { H2 } from 'components/Heading';
+import Container from '../Container';
+import Div from '../Div';
+import { H2 } from '../Heading';
 import { colore } from 'style/color';
-import { ListItem, ListItemText, ListLink } from 'components/NewListPanels';
-import HtmlBlock from 'components/HtmlBlock';
+import { ListItem, ListItemText, ListLink } from '../NewListPanels';
+import HtmlBlock from '../HtmlBlock';
 import media from 'style/mediainjector';
 
 export const HeaderRiepilogo = styled(Div)`

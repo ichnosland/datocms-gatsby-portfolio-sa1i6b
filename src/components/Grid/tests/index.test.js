@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import FlexBox from 'components/FlexBox';
+import FlexBox from '../FlexBox';
 import { Grid, GridItem } from '../index';
 
 const theme = {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { ActionButton } from 'components/Button';
-import { LegalInfo } from 'components/Paragraph';
+import { ActionButton } from '../Button';
+import { LegalInfo } from '../Paragraph';
 import LandingCard, { FlexSwitch, Image, CardBox, Body } from '../index';
 
 describe('<LandingCard />', () => {

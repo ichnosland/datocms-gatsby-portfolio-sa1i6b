@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Grid, GridItem } from 'components/Grid';
-import { Icon } from 'components/Button';
-import { FlexChild } from 'components/FlexBox';
+import { Grid, GridItem } from '../Grid';
+import { Icon } from '../Button';
+import { FlexChild } from '../FlexBox';
 import buttonicon from 'icons/buttons';
 
 import ReportGrid, { FlexCell } from '../index';

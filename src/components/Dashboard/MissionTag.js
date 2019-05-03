@@ -8,8 +8,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
 import { colore } from 'style/color';
 
 export const MissionTagBox = styled(FlexBox)`

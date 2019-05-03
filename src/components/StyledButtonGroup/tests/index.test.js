@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import FlexBox from 'components/FlexBox';
-import { Button } from 'components/Button';
+import FlexBox from '../FlexBox';
+import { Button } from '../Button';
 import StyledButtonGroup, { MiniButtonGroup, ExpandButtonGroup } from '../index';
 
 

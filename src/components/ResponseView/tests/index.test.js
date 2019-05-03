@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Button } from 'components/Button';
+import { Button } from '../Button';
 import ResponseView from '../index';
 import { ResponseWrap } from '../ResponseViewElements';
 import goodBg from '../images/good.gif';

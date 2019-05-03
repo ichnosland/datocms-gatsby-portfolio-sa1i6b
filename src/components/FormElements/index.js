@@ -6,9 +6,9 @@
 
 import styled, { css } from 'styled-components';
 
-import Section from 'components/Section';
-import Div from 'components/Div';
-import { Button, Icon } from 'components/Button';
+import Section from '../Section';
+import Div from '../Div';
+import { Button, Icon } from '../Button';
 import { colore } from 'style/color';
 import media from 'style/mediainjector';
 

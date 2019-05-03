@@ -5,12 +5,12 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { allThemes, themeOptions } from 'style/theme';
-import TopBar from 'components/TopBar';
-import Flexbox from 'components/FlexBox';
-import ProgressBar from 'components/ProgressBar';
-import ToolBar from 'components/ToolBar';
-import ToolBarButton from 'components/ToolBar/ToolBarButton';
-import CentralBox from 'components/CentralBox';
+import TopBar from '../TopBar';
+import Flexbox from '../FlexBox';
+import ProgressBar from '../ProgressBar';
+import ToolBar from '../ToolBar';
+import ToolBarButton from '../ToolBar/ToolBarButton';
+import CentralBox from '../CentralBox';
 import RadioCheck from './RadioCheck';
 
 const history = createBrowserHistory();

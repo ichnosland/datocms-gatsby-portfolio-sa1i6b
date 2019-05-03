@@ -9,15 +9,15 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { Field, reduxForm } from 'redux-form/immutable';
-import Container from 'components/Container';
+import Container from '../Container';
 import { singleFieldRequired, singleFieldValidateEmail, atLeastNChars } from 'common/forms';
-import Div from 'components/Div';
-import AlertBanner from 'components/AlertBanner';
-import P from 'components/Paragraph';
-import { ActionButton } from 'components/Button';
-import renderedField from 'components/FormElements/Field';
-import TextArea from 'components/FormElements/TextArea';
-import InputRadioCheck from 'components/FormElements/InputRadioCheck';
+import Div from '../Div';
+import AlertBanner from '../AlertBanner';
+import P from '../Paragraph';
+import { ActionButton } from '../Button';
+import renderedField from '../FormElements/Field';
+import TextArea from '../FormElements/TextArea';
+import InputRadioCheck from '../FormElements/InputRadioCheck';
 import media from 'style/mediainjector';
 
 export const InputRow = styled.div`

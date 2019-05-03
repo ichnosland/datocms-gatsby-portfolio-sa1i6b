@@ -9,8 +9,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { APPLICATION } from 'configuration';
 
-import { HiddenH1 } from 'components/Heading';
-import Svg from 'components/Svg';
+import { HiddenH1 } from '../Heading';
+import Svg from '../Svg';
 import logo from 'images/logos';
 
 const Images = {

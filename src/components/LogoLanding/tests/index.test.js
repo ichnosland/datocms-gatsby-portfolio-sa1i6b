@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { HiddenH1 } from 'components/Heading';
+import { HiddenH1 } from '../Heading';
 import LogoLanding, { LogoBox } from '../index';
 
 const configuration = {

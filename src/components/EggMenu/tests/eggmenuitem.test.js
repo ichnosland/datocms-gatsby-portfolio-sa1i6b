@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import ClearLink from 'components/ClearLink';
+import ClearLink from '../ClearLink';
 import icon from 'icons/globals';
 import EggMenuItem, { EggItem, EggLink, EggLinkLabel } from '../EggMenuItem';
 

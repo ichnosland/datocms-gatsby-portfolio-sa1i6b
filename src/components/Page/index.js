@@ -5,7 +5,7 @@
 */
 
 import media from 'style/mediainjector';
-import Div from 'components/Div';
+import Div from '../Div';
 import styled, { css } from 'styled-components';
 
 const Page = styled(Div)`

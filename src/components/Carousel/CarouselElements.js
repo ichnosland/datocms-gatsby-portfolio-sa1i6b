@@ -6,8 +6,8 @@
 
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
-import { NoStyleButton } from 'components/Button';
+import Div from '../Div';
+import { NoStyleButton } from '../Button';
 
 export const CarouselWrap = styled(Div)`
   width:  ${(props) => {

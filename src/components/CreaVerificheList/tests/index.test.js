@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import ListPanel from 'components/ListPanel';
-import { Button } from 'components/Button';
-import { FlexChild } from 'components/FlexBox';
+import ListPanel from '../ListPanel';
+import { Button } from '../Button';
+import { FlexChild } from '../FlexBox';
 import CreaVerificheList, { InfoTag } from '../index';
 
 describe('<CreaVerificheList />', () => {

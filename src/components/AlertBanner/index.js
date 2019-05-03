@@ -6,7 +6,7 @@
 
 import styled, { css } from 'styled-components';
 import { lighten, darken } from 'polished';
-import FlexBox from 'components/FlexBox';
+import FlexBox from '../FlexBox';
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
 

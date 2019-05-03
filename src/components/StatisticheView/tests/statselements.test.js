@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
-import Svg from 'components/Svg';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
+import Svg from '../Svg';
 import {
   WrapReportistica,
   ReportCardToolbar,

@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { SelectChevron, SelectMenu } from 'components/Select';
-import Spinner from 'components/Spinner';
+import { SelectChevron, SelectMenu } from '../Select';
+import Spinner from '../Spinner';
 import { FormMessage } from '../index';
 import SelectField from '../SelectField';
 

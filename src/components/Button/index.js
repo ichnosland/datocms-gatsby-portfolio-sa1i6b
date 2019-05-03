@@ -8,7 +8,7 @@ import styled, { css } from 'styled-components';
 import { lighten, darken, transparentize } from 'polished';
 import media from 'style/mediainjector';
 import { colore, transparent } from 'style/color';
-import Svg from 'components/Svg';
+import Svg from '../Svg';
 
 export const ButtonStyle = css`
   display: inline-flex;

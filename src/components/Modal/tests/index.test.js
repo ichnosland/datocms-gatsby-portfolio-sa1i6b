@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
-import { Button, Icon } from 'components/Button';
-import TopBar from 'components/TopBar';
-import Image from 'components/Image';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
+import { Button, Icon } from '../Button';
+import TopBar from '../TopBar';
+import Image from '../Image';
 import scrivi from 'images/infocard-icn_scrivi.png';
 import Modal, { ModalOverlay, ModalContent, ModalHeader, ModalFooter } from '../index';
 

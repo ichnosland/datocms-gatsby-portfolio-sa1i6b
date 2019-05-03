@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { allThemes, themeOptions } from 'style/theme';
-import Div from 'components/Div';
+import Div from '../Div';
 import { Grid, GridItem } from './index';
 
 storiesOf('Grid', module)

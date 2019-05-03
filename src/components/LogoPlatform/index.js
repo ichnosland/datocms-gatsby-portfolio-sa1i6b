@@ -9,8 +9,8 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
 import { colore } from 'style/color';
-import Div from 'components/Div';
-import Svg from 'components/Svg';
+import Div from '../Div';
+import Svg from '../Svg';
 import logo from 'images/logos';
 import media from 'style/mediainjector';
 

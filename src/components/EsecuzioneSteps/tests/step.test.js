@@ -14,11 +14,11 @@ import {
   mockElementiU,
   mockElementiI,
 } from 'common/testing-mocks';
-import Div from 'components/Div';
-import { Inseriti } from 'components/Elemento/Inseriti';
-import Elemento from 'components/Elemento';
-import RadioCheck from 'components/FormElements/RadioCheck';
-import { EditableSpanView } from 'components/ContentEditable/EditableSpan';
+import Div from '../Div';
+import { Inseriti } from '../Elemento/Inseriti';
+import Elemento from '../Elemento';
+import RadioCheck from '../FormElements/RadioCheck';
+import { EditableSpanView } from '../ContentEditable/EditableSpan';
 import modalBoxReducer from 'containers/ModalBox/reducer';
 import { modalSetData, modalSetEmptyData } from 'containers/ModalBox/actions';
 

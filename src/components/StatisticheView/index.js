@@ -8,11 +8,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import HtmlBlock from 'components/HtmlBlock';
-import Svg from 'components/Svg';
-import { Icon, GhostButton } from 'components/Button';
-import { CountBadge, CountBadgeItem } from 'components/CountBadge';
-import P from 'components/Paragraph';
+import HtmlBlock from '../HtmlBlock';
+import Svg from '../Svg';
+import { Icon, GhostButton } from '../Button';
+import { CountBadge, CountBadgeItem } from '../CountBadge';
+import P from '../Paragraph';
 import icon from 'icons/globals';
 import buttonIcon from 'icons/buttons';
 import { colore } from 'style/color';

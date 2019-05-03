@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import FlexBox from 'components/FlexBox';
+import FlexBox from '../FlexBox';
 import ButtonGroup, { Group, InnerButton } from '../index';
 
 const theme = {

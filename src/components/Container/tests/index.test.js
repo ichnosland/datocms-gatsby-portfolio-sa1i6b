@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
 import Container, { ActionBox, ContainerFlex } from '../index';
 import folder from 'images/empty-folder.png';
 

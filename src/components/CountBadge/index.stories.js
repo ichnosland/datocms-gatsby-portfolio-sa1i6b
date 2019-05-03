@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, select } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { allThemes, themeOptions } from 'style/theme';
-import { Button } from 'components/Button';
+import { Button } from '../Button';
 import { CountBadge, CountBadgeItem } from './index';
 
 storiesOf('CountBadge', module)

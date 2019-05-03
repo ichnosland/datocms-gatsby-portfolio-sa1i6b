@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Svg from 'components/Svg';
+import Svg from '../Svg';
 import icon from 'icons/globals';
 import { Button, Icon, ActionButton, TextButton, GhostButton } from '../index';
 

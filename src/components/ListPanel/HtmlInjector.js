@@ -11,7 +11,7 @@ import MathJax from 'react-mathjax-preview';
 import CKEditor from 'react-ckeditor-component';
 
 import media from 'style/mediainjector';
-import Div from 'components/Div';
+import Div from '../Div';
 import { colore } from 'style/color';
 import { HtmlStyles } from 'style/HtmlStylesVerifiche';
 

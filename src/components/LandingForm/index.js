@@ -9,16 +9,16 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import { Field, reduxForm } from 'redux-form/immutable';
-import { H2, H3 } from 'components/Heading';
-import Div from 'components/Div';
-import P from 'components/Paragraph';
-import AlertBanner from 'components/AlertBanner';
-import { ActionButton } from 'components/Button';
-import FlexBox, { FlexChild } from 'components/FlexBox';
+import { H2, H3 } from '../Heading';
+import Div from '../Div';
+import P from '../Paragraph';
+import AlertBanner from '../AlertBanner';
+import { ActionButton } from '../Button';
+import FlexBox, { FlexChild } from '../FlexBox';
 import { singleFieldRequired } from 'common/forms';
 import media from 'style/mediainjector';
-import InputRadioCheck from 'components/FormElements/InputRadioCheck';
-import SelectField from 'components/FormElements/SelectField';
+import InputRadioCheck from '../FormElements/InputRadioCheck';
+import SelectField from '../FormElements/SelectField';
 import { colore } from 'style/color';
 
 export const InputRow = styled.div`

@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import { uniqueId } from 'lodash';
 import styled, { css, keyframes } from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import icon from 'icons/globals';
 import EggMenuItem from './EggMenuItem';
 import EggButton from './EggButton';

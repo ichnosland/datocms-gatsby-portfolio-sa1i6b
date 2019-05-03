@@ -5,12 +5,12 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { allThemes, themeOptions } from 'style/theme';
-import TopBar from 'components/TopBar';
-import { ContainerFlex } from 'components/Container';
-import CentralBox from 'components/CentralBox';
-import ProgressBar from 'components/ProgressBar';
-import ToolBar from 'components/ToolBar';
-import ToolBarButton from 'components/ToolBar/ToolBarButton';
+import TopBar from '../TopBar';
+import { ContainerFlex } from '../Container';
+import CentralBox from '../CentralBox';
+import ProgressBar from '../ProgressBar';
+import ToolBar from '../ToolBar';
+import ToolBarButton from '../ToolBar/ToolBarButton';
 import AlertBar from './index';
 
 const history = createBrowserHistory();

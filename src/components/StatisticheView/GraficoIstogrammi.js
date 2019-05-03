@@ -12,8 +12,8 @@ import {
 } from 'react-vis';
 import 'react-vis/dist/style.css';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
 import { colore } from 'style/color';
 import {
   ChartBox,

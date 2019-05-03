@@ -8,13 +8,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { ModalOverlay, ModalContent } from 'components/Modal';
-import Flexbox from 'components/FlexBox';
-import Image from 'components/Image';
-import { Button } from 'components/Button';
+import { ModalOverlay, ModalContent } from '../Modal';
+import Flexbox from '../FlexBox';
+import Image from '../Image';
+import { Button } from '../Button';
 import { colore } from 'style/color';
 import media from 'style/mediainjector';
-import Div from 'components/Div';
+import Div from '../Div';
 import HtmlStylesPopUp from 'style/HtmlStylesPopUp';
 
 const innerMarginBottom = '20px';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Table } from 'components/Tables';
+import { Table } from '../Tables';
 import TabelleList, { ModalTable } from '../index';
 
 const theme = {

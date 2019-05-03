@@ -7,8 +7,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import Spinner from 'components/Spinner';
-import FlexBox from 'components/FlexBox';
+import Spinner from '../Spinner';
+import FlexBox from '../FlexBox';
 import { BasicInputStyle, FormMessage } from './index';
 
 export const Textarea = styled.textarea`

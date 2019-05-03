@@ -9,15 +9,15 @@ import PropTypes from 'prop-types';
 
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
-import Svg from 'components/Svg';
-import { IconBtn } from 'components/TopBar';
-import { H3 } from 'components/Heading';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
+import Svg from '../Svg';
+import { IconBtn } from '../TopBar';
+import { H3 } from '../Heading';
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
 import icon from 'icons/globals';
-import { ContainerStyle } from 'components/Container';
+import { ContainerStyle } from '../Container';
 
 export const AlertWrap = styled(Div)`
   position: absolute;

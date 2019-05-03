@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import MathJax from 'react-mathjax-preview';
 
-import { HtmlBlockWrap } from 'components/HtmlBlock';
+import { HtmlBlockWrap } from '../HtmlBlock';
 import { ListItem } from '../index';
 import HtmlInjector, { HtmlBlock } from '../HtmlInjector';
 

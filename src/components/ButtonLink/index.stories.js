@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import { allThemes, themeOptions } from 'style/theme';
 import { actionColorOptions } from 'style/color';
 import buttonicon from 'icons/buttons';
-import { Icon } from 'components/Button';
+import { Icon } from '../Button';
 import { ButtonLink, ActionButtonLink } from './index';
 
 const history = createBrowserHistory();

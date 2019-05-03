@@ -18,20 +18,20 @@ import {
   creaTestoReadable,
   calculateChildrenTestoFromDataElem,
 } from 'common/esercizi';
-import { Button, Icon } from 'components/Button';
+import { Button, Icon } from '../Button';
 import globals from 'icons/globals';
-import Elemento from 'components/Elemento';
-import { Inseriti } from 'components/Elemento/Inseriti';
-import Page from 'components/Page';
-import Container from 'components/Container';
-import Div from 'components/Div';
-import TabelleList from 'components/TabelleList';
-import RadioCheck from 'components/FormElements/RadioCheck';
-import { H2 } from 'components/Heading';
+import Elemento from '../Elemento';
+import { Inseriti } from '../Elemento/Inseriti';
+import Page from '../Page';
+import Container from '../Container';
+import Div from '../Div';
+import TabelleList from '../TabelleList';
+import RadioCheck from '../FormElements/RadioCheck';
+import { H2 } from '../Heading';
 import { colore } from 'style/color';
 import TestoConsegna from 'containers/TestoConsegna';
 import { generaElementiTesto } from 'containers/TestoConsegna/utils';
-import { EditableSpanView } from 'components/ContentEditable/EditableSpan';
+import { EditableSpanView } from '../ContentEditable/EditableSpan';
 import OpzioniBlocchi from './OpzioniBlocchi';
 
 export const WrapperNoSelectStep = styled(Div)`

@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Container from 'components/Container';
-import AlertBanner from 'components/AlertBanner';
+import Container from '../Container';
+import AlertBanner from '../AlertBanner';
 import { ContactFormView } from '../index';
 
 const mockProps = {

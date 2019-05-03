@@ -8,9 +8,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
-import P from 'components/Paragraph';
-import { Button } from 'components/Button';
+import Div from '../Div';
+import P from '../Paragraph';
+import { Button } from '../Button';
 import { colore } from 'style/color';
 import media from 'style/mediainjector';
 

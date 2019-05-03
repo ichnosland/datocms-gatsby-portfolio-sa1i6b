@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import { StickyWrap, StickyTop, StickyBottom } from '../index';
 
 describe('<StickyWrap />', () => {

@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 import MathJax from 'react-mathjax-preview';
 import styled from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import { colore } from 'style/color';
 
 export const HtmlBlockWrap = styled(Div)`

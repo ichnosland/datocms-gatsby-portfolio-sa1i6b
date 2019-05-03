@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Container from 'components/Container';
-import { ListItem, ListLink } from 'components/NewListPanels';
+import Container from '../Container';
+import { ListItem, ListLink } from '../NewListPanels';
 import {
   VersionePeriodiTradotti,
   HeaderRiepilogo,

@@ -11,15 +11,15 @@ import { uniqueId } from 'lodash';
 
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
-import Svg from 'components/Svg';
-import Div from 'components/Div';
-import Spinner from 'components/Spinner';
-import FlexBox, { FlexChild } from 'components/FlexBox';
-import ClearLink from 'components/ClearLink';
-import ButtonGroup from 'components/ButtonGroup';
-import ContentEditable from 'components/ContentEditable';
+import Svg from '../Svg';
+import Div from '../Div';
+import Spinner from '../Spinner';
+import FlexBox, { FlexChild } from '../FlexBox';
+import ClearLink from '../ClearLink';
+import ButtonGroup from '../ButtonGroup';
+import ContentEditable from '../ContentEditable';
 import icon from 'icons/globals';
-import ProgressBar from 'components/ProgressBar';
+import ProgressBar from '../ProgressBar';
 import HtmlInjector from './HtmlInjector';
 
 const RightCareticon = styled(Svg)`

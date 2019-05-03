@@ -8,11 +8,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
-import Image from 'components/Image';
-import TopBar from 'components/TopBar';
-import { Button, Icon } from 'components/Button';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
+import Image from '../Image';
+import TopBar from '../TopBar';
+import { Button, Icon } from '../Button';
 import media from 'style/mediainjector';
 import buttonicon from 'icons/buttons';
 import { colore } from 'style/color';

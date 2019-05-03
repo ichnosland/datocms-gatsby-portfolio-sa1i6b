@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import 'global-styles';
 import { allThemes, themeOptions } from 'style/theme';
 import { actionColorOptions } from 'style/color';
-import Div from 'components/Div';
+import Div from '../Div';
 import buttonicon from 'icons/buttons';
 import { Button, ActionButton, TextButton, Icon, GhostButton } from './index';
 import nota from './nota.md';

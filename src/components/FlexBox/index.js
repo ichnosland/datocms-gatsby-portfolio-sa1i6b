@@ -5,7 +5,7 @@
 */
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import media from 'style/mediainjector';
 
 export const FlexBox = styled(Div)`

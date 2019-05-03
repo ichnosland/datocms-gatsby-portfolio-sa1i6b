@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { FlexChild } from 'components/FlexBox';
-import Svg from 'components/Svg';
-import ProgressBar from 'components/ProgressBar';
+import { FlexChild } from '../FlexBox';
+import Svg from '../Svg';
+import ProgressBar from '../ProgressBar';
 import icon from 'icons/globals';
 import ListSideBox, { SideBox, RightCareticon, Usericon, Lessonicon } from '../ListSideBox';
 

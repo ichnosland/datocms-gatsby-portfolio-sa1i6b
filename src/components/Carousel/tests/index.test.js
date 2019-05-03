@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Swipeable from 'react-swipeable';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import Carousel, { Box } from '../index';
 import { CarouselWrap, ArrowBox } from '../CarouselElements';
 

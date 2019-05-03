@@ -7,9 +7,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Button } from 'components/Button';
+import { Button } from '../Button';
 import { colore } from 'style/color';
-import { H2 } from 'components/Heading';
+import { H2 } from '../Heading';
 
 import {
   FeedbackSteps,

@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
 import SlideToggle, { ToggleSlider } from '../index';
 
 const theme = {

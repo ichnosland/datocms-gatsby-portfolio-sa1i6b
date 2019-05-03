@@ -8,9 +8,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import ListPanel from 'components/ListPanel';
-import FlexRow, { FlexChild } from 'components/FlexBox';
-import EmptyBox from 'components/EmptyBox';
+import ListPanel from '../ListPanel';
+import FlexRow, { FlexChild } from '../FlexBox';
+import EmptyBox from '../EmptyBox';
 import { colore } from 'style/color';
 
 export const InfoTag = styled(FlexChild)`

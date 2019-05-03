@@ -9,7 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import FlexWrap from 'components/FlexBox';
+import FlexWrap from '../FlexBox';
 
 export const SeparatorBg = styled.div`
   background-image: url('data:image/svg+xml;utf8,<svg width="4" height="4" viewBox="0 0 4 4" xmlns="http://www.w3.org/2000/svg"><path fill="${(props) => props.fill ? props.fill : props.theme.light}" d="M0 0h4v4H0z" fill-rule="evenodd"/></svg>');

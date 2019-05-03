@@ -6,9 +6,9 @@
 
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
-import { NoStyleButton } from 'components/Button';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
+import { NoStyleButton } from '../Button';
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
 

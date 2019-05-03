@@ -6,7 +6,7 @@ import { withKnobs, text, select, boolean, color, number } from '@storybook/addo
 import { ThemeProvider } from 'styled-components';
 import 'global-styles';
 import { allThemes, themeOptions } from 'style/theme';
-import ContentEditable from 'components/ContentEditable';
+import ContentEditable from '../ContentEditable';
 import { ListItem, ListLink, ListItemText, ListPanelHeader } from './index';
 import ListSideBox from './ListSideBox';
 import HtmlInjector from './HtmlInjector';

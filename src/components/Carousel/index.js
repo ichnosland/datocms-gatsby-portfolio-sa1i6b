@@ -10,8 +10,8 @@ import Swipeable from 'react-swipeable';
 import { throttle } from 'lodash';
 import styled from 'styled-components';
 
-import Div from 'components/Div';
-import Svg from 'components/Svg';
+import Div from '../Div';
+import Svg from '../Svg';
 import icon from 'icons/globals';
 import {
   CarouselWrap,

@@ -8,9 +8,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { Section } from 'components/Section';
-import { H2, H3 } from 'components/Heading';
-import { FlexSwitch, Image, CardBox } from 'components/LandingCard';
+import { Section } from '../Section';
+import { H2, H3 } from '../Heading';
+import { FlexSwitch, Image, CardBox } from '../LandingCard';
 import media from 'style/mediainjector';
 
 const HalfBox = styled.div`

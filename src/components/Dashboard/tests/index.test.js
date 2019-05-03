@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import ListPanel from 'components/ListPanel';
+import ListPanel from '../ListPanel';
 import Dashboard from '../index';
 
 

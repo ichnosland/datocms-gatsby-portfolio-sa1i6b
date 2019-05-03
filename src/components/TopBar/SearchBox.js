@@ -8,10 +8,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import FlexBox from 'components/FlexBox';
-import { Input } from 'components/FormElements/Field';
-import { Button } from 'components/Button';
-import Svg from 'components/Svg';
+import FlexBox from '../FlexBox';
+import { Input } from '../FormElements/Field';
+import { Button } from '../Button';
+import Svg from '../Svg';
 import { colore } from 'style/color';
 import icon from 'icons/buttons';
 import globalicon from 'icons/globals';

@@ -4,9 +4,9 @@ import { withKnobs, text, boolean, select } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import 'global-styles';
 import { allThemes, themeOptions } from 'style/theme';
-import ToolBar from 'components/ToolBar';
-import ToolBarButton from 'components/ToolBar/ToolBarButton';
-import CentralBox from 'components/CentralBox';
+import ToolBar from '../ToolBar';
+import ToolBarButton from '../ToolBar/ToolBarButton';
+import CentralBox from '../CentralBox';
 
 storiesOf('ToolBar', module)
   .addDecorator(withKnobs)

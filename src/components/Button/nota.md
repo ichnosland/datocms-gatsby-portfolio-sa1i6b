@@ -3,7 +3,7 @@ Anche le icone per i pulsanti sono dei path a parte in 'icons/buttons.js'.
 
 Quindi:
   ~~~js
-  import { Button, Icon } from 'components/Button';
+  import { Button, Icon } from '../Button';
   import buttonicon from 'icons/buttons';
 
   <!-- ... -->

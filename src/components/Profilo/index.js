@@ -8,16 +8,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import styled from 'styled-components';
-import { ListItem, ListItemText, ListPanelHeader } from 'components/NewListPanels';
-import ListSideBox from 'components/NewListPanels/ListSideBox';
-import { Button, Icon } from 'components/Button';
-import { ButtonLink } from 'components/ButtonLink';
+import { ListItem, ListItemText, ListPanelHeader } from '../NewListPanels';
+import ListSideBox from '../NewListPanels/ListSideBox';
+import { Button, Icon } from '../Button';
+import { ButtonLink } from '../ButtonLink';
 import buttonicon from 'icons/buttons';
-import { H2 } from 'components/Heading';
-import FlexBox from 'components/FlexBox';
-import Svg from 'components/Svg';
-import SlideToggle from 'components/SlideToggle';
-import Scores from 'components/TopBar/Scores';
+import { H2 } from '../Heading';
+import FlexBox from '../FlexBox';
+import Svg from '../Svg';
+import SlideToggle from '../SlideToggle';
+import Scores from '../TopBar/Scores';
 import icon from 'icons/globals';
 import WhatsAppBanner from './WhatsAppBanner';
 

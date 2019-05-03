@@ -8,8 +8,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import FlexBox from 'components/FlexBox';
-import Svg from 'components/Svg';
+import FlexBox from '../FlexBox';
+import Svg from '../Svg';
 import icon from 'icons/globals';
 import media from 'style/mediainjector';
 import { colore } from 'style/color';

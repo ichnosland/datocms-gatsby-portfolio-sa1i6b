@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Spinner from 'components/Spinner';
+import Spinner from '../Spinner';
 import Field, { Input } from '../Field';
 import { FormMessage } from '../index';
 

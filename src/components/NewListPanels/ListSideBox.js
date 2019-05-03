@@ -9,9 +9,9 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { darken } from 'polished';
 
-import Svg from 'components/Svg';
-import { FlexChild } from 'components/FlexBox';
-import ProgressBar from 'components/ProgressBar';
+import Svg from '../Svg';
+import { FlexChild } from '../FlexBox';
+import ProgressBar from '../ProgressBar';
 import media from 'style/mediainjector';
 import icon from 'icons/globals';
 import { colore } from 'style/color';

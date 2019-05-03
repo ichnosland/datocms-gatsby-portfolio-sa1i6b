@@ -6,7 +6,7 @@
 
 import styled from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 
 export const DashboardLine = styled(Div)`
   position: absolute;

@@ -7,8 +7,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { ListItemText } from 'components/NewListPanels';
-import { Button } from 'components/Button';
+import { ListItemText } from '../NewListPanels';
+import { Button } from '../Button';
 import Profilo, { ListItemTextBrand } from '../index';
 
 const theme = {

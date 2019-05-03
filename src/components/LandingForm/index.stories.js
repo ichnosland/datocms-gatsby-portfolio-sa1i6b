@@ -7,9 +7,9 @@ import { reduxForm } from 'redux-form/immutable';
 import { allThemes, themeOptions } from 'style/theme';
 import { Provider } from 'react-redux';
 import configureStore from 'configureStore';
-import { ModalOverlay, ModalContent } from 'components/Modal';
-import InputField from 'components/FormElements/Field';
-import SelectField from 'components/FormElements/SelectField';
+import { ModalOverlay, ModalContent } from '../Modal';
+import InputField from '../FormElements/Field';
+import SelectField from '../FormElements/SelectField';
 import { singleFieldRequired, atLeastNChars, singleFieldValidateEmail } from 'common/forms';
 import { LandingFormView } from './index';
 

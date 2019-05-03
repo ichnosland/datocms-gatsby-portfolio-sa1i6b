@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import FlexBox from 'components/FlexBox';
-import LogoPlatform from 'components/LogoPlatform';
-import Svg from 'components/Svg';
-import { Button, Icon } from 'components/Button';
+import FlexBox from '../FlexBox';
+import LogoPlatform from '../LogoPlatform';
+import Svg from '../Svg';
+import { Button, Icon } from '../Button';
 import logo from 'images/logos';
-import { H3 } from 'components/Heading';
+import { H3 } from '../Heading';
 import TopBar, { BarTitle, IconBtn, TopBarLogoLeft, TopBarLogoRight } from '../index';
 import Bar from '../Bar';
 import ItemCounter from '../ItemCounter';

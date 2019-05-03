@@ -5,7 +5,7 @@
 */
 
 import media from 'style/mediainjector';
-import FlexBox from 'components/FlexBox';
+import FlexBox from '../FlexBox';
 import styled from 'styled-components';
 
 export const StyledButtonGroup = styled(FlexBox)`

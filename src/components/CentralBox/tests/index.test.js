@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import CentralBox, { FramedBox } from '../index';
 
 const children = <p>some text</p>;

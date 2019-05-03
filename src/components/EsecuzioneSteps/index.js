@@ -7,13 +7,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Container from 'components/Container';
-import CentralBox from 'components/CentralBox';
-import ProgressBar from 'components/ProgressBar';
-import TopBar from 'components/TopBar';
-import AlertBar from 'components/AlertBar';
-import ToolBar from 'components/ToolBar';
-import ToolBarButton from 'components/ToolBar/ToolBarButton';
+import Container from '../Container';
+import CentralBox from '../CentralBox';
+import ProgressBar from '../ProgressBar';
+import TopBar from '../TopBar';
+import AlertBar from '../AlertBar';
+import ToolBar from '../ToolBar';
+import ToolBarButton from '../ToolBar/ToolBarButton';
 import Step from './Step';
 
 class EsecuzioneSteps extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function

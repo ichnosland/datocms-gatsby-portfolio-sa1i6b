@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
-import { ModalOverlay, ModalHeader } from 'components/Modal';
-import { Button } from 'components/Button';
-import Image from 'components/Image';
+import Div from '../Div';
+import { ModalOverlay, ModalHeader } from '../Modal';
+import { Button } from '../Button';
+import Image from '../Image';
 import scrivi from 'images/infocard-icn_scrivi.png';
 import PopUp, {
   PopUpContent,

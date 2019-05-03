@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
-import { Button } from 'components/Button';
+import Div from '../Div';
+import { Button } from '../Button';
 import AlertCookies, { AlertCookiesWrap, CookiesBanner } from '../index';
 
 describe('<AlertCookies />', () => {

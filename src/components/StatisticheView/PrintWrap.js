@@ -8,7 +8,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import media from 'style/mediainjector';
 
 export const OnlyPrint = styled(Div)`

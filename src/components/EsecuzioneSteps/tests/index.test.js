@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import TopBar from 'components/TopBar';
-import ToolBar from 'components/ToolBar';
+import TopBar from '../TopBar';
+import ToolBar from '../ToolBar';
 import { createStepFromEsercizi } from 'common/esercizi';
 import { mockElementiN } from 'common/testing-mocks';
-import ToolBarButton from 'components/ToolBar/ToolBarButton';
+import ToolBarButton from '../ToolBar/ToolBarButton';
 
 import EsecuzioneSteps from '../index';
 import Step from '../Step';

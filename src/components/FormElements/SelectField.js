@@ -7,10 +7,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Svg from 'components/Svg';
+import Svg from '../Svg';
 import icon from 'icons/globals';
-import { SelectBox, SelectChevron, SelectMenu } from 'components/Select';
-import Spinner from 'components/Spinner';
+import { SelectBox, SelectChevron, SelectMenu } from '../Select';
+import Spinner from '../Spinner';
 import { FormMessage } from './index';
 
 

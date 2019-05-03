@@ -6,7 +6,7 @@
 
 import styled, { css } from 'styled-components';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
 

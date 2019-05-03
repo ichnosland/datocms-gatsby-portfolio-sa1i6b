@@ -7,10 +7,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { FlexChild } from 'components/FlexBox';
-import AlertBanner from 'components/AlertBanner';
-import { ClearAnchor } from 'components/Text';
-import { LegalInfo } from 'components/Paragraph';
+import { FlexChild } from '../FlexBox';
+import AlertBanner from '../AlertBanner';
+import { ClearAnchor } from '../Text';
+import { LegalInfo } from '../Paragraph';
 import WhatsApp from 'images/whatsapplogo.png';
 import { colore } from 'style/color';
 

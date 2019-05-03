@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { FlexBox } from 'components/FlexBox';
-import AlertBanner from 'components/AlertBanner';
-import { Button } from 'components/Button';
+import { FlexBox } from '../FlexBox';
+import AlertBanner from '../AlertBanner';
+import { Button } from '../Button';
 import EsecuzioneOverview from '../index';
 
 

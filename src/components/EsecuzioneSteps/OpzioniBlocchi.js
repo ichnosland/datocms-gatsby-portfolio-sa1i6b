@@ -8,8 +8,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import FlexBox, { FlexChild } from 'components/FlexBox';
-import Div from 'components/Div';
+import FlexBox, { FlexChild } from '../FlexBox';
+import Div from '../Div';
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
 

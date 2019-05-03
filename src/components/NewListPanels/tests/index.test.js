@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import FlexBox, { FlexChild } from 'components/FlexBox';
-import ClearLink from 'components/ClearLink';
+import FlexBox, { FlexChild } from '../FlexBox';
+import ClearLink from '../ClearLink';
 import {
   ListItem,
   ListLink,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import ItemCounter from '../ItemCounter';
 
 const theme = {

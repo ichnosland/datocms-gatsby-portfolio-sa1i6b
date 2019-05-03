@@ -6,7 +6,7 @@
 import styled from 'styled-components';
 
 import { colore } from 'style/color';
-import Div from 'components/Div';
+import Div from '../Div';
 
 const ZigZagBorder = styled(Div)`
   border: none;

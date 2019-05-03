@@ -5,7 +5,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import 'global-styles';
 import { allThemes, themeOptions } from 'style/theme';
 import icon from 'icons/globals';
-import Div from 'components/Div';
+import Div from '../Div';
 import Carousel from './index';
 
 const icona = Object.keys(icon).map((icn) => (icn));

@@ -8,8 +8,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import { colore } from 'style/color';
-import FlexBox from 'components/FlexBox';
-import Spinner from 'components/Spinner';
+import FlexBox from '../FlexBox';
+import Spinner from '../Spinner';
 import { BasicInputStyle, FormMessage } from './index';
 
 export const Input = styled.input`

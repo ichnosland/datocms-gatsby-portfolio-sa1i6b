@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, number, select } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { allThemes, themeOptions } from 'style/theme';
-import { Button, ActionButton } from 'components/Button';
+import { Button, ActionButton } from '../Button';
 import StyledButtonGroup, { MiniButtonGroup, ExpandButtonGroup } from './index';
 
 storiesOf('StyledButtonGroup', module)

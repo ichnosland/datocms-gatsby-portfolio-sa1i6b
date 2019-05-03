@@ -8,8 +8,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import { ContainerStyle } from 'components/Container';
-import FlexBox from 'components/FlexBox';
+import { ContainerStyle } from '../Container';
+import FlexBox from '../FlexBox';
 import media from 'style/mediainjector';
 
 export const ToolBarWrap = styled.div`

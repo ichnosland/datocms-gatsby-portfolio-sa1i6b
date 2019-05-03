@@ -10,7 +10,7 @@ import styled, { css } from 'styled-components';
 import MathJax from 'react-mathjax-preview';
 
 import media from 'style/mediainjector';
-import { HtmlBlockWrap } from 'components/HtmlBlock';
+import { HtmlBlockWrap } from '../HtmlBlock';
 import { colore } from 'style/color';
 import { ListItem, ItemTextStyle } from './index';
 import { HtmlStyles } from 'style/HtmlStylesVerifiche';

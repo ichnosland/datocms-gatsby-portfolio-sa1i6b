@@ -10,11 +10,11 @@ import styled, { css } from 'styled-components';
 import { APPLICATION } from 'configuration';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import { ContainerFlex } from 'components/Container';
-import LogoLanding from 'components/LogoLanding';
-import ClearLink from 'components/ClearLink';
-import { IconBtn } from 'components/TopBar';
-import Svg from 'components/Svg';
+import { ContainerFlex } from '../Container';
+import LogoLanding from '../LogoLanding';
+import ClearLink from '../ClearLink';
+import { IconBtn } from '../TopBar';
+import Svg from '../Svg';
 import icon from 'icons/globals';
 import { colore } from 'style/color';
 import media from 'style/mediainjector';

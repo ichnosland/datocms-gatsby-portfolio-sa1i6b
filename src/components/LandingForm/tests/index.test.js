@@ -3,13 +3,13 @@ import { shallow } from 'enzyme';
 import { fromJS } from 'immutable';
 import { Field } from 'redux-form/immutable';
 
-import { H3 } from 'components/Heading';
-import { ActionButton } from 'components/Button';
-import Div from 'components/Div';
-import AlertBanner from 'components/AlertBanner';
+import { H3 } from '../Heading';
+import { ActionButton } from '../Button';
+import Div from '../Div';
+import AlertBanner from '../AlertBanner';
 import { singleFieldRequired, atLeastNChars } from 'common/forms';
-import InputField from 'components/FormElements/Field';
-import SelectField from 'components/FormElements/SelectField';
+import InputField from '../FormElements/Field';
+import SelectField from '../FormElements/SelectField';
 import { LandingFormView, FormButton, requiredPiattaforma, InputRow } from '../index';
 
 const mockProps = {

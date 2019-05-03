@@ -7,8 +7,8 @@
 import styled, { css } from 'styled-components';
 
 import media from 'style/mediainjector';
-import Div from 'components/Div';
-import FlexBox from 'components/FlexBox';
+import Div from '../Div';
+import FlexBox from '../FlexBox';
 
 export const ContainerStyle = css`
   position: relative;

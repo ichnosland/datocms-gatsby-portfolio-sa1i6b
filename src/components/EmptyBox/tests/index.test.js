@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import folder from 'images/empty-folder.png';
 import EmptyBox, { Folder } from '../index';
 

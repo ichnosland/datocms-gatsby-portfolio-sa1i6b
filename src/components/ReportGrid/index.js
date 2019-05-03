@@ -8,10 +8,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
-import Container from 'components/Container';
-import { Grid, GridItem } from 'components/Grid';
-import { Icon } from 'components/Button';
-import { FlexChild } from 'components/FlexBox';
+import Container from '../Container';
+import { Grid, GridItem } from '../Grid';
+import { Icon } from '../Button';
+import { FlexChild } from '../FlexBox';
 import buttonicon from 'icons/buttons';
 import { colore } from 'style/color';
 

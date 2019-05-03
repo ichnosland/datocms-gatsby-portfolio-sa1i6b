@@ -6,7 +6,7 @@
 
 import styled, { css } from 'styled-components';
 
-import FlexBox from 'components/FlexBox';
+import FlexBox from '../FlexBox';
 import { colore } from 'style/color';
 
 export const CountBadge = styled(FlexBox)`

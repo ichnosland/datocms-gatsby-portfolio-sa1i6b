@@ -9,8 +9,8 @@ import { darken } from 'polished';
 
 import media from 'style/mediainjector';
 import { colore } from 'style/color';
-import FlexBox, { FlexChild } from 'components/FlexBox';
-import ClearLink from 'components/ClearLink';
+import FlexBox, { FlexChild } from '../FlexBox';
+import ClearLink from '../ClearLink';
 
 export const ListItemStyle = css`
   position:relative;

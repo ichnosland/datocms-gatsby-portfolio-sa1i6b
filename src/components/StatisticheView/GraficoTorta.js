@@ -7,7 +7,7 @@ import {
   Hint,
 } from 'react-vis';
 
-import Div from 'components/Div';
+import Div from '../Div';
 import { colore } from 'style/color';
 import {
   ChartBox,

@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Button } from 'components/Button';
-import FlexBox from 'components/FlexBox';
-import { Input } from 'components/FormElements/Field';
+import { Button } from '../Button';
+import FlexBox from '../FlexBox';
+import { Input } from '../FormElements/Field';
 import SearchBox, { SearchBoxWrap, SearchField, Lens, CancelBtn, PremiumIcon } from '../SearchBox';
 
 const type = 'text';

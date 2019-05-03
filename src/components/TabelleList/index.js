@@ -8,8 +8,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Div from 'components/Div';
-import { Table } from 'components/Tables';
+import Div from '../Div';
+import { Table } from '../Tables';
 import { ModalTableStyle } from './ModalTableStyle';
 
 export const ModalTable = styled(Table)`

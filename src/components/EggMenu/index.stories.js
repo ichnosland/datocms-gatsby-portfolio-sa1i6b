@@ -7,7 +7,7 @@ import { action } from '@storybook/addon-actions';
 import { withKnobs, boolean, select } from '@storybook/addon-knobs';
 import { ThemeProvider } from 'styled-components';
 import { allThemes, themeOptions } from 'style/theme';
-import { ModalOverlay } from 'components/Modal';
+import { ModalOverlay } from '../Modal';
 import EggMenu from './index';
 
 const nota = `

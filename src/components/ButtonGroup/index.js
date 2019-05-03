@@ -10,8 +10,8 @@ import styled, { css } from 'styled-components';
 import { darken } from 'polished';
 
 import media from 'style/mediainjector';
-import FlexBox from 'components/FlexBox';
-import { ButtonStyle, Icon } from 'components/Button';
+import FlexBox from '../FlexBox';
+import { ButtonStyle, Icon } from '../Button';
 import icon from 'icons/buttons';
 import { colore } from 'style/color';
 
