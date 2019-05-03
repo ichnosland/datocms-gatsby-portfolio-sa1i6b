@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponseView /> restituisce badSrc se votoApprossimato <= 6 1`] = `
+<ResponseViewElements__ResponseWrap
+  votoFinale={4}
+>
+  <ResponseViewElements__ResponseContainer>
+    <img
+      alt="Risultato insufficiente"
+      src="IMAGE_MOCK"
+    />
+    <ResponseViewElements__ResponseBanner>
+      <p>
+        Il tuo voto è
+      </p>
+      <Heading__H2
+        color="rgb(255, 255, 255)"
+      >
+        4
+      </Heading__H2>
+      <Button
+        actioncolor=""
+        bone={1}
+        onClick={[Function]}
+        standard={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Ok
+      </Button>
+    </ResponseViewElements__ResponseBanner>
+  </ResponseViewElements__ResponseContainer>
+  <ResponseViewElements__ResponseLogo
+    execLogo={true}
+    inverse={true}
+    product="alatin"
+    width="100%"
+  />
+</ResponseViewElements__ResponseWrap>
+`;
+
+exports[`<ResponseView /> should render a ResponseWrap 1`] = `
+<ResponseViewElements__ResponseWrap
+  votoFinale={7}
+>
+  <ResponseViewElements__ResponseContainer>
+    <img
+      alt="Ottimo"
+      src="IMAGE_MOCK"
+    />
+    <ResponseViewElements__ResponseBanner>
+      <p>
+        Il tuo voto è
+      </p>
+      <Heading__H2
+        color="rgb(255, 255, 255)"
+      >
+        7
+      </Heading__H2>
+      <Button
+        actioncolor=""
+        bone={1}
+        onClick={[Function]}
+        standard={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Ok
+      </Button>
+    </ResponseViewElements__ResponseBanner>
+  </ResponseViewElements__ResponseContainer>
+  <ResponseViewElements__ResponseLogo
+    execLogo={true}
+    inverse={true}
+    product="alatin"
+    width="100%"
+  />
+</ResponseViewElements__ResponseWrap>
+`;
+
+exports[`<ResponseView /> testo il caso delle unità 1`] = `
+<ResponseViewElements__ResponseWrap
+  votoFinale={10}
+>
+  <ResponseViewElements__ResponseContainer>
+    <img
+      alt="Ottimo"
+      src="IMAGE_MOCK"
+    />
+    <ResponseViewElements__ResponseBanner>
+      <ResponseViewElements__FeedbackSteps>
+        <p>
+          Hai completato 
+          2
+           di 
+          7
+           lezioni
+        </p>
+        <ul>
+          <li
+            className="stepsDone"
+            key="li_0"
+          >
+            1
+          </li>
+          <li
+            className="stepsDone"
+            key="li_1"
+          >
+            2
+          </li>
+          <li
+            className=""
+            key="li_2"
+          >
+            3
+          </li>
+          <li
+            className=""
+            key="li_3"
+          >
+            4
+          </li>
+          <li
+            className=""
+            key="li_4"
+          >
+            5
+          </li>
+          <li
+            className=""
+            key="li_5"
+          >
+            6
+          </li>
+          <li
+            className=""
+            key="li_6"
+          >
+            7
+          </li>
+        </ul>
+      </ResponseViewElements__FeedbackSteps>
+      <p />
+      <Button
+        actioncolor=""
+        bone={1}
+        onClick={[Function]}
+        standard={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Ok
+      </Button>
+    </ResponseViewElements__ResponseBanner>
+  </ResponseViewElements__ResponseContainer>
+  <ResponseViewElements__ResponseLogo
+    execLogo={true}
+    inverse={true}
+    product="alatin"
+    width="100%"
+  />
+</ResponseViewElements__ResponseWrap>
+`;
+
+exports[`<ResponseView /> testo il caso in cui !steps e titolo settato 1`] = `
+<ResponseViewElements__ResponseWrap
+  votoFinale={10}
+>
+  <ResponseViewElements__ResponseContainer>
+    <img
+      alt="Ottimo"
+      src="IMAGE_MOCK"
+    />
+    <ResponseViewElements__ResponseBanner>
+      <p>
+        Titolo responso
+      </p>
+      <Button
+        actioncolor=""
+        bone={1}
+        onClick={[Function]}
+        standard={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Ok
+      </Button>
+    </ResponseViewElements__ResponseBanner>
+  </ResponseViewElements__ResponseContainer>
+  <ResponseViewElements__ResponseLogo
+    execLogo={true}
+    inverse={true}
+    product="alatin"
+    width="100%"
+  />
+</ResponseViewElements__ResponseWrap>
+`;

@@ -1,0 +1,1895 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProvaCompetenzaStatisticheView /> controllo il contenuto del backnav se è docente 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-competenza-preview/5556",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    rightBtn={
+      Object {
+        "icon": "topBarFeedback",
+        "onClickFunction": [Function],
+      }
+    }
+    title="Reportistica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      key="button_wrapper"
+      margin="10px 0 30px"
+    >
+      <span>
+        <Button__GhostButton
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="20px"
+            path={
+              <path
+                d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                fillRule="evenodd"
+              />
+            }
+            viewBox="0 0 40 40"
+            width="20px"
+          />
+        </Button__GhostButton>
+      </span>
+      <Heading__H2
+        center={true}
+        key="statistiche_titolo"
+        margin="0"
+      >
+        La mia casa - prova per competenza
+      </Heading__H2>
+      <span>
+        <Button__GhostButton
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="20px"
+            path={
+              <path
+                d="M8.443 36.443L12 40l20-20L12 0 8.443 3.557 24.887 20"
+                fillRule="nonzero"
+              />
+            }
+            viewBox="0 0 40 40"
+            width="20px"
+          />
+        </Button__GhostButton>
+      </span>
+    </FlexBox>
+    <StatisticheView
+      apriChiudiSezioniFx={[Function]}
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      esercizi={
+        Object {
+          "0": Object {
+            "consegna": Array [],
+            "soluzioneTestuale": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+            "stepData": Object {
+              "esercizi": undefined,
+              "id": 0,
+              "testi": undefined,
+            },
+            "tipo": "M",
+            "titolo": "Indica",
+          },
+        }
+      }
+      grafici={
+        Array [
+          Object {
+            "id": 1,
+            "media": 10,
+            "media_nazionale": 10,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 10,
+              },
+            ],
+            "titolo": "La mia casa - prova per competenza",
+          },
+          Object {
+            "id": 5,
+            "media": 7.5,
+            "media_nazionale": 7.5,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 7.5,
+              },
+            ],
+            "titolo": "Titolo prova per competenza",
+          },
+        ]
+      }
+      idAssegnazione={333}
+      isDocente={true}
+      key="statistiche_viewer"
+      media={
+        Object {
+          "0": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "1": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "Cicero in villa sua natus est. - 2<br />In sua villa Cicero omnia sua ponit. - 1<br />Ulixes quoque Ithacam videre volebat. - 3<br />Pater suus villam aedificavit et ibi vixit. - 4",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "2": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "narrativa",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "3": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "rapporto di contemporaneità prop. narrativa",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "4": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "avverbio",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "5": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "me esse natum",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "6": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "ad ithacam videndam",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "7": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "infirma valetudine",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+        }
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      openedSections={Object {}}
+      risposte={
+        Object {
+          "0": Array [
+            Object {
+              "answer": Array [
+                "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149617,
+                135055,
+              ],
+              "esercizio": 109728,
+              "id": 0,
+              "readable": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "1": Array [
+            Object {
+              "answer": Object {
+                "0": Object {
+                  "indiceLabel": 2,
+                  "labelOpzione": 2,
+                },
+                "1": Object {
+                  "indiceLabel": 1,
+                  "labelOpzione": 1,
+                },
+                "2": Object {
+                  "indiceLabel": 3,
+                  "labelOpzione": 3,
+                },
+                "3": Object {
+                  "indiceLabel": 4,
+                  "labelOpzione": 4,
+                },
+              },
+              "corretta": true,
+              "elementi": Array [
+                135056,
+                135057,
+              ],
+              "esercizio": 109728,
+              "id": 1,
+              "readable": "Cicero in villa sua natus est. - 2<br />In sua villa Cicero omnia sua ponit. - 1<br />Ulixes quoque Ithacam videre volebat. - 3<br />Pater suus villam aedificavit et ibi vixit. - 4",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "2": Array [
+            Object {
+              "answer": Array [
+                "narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149618,
+                135058,
+              ],
+              "esercizio": 109728,
+              "id": 2,
+              "readable": "narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "3": Array [
+            Object {
+              "answer": Array [
+                "rapporto di contemporaneità",
+                "prop. narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135342,
+                135343,
+              ],
+              "esercizio": 109889,
+              "id": 3,
+              "readable": "rapporto di contemporaneità prop. narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "4": Array [
+            Object {
+              "answer": Array [
+                "avverbio",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135344,
+                135345,
+              ],
+              "esercizio": 109889,
+              "id": 4,
+              "readable": "avverbio",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "5": Array [
+            Object {
+              "answer": Array [
+                22,
+                21,
+                19,
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135346,
+                135347,
+              ],
+              "esercizio": 109889,
+              "id": 5,
+              "readable": "me esse natum",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "6": Array [
+            Object {
+              "answer": Array [
+                "ad ithacam videndam",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135352,
+                135359,
+              ],
+              "esercizio": 109891,
+              "id": 6,
+              "readable": "ad ithacam videndam",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "7": Array [
+            Object {
+              "answer": Array [
+                "infirma valetudine",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135362,
+                135363,
+              ],
+              "esercizio": 109895,
+              "id": 7,
+              "readable": "infirma valetudine",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+        }
+      }
+      scores={
+        Array [
+          10,
+        ]
+      }
+      selezionaUtenteFx={[Function]}
+      stepPks={
+        Array [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+        ]
+      }
+      studentiVersione={
+        Array [
+          Object {
+            "first_name": "nome",
+            "id": 666,
+            "key": -1,
+            "last_name": "cognome",
+          },
+        ]
+      }
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<ProvaCompetenzaStatisticheView /> controllo il contenuto del backnav se è studente 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-competenza-preview/123",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    rightBtn={
+      Object {
+        "icon": "topBarFeedback",
+        "onClickFunction": [Function],
+      }
+    }
+    title="Reportistica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      key="button_wrapper"
+      margin="10px 0 30px"
+    >
+      <span>
+        <Button__GhostButton
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="20px"
+            path={
+              <path
+                d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                fillRule="evenodd"
+              />
+            }
+            viewBox="0 0 40 40"
+            width="20px"
+          />
+        </Button__GhostButton>
+      </span>
+      <Heading__H2
+        center={true}
+        key="statistiche_titolo"
+        margin="0"
+      >
+        La mia casa - prova per competenza
+      </Heading__H2>
+      <span>
+        <Button__GhostButton
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="20px"
+            path={
+              <path
+                d="M8.443 36.443L12 40l20-20L12 0 8.443 3.557 24.887 20"
+                fillRule="nonzero"
+              />
+            }
+            viewBox="0 0 40 40"
+            width="20px"
+          />
+        </Button__GhostButton>
+      </span>
+    </FlexBox>
+    <StatisticheView
+      apriChiudiSezioniFx={[Function]}
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      esercizi={
+        Object {
+          "0": Object {
+            "consegna": Array [],
+            "soluzioneTestuale": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+            "stepData": Object {
+              "esercizi": undefined,
+              "id": 0,
+              "testi": undefined,
+            },
+            "tipo": "M",
+            "titolo": "Indica",
+          },
+        }
+      }
+      grafici={
+        Array [
+          Object {
+            "id": 1,
+            "media": 10,
+            "media_nazionale": 10,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 10,
+              },
+            ],
+            "titolo": "La mia casa - prova per competenza",
+          },
+          Object {
+            "id": 5,
+            "media": 7.5,
+            "media_nazionale": 7.5,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 7.5,
+              },
+            ],
+            "titolo": "Titolo prova per competenza",
+          },
+        ]
+      }
+      idAssegnazione={333}
+      isDocente={false}
+      key="statistiche_viewer"
+      media={
+        Object {
+          "0": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "1": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "Cicero in villa sua natus est. - 2<br />In sua villa Cicero omnia sua ponit. - 1<br />Ulixes quoque Ithacam videre volebat. - 3<br />Pater suus villam aedificavit et ibi vixit. - 4",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "2": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "narrativa",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "3": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "rapporto di contemporaneità prop. narrativa",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "4": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "avverbio",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "5": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "me esse natum",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "6": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "ad ithacam videndam",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "7": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "infirma valetudine",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+        }
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      openedSections={Object {}}
+      risposte={
+        Object {
+          "0": Array [
+            Object {
+              "answer": Array [
+                "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149617,
+                135055,
+              ],
+              "esercizio": 109728,
+              "id": 0,
+              "readable": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "1": Array [
+            Object {
+              "answer": Object {
+                "0": Object {
+                  "indiceLabel": 2,
+                  "labelOpzione": 2,
+                },
+                "1": Object {
+                  "indiceLabel": 1,
+                  "labelOpzione": 1,
+                },
+                "2": Object {
+                  "indiceLabel": 3,
+                  "labelOpzione": 3,
+                },
+                "3": Object {
+                  "indiceLabel": 4,
+                  "labelOpzione": 4,
+                },
+              },
+              "corretta": true,
+              "elementi": Array [
+                135056,
+                135057,
+              ],
+              "esercizio": 109728,
+              "id": 1,
+              "readable": "Cicero in villa sua natus est. - 2<br />In sua villa Cicero omnia sua ponit. - 1<br />Ulixes quoque Ithacam videre volebat. - 3<br />Pater suus villam aedificavit et ibi vixit. - 4",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "2": Array [
+            Object {
+              "answer": Array [
+                "narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149618,
+                135058,
+              ],
+              "esercizio": 109728,
+              "id": 2,
+              "readable": "narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "3": Array [
+            Object {
+              "answer": Array [
+                "rapporto di contemporaneità",
+                "prop. narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135342,
+                135343,
+              ],
+              "esercizio": 109889,
+              "id": 3,
+              "readable": "rapporto di contemporaneità prop. narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "4": Array [
+            Object {
+              "answer": Array [
+                "avverbio",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135344,
+                135345,
+              ],
+              "esercizio": 109889,
+              "id": 4,
+              "readable": "avverbio",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "5": Array [
+            Object {
+              "answer": Array [
+                22,
+                21,
+                19,
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135346,
+                135347,
+              ],
+              "esercizio": 109889,
+              "id": 5,
+              "readable": "me esse natum",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "6": Array [
+            Object {
+              "answer": Array [
+                "ad ithacam videndam",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135352,
+                135359,
+              ],
+              "esercizio": 109891,
+              "id": 6,
+              "readable": "ad ithacam videndam",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "7": Array [
+            Object {
+              "answer": Array [
+                "infirma valetudine",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135362,
+                135363,
+              ],
+              "esercizio": 109895,
+              "id": 7,
+              "readable": "infirma valetudine",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+        }
+      }
+      scores={
+        Array [
+          10,
+        ]
+      }
+      selezionaUtenteFx={[Function]}
+      stepPks={
+        Array [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+        ]
+      }
+      studentiVersione={
+        Array [
+          Object {
+            "first_name": "nome",
+            "id": -1,
+            "key": 0,
+            "last_name": "cognome",
+          },
+        ]
+      }
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<ProvaCompetenzaStatisticheView /> visualizza il componente quando ho un feedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-competenza-preview/5556",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    rightBtn={
+      Object {
+        "icon": "topBarFeedback",
+        "onClickFunction": [Function],
+      }
+    }
+    title="Reportistica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <AlertBanner
+      actioncolor="tipologia"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio
+    </AlertBanner>
+  </Container>
+</Page>
+`;
+
+exports[`<ProvaCompetenzaStatisticheView /> visualizza il componente quando lo spinner è attivo 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-competenza-preview/5556",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    rightBtn={
+      Object {
+        "icon": "topBarFeedback",
+        "onClickFunction": [Function],
+      }
+    }
+    title="Reportistica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<ProvaCompetenzaStatisticheView /> visualizza il componente quando non ho previous / next 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-competenza-preview/5556",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    rightBtn={
+      Object {
+        "icon": "topBarFeedback",
+        "onClickFunction": [Function],
+      }
+    }
+    title="Reportistica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      key="button_wrapper"
+      margin="10px 0 30px"
+    >
+      <span />
+      <Heading__H2
+        center={true}
+        key="statistiche_titolo"
+        margin="0"
+      >
+        La mia casa - prova per competenza
+      </Heading__H2>
+      <span />
+    </FlexBox>
+    <StatisticheView
+      apriChiudiSezioniFx={[Function]}
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      esercizi={
+        Object {
+          "0": Object {
+            "consegna": Array [],
+            "soluzioneTestuale": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+            "stepData": Object {
+              "esercizi": undefined,
+              "id": 0,
+              "testi": undefined,
+            },
+            "tipo": "M",
+            "titolo": "Indica",
+          },
+        }
+      }
+      grafici={
+        Array [
+          Object {
+            "id": 1,
+            "media": 10,
+            "media_nazionale": 10,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 10,
+              },
+            ],
+            "titolo": "La mia casa - prova per competenza",
+          },
+          Object {
+            "id": 5,
+            "media": 7.5,
+            "media_nazionale": 7.5,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 7.5,
+              },
+            ],
+            "titolo": "Titolo prova per competenza",
+          },
+        ]
+      }
+      idAssegnazione={333}
+      isDocente={true}
+      key="statistiche_viewer"
+      media={
+        Object {
+          "0": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "1": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "Cicero in villa sua natus est. - 2<br />In sua villa Cicero omnia sua ponit. - 1<br />Ulixes quoque Ithacam videre volebat. - 3<br />Pater suus villam aedificavit et ibi vixit. - 4",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "2": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "narrativa",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "3": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "rapporto di contemporaneità prop. narrativa",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "4": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "avverbio",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "5": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "me esse natum",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "6": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "ad ithacam videndam",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+          "7": Object {
+            "media": 1,
+            "risposte": Array [
+              Object {
+                "corretta": true,
+                "readable": "infirma valetudine",
+                "studenti": Array [
+                  Object {
+                    "id": 455024,
+                    "nome": "Rosa Coccodrillo",
+                  },
+                ],
+              },
+            ],
+          },
+        }
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      openedSections={Object {}}
+      risposte={
+        Object {
+          "0": Array [
+            Object {
+              "answer": Array [
+                "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149617,
+                135055,
+              ],
+              "esercizio": 109728,
+              "id": 0,
+              "readable": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "1": Array [
+            Object {
+              "answer": Object {
+                "0": Object {
+                  "indiceLabel": 2,
+                  "labelOpzione": 2,
+                },
+                "1": Object {
+                  "indiceLabel": 1,
+                  "labelOpzione": 1,
+                },
+                "2": Object {
+                  "indiceLabel": 3,
+                  "labelOpzione": 3,
+                },
+                "3": Object {
+                  "indiceLabel": 4,
+                  "labelOpzione": 4,
+                },
+              },
+              "corretta": true,
+              "elementi": Array [
+                135056,
+                135057,
+              ],
+              "esercizio": 109728,
+              "id": 1,
+              "readable": "Cicero in villa sua natus est. - 2<br />In sua villa Cicero omnia sua ponit. - 1<br />Ulixes quoque Ithacam videre volebat. - 3<br />Pater suus villam aedificavit et ibi vixit. - 4",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "2": Array [
+            Object {
+              "answer": Array [
+                "narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149618,
+                135058,
+              ],
+              "esercizio": 109728,
+              "id": 2,
+              "readable": "narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "3": Array [
+            Object {
+              "answer": Array [
+                "rapporto di contemporaneità",
+                "prop. narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135342,
+                135343,
+              ],
+              "esercizio": 109889,
+              "id": 3,
+              "readable": "rapporto di contemporaneità prop. narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "4": Array [
+            Object {
+              "answer": Array [
+                "avverbio",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135344,
+                135345,
+              ],
+              "esercizio": 109889,
+              "id": 4,
+              "readable": "avverbio",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "5": Array [
+            Object {
+              "answer": Array [
+                22,
+                21,
+                19,
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135346,
+                135347,
+              ],
+              "esercizio": 109889,
+              "id": 5,
+              "readable": "me esse natum",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "6": Array [
+            Object {
+              "answer": Array [
+                "ad ithacam videndam",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135352,
+                135359,
+              ],
+              "esercizio": 109891,
+              "id": 6,
+              "readable": "ad ithacam videndam",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "7": Array [
+            Object {
+              "answer": Array [
+                "infirma valetudine",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135362,
+                135363,
+              ],
+              "esercizio": 109895,
+              "id": 7,
+              "readable": "infirma valetudine",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+        }
+      }
+      scores={
+        Array [
+          10,
+        ]
+      }
+      selezionaUtenteFx={[Function]}
+      stepPks={
+        Array [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+        ]
+      }
+      studentiVersione={
+        Array [
+          Object {
+            "first_name": "nome",
+            "id": 666,
+            "key": -1,
+            "last_name": "cognome",
+          },
+        ]
+      }
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<ProvaCompetenzaStatisticheView /> visualizza se studente selezionato 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-competenza-preview/5556",
+      }
+    }
+    button={
+      Object {
+        "bone": true,
+        "buttonIcon": "print",
+        "label": "Stampa",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    title="Reportistica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      key="button_wrapper"
+      margin="10px 0 30px"
+    >
+      <span>
+        <Button__GhostButton
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="20px"
+            path={
+              <path
+                d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                fillRule="evenodd"
+              />
+            }
+            viewBox="0 0 40 40"
+            width="20px"
+          />
+        </Button__GhostButton>
+      </span>
+      <Heading__H2
+        center={true}
+        key="statistiche_titolo"
+        margin="0"
+      >
+        La mia casa - prova per competenza
+      </Heading__H2>
+      <span>
+        <Button__GhostButton
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="20px"
+            path={
+              <path
+                d="M8.443 36.443L12 40l20-20L12 0 8.443 3.557 24.887 20"
+                fillRule="nonzero"
+              />
+            }
+            viewBox="0 0 40 40"
+            width="20px"
+          />
+        </Button__GhostButton>
+      </span>
+    </FlexBox>
+    <StatisticheView
+      apriChiudiSezioniFx={[Function]}
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      esercizi={
+        Object {
+          "0": Object {
+            "consegna": Array [],
+            "soluzioneTestuale": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+            "stepData": Object {
+              "esercizi": undefined,
+              "id": 0,
+              "testi": undefined,
+            },
+            "tipo": "M",
+            "titolo": "Indica",
+          },
+        }
+      }
+      grafici={
+        Array [
+          Object {
+            "id": 1,
+            "media": 10,
+            "media_nazionale": 10,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 10,
+              },
+            ],
+            "titolo": "La mia casa - prova per competenza",
+          },
+          Object {
+            "id": 5,
+            "media": 7.5,
+            "media_nazionale": 7.5,
+            "media_nazionale_campioni": 1,
+            "scores": Array [
+              Object {
+                "id": 455024,
+                "voto": 7.5,
+              },
+            ],
+            "titolo": "Titolo prova per competenza",
+          },
+        ]
+      }
+      idAssegnazione={333}
+      isDocente={true}
+      key="statistiche_viewer"
+      media={
+        Object {
+          "0": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+          "1": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+          "2": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+          "3": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+          "4": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+          "5": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+          "6": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+          "7": Object {
+            "media": 1,
+            "risposte": Array [],
+          },
+        }
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      openedSections={Object {}}
+      risposte={
+        Object {
+          "0": Array [
+            Object {
+              "answer": Array [
+                "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149617,
+                135055,
+              ],
+              "esercizio": 109728,
+              "id": 0,
+              "readable": "Villam suam Cicero amat, familiae et originis suae memoriam.",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "1": Array [
+            Object {
+              "answer": Object {
+                "0": Object {
+                  "indiceLabel": 2,
+                  "labelOpzione": 2,
+                },
+                "1": Object {
+                  "indiceLabel": 1,
+                  "labelOpzione": 1,
+                },
+                "2": Object {
+                  "indiceLabel": 3,
+                  "labelOpzione": 3,
+                },
+                "3": Object {
+                  "indiceLabel": 4,
+                  "labelOpzione": 4,
+                },
+              },
+              "corretta": true,
+              "elementi": Array [
+                135056,
+                135057,
+              ],
+              "esercizio": 109728,
+              "id": 1,
+              "readable": "Cicero in villa sua natus est. - 2<br />In sua villa Cicero omnia sua ponit. - 1<br />Ulixes quoque Ithacam videre volebat. - 3<br />Pater suus villam aedificavit et ibi vixit. - 4",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "2": Array [
+            Object {
+              "answer": Array [
+                "narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                149618,
+                135058,
+              ],
+              "esercizio": 109728,
+              "id": 2,
+              "readable": "narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "3": Array [
+            Object {
+              "answer": Array [
+                "rapporto di contemporaneità",
+                "prop. narrativa",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135342,
+                135343,
+              ],
+              "esercizio": 109889,
+              "id": 3,
+              "readable": "rapporto di contemporaneità prop. narrativa",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "4": Array [
+            Object {
+              "answer": Array [
+                "avverbio",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135344,
+                135345,
+              ],
+              "esercizio": 109889,
+              "id": 4,
+              "readable": "avverbio",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "5": Array [
+            Object {
+              "answer": Array [
+                22,
+                21,
+                19,
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135346,
+                135347,
+              ],
+              "esercizio": 109889,
+              "id": 5,
+              "readable": "me esse natum",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "6": Array [
+            Object {
+              "answer": Array [
+                "ad ithacam videndam",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135352,
+                135359,
+              ],
+              "esercizio": 109891,
+              "id": 6,
+              "readable": "ad ithacam videndam",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+          "7": Array [
+            Object {
+              "answer": Array [
+                "infirma valetudine",
+              ],
+              "corretta": true,
+              "elementi": Array [
+                135362,
+                135363,
+              ],
+              "esercizio": 109895,
+              "id": 7,
+              "readable": "infirma valetudine",
+              "stato": "C",
+              "utente": 455024,
+            },
+          ],
+        }
+      }
+      scores={
+        Array [
+          10,
+        ]
+      }
+      selezionaUtenteFx={[Function]}
+      stepPks={
+        Array [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+        ]
+      }
+      studentiVersione={
+        Array [
+          Object {
+            "first_name": "nome",
+            "id": 666,
+            "key": -1,
+            "last_name": "cognome",
+          },
+        ]
+      }
+      utenteSelezionato={
+        Object {
+          "id": 335406,
+          "key": 0,
+        }
+      }
+    />
+  </Container>
+</Page>
+`;

@@ -1,0 +1,2198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EsecuzioneOverview /> mostra AlertBanner se isDocente == false e isRitirata == false e isAssegnata == true e isConsegnata = true 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <AlertBanner
+      actioncolor="action"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#aa8308"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M15.448 0H3.511c-.57 0-1.085.316-1.345.824-.26.507-.212 1.11.122 1.572L7.07 9l-4.782 6.604a1.504 1.504 0 0 0-.122 1.572c.26.508.775.824 1.345.824h11.937c.57 0 1.086-.316 1.345-.824.26-.507.213-1.11-.122-1.572L11.89 9l4.781-6.604a1.504 1.504 0 0 0 .122-1.572A1.504 1.504 0 0 0 15.448 0zm0 .692a.818.818 0 0 1 .663 1.298L11.035 9l5.076 7.01a.818.818 0 0 1-.663 1.298H3.511a.818.818 0 0 1-.662-1.298L7.925 9 2.849 1.99A.818.818 0 0 1 3.51.692h11.937zm-.773 14.864a.633.633 0 0 0-.1-.205l-3.297-2.406c-.886-.704-2.71-.704-3.596 0L4.384 15.35a.633.633 0 0 0-.119.416.631.631 0 0 0 .628.582h9.174a.64.64 0 0 0 .223-.04.626.626 0 0 0 .405-.542.613.613 0 0 0-.02-.211zM6.493 5.604L8.446 8.3c.51.704 1.558.704 2.068 0l1.953-2.697H6.493z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 18 18"
+        width="18px"
+      />
+      <span>
+          In fase di valutazione
+      </span>
+    </AlertBanner>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="action"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#aa8308"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Assegnata
+    </AlertBanner>
+  </Div>
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == false e isRitirata == false e isAssegnata == true e isConsegnata = false e inCorso = false 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor=""
+      disabled={false}
+      key="button_esegui"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Esegui
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={true}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="action"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#aa8308"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Assegnata
+    </AlertBanner>
+  </Div>
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == false e isRitirata == false e isAssegnata == true e isConsegnata = false e inCorso = true 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor=""
+      disabled={false}
+      key="button_esegui"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Riprendi
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={true}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="action"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#aa8308"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Assegnata
+    </AlertBanner>
+  </Div>
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == false e isRitirata == true e isAssegnata == true e isConsegnata = false 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Esegui
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="okay"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#59830a"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27.125 29H5l3-5v-8.256a11.67 11.67 0 0 1 1.2-4.72L6.394 8.208a1.345 1.345 0 0 1 0-1.902l-.087.086a1.343 1.343 0 0 1 1.901.002L31.52 29.769a1.347 1.347 0 0 1 0 1.904l.086-.087a1.345 1.345 0 0 1-1.902 0L27.125 29zM28 23.234L12.154 7.346a10.084 10.084 0 0 1 3.885-1.927V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325v7.49zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Ritirata
+    </AlertBanner>
+  </Div>
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == false e isRitirata == true e isAssegnata == true e isConsegnata = true 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Esegui
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="okay"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#59830a"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27.125 29H5l3-5v-8.256a11.67 11.67 0 0 1 1.2-4.72L6.394 8.208a1.345 1.345 0 0 1 0-1.902l-.087.086a1.343 1.343 0 0 1 1.901.002L31.52 29.769a1.347 1.347 0 0 1 0 1.904l.086-.087a1.345 1.345 0 0 1-1.902 0L27.125 29zM28 23.234L12.154 7.346a10.084 10.084 0 0 1 3.885-1.927V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325v7.49zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Ritirata
+    </AlertBanner>
+  </Div>
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == true e isRitirata == false e isAssegnata == false 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor=""
+      disabled={false}
+      key="button_esegui"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="action"
+      key="button_assegna"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Assegna
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={true}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        12
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        36
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == true e isRitirata == false e isAssegnata == true 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor=""
+      disabled={false}
+      key="button_esegui"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="escape"
+      key="button_ritira"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27.125 29H5l3-5v-8.256a11.67 11.67 0 0 1 1.2-4.72L6.394 8.208a1.345 1.345 0 0 1 0-1.902l-.087.086a1.343 1.343 0 0 1 1.901.002L31.52 29.769a1.347 1.347 0 0 1 0 1.904l.086-.087a1.345 1.345 0 0 1-1.902 0L27.125 29zM28 23.234L12.154 7.346a10.084 10.084 0 0 1 3.885-1.927V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325v7.49zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Ritira
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={true}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        12
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        36
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="action"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#aa8308"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Assegnata
+    </AlertBanner>
+  </Div>
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == true e isRitirata == true e isAssegnata == true 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor=""
+      disabled={false}
+      key="button_esegui"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        12
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        36
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="okay"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#59830a"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27.125 29H5l3-5v-8.256a11.67 11.67 0 0 1 1.2-4.72L6.394 8.208a1.345 1.345 0 0 1 0-1.902l-.087.086a1.343 1.343 0 0 1 1.901.002L31.52 29.769a1.347 1.347 0 0 1 0 1.904l.086-.087a1.345 1.345 0 0 1-1.902 0L27.125 29zM28 23.234L12.154 7.346a10.084 10.084 0 0 1 3.885-1.927V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325v7.49zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Ritirata
+    </AlertBanner>
+  </Div>
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> mostra opzioni se isDocente == true e previewFx è settata 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  >
+    <Button
+      actioncolor="help"
+      key="button_preview"
+      onClick={[MockFunction]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Preview
+    </Button>
+  </FlexBox>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        12
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        36
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> non mostra pulsanti isDocente e !isRitirata e !isAssegnata e non ho le funzioni dichiarati 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  />
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        12
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        36
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+</div>
+`;
+
+exports[`<EsecuzioneOverview /> non mostro pulsanti se isDocente e isRitirata e isAssegnata e isConsegnata e inCorso ma non ho settato le funzioni 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-around"
+    padding="0 0 20px"
+  />
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Data assegnazione: 
+      <Text__BrandTxt>
+         
+        2010-02-03
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <Div
+    padding="20px 0 0"
+  >
+    <Heading__H1
+      margin="0"
+    >
+      titolo
+    </Heading__H1>
+    <Paragraph
+      margin="0 auto 20px"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      sottotitolo
+    </Paragraph>
+  </Div>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Autore: 
+      </strong>
+       
+      autore
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Fonte: 
+      </strong>
+       
+      fonte
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Difficoltà: 
+      </strong>
+       
+      difficolta
+    </EsecuzioneOverview__SpanTag>
+    <EsecuzioneOverview__SpanTag>
+      <strong>
+        Prerequisiti: 
+      </strong>
+       
+      prerequisito
+    </EsecuzioneOverview__SpanTag>
+  </Paragraph>
+  <EsecuzioneOverview__BloccoTesto
+    padding="20px"
+    text="testo"
+  />
+  <Div
+    align="center"
+    margin="20px auto 30px"
+  >
+    <AlertBanner
+      actioncolor="action"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#aa8308"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+       Assegnata
+    </AlertBanner>
+  </Div>
+</div>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonRadioCheck /> should render its css w/ props type 1`] = `
+<ButtonRadioCheck__ButtonRadioCheckLabel
+  checked={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+  type="radio"
+>
+  <InputRadioCheck__RadioCheckInput
+    checked={true}
+    type="radio"
+  />
+</ButtonRadioCheck__ButtonRadioCheckLabel>
+`;
+
+exports[`<ButtonRadioCheck /> should render its label w/ props label 1`] = `
+<ButtonRadioCheck__ButtonRadioCheckLabel
+  checked={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+  type="radio"
+>
+  <InputRadioCheck__RadioCheckInput
+    checked={true}
+    type="radio"
+  />
+  Etichetta
+</ButtonRadioCheck__ButtonRadioCheckLabel>
+`;
+
+exports[`<ButtonRadioCheckLabel /> should render its css w/ props checked 1`] = `
+.c0 {
+  position: relative;
+  display: block;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid #00BBEF;
+  border-bottom-width: 3px;
+  border-radius: 6px;
+  color: #00BBEF;
+  border-width: 1px;
+}
+
+.c0:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  border: 3px solid rgb(199,231,245);
+}
+
+<label
+  checked={true}
+  className="c0"
+/>
+`;
+
+exports[`<ButtonRadioCheckLabel /> should render its css w/ theme 1`] = `
+.c0 {
+  position: relative;
+  display: block;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid #00BBEF;
+  border-bottom-width: 3px;
+  border-radius: 6px;
+}
+
+<label
+  className="c0"
+  type="radio"
+/>
+`;

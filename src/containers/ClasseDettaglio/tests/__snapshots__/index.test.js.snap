@@ -1,0 +1,1265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClasseDettaglioView /> se grigliaValutazione.enabled ButtonLink 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      padding="0 0 20px"
+    >
+      <p>
+        Codice classe:
+        <br />
+        <Text__BrandTxt>
+          Cognome
+          1000
+        </Text__BrandTxt>
+      </p>
+      <ButtonLink
+        actioncolor="action"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+        to="/griglia-valutazione-nuova/1000"
+      >
+        <Button__Icon
+          fill="#fff"
+          height="18px"
+          left={true}
+          path={
+            <path
+              d="M20 16h8v4h-8v8h-4v-8H8v-4h8V8h4v8z"
+              fillRule="evenodd"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+         Valuta
+      </ButtonLink>
+    </FlexBox>
+    <FlexBox
+      justifyContent="space-around"
+      padding="0 0 40px"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": true,
+              "id": 0,
+              "label": "Obiettivi",
+              "onClickFunction": null,
+            },
+            Object {
+              "attivo": false,
+              "id": 1,
+              "label": "Versioni",
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "id": 2,
+              "label": "Valutazioni",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FlexBox>
+    <div>
+      <ReportGrid
+        filtriAttivi={
+          Object {
+            "field": "name",
+            "sort": "asc",
+            "type": "string",
+          }
+        }
+        intestazioniColonna={
+          Array [
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "nameSortable",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "name",
+                  "function": "detailDataFunction",
+                },
+                Object {
+                  "field": "espelliStudente",
+                  "function": "espelliStudentefunction",
+                },
+              ],
+              "label": "Studente",
+              "type": "string",
+            },
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "completate",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "completate",
+                },
+              ],
+              "label": <Button__Icon
+                fill="rgb(153, 226, 17)"
+                height="18px"
+                path={
+                  <path
+                    d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                    fillRule="nonzero"
+                  />
+                }
+                theme={
+                  Object {
+                    "brand": "#00BBEF",
+                  }
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "type": "number",
+            },
+          ]
+        }
+        key="riepilogo"
+        righe={
+          Array [
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 1 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 1 name",
+              "nameSortable": "elemento 1 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 2 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 2 name",
+              "nameSortable": "elemento 2 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 3 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 3 name",
+              "nameSortable": "elemento 3 nomeSortable",
+            },
+          ]
+        }
+        sortingFunction={[Function]}
+      />
+    </div>
+  </Container>
+</Page>
+`;
+
+exports[`<ClasseDettaglioView /> se grigliaValutazione.enabled ButtonLink non è presente 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      padding="0 0 20px"
+    >
+      <p>
+        Codice classe:
+        <br />
+        <Text__BrandTxt>
+          Cognome
+          1000
+        </Text__BrandTxt>
+      </p>
+    </FlexBox>
+    <FlexBox
+      justifyContent="space-around"
+      padding="0 0 40px"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": true,
+              "id": 0,
+              "label": "Obiettivi",
+              "onClickFunction": null,
+            },
+            Object {
+              "attivo": false,
+              "id": 1,
+              "label": "Versioni",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FlexBox>
+    <div>
+      <ReportGrid
+        filtriAttivi={
+          Object {
+            "field": "name",
+            "sort": "asc",
+            "type": "string",
+          }
+        }
+        intestazioniColonna={
+          Array [
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "nameSortable",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "name",
+                  "function": "detailDataFunction",
+                },
+                Object {
+                  "field": "espelliStudente",
+                  "function": "espelliStudentefunction",
+                },
+              ],
+              "label": "Studente",
+              "type": "string",
+            },
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "completate",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "completate",
+                },
+              ],
+              "label": <Button__Icon
+                fill="rgb(153, 226, 17)"
+                height="18px"
+                path={
+                  <path
+                    d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                    fillRule="nonzero"
+                  />
+                }
+                theme={
+                  Object {
+                    "brand": "#00BBEF",
+                  }
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "type": "number",
+            },
+          ]
+        }
+        key="riepilogo"
+        righe={
+          Array [
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 1 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 1 name",
+              "nameSortable": "elemento 1 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 2 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 2 name",
+              "nameSortable": "elemento 2 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 3 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 3 name",
+              "nameSortable": "elemento 3 nomeSortable",
+            },
+          ]
+        }
+        sortingFunction={[Function]}
+      />
+    </div>
+  </Container>
+</Page>
+`;
+
+exports[`<ClasseDettaglioView /> visualizza il contenuto nel suo stato iniziale 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      padding="0 0 20px"
+    >
+      <p>
+        Codice classe:
+        <br />
+        <Text__BrandTxt>
+          Cognome
+          1000
+        </Text__BrandTxt>
+      </p>
+    </FlexBox>
+    <FlexBox
+      justifyContent="space-around"
+      padding="0 0 40px"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": true,
+              "id": 0,
+              "label": "Obiettivi",
+              "onClickFunction": null,
+            },
+            Object {
+              "attivo": false,
+              "id": 1,
+              "label": "Versioni",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FlexBox>
+    <div>
+      <ReportGrid
+        filtriAttivi={
+          Object {
+            "field": "name",
+            "sort": "asc",
+            "type": "string",
+          }
+        }
+        intestazioniColonna={
+          Array [
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "nameSortable",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "name",
+                  "function": "detailDataFunction",
+                },
+                Object {
+                  "field": "espelliStudente",
+                  "function": "espelliStudentefunction",
+                },
+              ],
+              "label": "Studente",
+              "type": "string",
+            },
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "completate",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "completate",
+                },
+              ],
+              "label": <Button__Icon
+                fill="rgb(153, 226, 17)"
+                height="18px"
+                path={
+                  <path
+                    d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                    fillRule="nonzero"
+                  />
+                }
+                theme={
+                  Object {
+                    "brand": "#00BBEF",
+                  }
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "type": "number",
+            },
+          ]
+        }
+        key="riepilogo"
+        righe={
+          Array [
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 1 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 1 name",
+              "nameSortable": "elemento 1 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 2 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 2 name",
+              "nameSortable": "elemento 2 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 3 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 3 name",
+              "nameSortable": "elemento 3 nomeSortable",
+            },
+          ]
+        }
+        sortingFunction={[Function]}
+      />
+    </div>
+  </Container>
+</Page>
+`;
+
+exports[`<ClasseDettaglioView /> visualizza il contenuto quando feedback = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      padding="0 0 20px"
+    >
+      <p>
+        Codice classe:
+        <br />
+        <Text__BrandTxt>
+          Cognome
+          1000
+        </Text__BrandTxt>
+      </p>
+    </FlexBox>
+    <FlexBox
+      justifyContent="space-around"
+      padding="0 0 40px"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": true,
+              "id": 0,
+              "label": "Obiettivi",
+              "onClickFunction": null,
+            },
+            Object {
+              "attivo": false,
+              "id": 1,
+              "label": "Versioni",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FlexBox>
+    <div>
+      <AlertBanner
+        actioncolor="okay"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        messaggio
+      </AlertBanner>
+    </div>
+  </Container>
+</Page>
+`;
+
+exports[`<ClasseDettaglioView /> visualizza il contenuto quando ordinamento è per media 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      padding="0 0 20px"
+    >
+      <p>
+        Codice classe:
+        <br />
+        <Text__BrandTxt>
+          Cognome
+          1000
+        </Text__BrandTxt>
+      </p>
+    </FlexBox>
+    <FlexBox
+      justifyContent="space-around"
+      padding="0 0 40px"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": true,
+              "id": 0,
+              "label": "Obiettivi",
+              "onClickFunction": null,
+            },
+            Object {
+              "attivo": false,
+              "id": 1,
+              "label": "Versioni",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FlexBox>
+    <div>
+      <ReportGrid
+        filtriAttivi={
+          Object {
+            "field": "name",
+            "sort": "asc",
+            "type": "string",
+          }
+        }
+        intestazioniColonna={
+          Array [
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "nameSortable",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "name",
+                  "function": "detailDataFunction",
+                },
+                Object {
+                  "field": "espelliStudente",
+                  "function": "espelliStudentefunction",
+                },
+              ],
+              "label": "Studente",
+              "type": "string",
+            },
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "completate",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "completate",
+                },
+              ],
+              "label": <Button__Icon
+                fill="rgb(153, 226, 17)"
+                height="18px"
+                path={
+                  <path
+                    d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                    fillRule="nonzero"
+                  />
+                }
+                theme={
+                  Object {
+                    "brand": "#00BBEF",
+                  }
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "type": "number",
+            },
+          ]
+        }
+        key="riepilogo"
+        righe={
+          Array [
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 1 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 1 name",
+              "nameSortable": "elemento 1 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 2 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 2 name",
+              "nameSortable": "elemento 2 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 3 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 3 name",
+              "nameSortable": "elemento 3 nomeSortable",
+            },
+          ]
+        }
+        sortingFunction={[Function]}
+      />
+    </div>
+  </Container>
+</Page>
+`;
+
+exports[`<ClasseDettaglioView /> visualizza il contenuto quando spinner = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      padding="0 0 20px"
+    >
+      <p>
+        Codice classe:
+        <br />
+        <Text__BrandTxt>
+          Cognome
+          1000
+        </Text__BrandTxt>
+      </p>
+    </FlexBox>
+    <FlexBox
+      justifyContent="space-around"
+      padding="0 0 40px"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": true,
+              "id": 0,
+              "label": "Obiettivi",
+              "onClickFunction": null,
+            },
+            Object {
+              "attivo": false,
+              "id": 1,
+              "label": "Versioni",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FlexBox>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<ClasseDettaglioView /> visualizza il contenuto se corsoID == 0 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      padding="0 0 20px"
+    >
+      <p>
+        Codice classe:
+        <br />
+        <Text__BrandTxt>
+          Cognome
+        </Text__BrandTxt>
+      </p>
+    </FlexBox>
+    <FlexBox
+      justifyContent="space-around"
+      padding="0 0 40px"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": true,
+              "id": 0,
+              "label": "Obiettivi",
+              "onClickFunction": null,
+            },
+            Object {
+              "attivo": false,
+              "id": 1,
+              "label": "Versioni",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FlexBox>
+    <div>
+      <ReportGrid
+        filtriAttivi={
+          Object {
+            "field": "name",
+            "sort": "asc",
+            "type": "string",
+          }
+        }
+        intestazioniColonna={
+          Array [
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "nameSortable",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "name",
+                  "function": "detailDataFunction",
+                },
+                Object {
+                  "field": "espelliStudente",
+                  "function": "espelliStudentefunction",
+                },
+              ],
+              "label": "Studente",
+              "type": "string",
+            },
+            Object {
+              "blocchi": Array [
+                "obiettivi",
+              ],
+              "field": "completate",
+              "fieldsDisplay": Array [
+                Object {
+                  "field": "completate",
+                },
+              ],
+              "label": <Button__Icon
+                fill="rgb(153, 226, 17)"
+                height="18px"
+                path={
+                  <path
+                    d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                    fillRule="nonzero"
+                  />
+                }
+                theme={
+                  Object {
+                    "brand": "#00BBEF",
+                  }
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "type": "number",
+            },
+          ]
+        }
+        key="riepilogo"
+        righe={
+          Array [
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 1 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 1 name",
+              "nameSortable": "elemento 1 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 2 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 2 name",
+              "nameSortable": "elemento 2 nomeSortable",
+            },
+            Object {
+              "apriValutazioneFunction": [Function],
+              "campo2": "elemento 3 campo2",
+              "detailDataFunction": null,
+              "eliminaValutazione": <Svg
+                fill="rgb(255, 0, 0)"
+                height="18px"
+                path={
+                  <path
+                    d="M8 33a1 1 0 0 1-1-1V10h21v22a1 1 0 0 1-1 1H8zm3-19v14a1 1 0 0 0 1 1h2V14h-3zm5 0v15h3V14h-3zm5 0v15h2a1 1 0 0 0 1-1V14h-3zm2-10h6a1 1 0 0 1 0 2H6a1 1 0 0 1 0-2h6V2a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v2z"
+                    fillRule="evenodd"
+                  />
+                }
+                viewBox="0 0 36 36"
+                width="18px"
+              />,
+              "eliminaValutazioneFunction": [Function],
+              "espelliStudente": false,
+              "espelliStudentefunction": null,
+              "name": "elemento 3 name",
+              "nameSortable": "elemento 3 nomeSortable",
+            },
+          ]
+        }
+        sortingFunction={[Function]}
+      />
+    </div>
+  </Container>
+</Page>
+`;

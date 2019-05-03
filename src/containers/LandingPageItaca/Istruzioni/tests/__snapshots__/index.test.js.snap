@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Istruzioni /> controllo che contenga gli elementi principali della home 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section
+      first={true}
+    >
+      <Container>
+        <Heading__H1
+          margin="20px 0 0"
+        >
+          Istruzioni per l’adozione e l’acquisto
+        </Heading__H1>
+      </Container>
+    </Section>
+    <Section
+      padding="0 50px 50px"
+    >
+      <LandingCard
+        action={Object {}}
+        actionButton={
+          Object {
+            "props": Object {
+              "bgcolor": "rgb(229, 0, 81)",
+              "shadow": "true",
+            },
+            "richiediCodice": [Function],
+            "text": "Richiedi un codice classe*",
+          }
+        }
+        body="<p>Il docente ha libero accesso ai contenuti di Itaca. Può richiedere un profilo docente e la creazione di una classe compilando il modulo qui sotto. Per affiancare alla versione digitale anche il compendio cartaceo è necessario richiederne una copia saggio all’agente Loescher di zona.</p>"
+        color="#12334e"
+        footNote={
+          Object {
+            "color": "rgb(92, 164, 221)",
+            "text": "* Modulo riservato ai docenti",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Docente"
+        titleColor="black"
+      />
+    </Section>
+    <Section
+      bgColor="rgb(92, 164, 221)"
+      direction="column"
+    >
+      <LandingCard
+        alignThumb="flex-start"
+        dashed={true}
+        src="IMAGE_MOCK"
+      >
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Studente Premium
+        </Heading__H2>
+        <Istruzioni__P>
+          Si può attivare un profilo studente 
+          <strong>
+            premium
+          </strong>
+           acquistando 
+          <strong>
+            cartaceo + digitale
+          </strong>
+           o la sola versione 
+          <strong>
+            digitale
+          </strong>
+          .
+        </Istruzioni__P>
+        <Istruzioni__Warning>
+          <strong>
+            <Text__BrandTxt>
+              Nota bene:
+            </Text__BrandTxt>
+          </strong>
+          <Istruzioni__Ul>
+            <li>
+              per tutte le operazioni di acquisto o sblocco è necessaria la registrazione online;
+            </li>
+            <li>
+              lo studente dovrebbe acquistare una licenza Premium solo se l’uso di Itaca è stato concordato con il docente della classe; per lavorare in autoapprendimento è sufficiente la versione base gratuita.
+            </li>
+          </Istruzioni__Ul>
+        </Istruzioni__Warning>
+      </LandingCard>
+      <LandingCard
+        dashed={true}
+        single={true}
+      >
+        <Heading__H3
+          color="black"
+          margin="0"
+        >
+          Cartaceo + digitale
+        </Heading__H3>
+        <Istruzioni__P>
+          Se hai già acquistato il 
+          <strong>
+            cartaceo
+          </strong>
+          :
+        </Istruzioni__P>
+        <ol>
+          <li>
+            <Istruzioni__P>
+              <a
+                className="text-link"
+                href="https://itaca.academy/h/#/registration"
+                target="_blank"
+              >
+                registrati sul sito
+              </a>
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante tondo con l’ago della bussola 
+              <Svg
+                height="18px"
+                path={
+                  <g
+                    data-name="Livello 2"
+                  >
+                    <circle
+                      cx="27"
+                      cy="27"
+                      r="27"
+                      transform="rotate(-45 27.002 26.995)"
+                    />
+                    <path
+                      d="M13 41l8.33-19.67L41 13l-8.35 19.65zm6.77-10.67l-2.84 6.74 6.73-2.86zm.89-2.06l5.07 5.07 5.33-2.27 2.27-5.33-5.07-5.07-5.35 2.25z"
+                      fill="rgb(255, 255, 255)"
+                    />
+                  </g>
+                }
+                viewBox="0 0 54 54"
+                width="18px"
+              />
+               che si trova nella pagina principale e scegli la voce “Premium”
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              inserisci il codice di sblocco che si trova sul frontespizio del libro cartaceo
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca nuovamente sul pulsante 
+              <Svg
+                height="18px"
+                path={
+                  <g
+                    data-name="Livello 2"
+                  >
+                    <circle
+                      cx="27"
+                      cy="27"
+                      r="27"
+                      transform="rotate(-45 27.002 26.995)"
+                    />
+                    <path
+                      d="M13 41l8.33-19.67L41 13l-8.35 19.65zm6.77-10.67l-2.84 6.74 6.73-2.86zm.89-2.06l5.07 5.07 5.33-2.27 2.27-5.33-5.07-5.07-5.35 2.25z"
+                      fill="rgb(255, 255, 255)"
+                    />
+                  </g>
+                }
+                viewBox="0 0 54 54"
+                width="18px"
+              />
+              , scegli la voce “Classi” e inserisci il codice classe che ti fornisce il tuo docente (es. Rossi1234)
+            </Istruzioni__P>
+          </li>
+        </ol>
+        <Istruzioni__Warning>
+          <strong>
+            <Text__ColorTxt
+              color="rgb(255, 0, 0)"
+            >
+              Attenzione:
+            </Text__ColorTxt>
+          </strong>
+           ogni libro ha un codice di sblocco per la parte digitale. Se acquisti un libro di seconda mano, il codice potrebbe non essere più valido; in questo caso dovrai acquistare una nuova licenza online.
+        </Istruzioni__Warning>
+      </LandingCard>
+      <LandingCard
+        alignThumb="flex-start"
+        src="IMAGE_MOCK"
+      >
+        <Heading__H3
+          color="black"
+          margin="0"
+        >
+          Digitale
+        </Heading__H3>
+        <Istruzioni__P>
+          Se vuoi acquistare il 
+          <strong>
+            digitale
+          </strong>
+          :
+        </Istruzioni__P>
+        <ol>
+          <li>
+            <Istruzioni__P>
+              <a
+                className="text-link"
+                href="https://itaca.academy/h/#/registration"
+                target="_blank"
+              >
+                registrati sul sito
+              </a>
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante tondo con l’ago della bussola 
+              <Svg
+                height="18px"
+                path={
+                  <g
+                    data-name="Livello 2"
+                  >
+                    <circle
+                      cx="27"
+                      cy="27"
+                      r="27"
+                      transform="rotate(-45 27.002 26.995)"
+                    />
+                    <path
+                      d="M13 41l8.33-19.67L41 13l-8.35 19.65zm6.77-10.67l-2.84 6.74 6.73-2.86zm.89-2.06l5.07 5.07 5.33-2.27 2.27-5.33-5.07-5.07-5.35 2.25z"
+                      fill="rgb(255, 255, 255)"
+                    />
+                  </g>
+                }
+                viewBox="0 0 54 54"
+                width="18px"
+              />
+               che si trova nella pagina principale e scegli la voce “Premium”
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante “Paypal” e procedi al pagamento della quota tramite carta di credito o account Paypal; lo sblocco dell’account avverrà in automatico.
+            </Istruzioni__P>
+          </li>
+        </ol>
+        <Istruzioni__P>
+          Dopo aver attivato una licenza potrai 
+          <strong>
+            associarti alla classe
+          </strong>
+          :
+        </Istruzioni__P>
+        <ol>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante 
+              <Svg
+                height="18px"
+                path={
+                  <g
+                    data-name="Livello 2"
+                  >
+                    <circle
+                      cx="27"
+                      cy="27"
+                      r="27"
+                      transform="rotate(-45 27.002 26.995)"
+                    />
+                    <path
+                      d="M13 41l8.33-19.67L41 13l-8.35 19.65zm6.77-10.67l-2.84 6.74 6.73-2.86zm.89-2.06l5.07 5.07 5.33-2.27 2.27-5.33-5.07-5.07-5.35 2.25z"
+                      fill="rgb(255, 255, 255)"
+                    />
+                  </g>
+                }
+                viewBox="0 0 54 54"
+                width="18px"
+              />
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              scegli la voce “Classi”
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              inserisci il codice classe che ti fornisce il tuo docente (es. Rossi1234).
+            </Istruzioni__P>
+          </li>
+        </ol>
+      </LandingCard>
+      <Container>
+        <Istruzioni__DashedBox>
+          <div>
+            <p>
+              L’abbonamento al digitale si può acquistare anche in 
+              <strong>
+                un’unica soluzione per tutta la classe
+              </strong>
+              , previa raccolta delle quote, tramite 
+              <strong>
+                bonifico
+              </strong>
+               intestato a:
+            </p>
+            <p>
+              MAIEUTICAL LABS SRL
+              <br />
+              presso BCC, Banca di Casalgrasso e Sant’Albano Stura
+              <br />
+              IBAN IT33P0883301003000200100529
+            </p>
+            <p>
+              <strong>
+                È necessario specificare nella causale il codice (o i codici) classe.
+              </strong>
+            </p>
+          </div>
+        </Istruzioni__DashedBox>
+      </Container>
+    </Section>
+    <Section
+      bgColor="rgb(92, 164, 221)"
+      padding="0 50px 50px"
+      paddingmobile="0 20px 20px"
+    >
+      <Container
+        align="center"
+      >
+        <ButtonLink__ActionButtonLink
+          bgcolor="#fff"
+          color="rgb(92, 164, 221)"
+          sectionbutton={1}
+          shadow={1}
+          to="/contatti"
+        >
+          Scrivici per saperne di più
+        </ButtonLink__ActionButtonLink>
+      </Container>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

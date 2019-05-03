@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BrandTxt /> should render a <span> tag 1`] = `
+<span
+  className=""
+/>
+`;
+
+exports[`<ClearAnchor /> should render a <a> tag 1`] = `
+.c0 {
+  color: inherit;
+  display: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+<a
+  className="c0"
+/>
+`;
+
+exports[`<ColorTxt /> should render a <span> tag 1`] = `
+<span
+  className=""
+/>
+`;
+
+exports[`<ColorTxt /> should render its css w/ props color 1`] = `
+.c0 {
+  color: red;
+}
+
+<span
+  className="c0"
+  color="red"
+/>
+`;
+
+exports[`<Contesto /> should render a <span> tag 1`] = `
+.c0 {
+  color: rgb(255,100,0);
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<Contesto /> should render its css w/ props lessico 1`] = `
+.c0 {
+  color: rgb(255,100,0);
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAGCAYAAADOic7aAAAAIUlEQVQYlWNkwAH+zGX4j02cJZmBEZs4Ey6DSAWjBhEGANV2Awy7TPctAAAAAElFTkSuQmCC') repeat-x bottom left;
+  background-size: 6px 2px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<Lessico /> should render a <span> tag 1`] = `
+.c0 {
+  padding-bottom: 1px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAGCAYAAADOic7aAAAAIUlEQVQYlWNkwAE2XHj4H5t4gIE8IzZxJlwGkQpGDSIMAGtUBAzpFrfHAAAAAElFTkSuQmCC') repeat-x bottom left;
+  background-size: 6px 2px;
+}
+
+<span
+  className="c0"
+/>
+`;

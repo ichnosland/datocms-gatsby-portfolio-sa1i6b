@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> should render its css w/ props border 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  border="1px dotted red"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props display 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  display="block"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props height 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  height="16px"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props margin 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  margin="0 auto"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props maxWidth 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  maxWidth="100px"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props noPrint 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  noPrint={true}
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props padding 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  padding="20px"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props responsive 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  responsive={true}
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props width 1`] = `
+<Image__ImageShell
+  alt="Testo alternativo"
+  src="IMAGE_MOCK"
+  width="32px"
+/>
+`;
+
+exports[`<ImageShell /> should render a <img> tag 1`] = `
+<img
+  alt="Testo alternativo"
+  className=""
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render its css w/ props border 1`] = `
+.c0 {
+  border: 1px dotted red;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render its css w/ props display 1`] = `
+.c0 {
+  display: block;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  display="block"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render its css w/ props height 1`] = `
+.c0 {
+  height: 16px;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  height="16px"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render its css w/ props margin 1`] = `
+.c0 {
+  margin: 0 auto;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render its css w/ props maxWidth 1`] = `
+.c0 {
+  max-width: 100px;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render its css w/ props padding 1`] = `
+.c0 {
+  padding: 20px;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render its css w/ props width 1`] = `
+.c0 {
+  width: 32px;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  src="IMAGE_MOCK"
+  width="32px"
+/>
+`;
+
+exports[`<ImageShell /> should render w/ props noPrint 1`] = `
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ImageShell /> should render w/ props responsive 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+<img
+  alt="Testo alternativo"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;

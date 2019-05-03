@@ -1,0 +1,1768 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Box /> should render its style w/ props width 1`] = `
+.c0 {
+  position: relative;
+  width: 30px;
+  margin: 0 auto;
+}
+
+<Div
+  className="c0"
+  width="30px"
+/>
+`;
+
+exports[`<Carousel /> doSliding 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        direction="next"
+        noTransforms={false}
+        position={1}
+        sliding={true}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={0}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={1}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={2}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={3}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={4}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={1}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> getOrder when no slides provided 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={true}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      />
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={true}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={true}
+      length={0}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> getOrder when slides provided 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> getOrder with only one slide elem provided 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={true}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={true}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={0}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={true}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={true}
+      length={1}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> nextSlide when no slides 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={true}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        direction="next"
+        noTransforms={false}
+        position={0}
+        sliding={true}
+      />
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={true}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={true}
+      length={0}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> nextSlide when position == 0 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        direction="next"
+        noTransforms={false}
+        position={1}
+        sliding={true}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={0}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={1}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={2}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={3}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={4}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={1}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> nextSlide when position == 1 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        direction="next"
+        noTransforms={false}
+        position={0}
+        sliding={true}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> prevSlide when position == 0 must push 4th element 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        direction="prev"
+        noTransforms={false}
+        position={4}
+        sliding={true}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={2}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={3}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={4}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={0}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={1}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={4}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> prevSlide when position == 1 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        direction="prev"
+        noTransforms={false}
+        position={0}
+        sliding={true}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its left icon w/ props leftIcon 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+      width="20px"
+    >
+      <Svg
+        path={
+          <path
+            d="M0 256l256 256V363h256V149H256V0"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 512 512"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap
+      buttonWidth="20px"
+    >
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+      width="20px"
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its left icon w/ props rightIcon 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+      width="20px"
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap
+      buttonWidth="20px"
+    >
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+      width="20px"
+    >
+      <Svg
+        path={
+          <path
+            d="M512 256L256 512V363H0V149h256V0"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 512 512"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its style w/ props buttonHeight 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      height="40px"
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      height="40px"
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its style w/ props buttonWidth 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+      width="20px"
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap
+      buttonWidth="20px"
+    >
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+      width="20px"
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its style w/ props hydeLeft 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={true}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its style w/ props hydeRight 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={true}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its style w/ props iconSize 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box>
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        height="150px"
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+        width="150px"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        height="150px"
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+        width="150px"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;
+
+exports[`<Carousel /> should render its style w/ props width 1`] = `
+<Swipeable
+  delta={10}
+  disabled={false}
+  flickThreshold={0.6}
+  nodeName="div"
+  onSwipingLeft={[Function]}
+  onSwipingRight={[Function]}
+  preventDefaultTouchmoveEvent={false}
+  rotationAngle={0}
+  stopPropagation={false}
+>
+  <Carousel__Box
+    width="890px"
+  >
+    <CarouselElements__ArrowBox
+      hidden={false}
+      onClick={[Function]}
+      sx={1}
+    >
+      <Svg
+        path={
+          <path
+            d="M.62 26.528L26.326.634c.838-.84 2.2-.847 3.037-.006.848.84.848 2.207.01 3.048L5.177 28.05 29.37 52.32c.84.843.84 2.208 0 3.05-.42.422-.965.63-1.518.63-.548 0-1.1-.21-1.52-.63L.63 29.576c-.84-.84-.84-2.2-.01-3.048z"
+            fillRule="nonzero"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <CarouselElements__CarouselWrap>
+      <CarouselElements__CarouselContainer
+        noTransforms={false}
+        position={0}
+        sliding={false}
+      >
+        <CarouselElements__CarouselSlide
+          key="item_0"
+          order={1}
+        >
+          <div
+            key="item_0"
+          >
+            Item 0
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_1"
+          order={2}
+        >
+          <div
+            key="item_1"
+          >
+            Item 1
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_2"
+          order={3}
+        >
+          <div
+            key="item_2"
+          >
+            Item 2
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_3"
+          order={4}
+        >
+          <div
+            key="item_3"
+          >
+            Item 3
+          </div>
+        </CarouselElements__CarouselSlide>
+        <CarouselElements__CarouselSlide
+          key="item_4"
+          order={0}
+        >
+          <div
+            key="item_4"
+          >
+            Item 4
+          </div>
+        </CarouselElements__CarouselSlide>
+      </CarouselElements__CarouselContainer>
+    </CarouselElements__CarouselWrap>
+    <CarouselElements__ArrowBox
+      dx={1}
+      hidden={false}
+      onClick={[Function]}
+    >
+      <Svg
+        path={
+          <path
+            d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 30 56"
+      />
+    </CarouselElements__ArrowBox>
+    <Indicator
+      hidden={false}
+      length={5}
+      position={0}
+    />
+  </Carousel__Box>
+</Swipeable>
+`;

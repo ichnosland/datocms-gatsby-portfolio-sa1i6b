@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SbloccaCodiceForm /> visualizza un container con il form principale al suo interno 1`] = `
+<FormElements__CardForm
+  onSubmit={[Function]}
+>
+  <SbloccaCodiceForm__FormTitle
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  >
+    Se possiedi già un codice
+  </SbloccaCodiceForm__FormTitle>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Inserisci qui il codice ricevuto dal tuo docente o quello che trovi sul frontespizio del libro.
+  </Paragraph>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Assicurati di inserire tutti e 12 i caratteri da cui è composto.
+  </Paragraph>
+  <FormElements__FormElement>
+    <Field
+      align="center"
+      autoComplete="off"
+      component={[Function]}
+      format={[Function]}
+      label="codice"
+      name="codice"
+      normalize={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      type="text"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      full={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      Attiva Premium
+    </Button>
+  </FormElements__FormElement>
+  <Paragraph__Separator
+    theme={
+      Object {
+        "light": "#C9E4FF",
+      }
+    }
+  >
+    <Paragraph__SeparatorText>
+      Oppure
+    </Paragraph__SeparatorText>
+  </Paragraph__Separator>
+  <SbloccaCodiceForm__FormTitle
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  >
+    Procedi all'acquisto
+  </SbloccaCodiceForm__FormTitle>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Assicurati di acquistare una licenza Premium solo se sei stato invitato a far parte di una classe dal tuo docente.
+  </Paragraph>
+  <FormElements__FormElement>
+    <Button
+      actioncolor=""
+      full={true}
+      onClick={[Function]}
+      outline={1}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="button"
+    >
+      Acquista Premium
+    </Button>
+  </FormElements__FormElement>
+  <Image
+    alt="PayPal"
+    responsive={true}
+    src="IMAGE_MOCK"
+  />
+  <Paragraph__LegalInfo>
+    PayPal è il metodo rapido e sicuro per pagare e farsi pagare online
+  </Paragraph__LegalInfo>
+</FormElements__CardForm>
+`;
+
+exports[`<SbloccaCodiceForm /> visualizza un container con un messaggio di feedback 1`] = `
+<FormElements__CardForm
+  onSubmit={[Function]}
+>
+  <SbloccaCodiceForm__FormTitle
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  >
+    Se possiedi già un codice
+  </SbloccaCodiceForm__FormTitle>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Inserisci qui il codice ricevuto dal tuo docente o quello che trovi sul frontespizio del libro.
+  </Paragraph>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Assicurati di inserire tutti e 12 i caratteri da cui è composto.
+  </Paragraph>
+  <AlertBanner
+    actioncolor="help"
+    text="messaggio"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    messaggio
+  </AlertBanner>
+  <FormElements__FormElement>
+    <Field
+      align="center"
+      autoComplete="off"
+      component={[Function]}
+      format={[Function]}
+      label="codice"
+      name="codice"
+      normalize={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      type="text"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      full={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      Attiva Premium
+    </Button>
+  </FormElements__FormElement>
+  <Paragraph__Separator
+    theme={
+      Object {
+        "light": "#C9E4FF",
+      }
+    }
+  >
+    <Paragraph__SeparatorText>
+      Oppure
+    </Paragraph__SeparatorText>
+  </Paragraph__Separator>
+  <SbloccaCodiceForm__FormTitle
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  >
+    Procedi all'acquisto
+  </SbloccaCodiceForm__FormTitle>
+  <Paragraph
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Assicurati di acquistare una licenza Premium solo se sei stato invitato a far parte di una classe dal tuo docente.
+  </Paragraph>
+  <FormElements__FormElement>
+    <Button
+      actioncolor=""
+      full={true}
+      onClick={[Function]}
+      outline={1}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="button"
+    >
+      Acquista Premium
+    </Button>
+  </FormElements__FormElement>
+  <Image
+    alt="PayPal"
+    responsive={true}
+    src="IMAGE_MOCK"
+  />
+  <Paragraph__LegalInfo>
+    PayPal è il metodo rapido e sicuro per pagare e farsi pagare online
+  </Paragraph__LegalInfo>
+</FormElements__CardForm>
+`;

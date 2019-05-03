@@ -1,0 +1,1259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> controllo AlertCookies quando non ha display true 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section__FirstSection>
+      <Container__ActionBox
+        bgPosition="0 bottom"
+        bgPositionMobile="left bottom"
+        bgSize="860px 290px"
+        margin="0 auto"
+        src="IMAGE_MOCK"
+      >
+        <HomePage__PayOffBox>
+          <HomePage__PayOff
+            color="rgb(92, 164, 221)"
+          >
+            Grammatica italiana per padronanza
+          </HomePage__PayOff>
+        </HomePage__PayOffBox>
+        <HomePage__AccessBox
+          minWidth="340px"
+        >
+          <HomePage__AccessButton
+            bgcolor="rgb(126, 211, 33)"
+            full={1}
+            href="/h/#/login"
+            margin="10px auto"
+            shadow={1}
+          >
+            <span>
+              Accedi
+            </span>
+          </HomePage__AccessButton>
+          <HomePage__AccessButton
+            bgcolor="rgb(229, 0, 81)"
+            full={1}
+            href="/h/#/registration"
+            margin="5px auto 0"
+            shadow={1}
+          >
+            Registrati
+          </HomePage__AccessButton>
+          <Separator
+            color="rgb(92, 164, 221)"
+            text="O"
+          />
+          <ButtonLink__ActionButtonLink
+            bgcolor="rgb(251, 158, 36)"
+            full={1}
+            margin="5px auto 0"
+            shadow={1}
+            to="/istruzioni"
+          >
+            Istruzioni per l’acquisto
+          </ButtonLink__ActionButtonLink>
+        </HomePage__AccessBox>
+      </Container__ActionBox>
+    </Section__FirstSection>
+    <Section
+      bgColor="rgb(229, 0, 81)"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/itaca-academy",
+            "text": "Scopri di più",
+          }
+        }
+        body="<p>Conoscere è sempre <em>riconoscere</em>. Itaca ti insegna a riconoscere la grammatica nella lingua che usi tutti i giorni e vedere l’italiano in una prospettiva diversa, più leggera. Così le tue parole impareranno ad andare lontano :)</p>"
+        color="rgb(0, 0, 0)"
+        src="IMAGE_MOCK"
+        title="La lingua è un viaggio"
+        titleColor="#FFF"
+      />
+    </Section>
+    <Section
+      bgColor="rgb(92, 164, 221)"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/formazione",
+            "text": "Scopri di più",
+          }
+        }
+        body="<p>Da settembre a giugno il team di Itaca organizza il corso <strong>L’apprendimento per padronanza nella didattica della lingua italiana al biennio</strong> (accredito SOFIA 26185). Un’occasione unica per provare la piattaforma, approfondirne la metodologia e aggiornarsi sulla didattica della disciplina attraverso prove in classe e confronto dei dati.</p>"
+        color="rgb(0, 0, 0)"
+        src="IMAGE_MOCK"
+        title="Novità 2019: formazione Itaca per i docenti"
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="rgb(167, 190, 192)"
+    >
+      <LandingCard
+        action={Object {}}
+        body="<p>Con il cartaceo di Itaca arriva anche il <em>creaverifiche</em>: uno strumento fruibile da qualunque dispositivo, pensato per la creazione di verifiche cartacee personalizzate, con un pacchetto di oltre 800 esercizi che il docente può assemblare o modificare secondo le proprie esigenze. Se hai già un account docente su Itaca online, puoi iniziare a esplorare Itaca Papers aprendolo dal pulsante dedicato nel menu principale di Itaca. L’intero sillabo sarà disponibile per i docenti che adotteranno cartaceo + digitale.</p>"
+        color="rgb(0, 0, 0)"
+        src="IMAGE_MOCK"
+        title="Itaca Papers (creaverifiche)"
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+    >
+      <LandingCard
+        action={Object {}}
+        actionButton={
+          Object {
+            "props": Object {
+              "bgcolor": "rgb(229, 0, 81)",
+            },
+            "richiediCodice": [Function],
+            "text": "Richiedi un codice classe*",
+          }
+        }
+        body="<p>Itaca si adatta automaticamente alle risposte degli studenti, somministrando a ciascuno tanti esercizi quanti servono per raggiungere l’obiettivo che tu hai prefissato. Entra nella nostra community, prova Itaca nella tua classe!</p>"
+        color="rgb(78, 78, 78)"
+        footNote={
+          Object {
+            "color": "rgb(229, 0, 81)",
+            "text": "* Modulo riservato ai docenti",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Prova Itaca nella tua classe"
+        titleColor="rgb(229, 0, 81)"
+      />
+    </Section>
+    <Section
+      bgColor="#fff"
+    >
+      <LandingCard
+        action={Object {}}
+        body="<p>Itaca contempla due profili per gli studenti, <strong>base</strong> e <strong>premium</strong>.</p><p>Il profilo <strong>base</strong> di Itaca è <strong>gratuito</strong> e aperto a tutti. Con un profilo base, lo studente può affrontare individualmente le singole unità che compongono una missione. Completando tutte le unità di una missione, sblocca la missione successiva. Per ottenere un profilo base basta registrarsi gratuitamente.</p><p>Il profilo <strong>premium</strong> di Itaca consente l’associazione dello studente a una classe e l’accesso ai contenuti e ai servizi a pagamento (sblocco di unità non sequenziali, verifiche, report sugli errori ecc.), sotto la guida del proprio docente. I docenti possono richiedere un periodo di prova gratuito della versione premium per le proprie classi.</p>"
+        src="IMAGE_MOCK"
+        title="Itaca Base e Premium"
+        titleColor="rgb(92, 164, 221)"
+      />
+    </Section>
+    <Section
+      bgColor="#fff"
+      direction="column"
+      padding="0 50px 50px"
+      paddingmobile="0 20px 30px"
+    >
+      <HomePage__PricingBox>
+        <Heading__H2
+          color="rgb(92, 164, 221)"
+          margin="0"
+        >
+          Profili a confronto
+        </Heading__H2>
+        <HomePage__TableContainer>
+          <Tables__Table
+            bgcolor="rgb(92, 164, 221)"
+            fixed={true}
+            pricing={true}
+          >
+            <tbody>
+              <Tables__Tr
+                Bg="#F2F2F2"
+                fullBg={true}
+              >
+                <HomePage__Th>
+                  FUNZIONI
+                </HomePage__Th>
+                <HomePage__Th>
+                  BASE
+                </HomePage__Th>
+                <HomePage__Th>
+                  PREMIUM
+                </HomePage__Th>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Esercizi
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Registro di classe
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Sblocco unità non sequenziali
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Verifiche
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr>
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Reportistica
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+            </tbody>
+          </Tables__Table>
+        </HomePage__TableContainer>
+        <Heading__H2
+          color="rgb(92, 164, 221)"
+          id="prezzi"
+          margin="0"
+        >
+          I profili Premium sono disponibili in due formule:
+        </Heading__H2>
+        <AlertBanner
+          actioncolor=""
+          bgcolor="#FFFDDE"
+          border={true}
+          margin="20px auto 0"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <div>
+            <Heading__H2
+              margin="12px auto"
+            >
+              Licenza Summer School 2019
+            </Heading__H2>
+            <span>
+              Dal 1° aprile al 31 maggio è acquistabile la licenza Premium estiva di Itaca
+              <br
+                className="mediumUp"
+              />
+               al prezzo di 5 euro a studente.
+            </span>
+            <br />
+            <br />
+            <small>
+              La Summer School vale fino al 15/10/2019.
+            </small>
+          </div>
+        </AlertBanner>
+        <HomePage__TableContainer>
+          <HomePage__TableBlock>
+            <Tables__Table
+              bgcolor="rgb(92, 164, 221)"
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  Bg="#F2F2F2"
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    CARTA + DIGITALE (tipologia B)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Volume A
+                    </strong>
+                     + 
+                    <strong>
+                      B
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-20-8
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    28,50 € 
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #afd2ed"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online biennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Volume A
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-19-2
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    20,90 € 
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #afd2ed"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online biennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Volume B
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-34-5
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    10,90 € 
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #afd2ed"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online annuale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Richiedi una 
+              <strong>
+                copia saggio
+              </strong>
+               all’agente 
+              <strong>
+                Loescher
+              </strong>
+               di zona
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+          <HomePage__TableBlock>
+            <Tables__Table
+              bgcolor="rgb(92, 164, 221)"
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  Bg="#F2F2F2"
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    DIGITALE (tipologia C)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo*
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Licenza online
+                      <br />
+                      annuale
+                    </strong>
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-14-7
+                  </Tables__Td>
+                  <Tables__Td>
+                    9,00 € 
+                  </Tables__Td>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Un anno di licenza online va da settembre dell’anno di adozione a ottobre dell’anno successivo
+            </HomePage__TableNote>
+            <HomePage__TableNote>
+              *Prezzo valido per l’a.s. 2019/2020
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+        </HomePage__TableContainer>
+        <ButtonLink__ActionButtonLink
+          bgcolor="rgb(92, 164, 221)"
+          border="none"
+          color="#fff"
+          sectionbutton={1}
+          shadow={1}
+          to="/istruzioni"
+        >
+          Istruzioni per l’acquisto
+        </ButtonLink__ActionButtonLink>
+      </HomePage__PricingBox>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <AlertCookies
+      onClickFunction={[Function]}
+      show={false}
+    />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;
+
+exports[`<HomePage /> controllo che contenga gli elementi principali della home 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section__FirstSection>
+      <Container__ActionBox
+        bgPosition="0 bottom"
+        bgPositionMobile="left bottom"
+        bgSize="860px 290px"
+        margin="0 auto"
+        src="IMAGE_MOCK"
+      >
+        <HomePage__PayOffBox>
+          <HomePage__PayOff
+            color="rgb(92, 164, 221)"
+          >
+            Grammatica italiana per padronanza
+          </HomePage__PayOff>
+        </HomePage__PayOffBox>
+        <HomePage__AccessBox
+          minWidth="340px"
+        >
+          <HomePage__AccessButton
+            bgcolor="rgb(126, 211, 33)"
+            full={1}
+            href="/h/#/login"
+            margin="10px auto"
+            shadow={1}
+          >
+            <span>
+              Accedi
+            </span>
+          </HomePage__AccessButton>
+          <HomePage__AccessButton
+            bgcolor="rgb(229, 0, 81)"
+            full={1}
+            href="/h/#/registration"
+            margin="5px auto 0"
+            shadow={1}
+          >
+            Registrati
+          </HomePage__AccessButton>
+          <Separator
+            color="rgb(92, 164, 221)"
+            text="O"
+          />
+          <ButtonLink__ActionButtonLink
+            bgcolor="rgb(251, 158, 36)"
+            full={1}
+            margin="5px auto 0"
+            shadow={1}
+            to="/istruzioni"
+          >
+            Istruzioni per l’acquisto
+          </ButtonLink__ActionButtonLink>
+        </HomePage__AccessBox>
+      </Container__ActionBox>
+    </Section__FirstSection>
+    <Section
+      bgColor="rgb(229, 0, 81)"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/itaca-academy",
+            "text": "Scopri di più",
+          }
+        }
+        body="<p>Conoscere è sempre <em>riconoscere</em>. Itaca ti insegna a riconoscere la grammatica nella lingua che usi tutti i giorni e vedere l’italiano in una prospettiva diversa, più leggera. Così le tue parole impareranno ad andare lontano :)</p>"
+        color="rgb(0, 0, 0)"
+        src="IMAGE_MOCK"
+        title="La lingua è un viaggio"
+        titleColor="#FFF"
+      />
+    </Section>
+    <Section
+      bgColor="rgb(92, 164, 221)"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/formazione",
+            "text": "Scopri di più",
+          }
+        }
+        body="<p>Da settembre a giugno il team di Itaca organizza il corso <strong>L’apprendimento per padronanza nella didattica della lingua italiana al biennio</strong> (accredito SOFIA 26185). Un’occasione unica per provare la piattaforma, approfondirne la metodologia e aggiornarsi sulla didattica della disciplina attraverso prove in classe e confronto dei dati.</p>"
+        color="rgb(0, 0, 0)"
+        src="IMAGE_MOCK"
+        title="Novità 2019: formazione Itaca per i docenti"
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="rgb(167, 190, 192)"
+    >
+      <LandingCard
+        action={Object {}}
+        body="<p>Con il cartaceo di Itaca arriva anche il <em>creaverifiche</em>: uno strumento fruibile da qualunque dispositivo, pensato per la creazione di verifiche cartacee personalizzate, con un pacchetto di oltre 800 esercizi che il docente può assemblare o modificare secondo le proprie esigenze. Se hai già un account docente su Itaca online, puoi iniziare a esplorare Itaca Papers aprendolo dal pulsante dedicato nel menu principale di Itaca. L’intero sillabo sarà disponibile per i docenti che adotteranno cartaceo + digitale.</p>"
+        color="rgb(0, 0, 0)"
+        src="IMAGE_MOCK"
+        title="Itaca Papers (creaverifiche)"
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+    >
+      <LandingCard
+        action={Object {}}
+        actionButton={
+          Object {
+            "props": Object {
+              "bgcolor": "rgb(229, 0, 81)",
+            },
+            "richiediCodice": [Function],
+            "text": "Richiedi un codice classe*",
+          }
+        }
+        body="<p>Itaca si adatta automaticamente alle risposte degli studenti, somministrando a ciascuno tanti esercizi quanti servono per raggiungere l’obiettivo che tu hai prefissato. Entra nella nostra community, prova Itaca nella tua classe!</p>"
+        color="rgb(78, 78, 78)"
+        footNote={
+          Object {
+            "color": "rgb(229, 0, 81)",
+            "text": "* Modulo riservato ai docenti",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Prova Itaca nella tua classe"
+        titleColor="rgb(229, 0, 81)"
+      />
+    </Section>
+    <Section
+      bgColor="#fff"
+    >
+      <LandingCard
+        action={Object {}}
+        body="<p>Itaca contempla due profili per gli studenti, <strong>base</strong> e <strong>premium</strong>.</p><p>Il profilo <strong>base</strong> di Itaca è <strong>gratuito</strong> e aperto a tutti. Con un profilo base, lo studente può affrontare individualmente le singole unità che compongono una missione. Completando tutte le unità di una missione, sblocca la missione successiva. Per ottenere un profilo base basta registrarsi gratuitamente.</p><p>Il profilo <strong>premium</strong> di Itaca consente l’associazione dello studente a una classe e l’accesso ai contenuti e ai servizi a pagamento (sblocco di unità non sequenziali, verifiche, report sugli errori ecc.), sotto la guida del proprio docente. I docenti possono richiedere un periodo di prova gratuito della versione premium per le proprie classi.</p>"
+        src="IMAGE_MOCK"
+        title="Itaca Base e Premium"
+        titleColor="rgb(92, 164, 221)"
+      />
+    </Section>
+    <Section
+      bgColor="#fff"
+      direction="column"
+      padding="0 50px 50px"
+      paddingmobile="0 20px 30px"
+    >
+      <HomePage__PricingBox>
+        <Heading__H2
+          color="rgb(92, 164, 221)"
+          margin="0"
+        >
+          Profili a confronto
+        </Heading__H2>
+        <HomePage__TableContainer>
+          <Tables__Table
+            bgcolor="rgb(92, 164, 221)"
+            fixed={true}
+            pricing={true}
+          >
+            <tbody>
+              <Tables__Tr
+                Bg="#F2F2F2"
+                fullBg={true}
+              >
+                <HomePage__Th>
+                  FUNZIONI
+                </HomePage__Th>
+                <HomePage__Th>
+                  BASE
+                </HomePage__Th>
+                <HomePage__Th>
+                  PREMIUM
+                </HomePage__Th>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Esercizi
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Registro di classe
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Sblocco unità non sequenziali
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #afd2ed"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Verifiche
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr>
+                <HomePage__TdHighlight
+                  Br="1px solid #afd2ed"
+                >
+                  <strong>
+                    Reportistica
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #afd2ed"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+            </tbody>
+          </Tables__Table>
+        </HomePage__TableContainer>
+        <Heading__H2
+          color="rgb(92, 164, 221)"
+          id="prezzi"
+          margin="0"
+        >
+          I profili Premium sono disponibili in due formule:
+        </Heading__H2>
+        <AlertBanner
+          actioncolor=""
+          bgcolor="#FFFDDE"
+          border={true}
+          margin="20px auto 0"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <div>
+            <Heading__H2
+              margin="12px auto"
+            >
+              Licenza Summer School 2019
+            </Heading__H2>
+            <span>
+              Dal 1° aprile al 31 maggio è acquistabile la licenza Premium estiva di Itaca
+              <br
+                className="mediumUp"
+              />
+               al prezzo di 5 euro a studente.
+            </span>
+            <br />
+            <br />
+            <small>
+              La Summer School vale fino al 15/10/2019.
+            </small>
+          </div>
+        </AlertBanner>
+        <HomePage__TableContainer>
+          <HomePage__TableBlock>
+            <Tables__Table
+              bgcolor="rgb(92, 164, 221)"
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  Bg="#F2F2F2"
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    CARTA + DIGITALE (tipologia B)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Volume A
+                    </strong>
+                     + 
+                    <strong>
+                      B
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-20-8
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    28,50 € 
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #afd2ed"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online biennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Volume A
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-19-2
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    20,90 € 
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #afd2ed"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online biennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Volume B
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-34-5
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    10,90 € 
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #afd2ed"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #afd2ed"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online annuale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Richiedi una 
+              <strong>
+                copia saggio
+              </strong>
+               all’agente 
+              <strong>
+                Loescher
+              </strong>
+               di zona
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+          <HomePage__TableBlock>
+            <Tables__Table
+              bgcolor="rgb(92, 164, 221)"
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  Bg="#F2F2F2"
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    DIGITALE (tipologia C)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #afd2ed"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo*
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Licenza online
+                      <br />
+                      annuale
+                    </strong>
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #afd2ed"
+                  >
+                    978-88-99053-14-7
+                  </Tables__Td>
+                  <Tables__Td>
+                    9,00 € 
+                  </Tables__Td>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Un anno di licenza online va da settembre dell’anno di adozione a ottobre dell’anno successivo
+            </HomePage__TableNote>
+            <HomePage__TableNote>
+              *Prezzo valido per l’a.s. 2019/2020
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+        </HomePage__TableContainer>
+        <ButtonLink__ActionButtonLink
+          bgcolor="rgb(92, 164, 221)"
+          border="none"
+          color="#fff"
+          sectionbutton={1}
+          shadow={1}
+          to="/istruzioni"
+        >
+          Istruzioni per l’acquisto
+        </ButtonLink__ActionButtonLink>
+      </HomePage__PricingBox>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <AlertCookies
+      onClickFunction={[Function]}
+      show={true}
+    />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

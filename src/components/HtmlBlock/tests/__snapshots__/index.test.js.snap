@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HtmlBlock /> should not render MathJax when hasLatex is false 1`] = `
+<div>
+  <HtmlBlock__HtmlBlockWrap
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "del testo",
+      }
+    }
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<HtmlBlock /> should not render MathJax when hasLatex is true 1`] = `
+<div>
+  <HtmlBlock__HtmlBlockWrap
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  >
+    <_default
+      math="del testo"
+    />
+  </HtmlBlock__HtmlBlockWrap>
+</div>
+`;
+
+exports[`<HtmlBlock /> should render a HtmlBlockWrap 1`] = `
+<div>
+  <HtmlBlock__HtmlBlockWrap
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<HtmlBlockWrap /> should render a Div 1`] = `
+.c0 {
+  width: 100%;
+  background-color: rgb(255,255,255);
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<HtmlBlockWrap /> should render its css w/ props align 1`] = `
+.c0 {
+  width: 100%;
+  background-color: rgb(255,255,255);
+}
+
+<Div
+  align="left"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<HtmlBlockWrap /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  width: 100%;
+}
+
+<Div
+  bgcolor="green"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<HtmlBlockWrap /> should render its css w/ props color 1`] = `
+.c0 {
+  width: 100%;
+  color: red;
+  background-color: rgb(255,255,255);
+}
+
+<Div
+  className="c0"
+  color="red"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;

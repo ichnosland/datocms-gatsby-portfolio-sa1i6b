@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VersioniStudenteView /> !spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="label livello"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <VersioniLivelloStudenteOverview
+      eseguiFunction={[Function]}
+      versioniAssegnate={
+        Array [
+          Object {
+            "assegnata_data": "11/03/2018",
+            "assegnazione": 1000,
+            "consegnata": false,
+            "id": 100,
+            "in_corso": false,
+            "ritirata": false,
+            "titolo": "titolo versione 1",
+            "totale_domande": 12,
+          },
+          Object {
+            "assegnata_data": "01/04/2018",
+            "assegnazione": 2000,
+            "consegnata": false,
+            "id": 200,
+            "in_corso": true,
+            "ritirata": false,
+            "titolo": "titolo versione 2",
+            "totale_domande": 13,
+          },
+          Object {
+            "assegnata_data": "11/05/2018",
+            "assegnazione": 3000,
+            "consegnata": true,
+            "id": 300,
+            "in_corso": false,
+            "ritirata": false,
+            "titolo": "titolo versione 3",
+            "totale_domande": 14,
+          },
+          Object {
+            "assegnata_data": "30/06/2018",
+            "assegnazione": 4000,
+            "consegnata": false,
+            "id": 400,
+            "in_corso": true,
+            "ritirata": true,
+            "titolo": "titolo versione 4",
+            "totale_domande": 15,
+          },
+          Object {
+            "assegnata_data": "21/07/2018",
+            "assegnazione": 5000,
+            "consegnata": true,
+            "id": 500,
+            "in_corso": true,
+            "ritirata": true,
+            "titolo": "titolo versione 5",
+            "totale_domande": 16,
+          },
+        ]
+      }
+      visualizzaStatisticheFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VersioniStudenteView /> !spinner feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="label livello"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <AlertBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VersioniStudenteView /> spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="label livello"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;

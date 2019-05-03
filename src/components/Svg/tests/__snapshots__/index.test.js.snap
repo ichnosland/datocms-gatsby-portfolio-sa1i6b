@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Svg /> should render a SvgWrap 1`] = `
+<Svg__SvgWrap
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its children w/ props path 1`] = `
+<Svg__SvgWrap
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its css w/ props className 1`] = `
+<Svg__SvgWrap
+  className="classe"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its css w/ props fill 1`] = `
+<Svg__SvgWrap
+  fill="#ff0000"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its css w/ props height 1`] = `
+<Svg__SvgWrap
+  height="1024px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its css w/ props minHeight 1`] = `
+<Svg__SvgWrap
+  height="1024px"
+  minHeight="750px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its css w/ props minWidth 1`] = `
+<Svg__SvgWrap
+  minWidth="100px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+  width="200px"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its css w/ props viewBox 1`] = `
+<Svg__SvgWrap
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<Svg /> should render its css w/ props width 1`] = `
+<Svg__SvgWrap
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+  width="100px"
+>
+  <path
+    d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    data-name="Livello 1"
+    fill="#ffffff"
+  />
+</Svg__SvgWrap>
+`;
+
+exports[`<SvgWrap /> should render a svg tag 1`] = `
+.c0 {
+  display: inline-block;
+  fill: #00BBEF;
+}
+
+<svg
+  className="c0"
+/>
+`;
+
+exports[`<SvgWrap /> should render its css w/ props fill 1`] = `
+.c0 {
+  display: inline-block;
+  fill: yellow;
+}
+
+<svg
+  className="c0"
+  fill="yellow"
+/>
+`;
+
+exports[`<SvgWrap /> should render its css w/ props minHeight 1`] = `
+.c0 {
+  display: inline-block;
+  fill: #00BBEF;
+  min-height: 750px;
+}
+
+<svg
+  className="c0"
+/>
+`;
+
+exports[`<SvgWrap /> should render its css w/ props minWidth 1`] = `
+.c0 {
+  display: inline-block;
+  fill: #00BBEF;
+  min-width: 750px;
+}
+
+<svg
+  className="c0"
+/>
+`;

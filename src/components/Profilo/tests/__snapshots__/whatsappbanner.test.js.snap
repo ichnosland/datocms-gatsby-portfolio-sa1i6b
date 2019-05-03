@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WhatsAppBanner /> should render its props href 1`] = `
+<Text__ClearAnchor
+  href="#"
+>
+  <AlertBanner
+    actioncolor=""
+    justifyContent="flex-start"
+    margin="0 0 20px 0"
+    padding="0"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <FlexBox__FlexChild
+      padding=".5em 1em"
+    >
+      <img
+        alt="WhatsApp"
+        src="IMAGE_MOCK"
+        width="60"
+      />
+    </FlexBox__FlexChild>
+    <FlexBox__FlexChild
+      align="left"
+      bordercolor="rgb(231, 236, 236)"
+      borderstyle="solid"
+      borderwidth="0 0 0 1px"
+      padding="20px"
+    >
+      <span>
+        L'assistenza docenti su WhatsApp è attiva dal lunedì al venerdì dalle 10 alle 17 al 
+        <strong>
+          3209120894
+        </strong>
+      </span>
+    </FlexBox__FlexChild>
+  </AlertBanner>
+</Text__ClearAnchor>
+`;
+
+exports[`<WhatsAppBanner /> should render its props legal 1`] = `
+<Text__ClearAnchor>
+  <AlertBanner
+    actioncolor=""
+    justifyContent="flex-start"
+    margin="0 0 20px 0"
+    padding="0"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <FlexBox__FlexChild
+      padding=".5em 1em"
+    >
+      <img
+        alt="WhatsApp"
+        src="IMAGE_MOCK"
+        width="60"
+      />
+    </FlexBox__FlexChild>
+    <FlexBox__FlexChild
+      align="left"
+      bordercolor="rgb(231, 236, 236)"
+      borderstyle="solid"
+      borderwidth="0 0 0 1px"
+      padding="20px"
+    >
+      <span>
+        L'assistenza docenti su WhatsApp è attiva dal lunedì al venerdì dalle 10 alle 17 al 
+        <strong>
+          3209120894
+        </strong>
+      </span>
+    </FlexBox__FlexChild>
+  </AlertBanner>
+  <Paragraph__LegalInfo
+    align="center"
+    key="legal_1"
+  >
+    L'assistenza via whatsapp è 
+    <strong>
+      un servizio dedicato esclusivamente ai docenti
+    </strong>
+    . Se riceveremo richieste di aiuto dagli studenti tramite questo canale non potranno essere recepite. Vi preghiamo dunque di non diffondere questo numero di telefono al di fuori del corpo docente.
+  </Paragraph__LegalInfo>
+  <Paragraph__LegalInfo
+    align="center"
+    key="legal_2"
+  >
+    Grazie per la collaborazione!
+  </Paragraph__LegalInfo>
+</Text__ClearAnchor>
+`;

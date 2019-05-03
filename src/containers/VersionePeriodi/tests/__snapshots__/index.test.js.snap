@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VersionePeriodiView /> visualizza lo stato iniziale quando c'è un feedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/back-url-versione",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    key="versione_esecuzione_topbar"
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Esecuzione versione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="versione_esecuzione_container"
+  >
+    <VersionePeriodiTradotti
+      periodi={
+        Array [
+          Object {
+            "goTo": Object {
+              "enable": false,
+              "onClick": [Function],
+            },
+            "idPeriodo": 1,
+            "keyPeriodo": 0,
+            "mostraTestoTradotto": true,
+            "testoDaTradurre": "ff",
+            "testoTradotto": "<span class=\\"suggested\\">testo_principale</span> <span class=\\"suggested\\">testo_principale</span> <span class=\\"suggested\\">testo_principale</span>",
+          },
+        ]
+      }
+      sottotitolo="sottotitolo"
+      titolo="titolo"
+    />
+    <AlertBanner
+      actioncolor="help"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio
+    </AlertBanner>
+    <Div
+      align="center"
+      padding="20px 0"
+    >
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Consegna
+      </Button>
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<VersionePeriodiView /> visualizza lo stato iniziale quando spinner = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/back-url-versione",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    key="versione_esecuzione_topbar"
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Esecuzione versione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Spinner
+    number={3}
+  />
+</Page>
+`;
+
+exports[`<VersionePeriodiView /> visualizza lo stato iniziale quando userappData.docente == false 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/back-url-versione",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    key="versione_esecuzione_topbar"
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Esecuzione versione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="versione_esecuzione_container"
+  >
+    <VersionePeriodiTradotti
+      periodi={
+        Array [
+          Object {
+            "goTo": Object {
+              "enable": false,
+              "onClick": [Function],
+            },
+            "idPeriodo": 1,
+            "keyPeriodo": 0,
+            "mostraTestoTradotto": true,
+            "testoDaTradurre": "ff",
+            "testoTradotto": "<span class=\\"suggested\\">testo_principale</span> <span class=\\"suggested\\">testo_principale</span> <span class=\\"suggested\\">testo_principale</span>",
+          },
+        ]
+      }
+      sottotitolo="sottotitolo"
+      titolo="titolo"
+    />
+    <Div
+      align="center"
+      padding="20px 0"
+    >
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Consegna
+      </Button>
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<VersionePeriodiView /> visualizza lo stato iniziale quando userappData.docente == true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/back-url-versione",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    key="versione_esecuzione_topbar"
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Esecuzione versione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="versione_esecuzione_container"
+  >
+    <VersionePeriodiTradotti
+      periodi={
+        Array [
+          Object {
+            "goTo": Object {
+              "enable": false,
+              "onClick": [Function],
+            },
+            "idPeriodo": 1,
+            "keyPeriodo": 0,
+            "mostraTestoTradotto": true,
+            "testoDaTradurre": "ff",
+            "testoTradotto": "<span class=\\"suggested\\">testo_principale</span> <span class=\\"suggested\\">testo_principale</span> <span class=\\"suggested\\">testo_principale</span>",
+          },
+        ]
+      }
+      sottotitolo="sottotitolo"
+      titolo="titolo"
+    />
+    <Div
+      align="center"
+      padding="20px 0"
+    >
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Consegna
+      </Button>
+    </Div>
+  </Container>
+</Page>
+`;

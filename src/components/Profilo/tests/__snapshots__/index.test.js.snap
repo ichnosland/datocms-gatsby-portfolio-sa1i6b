@@ -1,0 +1,2537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItemTextBrand /> should render its css w/ theme 1`] = `
+.c0 {
+  color: #00BBEF;
+}
+
+<NewListPanels__ListItemText
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<Profilo /> should render its css w/ theme 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render its elements w/ props docente false & premiumActive true 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="studente_premiumStatus"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="18px"
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+          premium
+      </Profilo__ListItemTextBrand>
+      <ListSideBox />
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render its elements w/ props docente false & sound true 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="studente_premiumStatus"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="18px"
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+          premium
+      </Profilo__ListItemTextBrand>
+      <ListSideBox />
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render its elements w/ props docente false 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render its elements w/ props svuotaTokenFunction 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="reset_token"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Scollega tutti i device
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Scollega
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="studente_premiumStatus"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="18px"
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+          premium
+      </Profilo__ListItemTextBrand>
+      <ListSideBox />
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render its elements w/ props toggleSuoniFx 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="suoni"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Suoni
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <SlideToggle
+          bgcolor="#1cff00"
+          check={true}
+          onClickFunction={[Function]}
+        />
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="studente_premiumStatus"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="18px"
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+          premium
+      </Profilo__ListItemTextBrand>
+      <ListSideBox />
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render its elements w/ props versioneSoftware 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="suoni"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Suoni
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <SlideToggle
+          bgcolor="#1cff00"
+          check={true}
+          onClickFunction={[Function]}
+        />
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="versione_software"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Versione del software
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        1.2.3
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="studente_premiumStatus"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="18px"
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+          premium
+      </Profilo__ListItemTextBrand>
+      <ListSideBox />
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render its elements w/ props whatsapp 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="suoni"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Suoni
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <SlideToggle
+          bgcolor="#1cff00"
+          check={true}
+          onClickFunction={[Function]}
+        />
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="studente_premiumStatus"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="18px"
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+          premium
+      </Profilo__ListItemTextBrand>
+      <ListSideBox />
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <WhatsAppBanner
+    href="whatsapp://indirizzo"
+    legal={true}
+  />
+</div>
+`;
+
+exports[`<Profilo /> should render premium button 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <FlexBox
+      justifyContent="space-around"
+      key="studente_premiumButton"
+      padding="20px 0"
+    >
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        radius="6px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          left={true}
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+         Attiva premium
+      </Button>
+    </FlexBox>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;
+
+exports[`<Profilo /> should render premium button if punti > -1 1`] = `
+<div>
+  <FlexBox
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <FlexBox>
+      <Svg
+        height="32px"
+        path={
+          <path
+            d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 32 32"
+        width="32px"
+      />
+      <Heading__H2
+        padding="0 10px 0"
+      >
+        Nome Cognome
+      </Heading__H2>
+    </FlexBox>
+    <Button
+      actioncolor="escape"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        fill="#fff"
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Logout
+    </Button>
+  </FlexBox>
+  <div>
+    <NewListPanels__ListItem
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        email
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        mail@acme.com
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="studente_punti"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Punti totali
+      </NewListPanels__ListItemText>
+      <Profilo__ListItemTextBrand
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Scores
+          score=" 123 XP"
+        />
+      </Profilo__ListItemTextBrand>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="cambia_password"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Cambio password
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <ButtonLink
+          actioncolor=""
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+          to="/cambia-password"
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M6.424 8.955c.008.004 2.535-2.523 2.53-2.531a1.524 1.524 0 0 1 2.11 0c-.018.008 2.625 2.652 2.625 2.672 0-.02-4.613 4.593-4.593 4.593-.02 0-2.664-2.635-2.672-2.625-.565-.6-.565-1.531 0-2.11zm8.062.937c-.003 0 14.338 14.78 14.342 14.765C28.824 24.67 30 30 30 30s-5.336-1.174-5.343-1.172c.007-.002-14.718-14.406-14.718-14.39 0-.016 4.544-4.546 4.547-4.546z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Cambia
+        </ButtonLink>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <FlexBox
+      justifyContent="space-around"
+      key="studente_premiumButton"
+      padding="20px 0"
+    >
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        radius="6px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          left={true}
+          path={
+            <path
+              d="M33.975 12.569c-.15-.303-.45-.53-.75-.53H22.426l-3.675-10.51C18.6 1.228 18.3 1 18 1s-.6.227-.75.53l-3.675 10.509H2.777c-.3 0-.6.227-.75.53-.075.302 0 .68.3.832l8.4 6.804-3.75 10.735c-.15.303 0 .681.225.833.226.227.6.302.9.076l9.899-5.973 9.899 5.973c.15.076.3.151.375.151a.68.68 0 0 0 .526-.227c.226-.152.376-.53.226-.833l-3.75-10.735 8.399-6.804c.3-.151.376-.53.3-.832h-.001z"
+              fillRule="evenodd"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+         Attiva premium
+      </Button>
+    </FlexBox>
+  </div>
+  <div>
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Allegati
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="allegato_slug"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;

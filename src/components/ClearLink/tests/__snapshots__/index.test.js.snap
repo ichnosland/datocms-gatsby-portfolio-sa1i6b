@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClearLink /> should render its function w/ props to 1`] = `
+.c0 {
+  color: inherit;
+  display: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+<Link
+  className="c0"
+  replace={false}
+  to="/"
+/>
+`;

@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserProfileView /> Profilo.gotToPremiumFunction chiama history.push se userAuthentication.codiceSbloccato == true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Profilo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Profilo
+      downloadDisponibili={Array []}
+      downloadFunction={[Function]}
+      email="ajeje.brazorf@acme.com"
+      gotToPremiumFunction={null}
+      logoutFunction={[Function]}
+      nome="Ajeje Brazorf"
+      premiumActive={true}
+      punti={-1}
+      scadenza="Scade il 15/10/2019"
+      svuotaTokenFunction={[Function]}
+      toggleSuoniFx={[Function]}
+      whatsapp="whatsapp://url"
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<UserProfileView /> must display TopBar and Profilo components 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Profilo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Profilo
+      downloadDisponibili={Array []}
+      downloadFunction={[Function]}
+      email="ajeje.brazorf@acme.com"
+      gotToPremiumFunction={null}
+      logoutFunction={[Function]}
+      nome="Ajeje Brazorf"
+      premiumActive={false}
+      punti={-1}
+      scadenza="Scade il 15/10/2019"
+      svuotaTokenFunction={[Function]}
+      toggleSuoniFx={[Function]}
+      whatsapp="whatsapp://url"
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<UserProfileView /> must display component product == lyceum 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Profilo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Profilo
+      downloadDisponibili={
+        Array [
+          Object {
+            "slug": "guida-docente-lyceum",
+            "titolo": "Guida docente",
+          },
+        ]
+      }
+      downloadFunction={[Function]}
+      email="ajeje.brazorf@acme.com"
+      gotToPremiumFunction={null}
+      logoutFunction={[Function]}
+      nome="Ajeje Brazorf"
+      premiumActive={false}
+      punti={-1}
+      scadenza="Scade il 15/10/2019"
+      svuotaTokenFunction={[Function]}
+      toggleSuoniFx={[Function]}
+      whatsapp="whatsapp://url"
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<UserProfileView /> must display component when hasXp = true and docente === false 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Profilo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Profilo
+      downloadDisponibili={Array []}
+      downloadFunction={[Function]}
+      email="ajeje.brazorf@acme.com"
+      gotToPremiumFunction={null}
+      logoutFunction={[Function]}
+      nome="Ajeje Brazorf"
+      premiumActive={false}
+      punti={5577}
+      scadenza="Scade il 15/10/2019"
+      svuotaTokenFunction={[Function]}
+      toggleSuoniFx={[Function]}
+      whatsapp=""
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<UserProfileView /> must display component when hasXp = true and docente === true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Profilo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Profilo
+      downloadDisponibili={Array []}
+      downloadFunction={[Function]}
+      email="ajeje.brazorf@acme.com"
+      gotToPremiumFunction={null}
+      logoutFunction={[Function]}
+      nome="Ajeje Brazorf"
+      premiumActive={false}
+      punti={-1}
+      scadenza="Scade il 15/10/2019"
+      svuotaTokenFunction={[Function]}
+      toggleSuoniFx={[Function]}
+      whatsapp="whatsapp://url"
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<UserProfileView /> toggleSuoniFx must be null when hasSuoni = false 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Profilo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Profilo
+      downloadDisponibili={Array []}
+      downloadFunction={[Function]}
+      email="ajeje.brazorf@acme.com"
+      gotToPremiumFunction={null}
+      logoutFunction={[Function]}
+      nome="Ajeje Brazorf"
+      premiumActive={false}
+      punti={-1}
+      scadenza="Scade il 15/10/2019"
+      svuotaTokenFunction={[Function]}
+      toggleSuoniFx={null}
+      whatsapp="whatsapp://url"
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<UserProfileView /> toggleSuoniFx must call onSetSuoni 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    single={true}
+    title="Profilo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Profilo
+      downloadDisponibili={Array []}
+      downloadFunction={[Function]}
+      email="ajeje.brazorf@acme.com"
+      gotToPremiumFunction={null}
+      logoutFunction={[Function]}
+      nome="Ajeje Brazorf"
+      premiumActive={false}
+      punti={-1}
+      scadenza="Scade il 15/10/2019"
+      svuotaTokenFunction={[Function]}
+      toggleSuoniFx={[Function]}
+      whatsapp="whatsapp://url"
+    />
+  </Container>
+</Page>
+`;

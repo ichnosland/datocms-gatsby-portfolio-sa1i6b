@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintWrap /> should render its props children w/ props childrenvisible 1`] = `
+<span>
+  Ciao sono un children
+</span>
+`;
+
+exports[`<PrintWrap /> should render the wrap OnlyPrint w/ props !childrenvisible 1`] = `<PrintWrap__OnlyPrint />`;

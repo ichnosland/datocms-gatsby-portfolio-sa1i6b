@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GraficoMedieCompito /> Mostro la condizione iniziale 1`] = `
+<StatsElements__ChartBox
+  className="ChartBox istogrammi"
+  legenda={true}
+>
+  <StatsElements__LegendaChartBox>
+    <div>
+      <StatsElements__SwatchLabel>
+        Media di classe
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#FFC155"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Media nazionale
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#0F7CFF"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio studente
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#17B317"
+      />
+    </div>
+  </StatsElements__LegendaChartBox>
+  <Div
+    className="grafico"
+    height="300px"
+    width="100%"
+  >
+    <FlexibleXYPlot
+      animation={true}
+      colorType="literal"
+      xType="ordinal"
+      yDomain={
+        Array [
+          0,
+          10,
+        ]
+      }
+    >
+      <VerticalGridLines
+        attr="x"
+        direction="vertical"
+      />
+      <HorizontalGridLines
+        attr="y"
+        direction="horizontal"
+      />
+      <XAxis
+        attr="x"
+        attrAxis="y"
+        orientation="bottom"
+      />
+      <YAxis
+        attr="y"
+        attrAxis="x"
+        orientation="left"
+      />
+      <VerticalBarSeries
+        className=""
+        data={
+          Array [
+            Object {
+              "titolo": "titolo 1",
+              "x": "#1",
+              "y": 6,
+            },
+            Object {
+              "titolo": "titolo 2",
+              "x": "#2",
+              "y": 5,
+            },
+          ]
+        }
+        onValueMouseOut={[Function]}
+        onValueMouseOver={[Function]}
+        stack={false}
+        style={Object {}}
+      />
+      <VerticalBarSeries
+        className=""
+        data={
+          Array [
+            Object {
+              "titolo": "titolo 1",
+              "x": "#1",
+              "y": 12,
+            },
+            Object {
+              "titolo": "titolo 2",
+              "x": "#2",
+              "y": 22,
+            },
+          ]
+        }
+        onValueMouseOut={[Function]}
+        onValueMouseOver={[Function]}
+        stack={false}
+        style={Object {}}
+      />
+      <VerticalBarSeries
+        className=""
+        data={
+          Array [
+            Object {
+              "titolo": "titolo 1",
+              "x": "#1",
+              "y": 3,
+            },
+            Object {
+              "titolo": "titolo 2",
+              "x": "#2",
+              "y": 2,
+            },
+          ]
+        }
+        onValueMouseOut={[Function]}
+        onValueMouseOver={[Function]}
+        stack={false}
+        style={Object {}}
+      />
+    </FlexibleXYPlot>
+  </Div>
+  <FlexBox
+    className="titoli-grafico"
+    justifyContent="space-between"
+  >
+    <Div
+      padding="0 30px 10px"
+    >
+      <StatsElements__SwatchLabel
+        key="titolo_grafico_1"
+      >
+        1
+        . 
+        titolo 1
+      </StatsElements__SwatchLabel>
+      <StatsElements__SwatchLabel
+        key="titolo_grafico_2"
+      >
+        2
+        . 
+        titolo 2
+      </StatsElements__SwatchLabel>
+    </Div>
+  </FlexBox>
+</StatsElements__ChartBox>
+`;
+
+exports[`<GraficoMedieCompito /> Mostro la condizione se hint è visibile 1`] = `
+<StatsElements__ChartBox
+  className="ChartBox istogrammi"
+  legenda={true}
+>
+  <StatsElements__LegendaChartBox>
+    <div>
+      <StatsElements__SwatchLabel>
+        Media di classe
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#FFC155"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Media nazionale
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#0F7CFF"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio studente
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#17B317"
+      />
+    </div>
+  </StatsElements__LegendaChartBox>
+  <Div
+    className="grafico"
+    height="300px"
+    width="100%"
+  >
+    <FlexibleXYPlot
+      animation={true}
+      colorType="literal"
+      xType="ordinal"
+      yDomain={
+        Array [
+          0,
+          10,
+        ]
+      }
+    >
+      <VerticalGridLines
+        attr="x"
+        direction="vertical"
+      />
+      <HorizontalGridLines
+        attr="y"
+        direction="horizontal"
+      />
+      <XAxis
+        attr="x"
+        attrAxis="y"
+        orientation="bottom"
+      />
+      <YAxis
+        attr="y"
+        attrAxis="x"
+        orientation="left"
+      />
+      <Hint
+        align={
+          Object {
+            "horizontal": "auto",
+            "vertical": "auto",
+          }
+        }
+        format={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "borderRadius": "6px",
+            "color": "#fff",
+            "fontSize": "14px",
+            "padding": "6px 10px",
+          }
+        }
+        value={
+          Object {
+            "campioni": 1,
+            "display": true,
+            "tipologia": "tipologia",
+            "tipologiaGrafico": "medieCompito",
+            "titolo": "titolo",
+            "x": "#1",
+            "y": 1,
+          }
+        }
+      >
+        <div>
+          <p>
+            titolo
+          </p>
+          <p>
+            tipologia
+            : 
+            1
+          </p>
+          <p>
+            Numero di campioni: 
+            1
+          </p>
+        </div>
+      </Hint>
+      <VerticalBarSeries
+        className=""
+        data={
+          Array [
+            Object {
+              "titolo": "titolo 1",
+              "x": "#1",
+              "y": 6,
+            },
+            Object {
+              "titolo": "titolo 2",
+              "x": "#2",
+              "y": 5,
+            },
+          ]
+        }
+        onValueMouseOut={[Function]}
+        onValueMouseOver={[Function]}
+        stack={false}
+        style={Object {}}
+      />
+      <VerticalBarSeries
+        className=""
+        data={
+          Array [
+            Object {
+              "titolo": "titolo 1",
+              "x": "#1",
+              "y": 12,
+            },
+            Object {
+              "titolo": "titolo 2",
+              "x": "#2",
+              "y": 22,
+            },
+          ]
+        }
+        onValueMouseOut={[Function]}
+        onValueMouseOver={[Function]}
+        stack={false}
+        style={Object {}}
+      />
+      <VerticalBarSeries
+        className=""
+        data={
+          Array [
+            Object {
+              "titolo": "titolo 1",
+              "x": "#1",
+              "y": 3,
+            },
+            Object {
+              "titolo": "titolo 2",
+              "x": "#2",
+              "y": 2,
+            },
+          ]
+        }
+        onValueMouseOut={[Function]}
+        onValueMouseOver={[Function]}
+        stack={false}
+        style={Object {}}
+      />
+    </FlexibleXYPlot>
+  </Div>
+  <FlexBox
+    className="titoli-grafico"
+    justifyContent="space-between"
+  >
+    <Div
+      padding="0 30px 10px"
+    >
+      <StatsElements__SwatchLabel
+        key="titolo_grafico_1"
+      >
+        1
+        . 
+        titolo 1
+      </StatsElements__SwatchLabel>
+      <StatsElements__SwatchLabel
+        key="titolo_grafico_2"
+      >
+        2
+        . 
+        titolo 2
+      </StatsElements__SwatchLabel>
+    </Div>
+  </FlexBox>
+</StatsElements__ChartBox>
+`;

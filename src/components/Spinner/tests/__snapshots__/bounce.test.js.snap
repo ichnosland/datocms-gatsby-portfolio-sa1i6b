@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bounce /> should render its css 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  background-color: #00BBEF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props bgColor 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  background-color: blue;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props inverse 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  background-color: #00BBEF;
+  background-color: rgb(255,255,255);
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props number 1 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  background-color: #00BBEF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props number 2 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  background-color: #00BBEF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props ringo 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  background-color: #00BBEF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(255,255,255);
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props size huge 1`] = `
+.c0 {
+  width: 30px;
+  height: 30px;
+  background-color: #00BBEF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+<div
+  className="c0"
+  size="huge"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props size small 1`] = `
+.c0 {
+  width: 10px;
+  height: 10px;
+  background-color: #00BBEF;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+<div
+  className="c0"
+  size="small"
+/>
+`;
+
+exports[`<Bounce /> should render its css w/ props theme 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: ipJYoS 1.4s infinite ease-in-out both;
+  animation: ipJYoS 1.4s infinite ease-in-out both;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+<div
+  className="c0"
+/>
+`;

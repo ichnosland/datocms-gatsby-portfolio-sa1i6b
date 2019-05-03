@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Istruzioni /> controllo che contenga gli elementi principali della home 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section
+      first={true}
+    >
+      <Container>
+        <Heading__H1
+          margin="20px 0 0"
+        >
+          Istruzioni per l’adozione e l’acquisto
+        </Heading__H1>
+      </Container>
+    </Section>
+    <Section
+      padding="0 50px 50px"
+    >
+      <LandingCard
+        action={Object {}}
+        actionButton={
+          Object {
+            "props": Object {
+              "bgcolor": "#fe9d3e",
+              "shadow": "true",
+            },
+            "richiediCodice": [Function],
+            "text": "Richiedi un codice classe*",
+          }
+        }
+        body="<p>Il docente ha libero accesso ai contenuti di Alatin. Può richiedere un profilo docente e la creazione di una classe compilando il modulo qui sotto. Per affiancare alla versione digitale anche il compendio cartaceo è necessario richiederne una copia saggio all’agente Loescher di zona.</p>"
+        color="#12334e"
+        footNote={
+          Object {
+            "text": "* Modulo riservato ai docenti",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Docenti"
+        titleColor="black"
+      />
+    </Section>
+    <Section
+      bgColor="#9bdd3e"
+      direction="column"
+    >
+      <LandingCard
+        alignThumb="flex-start"
+        dashed={true}
+        src="IMAGE_MOCK"
+      >
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Studente Premium
+        </Heading__H2>
+        <Istruzioni__P>
+          Si ottiene un profilo studente 
+          <strong>
+            premium
+          </strong>
+           scegliendo l’opzione 
+          <strong>
+            digitale + cartaceo
+          </strong>
+           o quella solo 
+          <strong>
+            digitale
+          </strong>
+          .
+        </Istruzioni__P>
+        <Istruzioni__Warning>
+          <strong>
+            <Text__BrandTxt>
+              Nota bene:
+            </Text__BrandTxt>
+          </strong>
+            per tutte le operazioni di acquisto o sblocco è necessaria la registrazione online
+        </Istruzioni__Warning>
+      </LandingCard>
+      <LandingCard
+        dashed={true}
+        single={true}
+      >
+        <Heading__H3
+          color="black"
+          margin="0"
+        >
+          Digitale + cartaceo
+        </Heading__H3>
+        <Istruzioni__P>
+          Se hai già acquistato il 
+          <strong>
+            cartaceo
+          </strong>
+          :
+        </Istruzioni__P>
+        <ol>
+          <li>
+            <Istruzioni__P>
+              registrati sul sito di tuo interesse: 
+              <a
+                className="text-link"
+                href="https://alatin.it/h/#/registration"
+                target="_blank"
+              >
+                Alatin
+              </a>
+               o 
+              <a
+                className="text-link"
+                href="https://alatin.it/lyceum/registrazione"
+                target="_blank"
+              >
+                Lyceum
+              </a>
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante con la “A” che si trova nella pagina principale e scegli la voce “Premium”
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              inserisci il codice di sblocco che si trova sul frontespizio del libro cartaceo
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca nuovamente sul pulsante con la “A”, scegli la voce “Classi” e inserisci il codice classe che ti fornisce il tuo docente (es. Rossi1234)
+            </Istruzioni__P>
+          </li>
+        </ol>
+        <Istruzioni__Warning>
+          <strong>
+            <Text__ColorTxt
+              color="rgb(255, 0, 0)"
+            >
+              Attenzione:
+            </Text__ColorTxt>
+          </strong>
+            ogni libro ha un codice di sblocco per la parte digitale; se acquisti un libro di seconda mano, il codice potrebbe non essere più valido e pertanto dovrà essere riacquistato online.
+        </Istruzioni__Warning>
+      </LandingCard>
+      <LandingCard
+        alignThumb="flex-start"
+        src="IMAGE_MOCK"
+      >
+        <Heading__H3
+          color="black"
+          margin="0"
+        >
+          Digitale
+        </Heading__H3>
+        <Istruzioni__P>
+          Se vuoi acquistare il 
+          <strong>
+            digitale
+          </strong>
+          :
+        </Istruzioni__P>
+        <ol>
+          <li>
+            <Istruzioni__P>
+              registrati sul sito di tuo interesse: 
+              <a
+                className="text-link"
+                href="https://alatin.it/h/#/registration"
+                target="_blank"
+              >
+                Alatin
+              </a>
+               o 
+              <a
+                className="text-link"
+                href="https://alatin.it/lyceum/registrazione"
+                target="_blank"
+              >
+                Lyceum
+              </a>
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante con la “A” che si trova nella pagina principale e scegli la voce “Premium”
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante “Paypal” e procedi al pagamento della quota tramite carta di credito o account Paypal; lo sblocco dell’account avverrà in automatico.
+            </Istruzioni__P>
+          </li>
+        </ol>
+        <Istruzioni__P>
+          Dopo aver attivato una licenza potrai 
+          <strong>
+            associarti alla classe
+          </strong>
+          :
+        </Istruzioni__P>
+        <ol>
+          <li>
+            <Istruzioni__P>
+              clicca sul pulsante con la “A”
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              scegli la voce “Classi”
+            </Istruzioni__P>
+          </li>
+          <li>
+            <Istruzioni__P>
+              inserisci il codice classe che ti fornisce il tuo docente (es. Rossi1234).
+            </Istruzioni__P>
+          </li>
+        </ol>
+      </LandingCard>
+      <Container>
+        <Istruzioni__DashedBox>
+          <div>
+            <p>
+              L’abbonamento al digitale si può acquistare anche in 
+              <strong>
+                un’unica soluzione per tutta la classe
+              </strong>
+              , previa raccolta delle quote (
+              12
+              € a studente per l’anno scolastico), tramite 
+              <strong>
+                bonifico
+              </strong>
+               intestato a:
+            </p>
+            <p>
+              MAIEUTICAL LABS SRL
+              <br />
+              presso BCC, Banca di Casalgrasso e Sant’Albano Stura
+              <br />
+              IBAN IT33P0883301003000200100529
+            </p>
+            <p>
+              <strong>
+                Specificando nella causale il codice (o i codici) classe.
+              </strong>
+            </p>
+          </div>
+        </Istruzioni__DashedBox>
+      </Container>
+    </Section>
+    <Section
+      bgColor="#9bdd3e"
+      padding="0 50px 50px"
+      paddingmobile="0 20px 20px"
+    >
+      <Container
+        align="center"
+      >
+        <ButtonLink__ActionButtonLink
+          bgcolor="#fe9d3e"
+          sectionbutton={1}
+          shadow={1}
+          to="/contatti"
+        >
+          Scrivici per saperne di più
+        </ButtonLink__ActionButtonLink>
+      </Container>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

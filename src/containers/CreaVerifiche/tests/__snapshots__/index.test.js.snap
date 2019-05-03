@@ -1,0 +1,1603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreaVerificheView /> creaVerifiche.itemsList[0].elementi[0].text must contain project name 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> creaVerifiche.itemsList[0].elementi[0].text must contain project name and is mytest 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"mytestitaliano mytest\\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> onClickFunction on default state should correctly trigger when step is selected 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": false,
+        "itemCount": "1",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": true,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "minus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Rimuovi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> onClickFunction on default state should trigger correctly triggered when step is not selected 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> should render its content on initial status when no spinner is set 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="0 Esercizi"
+        itemsList={Array []}
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> should render its content when error message is set 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <p>
+        Errore
+      </p>
+      <CreaVerificheList
+        buttonText="0 Esercizi"
+        itemsList={Array []}
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> should render its content when spinner is set 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> should send CreaVerificheList proper count label for no steps 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="0 Esercizi"
+        itemsList={Array []}
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> should send CreaVerificheList proper count label for steps = 1 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> should send CreaVerificheList proper count label for steps > 1 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="2 Esercizi"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_200_2001.2002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna 2</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_200_2001.2002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_200_2001.2002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_200_2001.2002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> test CreaVerificheList should properly render elementi[n].solution when openedSolutions is opened 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "Soluzione",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+    <div class=\\"opzioni\\">
+      <div class=\\"opzioni__contenuto\\"><div class=\\"opzioni__contenuto-opzione\\">
+          <span>A) </span><span>opzione</span>
+        </div></div>
+    </div>
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "hide",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> test CreaVerificheList should properly render pulsanti when isStepSelected is false 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> test CreaVerificheList should properly render pulsanti when isStepSelected is true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": false,
+        "itemCount": "1",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": true,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "minus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Rimuovi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> test TopBar buttonFunction shoud push history 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": false,
+        "itemCount": "1",
+        "label": "Aggiungi a verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": true,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "minus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Rimuovi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> test TopBar should render buttonLabel Aggiungi when verifica key > -1 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": false,
+        "itemCount": "1",
+        "label": "Aggiungi a verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="1 Esercizio"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": true,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "minus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Rimuovi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> tests showOnlySelectedSteps function when filtering is active 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": false,
+        "itemCount": "1",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="2 Esercizi"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": true,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "minus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Rimuovi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_200_2001.2002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna 2</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_200_2001.2002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_200_2001.2002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_200_2001.2002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> tests showOnlySelectedSteps function when filtering is not active 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": false,
+        "itemCount": "1",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="2 Esercizi"
+        itemsList={
+          Array [
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_100_1001.1002",
+                  "isHtml": true,
+                  "isSelected": true,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_100_1001.1002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_100_1001.1002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "minus",
+                  "id": "step_button_edit_100_1001.1002",
+                  "label": "Rimuovi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+            Object {
+              "elementi": Array [
+                Object {
+                  "hasLatex": false,
+                  "id": "step_titolo_200_2001.2002",
+                  "isHtml": true,
+                  "isSelected": false,
+                  "nome": "",
+                  "solution": "",
+                  "text": "<div class=\\"product \\"><div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">Trova</span>
+      <div class=\\"consegna__contenuto\\">Testo della consegna 2</div>
+      
+    </div>
+    
+  </div></div>",
+                },
+              ],
+              "key": "step_panel_200_2001.2002",
+              "pulsanti": Array [
+                Object {
+                  "icona": "eye",
+                  "id": "step_button_vedi_200_2001.2002",
+                  "label": "Soluzione",
+                  "onClickFunction": [Function],
+                },
+                Object {
+                  "icona": "plus",
+                  "id": "step_button_edit_200_2001.2002",
+                  "label": "Aggiungi",
+                  "onClickFunction": [Function],
+                },
+              ],
+            },
+          ]
+        }
+      />
+    </Div>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheView /> tests toggleSoluzione function 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    button={
+      Object {
+        "actioncolor": "okay",
+        "disabled": true,
+        "itemCount": "0",
+        "label": "Crea verifica",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div>
+      <Heading__H1 />
+      <CreaVerificheList
+        buttonText="0 Esercizi"
+        itemsList={Array []}
+      />
+    </Div>
+  </Container>
+</Page>
+`;

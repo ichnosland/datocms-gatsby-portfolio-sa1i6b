@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnitWrap /> should render its css w/ props theme 1`] = `
+@media (max-width:64em) {
+  .c0 {
+    background-color: red;
+    height: 100%;
+  }
+}
+
+<FlexBox__FlexWrap
+  className="c0"
+  theme={
+    Object {
+      "brand": "red",
+    }
+  }
+/>
+`;
+
+exports[`<UnitaPreviewView /> controllo che assegnaFunction chiami onModalSetData quando unita è assegnata 1`] = `
+<UnitaPreview__UnitWrap
+  className="UnitWrap"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <UnitaPreview__FullContainer>
+    <CentralBox
+      unita={true}
+    >
+      <TopBar
+        backArrow={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        backNav={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        box={true}
+        closeBtn={
+          Object {
+            "enabled": true,
+            "url": "/homepage",
+          }
+        }
+        lesson={
+          Object {
+            "enabled": true,
+            "url": "/lezione/555",
+          }
+        }
+        noShadow={true}
+        topSwitcher={
+          Object {
+            "items": Array [],
+          }
+        }
+      />
+      <div>
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Titolo unita
+        </Heading__H2>
+        <ReduxForm
+          buttonAssegnaDisabled={true}
+          buttonAssegnaFunction={null}
+          buttonAssegnaIcon="noBell"
+          buttonAssegnaLabel="Assegnata"
+          eseguiUnitaFunction={[Function]}
+          lezioni={
+            Array [
+              Object {
+                "optionKey": 0,
+                "optionLabel": "1",
+              },
+              Object {
+                "optionKey": 1,
+                "optionLabel": "2",
+              },
+              Object {
+                "optionKey": 2,
+                "optionLabel": "3",
+              },
+              Object {
+                "optionKey": 3,
+                "optionLabel": "4",
+              },
+            ]
+          }
+          tempoEsecuzione={60}
+          unitaId={333}
+        />
+      </div>
+    </CentralBox>
+  </UnitaPreview__FullContainer>
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="prodotto"
+  />
+</UnitaPreview__UnitWrap>
+`;
+
+exports[`<UnitaPreviewView /> controllo che assegnaFunction chiami onModalSetData quando unita è da assegnare 1`] = `
+<UnitaPreview__UnitWrap
+  className="UnitWrap"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <UnitaPreview__FullContainer>
+    <CentralBox
+      unita={true}
+    >
+      <TopBar
+        backArrow={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        backNav={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        box={true}
+        closeBtn={
+          Object {
+            "enabled": true,
+            "url": "/homepage",
+          }
+        }
+        lesson={
+          Object {
+            "enabled": true,
+            "url": "/lezione/555",
+          }
+        }
+        noShadow={true}
+        topSwitcher={
+          Object {
+            "items": Array [],
+          }
+        }
+      />
+      <div>
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Titolo unita
+        </Heading__H2>
+        <ReduxForm
+          buttonAssegnaDisabled={false}
+          buttonAssegnaFunction={[Function]}
+          buttonAssegnaIcon="bell"
+          buttonAssegnaLabel="Assegna"
+          eseguiUnitaFunction={[Function]}
+          lezioni={
+            Array [
+              Object {
+                "optionKey": 0,
+                "optionLabel": "1",
+              },
+              Object {
+                "optionKey": 1,
+                "optionLabel": "2",
+              },
+              Object {
+                "optionKey": 2,
+                "optionLabel": "3",
+              },
+              Object {
+                "optionKey": 3,
+                "optionLabel": "4",
+              },
+            ]
+          }
+          tempoEsecuzione={60}
+          unitaId={333}
+        />
+      </div>
+    </CentralBox>
+  </UnitaPreview__FullContainer>
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="prodotto"
+  />
+</UnitaPreview__UnitWrap>
+`;
+
+exports[`<UnitaPreviewView /> pulsanti della topbar quando non è presente una lezione deve essere disabilitato 1`] = `
+<UnitaPreview__UnitWrap
+  className="UnitWrap"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <UnitaPreview__FullContainer>
+    <CentralBox
+      unita={true}
+    >
+      <TopBar
+        backArrow={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        backNav={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        box={true}
+        closeBtn={
+          Object {
+            "enabled": true,
+            "url": "/homepage",
+          }
+        }
+        lesson={
+          Object {
+            "enabled": false,
+            "url": "/lezione/0",
+          }
+        }
+        noShadow={true}
+        topSwitcher={
+          Object {
+            "items": Array [],
+          }
+        }
+      />
+      <div>
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Titolo unita
+        </Heading__H2>
+        <ReduxForm
+          buttonAssegnaDisabled={true}
+          buttonAssegnaFunction={null}
+          buttonAssegnaIcon="noBell"
+          buttonAssegnaLabel="Assegnata"
+          eseguiUnitaFunction={[Function]}
+          lezioni={
+            Array [
+              Object {
+                "optionKey": 0,
+                "optionLabel": "1",
+              },
+              Object {
+                "optionKey": 1,
+                "optionLabel": "2",
+              },
+              Object {
+                "optionKey": 2,
+                "optionLabel": "3",
+              },
+              Object {
+                "optionKey": 3,
+                "optionLabel": "4",
+              },
+            ]
+          }
+          tempoEsecuzione={60}
+          unitaId={333}
+        />
+      </div>
+    </CentralBox>
+  </UnitaPreview__FullContainer>
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="prodotto"
+  />
+</UnitaPreview__UnitWrap>
+`;
+
+exports[`<UnitaPreviewView /> pulsanti della topbar quando è presente una lezione ed è abilitato 1`] = `
+<UnitaPreview__UnitWrap
+  className="UnitWrap"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <UnitaPreview__FullContainer>
+    <CentralBox
+      unita={true}
+    >
+      <TopBar
+        backArrow={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        backNav={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        box={true}
+        closeBtn={
+          Object {
+            "enabled": true,
+            "url": "/homepage",
+          }
+        }
+        lesson={
+          Object {
+            "enabled": true,
+            "url": "/lezione/555",
+          }
+        }
+        noShadow={true}
+        topSwitcher={
+          Object {
+            "items": Array [],
+          }
+        }
+      />
+      <div>
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Titolo unita
+        </Heading__H2>
+        <ReduxForm
+          buttonAssegnaDisabled={true}
+          buttonAssegnaFunction={null}
+          buttonAssegnaIcon="noBell"
+          buttonAssegnaLabel="Assegnata"
+          eseguiUnitaFunction={[Function]}
+          lezioni={
+            Array [
+              Object {
+                "optionKey": 0,
+                "optionLabel": "1",
+              },
+              Object {
+                "optionKey": 1,
+                "optionLabel": "2",
+              },
+              Object {
+                "optionKey": 2,
+                "optionLabel": "3",
+              },
+              Object {
+                "optionKey": 3,
+                "optionLabel": "4",
+              },
+            ]
+          }
+          tempoEsecuzione={60}
+          unitaId={333}
+        />
+      </div>
+    </CentralBox>
+  </UnitaPreview__FullContainer>
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="prodotto"
+  />
+</UnitaPreview__UnitWrap>
+`;
+
+exports[`<UnitaPreviewView /> se ho eseguito tutte le lezioni e sono docente, preseleziono l'ultima card 1`] = `
+<UnitaPreview__UnitWrap
+  className="UnitWrap"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <UnitaPreview__FullContainer>
+    <CentralBox
+      unita={true}
+    >
+      <TopBar
+        backArrow={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        backNav={
+          Object {
+            "enabled": false,
+            "url": "",
+          }
+        }
+        box={true}
+        closeBtn={
+          Object {
+            "enabled": true,
+            "url": "/homepage",
+          }
+        }
+        lesson={
+          Object {
+            "enabled": true,
+            "url": "/lezione/555",
+          }
+        }
+        noShadow={true}
+        topSwitcher={
+          Object {
+            "items": Array [],
+          }
+        }
+      />
+      <div>
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Titolo unita
+        </Heading__H2>
+        <UnitaPreviewStudenteView
+          displayIndex={2}
+          lezioni={
+            Array [
+              Object {
+                "buttonCheck": true,
+                "buttonFunction": [Function],
+                "buttonLabel": "Lezione 1",
+                "buttonLocked": false,
+                "emoji": <img
+                  alt="difficoltà 1"
+                  className="difficolta_1"
+                  src="undefineddifficolta-1.png"
+                />,
+              },
+              Object {
+                "buttonCheck": true,
+                "buttonFunction": [Function],
+                "buttonLabel": "Lezione 2",
+                "buttonLocked": false,
+                "emoji": <img
+                  alt="difficoltà 2"
+                  className="difficolta_2"
+                  src="undefineddifficolta-2.png"
+                />,
+              },
+              Object {
+                "buttonCheck": false,
+                "buttonFunction": [Function],
+                "buttonLabel": "Lezione 3",
+                "buttonLocked": false,
+                "emoji": <img
+                  alt="difficoltà 3"
+                  className="difficolta_3"
+                  src="undefineddifficolta-3.png"
+                />,
+              },
+              Object {
+                "buttonCheck": false,
+                "buttonFunction": null,
+                "buttonLabel": "Lezione 4",
+                "buttonLocked": true,
+                "emoji": <img
+                  alt="difficoltà 4"
+                  className="difficolta_7"
+                  src="undefineddifficolta-7.png"
+                />,
+              },
+            ]
+          }
+        />
+      </div>
+    </CentralBox>
+  </UnitaPreview__FullContainer>
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="prodotto"
+  />
+</UnitaPreview__UnitWrap>
+`;
+
+exports[`<UnitaPreviewView /> visualizza il componente per feedback.hasFeedback = true 1`] = `
+<UnitaPreview__UnitWrap
+  className="UnitWrap"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <UnitaPreview__FullContainer>
+    <AlertBanner
+      actioncolor="tipologia"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio
+    </AlertBanner>
+  </UnitaPreview__FullContainer>
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="prodotto"
+  />
+</UnitaPreview__UnitWrap>
+`;
+
+exports[`<UnitaPreviewView /> visualizza il componente per spinner = true 1`] = `
+<UnitaPreview__UnitWrap
+  className="UnitWrap"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <FlexBox
+    height="100%"
+  >
+    <Spinner
+      number={3}
+      ringo={true}
+    />
+  </FlexBox>
+  <UnitaPreview__FullContainer />
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="prodotto"
+  />
+</UnitaPreview__UnitWrap>
+`;

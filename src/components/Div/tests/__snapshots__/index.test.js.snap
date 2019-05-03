@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Div /> should render its css w/ props align 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  text-align: center;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props bgColor 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: yellow;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props border 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid red;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props bordercolor 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-color: black;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props borderstyle 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-style: dotted;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props borderwidth 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-width: 0 0 1em 0;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props color 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: ffcc00;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+  color="ffcc00"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props display 1`] = `
+.c0 {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+  display="inline-block"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props float 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props height 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  height: 150px;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+  height="150px"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props margin 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props maxWidth 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 800px;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props noPrint 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props nobreak 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+  page-break-inside: avoid;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props overflow 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+  overflow="hidden"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props padding 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 20px;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props pointerEvents 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+  pointer-events: none;
+}
+
+<div
+  className="c0"
+  pointerEvents="none"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props position 1`] = `
+.c0 {
+  display: block;
+  position: absolute;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props radius 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  border-radius: 60px;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+  radius="60px"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props userSelect 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props width 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  width: 300px;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+<div
+  className="c0"
+  width="300px"
+/>
+`;
+
+exports[`<Div /> should render its css w/ props zindex 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+  z-index: 30;
+}
+
+<div
+  className="c0"
+/>
+`;

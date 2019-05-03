@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Separator /> should render its css w/ props color 1`] = `
+<FlexBox>
+  <Separator__SeparatorBg
+    fill="red"
+  />
+  <Separator__SeparatorText
+    color="red"
+  />
+  <Separator__SeparatorBg
+    fill="red"
+  />
+</FlexBox>
+`;
+
+exports[`<Separator /> should render its css w/ props text 1`] = `
+<FlexBox>
+  <Separator__SeparatorBg />
+  <Separator__SeparatorText>
+    Testo
+  </Separator__SeparatorText>
+  <Separator__SeparatorBg />
+</FlexBox>
+`;
+
+exports[`<Separator /> should render its css w/ props theme 1`] = `
+<FlexBox>
+  <Separator__SeparatorBg />
+  <Separator__SeparatorText />
+  <Separator__SeparatorBg />
+</FlexBox>
+`;
+
+exports[`<SeparatorText /> should render its css w/ props color 1`] = `
+.c0 {
+  color: yellow;
+  display: inline-block;
+  padding: 0.5em;
+  position: relative;
+}
+
+<span
+  className="c0"
+  color="yellow"
+/>
+`;
+
+exports[`<SeparatorText /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: #1588AA;
+  display: inline-block;
+  padding: 0.5em;
+  position: relative;
+}
+
+<span
+  className="c0"
+/>
+`;

@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea />  should render a its css w/ props landing 1`] = `
+<FlexBox
+  direction="column"
+>
+  <TextArea__Textarea
+    landing={true}
+    placeholder="placeholder"
+  />
+</FlexBox>
+`;
+
+exports[`<Textarea /> should render a its css w/ props landing 1`] = `
+.c0 {
+  display: block;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 6px 13px;
+  border: 1px solid;
+  background-color: rgb(255,255,255);
+  text-align: left;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-bottom: 18px;
+  min-height: 200px;
+  resize: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.c0::-webkit-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::-moz-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:-ms-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0::-webkit-input-placeholder {
+  position: relative;
+  color: rgba(0,0,0,0.3);
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::-moz-placeholder {
+  position: relative;
+  color: rgba(0,0,0,0.3);
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:-ms-input-placeholder {
+  position: relative;
+  color: rgba(0,0,0,0.3);
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::placeholder {
+  position: relative;
+  color: rgba(0,0,0,0.3);
+  opacity: 1;
+  overflow: visible;
+}
+
+<textarea
+  className="c0"
+/>
+`;

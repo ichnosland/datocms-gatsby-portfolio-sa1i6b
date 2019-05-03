@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoBox /> should render w/ prop margin 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 400px;
+  margin: 60px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<LogoBox /> should render w/ prop maxWidth 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 50px;
+  margin: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<LogoBox /> should render w/ prop width 1`] = `
+.c0 {
+  width: 358px;
+  max-width: 400px;
+  margin: 0;
+}
+
+<div
+  className="c0"
+  width="358px"
+/>
+`;
+
+exports[`<LogoLanding /> should render a props fill 1`] = `
+<LogoLanding__LogoBox>
+  <Heading__HiddenH1>
+    Alatin Academy
+  </Heading__HiddenH1>
+</LogoLanding__LogoBox>
+`;
+
+exports[`<LogoLanding /> should render a props height 1`] = `
+<LogoLanding__LogoBox>
+  <Heading__HiddenH1>
+    Alatin Academy
+  </Heading__HiddenH1>
+</LogoLanding__LogoBox>
+`;
+
+exports[`<LogoLanding /> should render a props margin 1`] = `
+<LogoLanding__LogoBox
+  margin="30px"
+>
+  <Heading__HiddenH1>
+    Alatin Academy
+  </Heading__HiddenH1>
+</LogoLanding__LogoBox>
+`;
+
+exports[`<LogoLanding /> should render a props maxWidth 1`] = `
+<LogoLanding__LogoBox
+  maxWidth="400px"
+>
+  <Heading__HiddenH1>
+    Alatin Academy
+  </Heading__HiddenH1>
+</LogoLanding__LogoBox>
+`;
+
+exports[`<LogoLanding /> should render a props title 1`] = `
+<LogoLanding__LogoBox>
+  <Heading__HiddenH1>
+    Alatin Academy
+  </Heading__HiddenH1>
+</LogoLanding__LogoBox>
+`;
+
+exports[`<LogoLanding /> should render a props width 1`] = `
+<LogoLanding__LogoBox
+  width="1000px"
+>
+  <Heading__HiddenH1>
+    Alatin Academy
+  </Heading__HiddenH1>
+</LogoLanding__LogoBox>
+`;
+
+exports[`<LogoLanding /> should render its children w/ prop configuration 1`] = `
+<LogoLanding__LogoBox>
+  <Heading__HiddenH1>
+    Alatin Academy
+  </Heading__HiddenH1>
+</LogoLanding__LogoBox>
+`;

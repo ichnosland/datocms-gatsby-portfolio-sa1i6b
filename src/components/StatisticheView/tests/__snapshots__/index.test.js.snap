@@ -1,0 +1,5210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StatisticheView /> Controllo che non esploda se ho media[stepId] ma non le altre chiavi 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={true}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        Tutta la classe
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      />
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieVotiClasse
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "colour": "#87deca",
+            "count": 1,
+            "tipologia": "Punteggio 7 - 10",
+            "title": "Punteggio 7 - 10",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#ffe06e",
+            "count": 1,
+            "tipologia": "Punteggio 5 - 6.99",
+            "title": "Punteggio 5 - 6.99",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#df2e6d",
+            "count": 2,
+            "tipologia": "Punteggio 1 - 4.99",
+            "title": "Punteggio 1 - 4.99",
+            "totale": 4,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+    />
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={Array []}
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            />
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Controllo che non esploda se non ho media[stepId] 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={true}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        Tutta la classe
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      />
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieVotiClasse
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "colour": "#87deca",
+            "count": 1,
+            "tipologia": "Punteggio 7 - 10",
+            "title": "Punteggio 7 - 10",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#ffe06e",
+            "count": 1,
+            "tipologia": "Punteggio 5 - 6.99",
+            "title": "Punteggio 5 - 6.99",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#df2e6d",
+            "count": 2,
+            "tipologia": "Punteggio 1 - 4.99",
+            "title": "Punteggio 1 - 4.99",
+            "totale": 4,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+    />
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={Array []}
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            />
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Mostro la condizione iniziale se non ho selezionato uno studente con vista docente 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={true}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        Tutta la classe
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      />
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieVotiClasse
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "colour": "#87deca",
+            "count": 1,
+            "tipologia": "Punteggio 7 - 10",
+            "title": "Punteggio 7 - 10",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#ffe06e",
+            "count": 1,
+            "tipologia": "Punteggio 5 - 6.99",
+            "title": "Punteggio 5 - 6.99",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#df2e6d",
+            "count": 2,
+            "tipologia": "Punteggio 1 - 4.99",
+            "title": "Punteggio 1 - 4.99",
+            "totale": 4,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+    />
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={Array []}
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <StatsElements__ToggleDomanda
+            key="sezione_risposte"
+            onClick={[Function]}
+            risultato="bene"
+          >
+            <Svg
+              height="14px"
+              path={
+                <path
+                  d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+                />
+              }
+              viewBox="0 0 14 14"
+              width="14px"
+            />
+          </StatsElements__ToggleDomanda>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            >
+              <div>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_1"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_1"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 1"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_2"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_2"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 2"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+              </div>
+            </div>
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Mostro la condizione iniziale se non ho selezionato uno studente con vista studente 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={false}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={true}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={false}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={false}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        nome cognome
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      >
+        5
+      </StatsElements__VotoSelectedUser>
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={
+        Array [
+          Object {
+            "color": "#17B317",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 8.75,
+          },
+          Object {
+            "color": "rgba(23, 179, 23, 0.2)",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 8.75,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <StatsElements__ToggleDomanda
+            key="sezione_risposte"
+            onClick={[Function]}
+            risultato="male"
+          >
+            <Svg
+              height="14px"
+              path={
+                <path
+                  d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+                />
+              }
+              viewBox="0 0 14 14"
+              width="14px"
+            />
+          </StatsElements__ToggleDomanda>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            >
+              <div>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_1"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_1"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 1"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_2"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_2"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 2"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+              </div>
+            </div>
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Mostro lo stato iniziale con utente selezionato 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={false}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={true}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        nome cognome
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      >
+        5
+      </StatsElements__VotoSelectedUser>
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={
+        Array [
+          Object {
+            "color": "#17B317",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 8.75,
+          },
+          Object {
+            "color": "rgba(23, 179, 23, 0.2)",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 8.75,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <StatsElements__ToggleDomanda
+            key="sezione_risposte"
+            onClick={[Function]}
+            risultato="male"
+          >
+            <Svg
+              height="14px"
+              path={
+                <path
+                  d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+                />
+              }
+              viewBox="0 0 14 14"
+              width="14px"
+            />
+          </StatsElements__ToggleDomanda>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            >
+              <div>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_1"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_1"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 1"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_2"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_2"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 2"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+              </div>
+            </div>
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Mostro lo stato iniziale con utente selezionato che non esiste 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={false}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      />
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      >
+        NC
+      </StatsElements__VotoSelectedUser>
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={
+        Array [
+          Object {
+            "color": "#17B317",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 0,
+          },
+          Object {
+            "color": "rgba(23, 179, 23, 0.2)",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 0,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <StatsElements__ToggleDomanda
+            key="sezione_risposte"
+            onClick={[Function]}
+            risultato="male"
+          >
+            <Svg
+              height="14px"
+              path={
+                <path
+                  d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+                />
+              }
+              viewBox="0 0 14 14"
+              width="14px"
+            />
+          </StatsElements__ToggleDomanda>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            >
+              <div>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_1"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_1"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 1"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_2"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_2"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 2"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+              </div>
+            </div>
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Mostro lo stato iniziale con utente selezionato senza valutazione 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={false}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={true}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        non consegnato
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      >
+        NC
+      </StatsElements__VotoSelectedUser>
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={
+        Array [
+          Object {
+            "color": "#17B317",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 0,
+          },
+          Object {
+            "color": "rgba(23, 179, 23, 0.2)",
+            "tipologia": "Media studente",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 0,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <StatsElements__ToggleDomanda
+            key="sezione_risposte"
+            onClick={[Function]}
+            risultato="male"
+          >
+            <Svg
+              height="14px"
+              path={
+                <path
+                  d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+                />
+              }
+              viewBox="0 0 14 14"
+              width="14px"
+            />
+          </StatsElements__ToggleDomanda>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            >
+              <div>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_1"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_1"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 1"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_2"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_2"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 2"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+              </div>
+            </div>
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Mostro lo stato iniziale quando scores non è definito 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={true}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        Tutta la classe
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      />
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieVotiClasse
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "colour": "#87deca",
+            "count": 0,
+            "tipologia": "Punteggio 7 - 10",
+            "title": "Punteggio 7 - 10",
+            "totale": 0,
+          },
+          Object {
+            "colour": "#ffe06e",
+            "count": 0,
+            "tipologia": "Punteggio 5 - 6.99",
+            "title": "Punteggio 5 - 6.99",
+            "totale": 0,
+          },
+          Object {
+            "colour": "#df2e6d",
+            "count": 0,
+            "tipologia": "Punteggio 1 - 4.99",
+            "title": "Punteggio 1 - 4.99",
+            "totale": 0,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+    />
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "#FFC155",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "#0F7CFF",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={Array []}
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <StatsElements__ToggleDomanda
+            key="sezione_risposte"
+            onClick={[Function]}
+            risultato="bene"
+          >
+            <Svg
+              height="14px"
+              path={
+                <path
+                  d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+                />
+              }
+              viewBox="0 0 14 14"
+              width="14px"
+            />
+          </StatsElements__ToggleDomanda>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            >
+              <div>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_1"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_1"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 1"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_2"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_2"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 2"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+              </div>
+            </div>
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;
+
+exports[`<StatisticheView /> Mostro un altro colore del grafico se idAssegnazione è diversa da quella del grafico 1`] = `
+<div>
+  <StatsElements__SideBarReportistica
+    active={false}
+    isDocente={true}
+  >
+    <StatsElements__CloseSideBarBtn
+      onClick={[Function]}
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </StatsElements__CloseSideBarBtn>
+    <StatsElements__Studente
+      attivo={true}
+      key="iscritto_all"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Tutta la classe
+      </button>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_11111"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        sara
+         
+        abaca
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={false}
+      key="iscritto_user_335406"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        nome
+         
+        cognome
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor={[Function]}
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              5
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+    <StatsElements__Studente
+      attivo={false}
+      ennecci={true}
+      key="iscritto_user_777"
+    >
+      <Button__GhostButton
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        non
+         
+        consegnato
+      </Button__GhostButton>
+      <span>
+        <CountBadge
+          radius="3px"
+          theme={
+            Object {
+              "radius": Object {
+                "countBadge": "90%",
+              },
+            }
+          }
+        >
+          <CountBadge__CountBadgeItem
+            bgcolor="rgb(209, 209, 209)"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <strong>
+              NC
+            </strong>
+          </CountBadge__CountBadgeItem>
+        </CountBadge>
+      </span>
+    </StatsElements__Studente>
+  </StatsElements__SideBarReportistica>
+  <StatsElements__WrapReportistica
+    isDocente={true}
+  >
+    <StatsElements__StatsCurrentUser
+      isDocente={true}
+    >
+      <Button__GhostButton
+        fill="#fff"
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          path={
+            <path
+              d="M6 9a3 3 0 1 1-.002-6.002A3 3 0 0 1 6 9zm7 5v2H.8c-.442 0-.8-.373-.8-.833v-.834C0 12.113 3.87 11 6 11c2.131 0 7 .78 7 3zM10 3c0-.55.356-.997.796-1h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 3zm.796 5h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 9c0-.55.356-.997.796-1zm0 6h6.408c.44 0 .796.444.796 1 0 .55-.356.997-.796 1h-6.408a.726.726 0 0 1-.564-.293A1.135 1.135 0 0 1 10 15c0-.55.356-.997.796-1z"
+              fillRule="nonzero"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </Button__GhostButton>
+      <span
+        className="consegnato"
+      >
+        Tutta la classe
+      </span>
+      <StatsElements__VotoSelectedUser
+        className="studente__score"
+      />
+    </StatsElements__StatsCurrentUser>
+    <GraficoMedieVotiClasse
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "colour": "#87deca",
+            "count": 1,
+            "tipologia": "Punteggio 7 - 10",
+            "title": "Punteggio 7 - 10",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#ffe06e",
+            "count": 1,
+            "tipologia": "Punteggio 5 - 6.99",
+            "title": "Punteggio 5 - 6.99",
+            "totale": 4,
+          },
+          Object {
+            "colour": "#df2e6d",
+            "count": 2,
+            "tipologia": "Punteggio 1 - 4.99",
+            "title": "Punteggio 1 - 4.99",
+            "totale": 4,
+          },
+        ]
+      }
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+    />
+    <GraficoMedieCompito
+      didascalia={
+        Object {
+          "campioni": 1,
+          "display": false,
+          "tipologia": "tipologia",
+          "titolo": "titolo",
+          "x": "#1",
+          "y": 1,
+        }
+      }
+      mediaClasse={
+        Array [
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 5.6,
+          },
+          Object {
+            "color": "rgba(255, 193, 85, 0.2)",
+            "tipologia": "Media di classe",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 5.8,
+          },
+        ]
+      }
+      mediaNazionale={
+        Array [
+          Object {
+            "campioni": 11,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 1",
+            "x": "#1",
+            "y": 4.4,
+          },
+          Object {
+            "campioni": 2,
+            "color": "rgba(15, 124, 255, 0.2)",
+            "tipologia": "Media nazionale",
+            "titolo": "Titolo versione 2",
+            "x": "#2",
+            "y": 6.4,
+          },
+        ]
+      }
+      mediaStudente={Array []}
+      onDidascaliaReset={[Function]}
+      onDidascaliaSet={[Function]}
+      titoliGrafici={
+        Array [
+          Object {
+            "key": 1,
+            "titolo": "Titolo versione 1",
+          },
+          Object {
+            "key": 2,
+            "titolo": "Titolo versione 2",
+          },
+        ]
+      }
+    />
+    <StatsElements__ReportCard>
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        Traduzione
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={false}
+      >
+        <HtmlBlock
+          key="sezione_contenuto"
+          padding="20px"
+          text="traduzione"
+        />
+      </PrintWrap>
+    </StatsElements__ReportCard>
+    <StatsElements__ReportCard
+      key="step_1.0-1"
+    >
+      <StatsElements__ReportCardToolbar
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        titolo esercizio
+        <StatsElements__CardToolbox
+          key="sezione_titolo"
+          onClick={[Function]}
+          theme={
+            Object {
+              "darken": "#1588AA",
+            }
+          }
+        >
+          <Svg
+            height="14px"
+            path={
+              <path
+                d="M7 5.61l5.44 5.25a.34.34 0 0 0 .49 0l1-.93a.34.34 0 0 0 0-.49L7.25 3A.34.34 0 0 0 7 2.93a.37.37 0 0 0-.25.07L.11 9.44a.34.34 0 0 0 0 .49l1 .93a.34.34 0 0 0 .49 0L7 5.61z"
+              />
+            }
+            viewBox="0 0 14 14"
+            width="14px"
+          />
+        </StatsElements__CardToolbox>
+      </StatsElements__ReportCardToolbar>
+      <PrintWrap
+        childrenvisible={true}
+      >
+        <StatsElements__CardContent
+          key="blocco_risposte"
+        >
+          <StatsElements__DomandaRisposta>
+            <TestoConsegna
+              hasLessico={false}
+              hideTooltip={true}
+              mostraPerStampa={true}
+              nascondiTitolo={true}
+              rispostaSelezionata={Array []}
+              step={
+                Object {
+                  "esercizi": Array [],
+                  "testi": Array [
+                    Object {
+                      "testoConsegna": Array [
+                        Object {
+                          "id": "lessico_0_Hinc",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "hinc",
+                            "lemma": "hinc",
+                            "tabelle": null,
+                            "tipo": null,
+                            "traduzione": "da qui",
+                          },
+                          "parola": "Hinc",
+                          "type": "lessico",
+                        },
+                        Object {
+                          "content": " ",
+                          "id": "text_1",
+                          "type": "text",
+                        },
+                        Object {
+                          "id": "lessico_2_ille",
+                          "inputLessicale": Object {
+                            "focus": false,
+                            "forma": "ille",
+                            "lemma": "ille",
+                            "tabelle": null,
+                            "tipo": "p",
+                            "traduzione": "quello",
+                          },
+                          "parola": "ille",
+                          "type": "lessico",
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+            />
+          </StatsElements__DomandaRisposta>
+          <div>
+            <StatisticheView__TitleP
+              margin="20px"
+            >
+              Esempio di risposta corretta:
+            </StatisticheView__TitleP>
+            <HtmlBlock
+              color="rgb(126, 211, 33)"
+              padding="20px"
+            />
+          </div>
+          <StatsElements__ToggleDomanda
+            key="sezione_risposte"
+            onClick={[Function]}
+            risultato="bene"
+          >
+            <Svg
+              height="14px"
+              path={
+                <path
+                  d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+                />
+              }
+              viewBox="0 0 14 14"
+              width="14px"
+            />
+          </StatsElements__ToggleDomanda>
+          <PrintWrap
+            childrenvisible={true}
+          >
+            <div
+              className="primo"
+              key="blocco_risposte_correzione"
+            >
+              <div>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_1"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_1"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 1"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+                <StatisticheView__TitleP
+                  key="risposta_titolo_2"
+                  margin="20px"
+                >
+                  Risposta:
+                </StatisticheView__TitleP>
+                <StatsElements__Risposta
+                  className="trovami"
+                  key="risposta_2"
+                >
+                  <HtmlBlock
+                    color=""
+                    text="readable risposta 2"
+                  />
+                  <StatsElements__ToggleRisposta
+                    key="sezione_risposte_studenti"
+                    onClick={[Function]}
+                    theme={
+                      Object {
+                        "darken": "#1588AA",
+                        "pale": "rgb(199, 231, 245)",
+                      }
+                    }
+                  >
+                    <span>
+                      1/4
+                    </span>
+                    <Svg
+                      height="20px"
+                      path={
+                        <path
+                          d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+                          fillRule="evenodd"
+                        />
+                      }
+                      viewBox="0 0 40 40"
+                      width="20px"
+                    />
+                  </StatsElements__ToggleRisposta>
+                </StatsElements__Risposta>
+              </div>
+            </div>
+          </PrintWrap>
+        </StatsElements__CardContent>
+      </PrintWrap>
+    </StatsElements__ReportCard>
+  </StatsElements__WrapReportistica>
+</div>
+`;

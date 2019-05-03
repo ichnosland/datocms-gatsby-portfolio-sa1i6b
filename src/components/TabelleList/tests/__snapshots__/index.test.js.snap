@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalTable /> should render a Table 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: left;
+  border-spacing: 0;
+  border: none;
+  background-color: rgb(255,255,255);
+}
+
+.c0 th {
+  color: rgb(255,255,255);
+  font-weight: 400;
+  padding: 9px 12px;
+}
+
+.c0 td {
+  padding: 9px 12px;
+  overflow: hidden;
+  word-break: normal;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.c0 td:nth-child(odd) {
+  width: 6rem;
+  border-right-width: 1px;
+  border-right-style: solid;
+  text-align: center;
+}
+
+.c0 td:nth-child(even) {
+  background: rgb(255,255,255);
+}
+
+.c0 tr:last-child td:first-child {
+  border-bottom: none;
+}
+
+.c0 tr:last-child td:last-child {
+  border-bottom: none;
+}
+
+<Tables__Table
+  className="c0"
+/>
+`;
+
+exports[`<ModalTable /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: left;
+  border-spacing: 0;
+  border: none;
+  background-color: red;
+}
+
+.c0 th {
+  color: rgb(255,255,255);
+  font-weight: 400;
+  padding: 9px 12px;
+}
+
+.c0 td {
+  padding: 9px 12px;
+  overflow: hidden;
+  word-break: normal;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.c0 td:nth-child(odd) {
+  width: 6rem;
+  border-right-width: 1px;
+  border-right-style: solid;
+  text-align: center;
+}
+
+.c0 td:nth-child(even) {
+  background: rgb(255,255,255);
+}
+
+.c0 tr:last-child td:first-child {
+  border-bottom: none;
+}
+
+.c0 tr:last-child td:last-child {
+  border-bottom: none;
+}
+
+<Tables__Table
+  bgcolor="red"
+  className="c0"
+/>
+`;
+
+exports[`<ModalTable /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: left;
+  border-spacing: 0;
+  border: none;
+  background-color: rgb(255,255,255);
+}
+
+.c0 th {
+  color: rgb(255,255,255);
+  font-weight: 400;
+  padding: 9px 12px;
+  background-color: #00abe5;
+}
+
+.c0 td {
+  padding: 9px 12px;
+  overflow: hidden;
+  word-break: normal;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0,171,229,0.2);
+}
+
+.c0 td:nth-child(odd) {
+  width: 6rem;
+  color: #00abe5;
+  background-color: rgba(0,171,229,0.1);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgba(0,171,229,0.2);
+  text-align: center;
+}
+
+.c0 td:nth-child(even) {
+  background: rgb(255,255,255);
+}
+
+.c0 tr:last-child td:first-child {
+  border-bottom: none;
+}
+
+.c0 tr:last-child td:last-child {
+  border-bottom: none;
+}
+
+<Tables__Table
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00abe5",
+    }
+  }
+/>
+`;
+
+exports[`<ModalTable /> should render its css w/ props userSelect 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: left;
+  border-spacing: 0;
+  border: none;
+  background-color: rgb(255,255,255);
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 th {
+  color: rgb(255,255,255);
+  font-weight: 400;
+  padding: 9px 12px;
+}
+
+.c0 td {
+  padding: 9px 12px;
+  overflow: hidden;
+  word-break: normal;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.c0 td:nth-child(odd) {
+  width: 6rem;
+  border-right-width: 1px;
+  border-right-style: solid;
+  text-align: center;
+}
+
+.c0 td:nth-child(even) {
+  background: rgb(255,255,255);
+}
+
+.c0 tr:last-child td:first-child {
+  border-bottom: none;
+}
+
+.c0 tr:last-child td:last-child {
+  border-bottom: none;
+}
+
+<Tables__Table
+  className="c0"
+  userSelect="auto"
+/>
+`;
+
+exports[`<TabelleList /> dichiaro una tabella completa 1`] = `
+Array [
+  <Div
+    key="wrap_tabella_1"
+    overflow="hidden"
+  >
+    <TabelleList__ModalTable
+      key="tabella_1"
+    >
+      <thead>
+        <tr>
+          <th
+            colSpan={2}
+          >
+            intestazione tabella uno
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          key="tabella_1_Tr_1"
+        >
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 1",
+              }
+            }
+            key="tabella_Tr_1_td_1"
+          />
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 2",
+              }
+            }
+            key="tabella_Tr_1_td_2"
+          />
+        </tr>
+      </tbody>
+    </TabelleList__ModalTable>
+  </Div>,
+  <Div
+    key="wrap_tabella_2"
+    overflow="hidden"
+  >
+    <TabelleList__ModalTable
+      key="tabella_2"
+    >
+      <thead>
+        <tr>
+          <th
+            colSpan={2}
+          >
+            intestazione tabella due
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          key="tabella_2_Tr_1"
+        >
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 1",
+              }
+            }
+            key="tabella_Tr_2_td_1"
+          />
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 2",
+              }
+            }
+            key="tabella_Tr_2_td_2"
+          />
+        </tr>
+      </tbody>
+    </TabelleList__ModalTable>
+  </Div>,
+]
+`;
+
+exports[`<TabelleList /> dichiaro una tabella senza intestazione 1`] = `
+<Div
+  key="wrap_tabella_1"
+  overflow="hidden"
+>
+  <TabelleList__ModalTable
+    key="tabella_1"
+  >
+    <tbody>
+      <tr
+        key="tabella_1_Tr_1"
+      >
+        <td
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "titolo riga 1 colonna 1",
+            }
+          }
+          key="tabella_Tr_1_td_1"
+        />
+        <td
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "titolo riga 1 colonna 2",
+            }
+          }
+          key="tabella_Tr_1_td_2"
+        />
+      </tr>
+    </tbody>
+  </TabelleList__ModalTable>
+</Div>
+`;
+
+exports[`<TabelleList /> should render its css w/ props margin 1`] = `
+Array [
+  <Div
+    key="wrap_tabella_1"
+    margin="30px auto"
+    overflow="hidden"
+  >
+    <TabelleList__ModalTable
+      key="tabella_1"
+    >
+      <thead>
+        <tr>
+          <th
+            colSpan={2}
+          >
+            intestazione tabella uno
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          key="tabella_1_Tr_1"
+        >
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 1",
+              }
+            }
+            key="tabella_Tr_1_td_1"
+          />
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 2",
+              }
+            }
+            key="tabella_Tr_1_td_2"
+          />
+        </tr>
+      </tbody>
+    </TabelleList__ModalTable>
+  </Div>,
+  <Div
+    key="wrap_tabella_2"
+    margin="30px auto"
+    overflow="hidden"
+  >
+    <TabelleList__ModalTable
+      key="tabella_2"
+    >
+      <thead>
+        <tr>
+          <th
+            colSpan={2}
+          >
+            intestazione tabella due
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          key="tabella_2_Tr_1"
+        >
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 1",
+              }
+            }
+            key="tabella_Tr_2_td_1"
+          />
+          <td
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "titolo riga 1 colonna 2",
+              }
+            }
+            key="tabella_Tr_2_td_2"
+          />
+        </tr>
+      </tbody>
+    </TabelleList__ModalTable>
+  </Div>,
+]
+`;

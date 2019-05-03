@@ -1,0 +1,1547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> controllo AlertCookies quando non ha display true 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section__SkySection
+      direction="column"
+    >
+      <Container__ActionBox
+        bgPosition="111% 97%"
+        bgPositionMobile="center 100%"
+        bgSize="460px 284px"
+        src="IMAGE_MOCK"
+      >
+        <HomePage__PayOffBox>
+          <HomePage__PayOff
+            color="#00abe5"
+          >
+            Affronta gli antichi 
+            <br
+              className="desktopOnly"
+            />
+            stando al passo 
+            <br
+              className="desktopOnly"
+            />
+            coi tempi
+          </HomePage__PayOff>
+          <p
+            className="mediumOnly"
+          >
+            Alatin è un corso di latino basato sull’apprendimento per padronanza o “Mastery Learning”: tu fissi un obiettivo, lui ti aiuta a raggiungerlo, facendoti esercitare in base alle tue reali necessità. Così risparmi tempo e ottieni il massimo dei risultati.
+          </p>
+        </HomePage__PayOffBox>
+        <HomePage__AccessBox>
+          <Text__BrandTxt>
+            Accedi
+          </Text__BrandTxt>
+          <HomePage__AccessButton
+            bgcolor="#00abe5"
+            full={1}
+            href="/h/#/login"
+            margin="10px auto"
+            shadow={1}
+          >
+            <span>
+              Academy
+            </span>
+            <span>
+              Biennio
+            </span>
+          </HomePage__AccessButton>
+          <HomePage__AccessButton
+            bgcolor="#0065ad"
+            full={1}
+            href="/lyceum/login"
+            margin="10px auto 5px"
+            shadow={1}
+          >
+            <span>
+              Lyceum
+            </span>
+            <span>
+              Triennio
+            </span>
+          </HomePage__AccessButton>
+          <Separator
+            text="O"
+          />
+          <ButtonLink__ActionButtonLink
+            bgcolor="#F5A623"
+            full={1}
+            margin="5px auto 0"
+            shadow={1}
+            to="/istruzioni"
+          >
+            Informazioni sull’acquisto
+          </ButtonLink__ActionButtonLink>
+        </HomePage__AccessBox>
+      </Container__ActionBox>
+    </Section__SkySection>
+    <HomePage__GrassStrip>
+      <Svg
+        height="15px"
+        path={
+          <path
+            d="M0 15C56.83 5 118.996 0 186.5 0S316.171 5 373 15H0z"
+            fill="#9bdd3e"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 373 15"
+        width="373px"
+      />
+    </HomePage__GrassStrip>
+    <Section
+      bgColor="#9bdd3e"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/alatin-academy",
+            "text": "Academy",
+          }
+        }
+        body="<p>Il latino non si studia per imparare a parlare latino, ma per imparare a studiare. Alatin ti insegna il latino giocando, e così ti insegna a ragionare. Bastano pochi minuti al giorno per migliorare già dalla prima settimana.</p><h3 style=\\"color:#239101;text-align:center;font-weight:normal\\">Scopri di più:</h3>"
+        color="#12334e"
+        secondAction={
+          Object {
+            "link": "/alatin-lyceum",
+            "text": "Lyceum",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Imparare il latino per imparare a studiare"
+        titleColor="#FFF"
+      />
+    </Section>
+    <Section
+      bgColor="#00abe5"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/testimonials",
+            "text": "Guarda le testimonianze",
+          }
+        }
+        body="<p>Le lezioni di Alatin sono brevi e concentrate su poche parole per volta. In ogni lezione traduci prima dal latino all’italiano e poi dall’italiano al latino. Le versioni di Alatin sono esercizi perfetti per potenziare le abilità traduttive; le prove per competenze sono basate sulle prove di Certificazione delle competenze di Lingua Latina (CLL) della Consulta Universitaria degli Studi Latini (CUSL).</p>"
+        color="#12334e"
+        src="IMAGE_MOCK"
+        title="Un corso leggero per una memoria di ferro"
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="#347185"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/formazione",
+            "text": "Scopri di più",
+          }
+        }
+        body="<p>Da settembre a giugno il team di Alatin organizza il corso <strong>Didattica del Latino per competenze</strong> (accredito SOFIA 21983), che ha superato ormai le 20 edizioni. Un’occasione unica per provare la piattaforma, approfondirne la metodologia e aggiornarsi sulla didattica della disciplina attraverso prove in classe e confronto dei dati, e anche per avvicinarsi alla nuova frontiera della Certificazione di Lingua Latina (CLL) che ha visto negli ultimi anni moltiplicare il numero degli iscritti in tutta Italia.</p>"
+        color="rgb(178, 208, 223)"
+        src="IMAGE_MOCK"
+        title="Formazione Alatin per i docenti "
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="#fe9d3e"
+    >
+      <LandingCard
+        action={Object {}}
+        actionButton={
+          Object {
+            "props": Object {
+              "bone": "true",
+            },
+            "richiediCodice": [Function],
+            "text": "Richiedi un codice classe*",
+          }
+        }
+        body="<p>Ogni mese 20 mila studenti di liceo italiani fanno i compiti su Alatin. Il suo metodo “per padronanza” si adatta automaticamente alle loro necessità e somministra a ciascuno tanti esercizi quanti servono per raggiungere l’obiettivo che tu hai prefissato. Entra nella nostra community. Prova Alatin nella tua classe.</p>"
+        color="#fff"
+        footNote={
+          Object {
+            "color": "#fff",
+            "text": "* Modulo riservato ai docenti",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Prova Alatin nella tua classe"
+        titleColor="#F7F05C"
+      />
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+    >
+      <LandingCard
+        action={Object {}}
+        body="<p>Alatin Academy contempla due profili per gli studenti, <strong>base</strong> e <strong>premium</strong>.</p><p>Il profilo <strong>base</strong> di Alatin Academy è <strong>gratuito</strong> e aperto a tutti. Con un profilo base, lo studente può affrontare individualmente le singole unità che compongono una missione (unità grammaticali, versioni o prove per competenze). Per ottenere un profilo base basta registrarsi gratuitamente.</p><p>I profili <strong>premium</strong> di Alatin Academy e Lyceum consentono l’associazione dello studente a una classe e l’accesso ai contenuti e ai servizi a pagamento (sblocco di unità non sequenziali, versioni, verifiche, report sugli errori ecc.), sotto la guida del proprio docente.</p>"
+        src="IMAGE_MOCK"
+        title="Alatin Base e Premium"
+        titleColor="#00abe5"
+      />
+    </Section>
+    <Section
+      bgColor="#00abe5"
+      direction="column"
+    >
+      <HomePage__PricingBox>
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Profili a confronto
+        </Heading__H2>
+        <HomePage__TableContainer>
+          <Tables__Table
+            fixed={true}
+            pricing={true}
+          >
+            <tbody>
+              <Tables__Tr
+                fullBg={true}
+              >
+                <HomePage__Th>
+                  FUNZIONI
+                </HomePage__Th>
+                <HomePage__Th>
+                  BASE
+                </HomePage__Th>
+                <HomePage__Th>
+                  PREMIUM
+                </HomePage__Th>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Esercizi
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Registro di classe
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Sblocco unità non sequenziali
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Versioni
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Prove per competenza
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Verifiche
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr>
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Reportistica
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+            </tbody>
+          </Tables__Table>
+        </HomePage__TableContainer>
+        <Heading__H2
+          color="#fff"
+          id="prezzi"
+          margin="0"
+        >
+          I profili Premium sono disponibili in due formule:
+        </Heading__H2>
+        <AlertBanner
+          actioncolor=""
+          bgcolor="#FFFDDE"
+          margin="20px auto 0"
+          shadow={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <div>
+            <Heading__H2
+              margin="12px auto"
+            >
+              Licenza Summer School 2019
+            </Heading__H2>
+            <span>
+              Dal 1° aprile al 31 maggio è acquistabile la licenza Premium estiva di Alatin e Lyceum
+              <br
+                className="mediumUp"
+              />
+               al prezzo di 8 euro a studente.
+            </span>
+            <br />
+            <br />
+            <small>
+              La Summer School vale fino al 15/10/2019.
+            </small>
+          </div>
+        </AlertBanner>
+        <HomePage__TableContainer>
+          <HomePage__TableBlock>
+            <Tables__Table
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    CARTA + DIGITALE (tipologia B)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Laboratorio 1
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-05-5
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      23,90 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online annuale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Laboratorio 2
+                    </strong>
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-22-2
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      23,90 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online triennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Lyceum
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-16-1
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      21,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online triennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Richiedi una 
+              <strong>
+                copia saggio
+              </strong>
+               all’agente 
+              <strong>
+                Loescher
+              </strong>
+               di zona
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+          <HomePage__TableBlock>
+            <Tables__Table
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    DIGITALE (tipologia C)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      Laboratorio 1 e 2
+                    </strong>
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    rowSpan="2"
+                  >
+                    978-88-99053-01-7
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #8ed5f0"
+                  >
+                    <strong>
+                      12,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td>
+                    <strong>
+                      12,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Lyceum
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-27-7
+                  </Tables__Td>
+                  <Tables__Td>
+                    <strong>
+                      12,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__NoteTd
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="3"
+                  >
+                    <strong>
+                      licenze online annuali
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Un anno di licenza online va da settembre dell’anno di adozione a ottobre dell’anno successivo
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+        </HomePage__TableContainer>
+        <ButtonLink__ActionButtonLink
+          bgcolor="#F2F2F2"
+          border="none"
+          color="#0085b2"
+          sectionbutton={1}
+          to="/istruzioni"
+        >
+          Istruzioni per l’acquisto
+        </ButtonLink__ActionButtonLink>
+      </HomePage__PricingBox>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <AlertCookies
+      onClickFunction={[Function]}
+      show={false}
+    />
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;
+
+exports[`<HomePage /> controllo che contenga gli elementi principali della home 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section__SkySection
+      direction="column"
+    >
+      <Container__ActionBox
+        bgPosition="111% 97%"
+        bgPositionMobile="center 100%"
+        bgSize="460px 284px"
+        src="IMAGE_MOCK"
+      >
+        <HomePage__PayOffBox>
+          <HomePage__PayOff
+            color="#00abe5"
+          >
+            Affronta gli antichi 
+            <br
+              className="desktopOnly"
+            />
+            stando al passo 
+            <br
+              className="desktopOnly"
+            />
+            coi tempi
+          </HomePage__PayOff>
+          <p
+            className="mediumOnly"
+          >
+            Alatin è un corso di latino basato sull’apprendimento per padronanza o “Mastery Learning”: tu fissi un obiettivo, lui ti aiuta a raggiungerlo, facendoti esercitare in base alle tue reali necessità. Così risparmi tempo e ottieni il massimo dei risultati.
+          </p>
+        </HomePage__PayOffBox>
+        <HomePage__AccessBox>
+          <Text__BrandTxt>
+            Accedi
+          </Text__BrandTxt>
+          <HomePage__AccessButton
+            bgcolor="#00abe5"
+            full={1}
+            href="/h/#/login"
+            margin="10px auto"
+            shadow={1}
+          >
+            <span>
+              Academy
+            </span>
+            <span>
+              Biennio
+            </span>
+          </HomePage__AccessButton>
+          <HomePage__AccessButton
+            bgcolor="#0065ad"
+            full={1}
+            href="/lyceum/login"
+            margin="10px auto 5px"
+            shadow={1}
+          >
+            <span>
+              Lyceum
+            </span>
+            <span>
+              Triennio
+            </span>
+          </HomePage__AccessButton>
+          <Separator
+            text="O"
+          />
+          <ButtonLink__ActionButtonLink
+            bgcolor="#F5A623"
+            full={1}
+            margin="5px auto 0"
+            shadow={1}
+            to="/istruzioni"
+          >
+            Informazioni sull’acquisto
+          </ButtonLink__ActionButtonLink>
+        </HomePage__AccessBox>
+      </Container__ActionBox>
+    </Section__SkySection>
+    <HomePage__GrassStrip>
+      <Svg
+        height="15px"
+        path={
+          <path
+            d="M0 15C56.83 5 118.996 0 186.5 0S316.171 5 373 15H0z"
+            fill="#9bdd3e"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 373 15"
+        width="373px"
+      />
+    </HomePage__GrassStrip>
+    <Section
+      bgColor="#9bdd3e"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/alatin-academy",
+            "text": "Academy",
+          }
+        }
+        body="<p>Il latino non si studia per imparare a parlare latino, ma per imparare a studiare. Alatin ti insegna il latino giocando, e così ti insegna a ragionare. Bastano pochi minuti al giorno per migliorare già dalla prima settimana.</p><h3 style=\\"color:#239101;text-align:center;font-weight:normal\\">Scopri di più:</h3>"
+        color="#12334e"
+        secondAction={
+          Object {
+            "link": "/alatin-lyceum",
+            "text": "Lyceum",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Imparare il latino per imparare a studiare"
+        titleColor="#FFF"
+      />
+    </Section>
+    <Section
+      bgColor="#00abe5"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/testimonials",
+            "text": "Guarda le testimonianze",
+          }
+        }
+        body="<p>Le lezioni di Alatin sono brevi e concentrate su poche parole per volta. In ogni lezione traduci prima dal latino all’italiano e poi dall’italiano al latino. Le versioni di Alatin sono esercizi perfetti per potenziare le abilità traduttive; le prove per competenze sono basate sulle prove di Certificazione delle competenze di Lingua Latina (CLL) della Consulta Universitaria degli Studi Latini (CUSL).</p>"
+        color="#12334e"
+        src="IMAGE_MOCK"
+        title="Un corso leggero per una memoria di ferro"
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="#347185"
+    >
+      <LandingCard
+        action={
+          Object {
+            "link": "/formazione",
+            "text": "Scopri di più",
+          }
+        }
+        body="<p>Da settembre a giugno il team di Alatin organizza il corso <strong>Didattica del Latino per competenze</strong> (accredito SOFIA 21983), che ha superato ormai le 20 edizioni. Un’occasione unica per provare la piattaforma, approfondirne la metodologia e aggiornarsi sulla didattica della disciplina attraverso prove in classe e confronto dei dati, e anche per avvicinarsi alla nuova frontiera della Certificazione di Lingua Latina (CLL) che ha visto negli ultimi anni moltiplicare il numero degli iscritti in tutta Italia.</p>"
+        color="rgb(178, 208, 223)"
+        src="IMAGE_MOCK"
+        title="Formazione Alatin per i docenti "
+        titleColor="#fff"
+      />
+    </Section>
+    <Section
+      bgColor="#fe9d3e"
+    >
+      <LandingCard
+        action={Object {}}
+        actionButton={
+          Object {
+            "props": Object {
+              "bone": "true",
+            },
+            "richiediCodice": [Function],
+            "text": "Richiedi un codice classe*",
+          }
+        }
+        body="<p>Ogni mese 20 mila studenti di liceo italiani fanno i compiti su Alatin. Il suo metodo “per padronanza” si adatta automaticamente alle loro necessità e somministra a ciascuno tanti esercizi quanti servono per raggiungere l’obiettivo che tu hai prefissato. Entra nella nostra community. Prova Alatin nella tua classe.</p>"
+        color="#fff"
+        footNote={
+          Object {
+            "color": "#fff",
+            "text": "* Modulo riservato ai docenti",
+          }
+        }
+        src="IMAGE_MOCK"
+        title="Prova Alatin nella tua classe"
+        titleColor="#F7F05C"
+      />
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+    >
+      <LandingCard
+        action={Object {}}
+        body="<p>Alatin Academy contempla due profili per gli studenti, <strong>base</strong> e <strong>premium</strong>.</p><p>Il profilo <strong>base</strong> di Alatin Academy è <strong>gratuito</strong> e aperto a tutti. Con un profilo base, lo studente può affrontare individualmente le singole unità che compongono una missione (unità grammaticali, versioni o prove per competenze). Per ottenere un profilo base basta registrarsi gratuitamente.</p><p>I profili <strong>premium</strong> di Alatin Academy e Lyceum consentono l’associazione dello studente a una classe e l’accesso ai contenuti e ai servizi a pagamento (sblocco di unità non sequenziali, versioni, verifiche, report sugli errori ecc.), sotto la guida del proprio docente.</p>"
+        src="IMAGE_MOCK"
+        title="Alatin Base e Premium"
+        titleColor="#00abe5"
+      />
+    </Section>
+    <Section
+      bgColor="#00abe5"
+      direction="column"
+    >
+      <HomePage__PricingBox>
+        <Heading__H2
+          color="#fff"
+          margin="0"
+        >
+          Profili a confronto
+        </Heading__H2>
+        <HomePage__TableContainer>
+          <Tables__Table
+            fixed={true}
+            pricing={true}
+          >
+            <tbody>
+              <Tables__Tr
+                fullBg={true}
+              >
+                <HomePage__Th>
+                  FUNZIONI
+                </HomePage__Th>
+                <HomePage__Th>
+                  BASE
+                </HomePage__Th>
+                <HomePage__Th>
+                  PREMIUM
+                </HomePage__Th>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Esercizi
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Registro di classe
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Sblocco unità non sequenziali
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Versioni
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Prove per competenza
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr
+                Bb="1px solid #8ed5f0"
+              >
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Verifiche
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+              <Tables__Tr>
+                <HomePage__TdHighlight
+                  Br="1px solid #8ed5f0"
+                >
+                  <strong>
+                    Reportistica
+                  </strong>
+                </HomePage__TdHighlight>
+                <Tables__Td
+                  Br="1px solid #8ed5f0"
+                >
+                   – 
+                </Tables__Td>
+                <Tables__Td>
+                  <Svg
+                    fill="#9bdd3e"
+                    height="28px"
+                    path={
+                      <path
+                        d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                        fillRule="nonzero"
+                      />
+                    }
+                    viewBox="0 0 18 13"
+                    width="28px"
+                  />
+                </Tables__Td>
+              </Tables__Tr>
+            </tbody>
+          </Tables__Table>
+        </HomePage__TableContainer>
+        <Heading__H2
+          color="#fff"
+          id="prezzi"
+          margin="0"
+        >
+          I profili Premium sono disponibili in due formule:
+        </Heading__H2>
+        <AlertBanner
+          actioncolor=""
+          bgcolor="#FFFDDE"
+          margin="20px auto 0"
+          shadow={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <div>
+            <Heading__H2
+              margin="12px auto"
+            >
+              Licenza Summer School 2019
+            </Heading__H2>
+            <span>
+              Dal 1° aprile al 31 maggio è acquistabile la licenza Premium estiva di Alatin e Lyceum
+              <br
+                className="mediumUp"
+              />
+               al prezzo di 8 euro a studente.
+            </span>
+            <br />
+            <br />
+            <small>
+              La Summer School vale fino al 15/10/2019.
+            </small>
+          </div>
+        </AlertBanner>
+        <HomePage__TableContainer>
+          <HomePage__TableBlock>
+            <Tables__Table
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    CARTA + DIGITALE (tipologia B)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Laboratorio 1
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-05-5
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      23,90 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online annuale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Laboratorio 2
+                    </strong>
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-22-2
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      23,90 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online triennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Lyceum
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-16-1
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #fff"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      21,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__NoteTd
+                    Bb="1px solid #fff"
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="2"
+                  >
+                    <strong>
+                      + licenza online triennale
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Richiedi una 
+              <strong>
+                copia saggio
+              </strong>
+               all’agente 
+              <strong>
+                Loescher
+              </strong>
+               di zona
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+          <HomePage__TableBlock>
+            <Tables__Table
+              pricing={true}
+            >
+              <tbody>
+                <Tables__Tr
+                  fullBg={true}
+                >
+                  <HomePage__Th
+                    colSpan="3"
+                  >
+                    DIGITALE (tipologia C)
+                  </HomePage__Th>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  />
+                  <HomePage__TdHighlight
+                    Br="1px solid #8ed5f0"
+                  >
+                    <strong>
+                      ISBN
+                    </strong>
+                  </HomePage__TdHighlight>
+                  <HomePage__TdHighlight>
+                    <strong>
+                      Prezzo
+                    </strong>
+                  </HomePage__TdHighlight>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                    rowSpan="2"
+                  >
+                    <strong>
+                      Laboratorio 1 e 2
+                    </strong>
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    rowSpan="2"
+                  >
+                    978-88-99053-01-7
+                  </Tables__Td>
+                  <Tables__Td
+                    Bb="1px solid #8ed5f0"
+                  >
+                    <strong>
+                      12,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr
+                  Bb="1px solid #8ed5f0"
+                >
+                  <Tables__Td>
+                    <strong>
+                      12,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                    bgcolor="rgba(0, 0, 0, 0.05)"
+                  >
+                    <strong>
+                      Lyceum
+                    </strong>
+                     
+                  </Tables__Td>
+                  <Tables__Td
+                    Br="1px solid #8ed5f0"
+                  >
+                    978-88-99053-27-7
+                  </Tables__Td>
+                  <Tables__Td>
+                    <strong>
+                      12,00 €
+                    </strong>
+                  </Tables__Td>
+                </Tables__Tr>
+                <Tables__Tr>
+                  <Tables__NoteTd
+                    Bt="1px solid #8ed5f0"
+                    bgcolor="rgba(255, 255, 255, 0.1)"
+                    colSpan="3"
+                  >
+                    <strong>
+                      licenze online annuali
+                    </strong>
+                  </Tables__NoteTd>
+                </Tables__Tr>
+              </tbody>
+            </Tables__Table>
+            <HomePage__TableNote>
+              Un anno di licenza online va da settembre dell’anno di adozione a ottobre dell’anno successivo
+            </HomePage__TableNote>
+          </HomePage__TableBlock>
+        </HomePage__TableContainer>
+        <ButtonLink__ActionButtonLink
+          bgcolor="#F2F2F2"
+          border="none"
+          color="#0085b2"
+          sectionbutton={1}
+          to="/istruzioni"
+        >
+          Istruzioni per l’acquisto
+        </ButtonLink__ActionButtonLink>
+      </HomePage__PricingBox>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <AlertCookies
+      onClickFunction={[Function]}
+      show={true}
+    />
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

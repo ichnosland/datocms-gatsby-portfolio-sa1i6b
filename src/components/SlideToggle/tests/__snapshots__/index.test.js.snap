@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleSlider /> should render its css w/ props check & bgcolor 1`] = `
+.c0 {
+  width: 52px;
+  height: 26px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: rgb(209,209,209);
+  border-radius: 2em;
+  padding: 2px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  background-color: yellow;
+}
+
+.c0:after {
+  position: relative;
+  display: block;
+  content: "";
+  width: 22px;
+  height: 22px;
+  left: 0;
+  border-radius: 50%;
+  background: rgb(255,255,255);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c0:after {
+  left: 26px;
+}
+
+<Div
+  bgcolor="yellow"
+  check={true}
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ToggleSlider /> should render its css w/ props check 1`] = `
+.c0 {
+  width: 52px;
+  height: 26px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: rgb(209,209,209);
+  border-radius: 2em;
+  padding: 2px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  background-color: #00BBEF;
+}
+
+.c0:after {
+  position: relative;
+  display: block;
+  content: "";
+  width: 22px;
+  height: 22px;
+  left: 0;
+  border-radius: 50%;
+  background: rgb(255,255,255);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.c0:after {
+  left: 26px;
+}
+
+<Div
+  check={true}
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ToggleSlider /> should render its css w/ props theme 1`] = `
+.c0 {
+  width: 52px;
+  height: 26px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: rgb(209,209,209);
+  border-radius: 2em;
+  padding: 2px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.c0:after {
+  position: relative;
+  display: block;
+  content: "";
+  width: 22px;
+  height: 22px;
+  left: 0;
+  border-radius: 50%;
+  background: rgb(255,255,255);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#111111",
+    }
+  }
+/>
+`;

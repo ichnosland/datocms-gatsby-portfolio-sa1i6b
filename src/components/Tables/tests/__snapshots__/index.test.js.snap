@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 1px;
+  border-style: solid;
+  background-color: red;
+}
+
+.c0 strong {
+  font-weight: 700;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<table
+  className="c0"
+/>
+`;
+
+exports[`<Table /> should render its css w/ props fixed 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.c0 strong {
+  font-weight: 700;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<table
+  className="c0"
+/>
+`;
+
+exports[`<Table /> should render its css w/ props neutral 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0,133,178,1);
+}
+
+.c0 td {
+  vertical-align: top;
+  padding: 16px;
+}
+
+.c0 strong {
+  font-weight: 700;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 td {
+    padding: 12px;
+  }
+
+  .c0 td ul {
+    padding: 10px;
+  }
+}
+
+<table
+  className="c0"
+/>
+`;
+
+exports[`<Table /> should render its css w/ props pricing 1`] = `
+.c0 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+  border-color: white;
+}
+
+.c0 strong {
+  font-weight: 700;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<table
+  className="c0"
+/>
+`;
+
+exports[`<Td /> should render its css w/ props Bb 1`] = `
+.c0 {
+  padding: 14px 5px;
+  overflow: hidden;
+  word-break: normal;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid blue;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`<Td /> should render its css w/ props Bl 1`] = `
+.c0 {
+  padding: 14px 5px;
+  overflow: hidden;
+  word-break: normal;
+  border-top: none;
+  border-right: none;
+  border-left: 1px solid blue;
+  border-bottom: none;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`<Td /> should render its css w/ props Br 1`] = `
+.c0 {
+  padding: 14px 5px;
+  overflow: hidden;
+  word-break: normal;
+  border-top: none;
+  border-right: 1px solid blue;
+  border-left: none;
+  border-bottom: none;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`<Td /> should render its css w/ props Bt 1`] = `
+.c0 {
+  padding: 14px 5px;
+  overflow: hidden;
+  word-break: normal;
+  border-top: 1px solid blue;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`<Td /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  padding: 14px 5px;
+  overflow: hidden;
+  word-break: normal;
+  background-color: 1px solid red;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+<td
+  className="c0"
+/>
+`;
+
+exports[`<Tr /> should render its css w/ props Bb 1`] = `
+.c0 {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid blue;
+}
+
+<tr
+  className="c0"
+/>
+`;
+
+exports[`<Tr /> should render its css w/ props Bl 1`] = `
+.c0 {
+  border-top: none;
+  border-right: none;
+  border-left: 1px solid blue;
+  border-bottom: none;
+}
+
+<tr
+  className="c0"
+/>
+`;
+
+exports[`<Tr /> should render its css w/ props Br 1`] = `
+.c0 {
+  border-top: none;
+  border-right: 1px solid blue;
+  border-left: none;
+  border-bottom: none;
+}
+
+<tr
+  className="c0"
+/>
+`;
+
+exports[`<Tr /> should render its css w/ props Bt 1`] = `
+.c0 {
+  border-top: 1px solid blue;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+<tr
+  className="c0"
+/>
+`;
+
+exports[`<Tr /> should render its css w/ props fullBg & Bg & color 1`] = `
+.c0 {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: red;
+  color: yellow;
+}
+
+<tr
+  className="c0"
+  color="yellow"
+/>
+`;
+
+exports[`<Tr /> should render its css w/ props fullBg w/o further props 1`] = `
+.c0 {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: white;
+  color: #0085b2;
+}
+
+<tr
+  className="c0"
+/>
+`;

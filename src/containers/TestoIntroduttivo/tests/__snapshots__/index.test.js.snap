@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HtmlText /> should render its css w/ props color 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4 {
+  color: cyan;
+}
+
+.c0 p {
+  margin: 1em 0;
+}
+
+.c0 ul {
+  padding-left: 24px;
+  word-break: break-word;
+  list-style: square;
+}
+
+.c0 ul li {
+  padding-bottom: 14px;
+  word-break: inherit;
+}
+
+.c0 ul li:last-child {
+  padding-bottom: 0;
+}
+
+.c0 .lesson-highlight {
+  padding: 6px 20px;
+  background-color: #FFFDDE;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.c0 .tip-tag {
+  background-color: #FFFDDE;
+  padding: 1px;
+  -o-box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.c0 img {
+  max-width: 100%;
+}
+
+.c0 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c0 table th {
+  background: rgb(231,236,236);
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 0.62em;
+  border: 1px solid rgb(231,236,236);
+  vertical-align: middle;
+}
+
+.c0 .common-table-wrap {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgb(209,209,209);
+  background-color: rgb(255,255,255);
+}
+
+.c0 .common-table {
+  width: 100% !important;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table th {
+  color: $darker-text-color;
+  font-weight: 400;
+  border: 1px solid rgb(209,209,209);
+  font-size: 21px;
+  padding: 9px 12px;
+}
+
+.c0 .common-table td {
+  padding: 9px 12px;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table p {
+  margin: 6px 0;
+}
+
+<Div
+  className="c0"
+  color="cyan"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<HtmlText /> should render its css w/ props theme 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4 {
+  color: blue;
+}
+
+.c0 p {
+  margin: 1em 0;
+}
+
+.c0 ul {
+  padding-left: 24px;
+  word-break: break-word;
+  list-style: square;
+}
+
+.c0 ul li {
+  padding-bottom: 14px;
+  word-break: inherit;
+}
+
+.c0 ul li:last-child {
+  padding-bottom: 0;
+}
+
+.c0 .lesson-highlight {
+  padding: 6px 20px;
+  background-color: #FFFDDE;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.c0 .tip-tag {
+  background-color: #FFFDDE;
+  padding: 1px;
+  -o-box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.c0 img {
+  max-width: 100%;
+}
+
+.c0 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c0 table th {
+  background: rgb(231,236,236);
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 0.62em;
+  border: 1px solid rgb(231,236,236);
+  vertical-align: middle;
+}
+
+.c0 .common-table-wrap {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgb(209,209,209);
+  background-color: rgb(255,255,255);
+}
+
+.c0 .common-table {
+  width: 100% !important;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table th {
+  color: $darker-text-color;
+  font-weight: 400;
+  border: 1px solid rgb(209,209,209);
+  font-size: 21px;
+  padding: 9px 12px;
+}
+
+.c0 .common-table td {
+  padding: 9px 12px;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table p {
+  margin: 6px 0;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "blue",
+    }
+  }
+/>
+`;

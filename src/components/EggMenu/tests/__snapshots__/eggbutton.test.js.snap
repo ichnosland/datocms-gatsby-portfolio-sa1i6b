@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EggButton /> should render its css w/ props active 1`] = `
+<EggButton__WrapButton
+  active={true}
+  product="itaca"
+  theme={
+    Object {
+      "menu": Object {
+        "height": "64px",
+        "width": "64px",
+      },
+    }
+  }
+>
+  <Svg
+    height="54px"
+    path={
+      <g
+        data-name="Livello 2"
+      >
+        <circle
+          cx="27"
+          cy="27"
+          r="27"
+          transform="rotate(-45 27.002 26.995)"
+        />
+        <path
+          d="M28.77 27L37 35.23 35.23 37 27 28.77 18.77 37 17 35.23 25.23 27 17 18.77 18.77 17 27 25.23 35.23 17 37 18.77z"
+          data-name="Livello 1"
+          fill="rgb(255, 255, 255)"
+        />
+      </g>
+    }
+    viewBox="0 0 54 54"
+    width="54px"
+  />
+</EggButton__WrapButton>
+`;
+
+exports[`<EggButton /> should render its css w/ props product 1`] = `
+<EggButton__WrapButton
+  product="itaca"
+  theme={
+    Object {
+      "menu": Object {
+        "height": "64px",
+        "width": "64px",
+      },
+    }
+  }
+>
+  <Svg
+    height="54px"
+    path={
+      <g
+        data-name="Livello 2"
+      >
+        <circle
+          cx="27"
+          cy="27"
+          r="27"
+          transform="rotate(-45 27.002 26.995)"
+        />
+        <path
+          d="M13 41l8.33-19.67L41 13l-8.35 19.65zm6.77-10.67l-2.84 6.74 6.73-2.86zm.89-2.06l5.07 5.07 5.33-2.27 2.27-5.33-5.07-5.07-5.35 2.25z"
+          fill="rgb(255, 255, 255)"
+        />
+      </g>
+    }
+    viewBox="0 0 54 54"
+    width="54px"
+  />
+</EggButton__WrapButton>
+`;
+
+exports[`<EggButton /> should render its css w/ unexisting product menu 1`] = `
+<EggButton__WrapButton
+  active={true}
+  product="notfound"
+  theme={
+    Object {
+      "menu": Object {
+        "height": "64px",
+        "width": "64px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<WrapButton /> should render a <button> 1`] = `
+.c0 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: none;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+  overflow: visible;
+  z-index: 19;
+}
+
+.c0 svg {
+  -webkit-animation: bFXLB 0.2s linear 1;
+  animation: bFXLB 0.2s linear 1;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<WrapButton /> should render its css w/ ThemeProvider 1`] = `
+<EggButton__WrapButton
+  product="itaca"
+  theme={
+    Object {
+      "menu": Object {
+        "height": "64px",
+        "width": "64px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<WrapButton /> should render its css w/ props active 1`] = `
+<EggButton__WrapButton
+  active={true}
+  product="itaca"
+  theme={
+    Object {
+      "menu": Object {
+        "height": "64px",
+        "width": "64px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<WrapButton /> should render its css w/ props product 1`] = `
+.c0 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: none;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+  overflow: visible;
+  z-index: 19;
+}
+
+.c0 svg {
+  -webkit-animation: bFXLB 0.2s linear 1;
+  animation: bFXLB 0.2s linear 1;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<WrapButton /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: relative;
+  width: 24px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+  overflow: visible;
+  z-index: 19;
+}
+
+.c0 svg {
+  -webkit-animation: jKcBxM 0.2s linear 1;
+  animation: jKcBxM 0.2s linear 1;
+}
+
+<button
+  className="c0"
+/>
+`;

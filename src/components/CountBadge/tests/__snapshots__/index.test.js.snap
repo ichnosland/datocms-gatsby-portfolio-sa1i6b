@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountBadge /> should render its children content 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  left: 6px;
+}
+
+.c0 *:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 4px 0 6px;
+}
+
+.c0 *:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 6px 0 4px;
+}
+
+.c0 *:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 *:only-child {
+  border-radius: 90%;
+  padding: 0 4px;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+>
+  &lt;CountBadgeItem&gt;1&lt;/CountBadgeItem&gt;
+</FlexBox>
+`;
+
+exports[`<CountBadge /> should render its css w/ props left 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  left: 20px;
+}
+
+.c0 *:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 4px 0 6px;
+}
+
+.c0 *:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 6px 0 4px;
+}
+
+.c0 *:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 *:only-child {
+  border-radius: 90%;
+  padding: 0 4px;
+}
+
+<FlexBox
+  className="c0"
+  left="20px"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadge /> should render its css w/ props radius 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  left: 6px;
+}
+
+.c0 *:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 4px 0 6px;
+}
+
+.c0 *:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 6px 0 4px;
+}
+
+.c0 *:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 *:only-child {
+  border-radius: 100px;
+  padding: 0 4px;
+}
+
+<FlexBox
+  className="c0"
+  radius="100px"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadge /> should render its css w/ props right 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  left: 6px;
+  right: 20px;
+}
+
+.c0 *:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 4px 0 6px;
+}
+
+.c0 *:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 6px 0 4px;
+}
+
+.c0 *:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 *:only-child {
+  border-radius: 90%;
+  padding: 0 4px;
+}
+
+<FlexBox
+  className="c0"
+  right="20px"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadge /> should render its css w/ props theme 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  left: 6px;
+}
+
+.c0 *:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 4px 0 6px;
+}
+
+.c0 *:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 6px 0 4px;
+}
+
+.c0 *:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 *:only-child {
+  border-radius: 90%;
+  padding: 0 4px;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadge /> should render its css w/ props top 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  top: -10px;
+  left: 6px;
+}
+
+.c0 *:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 4px 0 6px;
+}
+
+.c0 *:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 6px 0 4px;
+}
+
+.c0 *:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.c0 *:only-child {
+  border-radius: 90%;
+  padding: 0 4px;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+  top="-10px"
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props actioncolor == action 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 90%;
+  background-color: #f4443e;
+  background-color: rgb(245,194,35);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  actioncolor="action"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props actioncolor == error 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 90%;
+  background-color: #f4443e;
+  background-color: rgb(255,0,0);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  actioncolor="error"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props actioncolor == escape 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 90%;
+  background-color: #f4443e;
+  background-color: rgb(251,91,111);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  actioncolor="escape"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props actioncolor == help 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 90%;
+  background-color: #f4443e;
+  background-color: rgb(251,158,36);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  actioncolor="help"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props actioncolor == hint 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 90%;
+  background-color: #f4443e;
+  background-color: rgb(179,166,255);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  actioncolor="hint"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props actioncolor == okay 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 90%;
+  background-color: #f4443e;
+  background-color: rgb(153,226,17);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  actioncolor="okay"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 90%;
+  background-color: red;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  bgcolor="red"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props radius 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 100px;
+  background-color: #f4443e;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  className="c0"
+  radius="100px"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "90%",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CountBadgeItem /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: #fff;
+  min-width: 18px;
+  height: 18px;
+  max-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #f4443e;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "countBadge": "100%",
+      },
+    }
+  }
+/>
+`;

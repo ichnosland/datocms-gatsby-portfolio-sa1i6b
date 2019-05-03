@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MissionTag /> should render a MissionTagBox 1`] = `
+<MissionTag__MissionTagBox
+  theme={
+    Object {
+      "missionTag": Object {
+        "left": "6px",
+        "top": "10px",
+      },
+    }
+  }
+>
+  <MissionTag__MissionTagNumber
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "missionTag": Object {
+          "padding": "20px",
+          "top": "10px",
+        },
+      }
+    }
+  >
+    3
+  </MissionTag__MissionTagNumber>
+</MissionTag__MissionTagBox>
+`;
+
+exports[`<MissionTag /> should render its css /w props searchActive 1`] = `
+<MissionTag__MissionTagBox
+  searchActive={true}
+  theme={
+    Object {
+      "missionTag": Object {
+        "left": "6px",
+        "top": "10px",
+      },
+    }
+  }
+>
+  <MissionTag__MissionTagNumber
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "missionTag": Object {
+          "padding": "20px",
+          "top": "10px",
+        },
+      }
+    }
+  >
+    3
+  </MissionTag__MissionTagNumber>
+</MissionTag__MissionTagBox>
+`;
+
+exports[`<MissionTagBox /> should render a FlexBox 1`] = `
+.c0 {
+  width: 25px;
+  height: 100%;
+  position: absolute;
+  left: 6px;
+  top: 10px;
+  text-align: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "missionTag": Object {
+        "left": "6px",
+        "top": "10px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<MissionTagBox /> should render its css /w props searchActive 1`] = `
+.c0 {
+  width: 25px;
+  height: 100%;
+  position: absolute;
+  left: 6px;
+  top: 10px;
+  text-align: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: none;
+}
+
+<FlexBox
+  className="c0"
+  searchActive={true}
+  theme={
+    Object {
+      "missionTag": Object {
+        "left": "6px",
+        "top": "10px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<MissionTagNumber /> should render a Div 1`] = `
+.c0 {
+  color: rgb(255,255,255);
+  display: inline-block;
+  width: 22px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  background-color: #00BBEF;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "missionTag": Object {
+        "padding": "20px",
+        "top": "10px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<MissionTagNumber /> should render its css /w props bgColor 1`] = `
+.c0 {
+  color: rgb(255,255,255);
+  display: inline-block;
+  width: 22px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  background-color: green;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+<Div
+  bgColor="green"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "missionTag": Object {
+        "padding": "20px",
+        "top": "10px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<MissionTagNumber /> should render its css /w props color 1`] = `
+.c0 {
+  color: red;
+  display: inline-block;
+  width: 22px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  background-color: #00BBEF;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+<Div
+  className="c0"
+  color="red"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "missionTag": Object {
+        "padding": "20px",
+        "top": "10px",
+      },
+    }
+  }
+/>
+`;

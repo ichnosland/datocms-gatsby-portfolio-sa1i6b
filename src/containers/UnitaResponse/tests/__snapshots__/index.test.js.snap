@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnitaResponseView /> visualizza il riepilogo con le informazioni di base 1`] = `
+<ResponseView
+  goodSrc="IMAGE_MOCK"
+  lezioniCompletate={2}
+  lezioniTotali={7}
+  nascondiVoto={true}
+  product="product"
+  resetFunction={[Function]}
+  steps={true}
+  titolo="Hai completato la lezione"
+  votoApprossimato={10}
+/>
+`;
+
+exports[`<UnitaResponseView /> visualizza il riepilogo con le informazioni di base se docente 1`] = `
+<ResponseView
+  goodSrc="IMAGE_MOCK"
+  lezioniCompletate={2}
+  lezioniTotali={7}
+  nascondiVoto={true}
+  product="product"
+  resetFunction={[Function]}
+  steps={false}
+  titolo="Hai completato la lezione"
+  votoApprossimato={10}
+/>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IdicatorWrap /> should calc its css w/ props hidden 1`] = `
+.c0 {
+  position: absolute;
+  bottom: -40px;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+<Div
+  className="c0"
+  hidden={true}
+/>
+`;
+
+exports[`<IdicatorWrap /> should calc its css w/ props hidden 2`] = `
+.c0 {
+  position: absolute;
+  bottom: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+<Div
+  className="c0"
+  distance="300px"
+/>
+`;
+
+exports[`<Indicator /> should calc its css w/ props hidden 1`] = `
+<Indicator__IdicatorWrap
+  hidden={true}
+>
+  <Indicator__Pip
+    isCurrent={false}
+    key="0"
+  />
+  <Indicator__Pip
+    isCurrent={false}
+    key="1"
+  />
+  <Indicator__Pip
+    isCurrent={false}
+    key="2"
+  />
+</Indicator__IdicatorWrap>
+`;
+
+exports[`<Pip /> should calc its css w/ props isCurrent 1`] = `
+.c0 {
+  background: rgba(255,255,255,0.3);
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  width: 7px;
+  height: 7px;
+  margin-right: 15px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  cursor: pointer;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<span
+  className="c0"
+/>
+`;

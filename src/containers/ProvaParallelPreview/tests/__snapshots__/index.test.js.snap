@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProvaParallelPreviewView /> visualizza il componente per assegnata = false, ritirata = false 1`] = `
+<div
+  key="preview_123"
+>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-parallel/123",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova Parallel: preview"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px 34px"
+  >
+    <NewListPanels__ListPanelHeader
+      key="header"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      titolo
+    </NewListPanels__ListPanelHeader>
+    <HtmlInjector
+      key="testo_01_02.100"
+      text="<div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">titolo</span>
+      <div class=\\"consegna__contenuto\\">consegna</div>
+      
+    </div>
+    
+    <div class=\\"opzioni\\">
+      <div class=\\"opzioni__contenuto\\"><div class=\\"opzioni__contenuto-opzione\\">
+            <div class=\\"radiocheck-wrap\\"><span class=\\"radio\\"><span class=\\"segnaposto-admin\\">◯ </span></span><span>opzione 1</span></div>
+        </div><div class=\\"opzioni__contenuto-opzione\\">
+            <div class=\\"radiocheck-wrap\\"><span class=\\"radio\\"><span class=\\"segnaposto-admin\\">◯ </span></span><span>opzione 2</span></div>
+        </div><div class=\\"opzioni__contenuto-opzione\\">
+            <div class=\\"radiocheck-wrap\\"><span class=\\"radio\\"><span class=\\"segnaposto-admin\\">◯ </span></span><span>opzione 3</span></div>
+        </div></div>
+    </div>
+  </div>"
+    />
+    <HtmlInjector
+      key="soluzione_01_02.100"
+      note={true}
+      text="
+                        <div class=\\"consegna\\">
+                          <span class=\\"consegna__titolo\\">Esempio di risposta corretta</span>
+                          soluzione testuale
+                        </div>
+                      "
+    />
+    <HtmlInjector
+      key="testo_03_04.200"
+      text="<div>
+    <div class=\\"consegna\\">
+      <span class=\\"consegna__titolo\\">titolo 2</span>
+      <div class=\\"consegna__contenuto\\">consegna 2</div>
+      
+    </div>
+    
+    <div class=\\"opzioni\\">
+      <div class=\\"opzioni__contenuto\\"><div class=\\"opzioni__contenuto-opzione\\">
+          <div class=\\"radiocheck-wrap\\"><span class=\\"checkbox\\"><span class=\\"segnaposto-admin\\">▢ </span></span><span>opzione 1</span></div>
+        </div><div class=\\"opzioni__contenuto-opzione\\">
+          <div class=\\"radiocheck-wrap\\"><span class=\\"checkbox\\"><span class=\\"segnaposto-admin\\">▢ </span></span><span>opzione 2</span></div>
+        </div><div class=\\"opzioni__contenuto-opzione\\">
+          <div class=\\"radiocheck-wrap\\"><span class=\\"checkbox\\"><span class=\\"segnaposto-admin\\">▢ </span></span><span>opzione 3</span></div>
+        </div></div>
+    </div>
+  </div>"
+    />
+    <HtmlInjector
+      key="soluzione_03_04.200"
+      note={true}
+      text="
+                        <div class=\\"consegna\\">
+                          <span class=\\"consegna__titolo\\">Esempio di risposta corretta</span>
+                          soluzione testuale 2
+                        </div>
+                      "
+    />
+  </Container>
+</div>
+`;
+
+exports[`<ProvaParallelPreviewView /> visualizza il componente per feedback.hasFeedback = true 1`] = `
+<div
+  key="preview_123"
+>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-parallel/123",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova Parallel: preview"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px 34px"
+  >
+    <AlertBanner
+      actioncolor="tipologia"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    />
+  </Container>
+</div>
+`;
+
+exports[`<ProvaParallelPreviewView /> visualizza il componente per spinner = true 1`] = `
+<div
+  key="preview_123"
+>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/prova-parallel/123",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova Parallel: preview"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</div>
+`;

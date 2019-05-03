@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VersioniDocenteView /> !spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="label livello"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <VersioniLivelloDocenteOverview
+      assegnaFunction={[Function]}
+      hasRisultati={false}
+      missioni={
+        Array [
+          Object {
+            "id": "missione 1",
+            "ordine": 0,
+            "titolo": "missione 1",
+          },
+          Object {
+            "id": "missione 2",
+            "ordine": 2,
+            "titolo": "missione 2",
+          },
+        ]
+      }
+      ritiraFunction={[Function]}
+      selezionaVersioneFunction={[Function]}
+      simulaFunction={[Function]}
+      spinner={Object {}}
+      tempoEsecuzione={0}
+      totaleDomande={0}
+      versioneSelezionata={
+        Object {
+          "assegnata": false,
+          "id": 200,
+          "missione": "missione 2",
+          "missione_ordine": 2,
+          "titolo": "titolo versione 2",
+          "totale_domande": 22,
+        }
+      }
+      versioniAssegnate={
+        Array [
+          Object {
+            "assegnata_data": "11/02/2010",
+            "id": 100,
+            "missione": "missione 1",
+            "ritirata": false,
+            "titolo": "titolo versione 1",
+            "totale_domande": 12,
+          },
+        ]
+      }
+      versioniMissione={
+        Object {
+          "missione 1": Array [
+            Object {
+              "assegnata": true,
+              "id": 100,
+              "titolo": "titolo versione 1",
+              "totaleDomande": 12,
+            },
+          ],
+          "missione 2": Array [
+            Object {
+              "assegnata": false,
+              "id": 200,
+              "titolo": "titolo versione 2",
+              "totaleDomande": 22,
+            },
+            Object {
+              "assegnata": false,
+              "id": 300,
+              "titolo": "titolo versione 3",
+              "totaleDomande": 32,
+            },
+          ],
+        }
+      }
+      visualizzaStatisticheFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VersioniDocenteView /> !spinner feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="label livello"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <AlertBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VersioniDocenteView /> spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="label livello"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;

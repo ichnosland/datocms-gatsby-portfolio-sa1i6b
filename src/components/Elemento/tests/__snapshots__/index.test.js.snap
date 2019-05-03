@@ -1,0 +1,1178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BaseElemento /> should render its css w/ props disabled 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  disabled={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props drag + giusto 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(255,255,255);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: none;
+  pointer-events: none;
+  background-color: rgb(153,226,17);
+  border-color: rgb(153,226,17);
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: rgb(78,78,78);
+  background-color: rgb(255,255,255);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: none;
+  pointer-events: none;
+  border-color: rgb(153,226,17);
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  drag={true}
+  giusto={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props drag + sbagliato 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(255,255,255);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: none;
+  pointer-events: none;
+  background-color: rgb(255,0,0);
+  border-color: rgb(255,0,0);
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: rgb(78,78,78);
+  background-color: rgb(255,255,255);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: none;
+  pointer-events: none;
+  border-color: rgb(255,0,0);
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  drag={true}
+  sbagliato={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props drag 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  drag={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props dragDisabled 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0 span {
+  color: rgb(209,209,209);
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  drag={true}
+  dragDisabled={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props giusto 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(255,255,255);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: none;
+  pointer-events: none;
+  background-color: rgb(153,226,17);
+  border-color: rgb(153,226,17);
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  giusto={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props inattivo 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0.3;
+  box-shadow: none;
+  cursor: default;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  opacity: 0.3;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  inattivo={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props inserito 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: none;
+  border: none;
+  margin-bottom: 0;
+  box-shadow: none;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0 span {
+  padding: 0;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  color: rgb(78,78,78);
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  color: #00BBEF;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  inserito={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props sbagliato 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(255,255,255);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: none;
+  pointer-events: none;
+  background-color: rgb(255,0,0);
+  border-color: rgb(255,0,0);
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  sbagliato={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props theme 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #111111;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #111111;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "brand": "#111111",
+      "light": "#333333",
+      "subtle": "#ffffff",
+    }
+  }
+/>
+`;
+
+exports[`<BaseElemento /> should render its css w/ props trovato 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(255,255,255);
+  background-color: #C9E4FF;
+  border-color: #C9E4FF;
+  box-shadow: none;
+  cursor: default;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  border-color: #C9E4FF;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+  trovato={true}
+/>
+`;
+
+exports[`<BaseElemento /> should render the exactLabel 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  margin: 0 6px 8px 0;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.c0:active {
+  color: #fff;
+  background-color: #00BBEF;
+  box-shadow: none;
+}
+
+.c0:active div {
+  color: #fff;
+  background-color: #00BBEF;
+}
+
+.c0 span {
+  padding: 6px 8px;
+}
+
+.c0 span > span {
+  padding: 0;
+}
+
+.c0:last-child {
+  margin-right: 0;
+}
+
+<FlexBox
+  className="c0"
+  label="myLabel"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<Elemento /> should render its css w/ props onClickFx 1`] = `
+<Elemento__BaseElemento
+  onClick={[Function]}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props disabled 1`] = `
+<Elemento__BaseElemento
+  disabled={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props drag 1`] = `
+<Elemento__BaseElemento
+  drag={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <Elemento__SubLabel>
+    <span />
+  </Elemento__SubLabel>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props dragColor 1`] = `
+<Elemento__BaseElemento
+  drag={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <Elemento__SubLabel
+    dragColor="#ffd8bf"
+  >
+    <span />
+  </Elemento__SubLabel>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props dragDisabled 1`] = `
+<Elemento__BaseElemento
+  drag={true}
+  dragDisabled={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <Elemento__SubLabel
+    dragDisabled={true}
+  >
+    <span />
+  </Elemento__SubLabel>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props giusto 1`] = `
+<Elemento__BaseElemento
+  drag={true}
+  giusto={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <Elemento__SubLabel>
+    <span />
+  </Elemento__SubLabel>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props inattivo 1`] = `
+<Elemento__BaseElemento
+  inattivo={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props inserito 1`] = `
+<Elemento__BaseElemento
+  inserito={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props sbagliato 1`] = `
+<Elemento__BaseElemento
+  drag={true}
+  sbagliato={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <Elemento__SubLabel>
+    <span />
+  </Elemento__SubLabel>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render its props trovato 1`] = `
+<Elemento__BaseElemento
+  drag={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+  trovato={true}
+>
+  <Elemento__SubLabel>
+    <span />
+  </Elemento__SubLabel>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render the props dragLabel 1`] = `
+<Elemento__BaseElemento
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<Elemento /> should render the props label 1`] = `
+<Elemento__BaseElemento
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "light": "#C9E4FF",
+    }
+  }
+>
+  <span>
+    myLabel
+  </span>
+</Elemento__BaseElemento>
+`;
+
+exports[`<SubLabel /> should render its css w/ props disabled 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  min-height: 18px;
+  color: rgb(96,96,96);
+  padding-top: 3px;
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<Div
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`<SubLabel /> should render its css w/ props dragColor cinque 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  min-height: 18px;
+  color: rgb(96,96,96);
+  padding-top: 3px;
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #cde5ff;
+}
+
+<Div
+  className="c0"
+  dragColor="cinque"
+/>
+`;
+
+exports[`<SubLabel /> should render its css w/ props dragColor due 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  min-height: 18px;
+  color: rgb(96,96,96);
+  padding-top: 3px;
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #d6f4a0;
+}
+
+<Div
+  className="c0"
+  dragColor="due"
+/>
+`;
+
+exports[`<SubLabel /> should render its css w/ props dragColor quattro 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  min-height: 18px;
+  color: rgb(96,96,96);
+  padding-top: 3px;
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #ffd8bf;
+}
+
+<Div
+  className="c0"
+  dragColor="quattro"
+/>
+`;
+
+exports[`<SubLabel /> should render its css w/ props dragColor tre 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  min-height: 18px;
+  color: rgb(96,96,96);
+  padding-top: 3px;
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #E0D5E3;
+}
+
+<Div
+  className="c0"
+  dragColor="tre"
+/>
+`;
+
+exports[`<SubLabel /> should render its css w/ props dragColor uno 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  min-height: 18px;
+  color: rgb(96,96,96);
+  padding-top: 3px;
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #f5ee97;
+}
+
+<Div
+  className="c0"
+  dragColor="uno"
+/>
+`;
+
+exports[`<SubLabel /> should render its css w/ props dragDisabled 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  min-height: 18px;
+  color: rgb(96,96,96);
+  padding-top: 3px;
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 span {
+  color: rgb(240,240,240);
+}
+
+<Div
+  className="c0"
+  dragDisabled={true}
+/>
+`;

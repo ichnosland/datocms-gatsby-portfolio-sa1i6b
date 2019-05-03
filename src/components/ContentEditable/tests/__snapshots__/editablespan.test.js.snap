@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableSpan /> should render a <span> tag 1`] = `
+.c0 {
+  display: inline-block;
+  min-height: 30px;
+  line-height: 0.9;
+  vertical-align: middle;
+  margin: -1px 6px 0;
+  min-width: 30px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    line-height: 1;
+  }
+}
+
+<span
+  className="c0"
+  label="label"
+/>
+`;
+
+exports[`<EditableSpan /> should render a its css w/ props empty 1`] = `
+.c0 {
+  display: inline-block;
+  min-height: 30px;
+  line-height: 0.9;
+  vertical-align: middle;
+  margin: -1px 6px 0;
+  min-width: 30px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    line-height: 1;
+  }
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<EditableSpan /> should render a its css w/ props sbagliato 1`] = `
+.c0 {
+  display: inline-block;
+  min-height: 30px;
+  line-height: 0.9;
+  vertical-align: middle;
+  margin: -1px 6px 0;
+  min-width: 30px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+  border: 2px solid rgb(255,0,0);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    line-height: 1;
+  }
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<EditableSpan /> should render a its css w/ props single 1`] = `
+.c0 {
+  display: inline-block;
+  min-height: 30px;
+  line-height: 0.9;
+  vertical-align: middle;
+  margin: -1px 6px 0;
+  min-width: 30px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+  display: block;
+  margin: 10px auto;
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    line-height: 1;
+  }
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<EditableSpan /> should render its css w/ props giusto 1`] = `
+.c0 {
+  display: inline-block;
+  min-height: 30px;
+  line-height: 0.9;
+  vertical-align: middle;
+  margin: -1px 6px 0;
+  min-width: 30px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+  border: 2px solid rgb(153,226,17);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    line-height: 1;
+  }
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop autocapitalize 1`] = `
+<EditableSpan
+  autoCapitalize="none"
+  innerRef={[Function]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop autocomplete 1`] = `
+<EditableSpan
+  autoComplete="off"
+  innerRef={[Function]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop autocorrect 1`] = `
+<EditableSpan
+  autoCorrect="off"
+  innerRef={[Function]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop giusto 1`] = `
+<EditableSpan
+  giusto={true}
+  innerRef={[Function]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop isEditable 1`] = `
+<EditableSpan
+  contentEditable={true}
+  innerRef={[Function]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop oncontextmenu 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onContextMenu={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop oncopy 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onCopy={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop ondrag 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onDrag={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop ondragend 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onDragEnd={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop ondragstart 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onDragStart={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop ondrop 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onDrop={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop oninput 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onInput={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop onkeydown 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onKeyDown={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop onpaste 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  onPaste={[MockFunction]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop prefill 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop sbagliato 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  sbagliato={true}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop single 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  single={true}
+/>
+`;
+
+exports[`<EditableSpanView /> testo prop spellcheck 1`] = `
+<EditableSpan
+  innerRef={[Function]}
+  spellCheck={false}
+/>
+`;

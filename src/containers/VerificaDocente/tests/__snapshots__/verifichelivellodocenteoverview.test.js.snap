@@ -1,0 +1,2104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerificheLivelloOverview /> !spinner { assegna: true} 1`] = `
+<div>
+  <Heading__H2
+    center={true}
+    margin="0 auto 24px"
+    normal={true}
+  >
+    titolo verifica
+  </Heading__H2>
+  <StyledButtonGroup__ExpandButtonGroup
+    padding="20px 0"
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+    <Spinner
+      key="spinner_assegna"
+      number={3}
+      size="small"
+    />
+  </StyledButtonGroup__ExpandButtonGroup>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        10
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        100
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Unità assegnate: 
+      <Text__BrandTxt>
+         
+        2
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <div>
+    <Heading__H3
+      center={true}
+      key="titolo"
+      normal={true}
+    >
+      Unità della verifica
+    </Heading__H3>
+    <FlexBox
+      justifyContent="space-around"
+      key="selector"
+      padding="0 0 20px"
+    >
+      <StyledButtonGroup__MiniButtonGroup
+        theme={
+          Object {
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button
+          actioncolor=""
+          admin={true}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          lat-ita
+        </Button>
+        <Button
+          actioncolor=""
+          admin={false}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          lat-ita + ita-lat
+        </Button>
+      </StyledButtonGroup__MiniButtonGroup>
+    </FlexBox>
+    <div>
+      <NewListPanels__ListItem
+        key="singola_unita_157"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          Ripasso grammatica italiana: il verbo
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          assigned={true}
+          checkBoxFunction={[Function]}
+          checkbox={true}
+          isChecked={false}
+        />
+      </NewListPanels__ListItem>
+      <NewListPanels__ListItem
+        key="singola_unita_161"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={true}
+          unita={true}
+        >
+          Ripasso analisi logica
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          assigned={true}
+          checkBoxFunction={null}
+          checkbox={true}
+          isChecked={false}
+        />
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div>
+    <Heading__H3
+      center={true}
+      normal={true}
+    >
+      Versione cartacea
+    </Heading__H3>
+    <NewListPanels__ListItem
+      key="singola_unita_livello_1_studente"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Versione studente
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="singola_unita_livello_1_docente"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Versione docente
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <Heading__H3
+      center={true}
+      normal={true}
+    >
+      Verifiche assegnate
+    </Heading__H3>
+    <div
+      key="verifica_assegnata_div_16"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_16"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_16"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 04/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                actioncolor="okay"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  Ritirata
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_16_1570"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Ripasso grammatica italiana: il verbo
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_16_161"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Ripasso analisi logica
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+    </div>
+    <div
+      key="verifica_assegnata_div_34"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_34"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_34"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 12/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                bgcolor="rgb(251, 91, 111)"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  In corso
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_34_5"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Complementi in italiano
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+      <Paragraph
+        align="center"
+        key="verifica_assegnata_P_ritira_34"
+        margin="10px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Button
+          actioncolor="escape"
+          key="verifica_assegnata_button_ritira_34"
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Ritira
+        </Button>
+      </Paragraph>
+    </div>
+    <div
+      key="verifica_assegnata_div_79"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_79"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_79"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 26/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                bgcolor="rgb(251, 91, 111)"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  In corso
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_79_6"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Flessione nominale
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+      <Paragraph
+        align="center"
+        key="verifica_assegnata_P_ritira_79"
+        margin="10px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Button
+          actioncolor="escape"
+          key="verifica_assegnata_button_ritira_79"
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Ritira
+        </Button>
+      </Paragraph>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<VerificheLivelloOverview /> !spinner { ritira_34: true} 1`] = `
+<div>
+  <Heading__H2
+    center={true}
+    margin="0 auto 24px"
+    normal={true}
+  >
+    titolo verifica
+  </Heading__H2>
+  <StyledButtonGroup__ExpandButtonGroup
+    padding="20px 0"
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+    <Button
+      actioncolor="action"
+      disabled={true}
+      key="button_assegna"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Assegna
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        10
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        100
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Unità assegnate: 
+      <Text__BrandTxt>
+         
+        2
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <div>
+    <Heading__H3
+      center={true}
+      key="titolo"
+      normal={true}
+    >
+      Unità della verifica
+    </Heading__H3>
+    <FlexBox
+      justifyContent="space-around"
+      key="selector"
+      padding="0 0 20px"
+    >
+      <StyledButtonGroup__MiniButtonGroup
+        theme={
+          Object {
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button
+          actioncolor=""
+          admin={true}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          lat-ita
+        </Button>
+        <Button
+          actioncolor=""
+          admin={false}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          lat-ita + ita-lat
+        </Button>
+      </StyledButtonGroup__MiniButtonGroup>
+    </FlexBox>
+    <div>
+      <NewListPanels__ListItem
+        key="singola_unita_157"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          Ripasso grammatica italiana: il verbo
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          assigned={true}
+          checkBoxFunction={[Function]}
+          checkbox={true}
+          isChecked={false}
+        />
+      </NewListPanels__ListItem>
+      <NewListPanels__ListItem
+        key="singola_unita_161"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={true}
+          unita={true}
+        >
+          Ripasso analisi logica
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          assigned={true}
+          checkBoxFunction={null}
+          checkbox={true}
+          isChecked={false}
+        />
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div>
+    <Heading__H3
+      center={true}
+      normal={true}
+    >
+      Versione cartacea
+    </Heading__H3>
+    <NewListPanels__ListItem
+      key="singola_unita_livello_1_studente"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Versione studente
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="singola_unita_livello_1_docente"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Versione docente
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <Heading__H3
+      center={true}
+      normal={true}
+    >
+      Verifiche assegnate
+    </Heading__H3>
+    <div
+      key="verifica_assegnata_div_16"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_16"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_16"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 04/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                actioncolor="okay"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  Ritirata
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_16_1570"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Ripasso grammatica italiana: il verbo
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_16_161"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Ripasso analisi logica
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+    </div>
+    <div
+      key="verifica_assegnata_div_34"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_34"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_34"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 12/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                bgcolor="rgb(251, 91, 111)"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  In corso
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_34_5"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Complementi in italiano
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+      <Spinner
+        key="verifica_assegnata_spinner_ritira_34"
+        number={3}
+        size="small"
+      />
+    </div>
+    <div
+      key="verifica_assegnata_div_79"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_79"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_79"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 26/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                bgcolor="rgb(251, 91, 111)"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  In corso
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_79_6"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Flessione nominale
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+      <Paragraph
+        align="center"
+        key="verifica_assegnata_P_ritira_79"
+        margin="10px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Button
+          actioncolor="escape"
+          key="verifica_assegnata_button_ritira_79"
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Ritira
+        </Button>
+      </Paragraph>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<VerificheLivelloOverview /> !spinner 1`] = `
+<div>
+  <Heading__H2
+    center={true}
+    margin="0 auto 24px"
+    normal={true}
+  >
+    titolo verifica
+  </Heading__H2>
+  <StyledButtonGroup__ExpandButtonGroup
+    padding="20px 0"
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+    <Button
+      actioncolor="action"
+      disabled={true}
+      key="button_assegna"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Assegna
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        10
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        100
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Unità assegnate: 
+      <Text__BrandTxt>
+         
+        2
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <div>
+    <Heading__H3
+      center={true}
+      key="titolo"
+      normal={true}
+    >
+      Unità della verifica
+    </Heading__H3>
+    <FlexBox
+      justifyContent="space-around"
+      key="selector"
+      padding="0 0 20px"
+    >
+      <StyledButtonGroup__MiniButtonGroup
+        theme={
+          Object {
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button
+          actioncolor=""
+          admin={true}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          lat-ita
+        </Button>
+        <Button
+          actioncolor=""
+          admin={false}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          lat-ita + ita-lat
+        </Button>
+      </StyledButtonGroup__MiniButtonGroup>
+    </FlexBox>
+    <div>
+      <NewListPanels__ListItem
+        key="singola_unita_157"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          Ripasso grammatica italiana: il verbo
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          assigned={true}
+          checkBoxFunction={[Function]}
+          checkbox={true}
+          isChecked={false}
+        />
+      </NewListPanels__ListItem>
+      <NewListPanels__ListItem
+        key="singola_unita_161"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={true}
+          unita={true}
+        >
+          Ripasso analisi logica
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          assigned={true}
+          checkBoxFunction={null}
+          checkbox={true}
+          isChecked={false}
+        />
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div>
+    <Heading__H3
+      center={true}
+      normal={true}
+    >
+      Versione cartacea
+    </Heading__H3>
+    <NewListPanels__ListItem
+      key="singola_unita_livello_1_studente"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Versione studente
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="singola_unita_livello_1_docente"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Versione docente
+      </NewListPanels__ListItemText>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          outline={1}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M256 512l256-256H363V0H149v256H0"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="18px"
+          />
+          Scarica
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div>
+    <Heading__H3
+      center={true}
+      normal={true}
+    >
+      Verifiche assegnate
+    </Heading__H3>
+    <div
+      key="verifica_assegnata_div_16"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_16"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_16"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 04/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                actioncolor="okay"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  Ritirata
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_16_1570"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Ripasso grammatica italiana: il verbo
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_16_161"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Ripasso analisi logica
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+    </div>
+    <div
+      key="verifica_assegnata_div_34"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_34"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_34"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 12/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                bgcolor="rgb(251, 91, 111)"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  In corso
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_34_5"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Complementi in italiano
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+      <Paragraph
+        align="center"
+        key="verifica_assegnata_P_ritira_34"
+        margin="10px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Button
+          actioncolor="escape"
+          key="verifica_assegnata_button_ritira_34"
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Ritira
+        </Button>
+      </Paragraph>
+    </div>
+    <div
+      key="verifica_assegnata_div_79"
+    >
+      <div
+        key="verifica_assegnata_panelWrap_79"
+      >
+        <NewListPanels__ListItem
+          key="verifica_assegnata_titolo_79"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            <Text__BrandTxt>
+              Test di ingresso - 26/10/16
+               - 
+            </Text__BrandTxt>
+            <CountBadge
+              radius="3px"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <CountBadge__CountBadgeItem
+                bgcolor="rgb(251, 91, 111)"
+                theme={
+                  Object {
+                    "radius": Object {
+                      "countBadge": "90%",
+                    },
+                  }
+                }
+              >
+                <strong>
+                  In corso
+                </strong>
+              </CountBadge__CountBadgeItem>
+            </CountBadge>
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+        <NewListPanels__ListItem
+          key="verifica_assegnata_unita_79_6"
+          theme={
+            Object {
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <NewListPanels__ListItemText>
+            Flessione nominale
+          </NewListPanels__ListItemText>
+        </NewListPanels__ListItem>
+      </div>
+      <Paragraph
+        align="center"
+        key="verifica_assegnata_P_ritira_79"
+        margin="10px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Button
+          actioncolor="escape"
+          key="verifica_assegnata_button_ritira_79"
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Ritira
+        </Button>
+      </Paragraph>
+    </div>
+  </div>
+</div>
+`;

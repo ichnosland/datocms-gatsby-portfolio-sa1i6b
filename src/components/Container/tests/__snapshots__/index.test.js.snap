@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionBox /> should render a background image w/ props src 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  background-image: url(IMAGE_MOCK);
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: 740px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+<Container
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ActionBox /> should render the bacground img position w/ props bgPosition 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  background-image: url(IMAGE_MOCK);
+  background-position: 30% 20%;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-position: 30% 20%;
+    max-height: 740px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+<Container
+  bgPosition="30% 20%"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ActionBox /> should render the bacground img position w/ props bgPositionMobile  1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  background-image: url(IMAGE_MOCK);
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-position: center;
+    max-height: 740px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+<Container
+  bgPositionMobile="center"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ActionBox /> should render the bacground img repetition w/ props bgRepeat 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  background-image: url(IMAGE_MOCK);
+  background-repeat: repeat-x;
+  padding-bottom: 60px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: 740px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+<Container
+  bgRepeat="repeat-x"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ActionBox /> should render the bacground img size w/ props bgSize 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  background-image: url(IMAGE_MOCK);
+  background-size: 200px 300px;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: 740px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+<Container
+  bgSize="200px 300px"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<ActionBox /> should render the bacground img size w/ props bgSize 2`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  background-image: url(IMAGE_MOCK);
+  background-position: 30% 20%;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-position: 30% 20%;
+    max-height: 740px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+<Container
+  bgPosition="30% 20%"
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;
+
+exports[`<Container /> should render width props margin 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  margin: 10px 34px 80px;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    max-width: 860px;
+  }
+}
+
+<Div
+  className="c0"
+  margin="10px 34px 80px"
+/>
+`;
+
+exports[`<Container /> should render width props maxWidth 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    max-width: 520px;
+  }
+}
+
+<Div
+  className="c0"
+  maxWidth="520px"
+/>
+`;

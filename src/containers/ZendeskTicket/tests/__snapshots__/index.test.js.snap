@@ -1,0 +1,720 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ZendeskFormView /> controllo il corretto funzionamento del form con errori 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Paragraph
+    align="center"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Hai riscontrato un problema
+  </Paragraph>
+  <FormElements__FormElement>
+    <FlexBox
+      justifyContent="space-around"
+    >
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_tecnico"
+        id="tipologia_tecnico"
+        label="Tecnico"
+        name="tipologia"
+        type="radio"
+        value="tecnico"
+      />
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_contenuto"
+        id="tipologia_contenuto"
+        label="Di contenuto"
+        name="tipologia"
+        type="radio"
+        value="contenuto"
+      />
+    </FlexBox>
+  </FormElements__FormElement>
+  <Div>
+    <FormElements__FormElement>
+      <Field
+        component={[Function]}
+        label="Nome"
+        name="nome"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </FormElements__FormElement>
+    <FormElements__FormElement>
+      <Field
+        component={[Function]}
+        label="Email"
+        name="email"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </FormElements__FormElement>
+  </Div>
+  <FormElements__FormElement>
+    <Field
+      component={[Function]}
+      label="Descrivi brevemente il problema"
+      name="descrizione"
+    />
+  </FormElements__FormElement>
+  <StyledButtonGroup__ExpandButtonGroup
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor="help"
+      disabled={true}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="submit"
+    >
+      Invia
+    </Button>
+    <Button
+      actioncolor=""
+      onClick={[Function]}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="button"
+    >
+      Annulla
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+</form>
+`;
+
+exports[`<ZendeskFormView /> controllo il corretto funzionamento del form nello stato iniziale 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Paragraph
+    align="center"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Hai riscontrato un problema
+  </Paragraph>
+  <FormElements__FormElement>
+    <FlexBox
+      justifyContent="space-around"
+    >
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_tecnico"
+        id="tipologia_tecnico"
+        label="Tecnico"
+        name="tipologia"
+        type="radio"
+        value="tecnico"
+      />
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_contenuto"
+        id="tipologia_contenuto"
+        label="Di contenuto"
+        name="tipologia"
+        type="radio"
+        value="contenuto"
+      />
+    </FlexBox>
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <Field
+      component={[Function]}
+      label="Descrivi brevemente il problema"
+      name="descrizione"
+    />
+  </FormElements__FormElement>
+  <StyledButtonGroup__ExpandButtonGroup
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor="help"
+      disabled={true}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="submit"
+    >
+      Invia
+    </Button>
+    <Button
+      actioncolor=""
+      onClick={[Function]}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="button"
+    >
+      Annulla
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+</form>
+`;
+
+exports[`<ZendeskFormView /> controllo il corretto funzionamento del form quando errors è undefined 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Paragraph
+    align="center"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Hai riscontrato un problema
+  </Paragraph>
+  <FormElements__FormElement>
+    <FlexBox
+      justifyContent="space-around"
+    >
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_tecnico"
+        id="tipologia_tecnico"
+        label="Tecnico"
+        name="tipologia"
+        type="radio"
+        value="tecnico"
+      />
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_contenuto"
+        id="tipologia_contenuto"
+        label="Di contenuto"
+        name="tipologia"
+        type="radio"
+        value="contenuto"
+      />
+    </FlexBox>
+  </FormElements__FormElement>
+  <Div>
+    <FormElements__FormElement>
+      <Field
+        component={[Function]}
+        label="Nome"
+        name="nome"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </FormElements__FormElement>
+    <FormElements__FormElement>
+      <Field
+        component={[Function]}
+        label="Email"
+        name="email"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </FormElements__FormElement>
+  </Div>
+  <FormElements__FormElement>
+    <Field
+      component={[Function]}
+      label="Descrivi brevemente il problema"
+      name="descrizione"
+    />
+  </FormElements__FormElement>
+  <StyledButtonGroup__ExpandButtonGroup
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor="help"
+      disabled={true}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="submit"
+    >
+      Invia
+    </Button>
+    <Button
+      actioncolor=""
+      onClick={[Function]}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="button"
+    >
+      Annulla
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+</form>
+`;
+
+exports[`<ZendeskFormView /> controllo il corretto funzionamento del form quando hasAnagraphics == true 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Paragraph
+    align="center"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "darken": "#1588AA",
+      }
+    }
+  >
+    Hai riscontrato un problema
+  </Paragraph>
+  <FormElements__FormElement>
+    <FlexBox
+      justifyContent="space-around"
+    >
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_tecnico"
+        id="tipologia_tecnico"
+        label="Tecnico"
+        name="tipologia"
+        type="radio"
+        value="tecnico"
+      />
+      <Field
+        component={[Function]}
+        htmlFor="tipologia_contenuto"
+        id="tipologia_contenuto"
+        label="Di contenuto"
+        name="tipologia"
+        type="radio"
+        value="contenuto"
+      />
+    </FlexBox>
+  </FormElements__FormElement>
+  <Div>
+    <FormElements__FormElement>
+      <Field
+        component={[Function]}
+        label="Nome"
+        name="nome"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </FormElements__FormElement>
+    <FormElements__FormElement>
+      <Field
+        component={[Function]}
+        label="Email"
+        name="email"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </FormElements__FormElement>
+  </Div>
+  <FormElements__FormElement>
+    <Field
+      component={[Function]}
+      label="Descrivi brevemente il problema"
+      name="descrizione"
+    />
+  </FormElements__FormElement>
+  <StyledButtonGroup__ExpandButtonGroup
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor="help"
+      disabled={true}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="submit"
+    >
+      Invia
+    </Button>
+    <Button
+      actioncolor=""
+      onClick={[Function]}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="button"
+    >
+      Annulla
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+</form>
+`;
+
+exports[`<ZendeskTicketView /> Non devo esplodere quando feedbackFormData non è settato 1`] = `
+<Div
+  align="center"
+  maxWidth="480px"
+  padding="20px"
+  width="100%"
+>
+  <FlexBox
+    margin="20px 0 30px"
+  >
+    <Svg
+      fill="rgb(26, 185, 26)"
+      height="18px"
+      path={
+        <path
+          d="M28.631 25.822l1.591 7.956-7.798-3.12A15.945 15.945 0 0 1 16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16c0 3.702-1.258 7.111-3.369 9.822zm-12.62-4.963c-1.087 0-1.967.88-1.967 1.967 0 1.089.88 1.968 1.968 1.968s1.967-.88 1.967-1.968-.88-1.967-1.967-1.967zm-2.02-11.378c-.79 2.233.018 5.538.969 8.2.95 2.664 1.406 1.562 1.959 0 .553-1.56 1.61-6.334.944-8.2-.666-1.865-3.08-2.232-3.871 0z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    <Heading__H3
+      margin="0"
+    >
+        LASCIA IL TUO FEEDBACK
+    </Heading__H3>
+  </FlexBox>
+  <WhatsAppBanner />
+  <ReduxForm
+    closeFeedbackFunction={[Function]}
+    feedback={
+      Object {
+        "hasFeedback": false,
+        "messaggio": "messaggio",
+        "tipologia": "okay",
+      }
+    }
+    handleClose={[Function]}
+    handleSubmit={[Function]}
+    hasAnagraphics={false}
+  />
+</Div>
+`;
+
+exports[`<ZendeskTicketView /> Testo lo stato quando AlertBanner è attivo 1`] = `
+<Div
+  align="center"
+  maxWidth="480px"
+  padding="20px"
+  width="100%"
+>
+  <FlexBox
+    margin="20px 0 30px"
+  >
+    <Svg
+      fill="rgb(26, 185, 26)"
+      height="18px"
+      path={
+        <path
+          d="M28.631 25.822l1.591 7.956-7.798-3.12A15.945 15.945 0 0 1 16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16c0 3.702-1.258 7.111-3.369 9.822zm-12.62-4.963c-1.087 0-1.967.88-1.967 1.967 0 1.089.88 1.968 1.968 1.968s1.967-.88 1.967-1.968-.88-1.967-1.967-1.967zm-2.02-11.378c-.79 2.233.018 5.538.969 8.2.95 2.664 1.406 1.562 1.959 0 .553-1.56 1.61-6.334.944-8.2-.666-1.865-3.08-2.232-3.871 0z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    <Heading__H3
+      margin="0"
+    >
+        LASCIA IL TUO FEEDBACK
+    </Heading__H3>
+  </FlexBox>
+  <WhatsAppBanner />
+  <Div>
+    <AlertBanner
+      actioncolor="okay"
+      margin="10px auto 20px"
+      tag={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio
+    </AlertBanner>
+    <Button
+      actioncolor="help"
+      onClick={[Function]}
+      radius="3px"
+      standard={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="submit"
+    >
+      Chiudi
+    </Button>
+  </Div>
+</Div>
+`;
+
+exports[`<ZendeskTicketView /> Testo lo stato quando lo spinner non è attivo 1`] = `
+<Div
+  align="center"
+  maxWidth="480px"
+  padding="20px"
+  width="100%"
+>
+  <FlexBox
+    margin="20px 0 30px"
+  >
+    <Svg
+      fill="rgb(26, 185, 26)"
+      height="18px"
+      path={
+        <path
+          d="M28.631 25.822l1.591 7.956-7.798-3.12A15.945 15.945 0 0 1 16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16c0 3.702-1.258 7.111-3.369 9.822zm-12.62-4.963c-1.087 0-1.967.88-1.967 1.967 0 1.089.88 1.968 1.968 1.968s1.967-.88 1.967-1.968-.88-1.967-1.967-1.967zm-2.02-11.378c-.79 2.233.018 5.538.969 8.2.95 2.664 1.406 1.562 1.959 0 .553-1.56 1.61-6.334.944-8.2-.666-1.865-3.08-2.232-3.871 0z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    <Heading__H3
+      margin="0"
+    >
+        LASCIA IL TUO FEEDBACK
+    </Heading__H3>
+  </FlexBox>
+  <WhatsAppBanner />
+  <ReduxForm
+    closeFeedbackFunction={[Function]}
+    feedback={
+      Object {
+        "hasFeedback": false,
+        "messaggio": "messaggio",
+        "tipologia": "okay",
+      }
+    }
+    handleClose={[Function]}
+    handleSubmit={[Function]}
+    hasAnagraphics={false}
+  />
+</Div>
+`;
+
+exports[`<ZendeskTicketView /> Testo lo stato quando lo spinner è attivo 1`] = `
+<Div
+  align="center"
+  maxWidth="480px"
+  padding="20px"
+  width="100%"
+>
+  <FlexBox
+    margin="20px 0 30px"
+  >
+    <Svg
+      fill="rgb(26, 185, 26)"
+      height="18px"
+      path={
+        <path
+          d="M28.631 25.822l1.591 7.956-7.798-3.12A15.945 15.945 0 0 1 16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16c0 3.702-1.258 7.111-3.369 9.822zm-12.62-4.963c-1.087 0-1.967.88-1.967 1.967 0 1.089.88 1.968 1.968 1.968s1.967-.88 1.967-1.968-.88-1.967-1.967-1.967zm-2.02-11.378c-.79 2.233.018 5.538.969 8.2.95 2.664 1.406 1.562 1.959 0 .553-1.56 1.61-6.334.944-8.2-.666-1.865-3.08-2.232-3.871 0z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    <Heading__H3
+      margin="0"
+    >
+        LASCIA IL TUO FEEDBACK
+    </Heading__H3>
+  </FlexBox>
+  <WhatsAppBanner />
+  <Spinner
+    number={3}
+  />
+</Div>
+`;
+
+exports[`<ZendeskTicketView /> se passo un finto componente, deve utilizzare quello al posto del form di base 1`] = `
+<mockConstructor
+  alatin={true}
+  closeFeedbackFunction={[Function]}
+  feedback={
+    Object {
+      "hasFeedback": false,
+      "messaggio": "messaggio",
+      "tipologia": "okay",
+    }
+  }
+  formtitle="titolo del form"
+  handleClose={[Function]}
+  handleSubmit={[Function]}
+  hasAnagraphics={false}
+/>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardLine /> should render a Div 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  width: 1px;
+  border-left: 1px dashed;
+  height: 100%;
+  opacity: .4;
+}
+
+<Div
+  className="c0"
+/>
+`;

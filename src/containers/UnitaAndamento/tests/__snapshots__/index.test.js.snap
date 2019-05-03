@@ -1,0 +1,759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnitaAndamentoView /> numeroLezioni === 1 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Andamento"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="main_container"
+  >
+    <Heading__H2
+      center={true}
+      margin="0 0 0.83em"
+    >
+      Titolo
+    </Heading__H2>
+    <Paragraph
+      align="center"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      1
+       Lezion
+      e
+    </Paragraph>
+    <FlexBox
+      alignItems="stretch"
+      justifyContent="space-between"
+      key="counter"
+      padding="20px 0"
+    >
+      <AlertBanner__IconBanner
+        actioncolor=""
+        tag={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <FlexBox__FlexChild>
+          1
+           
+          <Button__Icon
+            fill="rgb(153, 226, 17)"
+            height="18px"
+            path={
+              <path
+                d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild>
+          2
+           
+          <Button__Icon
+            fill="rgb(251, 158, 36)"
+            height="18px"
+            path={
+              <path
+                d="M15.667 1.6c0-.252 1.044-.6 2.333-.6 1.289 0 2.333.348 2.333.6v2.927l.273.049a13.905 13.905 0 0 1 5.123 2.085l1.934-1.934c.159-.159.905.15 1.556.801.65.65.96 1.397.801 1.556l-1.745 1.745a14.08 14.08 0 0 1 2.325 3.399 13.915 13.915 0 0 1 1.4 6.105 14.073 14.073 0 0 1-.722 4.448 13.918 13.918 0 0 1-2.036 3.893 14.097 14.097 0 0 1-5.483 4.422 13.895 13.895 0 0 1-5.668 1.237H18a16.01 16.01 0 0 1-.765-.02 14.025 14.025 0 0 1-3.19-.547 13.915 13.915 0 0 1-3.73-1.731 14.08 14.08 0 0 1-5.523-7.051A13.893 13.893 0 0 1 4 18.334a13.927 13.927 0 0 1 3.725-9.505L5.98 7.084c-.159-.159.15-.905.801-1.556.65-.65 1.397-.96 1.556-.801L10.27 6.66a13.908 13.908 0 0 1 5.396-2.134V1.6zm2.532 26.93a10.442 10.442 0 0 0 1.483-.136 10.102 10.102 0 0 0 3.939-1.552 10.277 10.277 0 0 0 3.97-5.034 10.094 10.094 0 0 0 .608-3.475 10.305 10.305 0 0 0-.413-2.881 10.114 10.114 0 0 0-1.486-3.043 10.284 10.284 0 0 0-4.363-3.486 10.105 10.105 0 0 0-3.904-.788 10.1 10.1 0 0 0-5.551 1.622 10.273 10.273 0 0 0-3.676 4.16A10.109 10.109 0 0 0 7.8 18.332a10.257 10.257 0 0 0 .576 3.387 10.133 10.133 0 0 0 1.468 2.736 10.305 10.305 0 0 0 2.483 2.352 10.195 10.195 0 0 0 2.73 1.293 10.113 10.113 0 0 0 2.876.43l.066.001c.066 0 .132 0 .199-.002zm6.616-16.892s-5.639 9.566-7.602 7.602c-1.964-1.964 7.602-7.602 7.602-7.602z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild>
+          3
+           
+          <Button__Icon
+            fill="rgb(209, 209, 209)"
+            height="18px"
+            path={
+              <path
+                d="M28 16v4H8v-4z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+        </FlexBox__FlexChild>
+      </AlertBanner__IconBanner>
+      <FlexBox
+        key="errori_frequenti"
+      >
+        <Button
+          actioncolor="okay"
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Errori frequenti
+        </Button>
+        <Button__GhostButton
+          className="mediumUp"
+          margin="0 0 0 10px"
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="33px"
+            path={
+              <path
+                d="M21.35 12.57c0 1.312-1.064 2.376-2.375 2.376-1.312 0-2.375-1.064-2.375-2.375 0-1.31 1.063-2.374 2.375-2.374 1.31 0 2.375 1.063 2.375 2.375zm.025 17.934h-4.75V19h4.75v11.504zM19 0C8.508 0 0 8.508 0 19c0 10.493 8.508 19 19 19s19-8.507 19-19C38 8.508 29.492 0 19 0z"
+                fillRule="nonzero"
+              />
+            }
+            viewBox="0 0 38 38"
+            width="33px"
+          />
+        </Button__GhostButton>
+      </FlexBox>
+    </FlexBox>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "field": "data2",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "data1",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "data1",
+              },
+            ],
+            "label": "Intestazione 1",
+            "type": "string",
+          },
+          Object {
+            "field": "data2",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "data2",
+              },
+            ],
+            "label": "Intestazione 2",
+            "type": "number",
+          },
+        ]
+      }
+      key="riepilogo"
+      righe={
+        Array [
+          Object {
+            "completata": true,
+            "data1": "row1 val 1",
+            "data2": 333,
+            "inCorso": false,
+            "key": "uno",
+            "lezioneRaggiunta": 2,
+            "stato": <Button__Icon
+              fill="rgb(153, 226, 17)"
+              height="18px"
+              path={
+                <path
+                  d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                  fillRule="nonzero"
+                />
+              }
+              theme={
+                Object {
+                  "brand": "#00BBEF",
+                }
+              }
+              viewBox="0 0 36 36"
+              width="18px"
+            />,
+          },
+          Object {
+            "completata": false,
+            "data1": "row1 val 2",
+            "data2": 444,
+            "inCorso": true,
+            "key": "due",
+            "lezioneRaggiunta": 1,
+            "stato": <Button__Icon
+              fill="rgb(251, 158, 36)"
+              height="18px"
+              path={
+                <path
+                  d="M15.667 1.6c0-.252 1.044-.6 2.333-.6 1.289 0 2.333.348 2.333.6v2.927l.273.049a13.905 13.905 0 0 1 5.123 2.085l1.934-1.934c.159-.159.905.15 1.556.801.65.65.96 1.397.801 1.556l-1.745 1.745a14.08 14.08 0 0 1 2.325 3.399 13.915 13.915 0 0 1 1.4 6.105 14.073 14.073 0 0 1-.722 4.448 13.918 13.918 0 0 1-2.036 3.893 14.097 14.097 0 0 1-5.483 4.422 13.895 13.895 0 0 1-5.668 1.237H18a16.01 16.01 0 0 1-.765-.02 14.025 14.025 0 0 1-3.19-.547 13.915 13.915 0 0 1-3.73-1.731 14.08 14.08 0 0 1-5.523-7.051A13.893 13.893 0 0 1 4 18.334a13.927 13.927 0 0 1 3.725-9.505L5.98 7.084c-.159-.159.15-.905.801-1.556.65-.65 1.397-.96 1.556-.801L10.27 6.66a13.908 13.908 0 0 1 5.396-2.134V1.6zm2.532 26.93a10.442 10.442 0 0 0 1.483-.136 10.102 10.102 0 0 0 3.939-1.552 10.277 10.277 0 0 0 3.97-5.034 10.094 10.094 0 0 0 .608-3.475 10.305 10.305 0 0 0-.413-2.881 10.114 10.114 0 0 0-1.486-3.043 10.284 10.284 0 0 0-4.363-3.486 10.105 10.105 0 0 0-3.904-.788 10.1 10.1 0 0 0-5.551 1.622 10.273 10.273 0 0 0-3.676 4.16A10.109 10.109 0 0 0 7.8 18.332a10.257 10.257 0 0 0 .576 3.387 10.133 10.133 0 0 0 1.468 2.736 10.305 10.305 0 0 0 2.483 2.352 10.195 10.195 0 0 0 2.73 1.293 10.113 10.113 0 0 0 2.876.43l.066.001c.066 0 .132 0 .199-.002zm6.616-16.892s-5.639 9.566-7.602 7.602c-1.964-1.964 7.602-7.602 7.602-7.602z"
+                  fillRule="evenodd"
+                />
+              }
+              theme={
+                Object {
+                  "brand": "#00BBEF",
+                }
+              }
+              viewBox="0 0 36 36"
+              width="18px"
+            />,
+          },
+          Object {
+            "completata": false,
+            "data1": "row1 val 3",
+            "data2": 555,
+            "inCorso": false,
+            "key": "tre",
+            "lezioneRaggiunta": 0,
+            "stato": <Button__Icon
+              fill="rgb(209, 209, 209)"
+              height="18px"
+              path={
+                <path
+                  d="M28 16v4H8v-4z"
+                  fillRule="evenodd"
+                />
+              }
+              theme={
+                Object {
+                  "brand": "#00BBEF",
+                }
+              }
+              viewBox="0 0 36 36"
+              width="18px"
+            />,
+          },
+        ]
+      }
+      sortingFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<UnitaAndamentoView /> visualizzazione con hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Andamento"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <AlertBanner
+    actioncolor="error"
+    key="feedback"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    messaggio
+  </AlertBanner>
+</Page>
+`;
+
+exports[`<UnitaAndamentoView /> visualizzazione con sortedData.length === 0 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Andamento"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <AlertBanner
+    actioncolor="error"
+    key="feedback_empty"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    Non sono presenti dati da visualizzare
+  </AlertBanner>
+</Page>
+`;
+
+exports[`<UnitaAndamentoView /> visualizzazione con spinner attivo 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Andamento"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Spinner
+    number={3}
+  />
+</Page>
+`;
+
+exports[`<UnitaAndamentoView /> visualizzazione righe e intestazioni 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Andamento"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="main_container"
+  >
+    <Heading__H2
+      center={true}
+      margin="0 0 0.83em"
+    >
+      Titolo
+    </Heading__H2>
+    <Paragraph
+      align="center"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      10
+       Lezion
+      i
+    </Paragraph>
+    <FlexBox
+      alignItems="stretch"
+      justifyContent="space-between"
+      key="counter"
+      padding="20px 0"
+    >
+      <AlertBanner__IconBanner
+        actioncolor=""
+        tag={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <FlexBox__FlexChild>
+          1
+           
+          <Button__Icon
+            fill="rgb(153, 226, 17)"
+            height="18px"
+            path={
+              <path
+                d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild>
+          2
+           
+          <Button__Icon
+            fill="rgb(251, 158, 36)"
+            height="18px"
+            path={
+              <path
+                d="M15.667 1.6c0-.252 1.044-.6 2.333-.6 1.289 0 2.333.348 2.333.6v2.927l.273.049a13.905 13.905 0 0 1 5.123 2.085l1.934-1.934c.159-.159.905.15 1.556.801.65.65.96 1.397.801 1.556l-1.745 1.745a14.08 14.08 0 0 1 2.325 3.399 13.915 13.915 0 0 1 1.4 6.105 14.073 14.073 0 0 1-.722 4.448 13.918 13.918 0 0 1-2.036 3.893 14.097 14.097 0 0 1-5.483 4.422 13.895 13.895 0 0 1-5.668 1.237H18a16.01 16.01 0 0 1-.765-.02 14.025 14.025 0 0 1-3.19-.547 13.915 13.915 0 0 1-3.73-1.731 14.08 14.08 0 0 1-5.523-7.051A13.893 13.893 0 0 1 4 18.334a13.927 13.927 0 0 1 3.725-9.505L5.98 7.084c-.159-.159.15-.905.801-1.556.65-.65 1.397-.96 1.556-.801L10.27 6.66a13.908 13.908 0 0 1 5.396-2.134V1.6zm2.532 26.93a10.442 10.442 0 0 0 1.483-.136 10.102 10.102 0 0 0 3.939-1.552 10.277 10.277 0 0 0 3.97-5.034 10.094 10.094 0 0 0 .608-3.475 10.305 10.305 0 0 0-.413-2.881 10.114 10.114 0 0 0-1.486-3.043 10.284 10.284 0 0 0-4.363-3.486 10.105 10.105 0 0 0-3.904-.788 10.1 10.1 0 0 0-5.551 1.622 10.273 10.273 0 0 0-3.676 4.16A10.109 10.109 0 0 0 7.8 18.332a10.257 10.257 0 0 0 .576 3.387 10.133 10.133 0 0 0 1.468 2.736 10.305 10.305 0 0 0 2.483 2.352 10.195 10.195 0 0 0 2.73 1.293 10.113 10.113 0 0 0 2.876.43l.066.001c.066 0 .132 0 .199-.002zm6.616-16.892s-5.639 9.566-7.602 7.602c-1.964-1.964 7.602-7.602 7.602-7.602z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild>
+          3
+           
+          <Button__Icon
+            fill="rgb(209, 209, 209)"
+            height="18px"
+            path={
+              <path
+                d="M28 16v4H8v-4z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+        </FlexBox__FlexChild>
+      </AlertBanner__IconBanner>
+      <FlexBox
+        key="errori_frequenti"
+      >
+        <Button
+          actioncolor="okay"
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Errori frequenti
+        </Button>
+        <Button__GhostButton
+          className="mediumUp"
+          margin="0 0 0 10px"
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          <Svg
+            height="33px"
+            path={
+              <path
+                d="M21.35 12.57c0 1.312-1.064 2.376-2.375 2.376-1.312 0-2.375-1.064-2.375-2.375 0-1.31 1.063-2.374 2.375-2.374 1.31 0 2.375 1.063 2.375 2.375zm.025 17.934h-4.75V19h4.75v11.504zM19 0C8.508 0 0 8.508 0 19c0 10.493 8.508 19 19 19s19-8.507 19-19C38 8.508 29.492 0 19 0z"
+                fillRule="nonzero"
+              />
+            }
+            viewBox="0 0 38 38"
+            width="33px"
+          />
+        </Button__GhostButton>
+      </FlexBox>
+    </FlexBox>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "field": "data2",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "data1",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "data1",
+              },
+            ],
+            "label": "Intestazione 1",
+            "type": "string",
+          },
+          Object {
+            "field": "data2",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "data2",
+              },
+            ],
+            "label": "Intestazione 2",
+            "type": "number",
+          },
+        ]
+      }
+      key="riepilogo"
+      righe={
+        Array [
+          Object {
+            "completata": true,
+            "data1": "row1 val 1",
+            "data2": 333,
+            "inCorso": false,
+            "key": "uno",
+            "lezioneRaggiunta": 2,
+            "stato": <Button__Icon
+              fill="rgb(153, 226, 17)"
+              height="18px"
+              path={
+                <path
+                  d="M15.462 25.693L32 12.618 28.763 9 13.537 21.088 7.85 14.674 4 17.634l8.925 10.033z"
+                  fillRule="nonzero"
+                />
+              }
+              theme={
+                Object {
+                  "brand": "#00BBEF",
+                }
+              }
+              viewBox="0 0 36 36"
+              width="18px"
+            />,
+          },
+          Object {
+            "completata": false,
+            "data1": "row1 val 2",
+            "data2": 444,
+            "inCorso": true,
+            "key": "due",
+            "lezioneRaggiunta": 1,
+            "stato": <Button__Icon
+              fill="rgb(251, 158, 36)"
+              height="18px"
+              path={
+                <path
+                  d="M15.667 1.6c0-.252 1.044-.6 2.333-.6 1.289 0 2.333.348 2.333.6v2.927l.273.049a13.905 13.905 0 0 1 5.123 2.085l1.934-1.934c.159-.159.905.15 1.556.801.65.65.96 1.397.801 1.556l-1.745 1.745a14.08 14.08 0 0 1 2.325 3.399 13.915 13.915 0 0 1 1.4 6.105 14.073 14.073 0 0 1-.722 4.448 13.918 13.918 0 0 1-2.036 3.893 14.097 14.097 0 0 1-5.483 4.422 13.895 13.895 0 0 1-5.668 1.237H18a16.01 16.01 0 0 1-.765-.02 14.025 14.025 0 0 1-3.19-.547 13.915 13.915 0 0 1-3.73-1.731 14.08 14.08 0 0 1-5.523-7.051A13.893 13.893 0 0 1 4 18.334a13.927 13.927 0 0 1 3.725-9.505L5.98 7.084c-.159-.159.15-.905.801-1.556.65-.65 1.397-.96 1.556-.801L10.27 6.66a13.908 13.908 0 0 1 5.396-2.134V1.6zm2.532 26.93a10.442 10.442 0 0 0 1.483-.136 10.102 10.102 0 0 0 3.939-1.552 10.277 10.277 0 0 0 3.97-5.034 10.094 10.094 0 0 0 .608-3.475 10.305 10.305 0 0 0-.413-2.881 10.114 10.114 0 0 0-1.486-3.043 10.284 10.284 0 0 0-4.363-3.486 10.105 10.105 0 0 0-3.904-.788 10.1 10.1 0 0 0-5.551 1.622 10.273 10.273 0 0 0-3.676 4.16A10.109 10.109 0 0 0 7.8 18.332a10.257 10.257 0 0 0 .576 3.387 10.133 10.133 0 0 0 1.468 2.736 10.305 10.305 0 0 0 2.483 2.352 10.195 10.195 0 0 0 2.73 1.293 10.113 10.113 0 0 0 2.876.43l.066.001c.066 0 .132 0 .199-.002zm6.616-16.892s-5.639 9.566-7.602 7.602c-1.964-1.964 7.602-7.602 7.602-7.602z"
+                  fillRule="evenodd"
+                />
+              }
+              theme={
+                Object {
+                  "brand": "#00BBEF",
+                }
+              }
+              viewBox="0 0 36 36"
+              width="18px"
+            />,
+          },
+          Object {
+            "completata": false,
+            "data1": "row1 val 3",
+            "data2": 555,
+            "inCorso": false,
+            "key": "tre",
+            "lezioneRaggiunta": 0,
+            "stato": <Button__Icon
+              fill="rgb(209, 209, 209)"
+              height="18px"
+              path={
+                <path
+                  d="M28 16v4H8v-4z"
+                  fillRule="evenodd"
+                />
+              }
+              theme={
+                Object {
+                  "brand": "#00BBEF",
+                }
+              }
+              viewBox="0 0 36 36"
+              width="18px"
+            />,
+          },
+        ]
+      }
+      sortingFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;

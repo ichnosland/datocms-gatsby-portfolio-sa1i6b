@@ -1,0 +1,1189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VersioniLivelloOverview /> !spinner { assegna: true} 1`] = `
+<Div>
+  <StyledButtonGroup__ExpandButtonGroup
+    padding="0 0 10px"
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+    <Spinner
+      key="spinner_assegna"
+      number={3}
+      size="small"
+    />
+  </StyledButtonGroup__ExpandButtonGroup>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        10
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        100
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <div
+    key="missione_assegnata_div_wrapper_missione 1"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      missione 1
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="missione_assegnata_div_missione 1"
+    >
+      <NewListPanels__ListItem
+        key="versione_missione_missione 1_100"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={true}
+          unita={true}
+        >
+          titolo versione 1
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div
+    key="missione_assegnata_div_wrapper_missione 2"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      missione 2
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="missione_assegnata_div_missione 2"
+    >
+      <NewListPanels__ListItem
+        key="versione_missione_missione 2_200"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          titolo versione 2
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          checkBoxFunction={[Function]}
+          isChecked={false}
+          radio={true}
+        />
+      </NewListPanels__ListItem>
+      <NewListPanels__ListItem
+        key="versione_missione_missione 2_300"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          titolo versione 3
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          checkBoxFunction={[Function]}
+          isChecked={false}
+          radio={true}
+        />
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div
+    key="versioni_assegnate_div_wrapper"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Versioni assegnate
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="versione_assegnata_wrapper_100"
+    >
+      <NewListPanels__ListItem
+        key="versione_assegnata_titolo_100"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText>
+          <Text__BrandTxt>
+            titolo versione 1
+             - 
+            11/03/2010
+              
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(251, 91, 111)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                In corso
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+      <Paragraph
+        align="center"
+        key="assegnata_assegnata_P_ritira_100"
+        margin="10px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Button
+          actioncolor="escape"
+          key="assegnata_assegnata_button_ritira_100"
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Ritira
+        </Button>
+      </Paragraph>
+    </div>
+    <div
+      key="versione_assegnata_wrapper_300"
+    >
+      <NewListPanels__ListItem
+        key="versione_assegnata_titolo_300"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText>
+          <Text__BrandTxt>
+            titolo versione 1
+             - 
+            11/03/2010
+              
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              actioncolor="okay"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                Ritirata
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+</Div>
+`;
+
+exports[`<VersioniLivelloOverview /> !spinner { ritira_100: true} 1`] = `
+<Div>
+  <StyledButtonGroup__ExpandButtonGroup
+    padding="0 0 10px"
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+    <Button
+      actioncolor="action"
+      disabled={true}
+      key="button_assegna"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Assegna
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        10
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        100
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <div
+    key="missione_assegnata_div_wrapper_missione 1"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      missione 1
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="missione_assegnata_div_missione 1"
+    >
+      <NewListPanels__ListItem
+        key="versione_missione_missione 1_100"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={true}
+          unita={true}
+        >
+          titolo versione 1
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div
+    key="missione_assegnata_div_wrapper_missione 2"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      missione 2
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="missione_assegnata_div_missione 2"
+    >
+      <NewListPanels__ListItem
+        key="versione_missione_missione 2_200"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          titolo versione 2
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          checkBoxFunction={[Function]}
+          isChecked={false}
+          radio={true}
+        />
+      </NewListPanels__ListItem>
+      <NewListPanels__ListItem
+        key="versione_missione_missione 2_300"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          titolo versione 3
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          checkBoxFunction={[Function]}
+          isChecked={false}
+          radio={true}
+        />
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div
+    key="versioni_assegnate_div_wrapper"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Versioni assegnate
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="versione_assegnata_wrapper_100"
+    >
+      <NewListPanels__ListItem
+        key="versione_assegnata_titolo_100"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText>
+          <Text__BrandTxt>
+            titolo versione 1
+             - 
+            11/03/2010
+              
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(251, 91, 111)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                In corso
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+      <Spinner
+        key="assegnata_assegnata_spinner_ritira_100"
+        number={3}
+        size="small"
+      />
+    </div>
+    <div
+      key="versione_assegnata_wrapper_300"
+    >
+      <NewListPanels__ListItem
+        key="versione_assegnata_titolo_300"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText>
+          <Text__BrandTxt>
+            titolo versione 1
+             - 
+            11/03/2010
+              
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              actioncolor="okay"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                Ritirata
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+</Div>
+`;
+
+exports[`<VersioniLivelloOverview /> !spinner 1`] = `
+<Div>
+  <StyledButtonGroup__ExpandButtonGroup
+    padding="0 0 10px"
+    theme={
+      Object {
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button
+      actioncolor=""
+      disabled={true}
+      key="button_esegui"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Prova
+    </Button>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      key="button_risultato"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Risultati
+    </Button>
+    <Button
+      actioncolor="action"
+      disabled={true}
+      key="button_assegna"
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="18px"
+        left={true}
+        path={
+          <path
+            d="M28 15.744V24l3 5H5l3-5v-8.256c.215-5.13 3.621-9.239 8.04-10.325V4.256C16.04 3 16.72 2 18.02 2 19.32 2 20 3 20 4.256V5.42c4.42 1.086 7.785 5.196 8 10.325zM18 34a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3z"
+            fillRule="nonzero"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 36"
+        width="18px"
+      />
+      Assegna
+    </Button>
+  </StyledButtonGroup__ExpandButtonGroup>
+  <FlexBox
+    alignItems="stretch"
+    justifyContent="space-between"
+    padding="20px 0"
+  >
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Totale domande: 
+      <Text__BrandTxt>
+         
+        10
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+    <AlertBanner__InfoBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      Tempo di esecuzione ca: 
+      <Text__BrandTxt>
+         
+        100
+        '
+      </Text__BrandTxt>
+    </AlertBanner__InfoBanner>
+  </FlexBox>
+  <div
+    key="missione_assegnata_div_wrapper_missione 1"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      missione 1
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="missione_assegnata_div_missione 1"
+    >
+      <NewListPanels__ListItem
+        key="versione_missione_missione 1_100"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={true}
+          unita={true}
+        >
+          titolo versione 1
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div
+    key="missione_assegnata_div_wrapper_missione 2"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      missione 2
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="missione_assegnata_div_missione 2"
+    >
+      <NewListPanels__ListItem
+        key="versione_missione_missione 2_200"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          titolo versione 2
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          checkBoxFunction={[Function]}
+          isChecked={false}
+          radio={true}
+        />
+      </NewListPanels__ListItem>
+      <NewListPanels__ListItem
+        key="versione_missione_missione 2_300"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          locked={false}
+          unita={true}
+        >
+          titolo versione 3
+        </NewListPanels__ListItemText>
+        <ListSideBox
+          checkBoxFunction={[Function]}
+          isChecked={false}
+          radio={true}
+        />
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+  <div
+    key="versioni_assegnate_div_wrapper"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Versioni assegnate
+    </NewListPanels__ListPanelHeader>
+    <div
+      key="versione_assegnata_wrapper_100"
+    >
+      <NewListPanels__ListItem
+        key="versione_assegnata_titolo_100"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText>
+          <Text__BrandTxt>
+            titolo versione 1
+             - 
+            11/03/2010
+              
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(251, 91, 111)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                In corso
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+      <Paragraph
+        align="center"
+        key="assegnata_assegnata_P_ritira_100"
+        margin="10px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Button
+          actioncolor="escape"
+          key="assegnata_assegnata_button_ritira_100"
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Ritira
+        </Button>
+      </Paragraph>
+    </div>
+    <div
+      key="versione_assegnata_wrapper_300"
+    >
+      <NewListPanels__ListItem
+        key="versione_assegnata_titolo_300"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText>
+          <Text__BrandTxt>
+            titolo versione 1
+             - 
+            11/03/2010
+              
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              actioncolor="okay"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                Ritirata
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </NewListPanels__ListItemText>
+      </NewListPanels__ListItem>
+    </div>
+  </div>
+</Div>
+`;

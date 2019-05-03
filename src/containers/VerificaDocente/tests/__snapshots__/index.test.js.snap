@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerificheDocenteView /> !spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova di verifica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <VerificheLivelloDocenteOverview
+      aggiungiUnitaFunction={[Function]}
+      assegnaFunction={[Function]}
+      datiVerifica={
+        Object {
+          "soloLatino": false,
+          "unitaSelezionate": Array [],
+        }
+      }
+      downloadProtettiFunction={[Function]}
+      hasRisultati={false}
+      ritiraFunction={[Function]}
+      simulaFunction={[Function]}
+      spinner={Object {}}
+      switcherLingua={true}
+      tempoEsecuzione={0}
+      titolo="titolo verifica"
+      toggleSoloLatinoFunction={[Function]}
+      totaleDomande={0}
+      unita={
+        Array [
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 14,
+              "conteggio_totale": 14,
+            },
+            "id": 157,
+            "nome": "Ripasso grammatica italiana: il verbo",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 14,
+              "conteggio_totale": 14,
+            },
+            "id": 161,
+            "nome": "Ripasso analisi logica",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 15,
+              "conteggio_totale": 15,
+            },
+            "id": 5,
+            "nome": "Complementi in italiano",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 17,
+              "conteggio_totale": 17,
+            },
+            "id": 160,
+            "nome": "Ripasso analisi periodo",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 4,
+              "conteggio_totale": 4,
+            },
+            "id": 355,
+            "nome": "Fonetica",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 2,
+              "conteggio_totale": 14,
+            },
+            "id": 6,
+            "nome": "Flessione nominale",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 4,
+              "conteggio_totale": 4,
+            },
+            "id": 356,
+            "nome": "Flessione verbale",
+          },
+        ]
+      }
+      unitaAssegnate={0}
+      verificheAssegnate={
+        Array [
+          Object {
+            "id": 16,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 04/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 14,
+                  "conteggio_totale": 14,
+                },
+                "id": 157,
+                "nome": "Ripasso grammatica italiana: il verbo",
+              },
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 14,
+                  "conteggio_totale": 14,
+                },
+                "id": 161,
+                "nome": "Ripasso analisi logica",
+              },
+            ],
+          },
+          Object {
+            "id": 34,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 12/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 15,
+                  "conteggio_totale": 15,
+                },
+                "id": 5,
+                "nome": "Complementi in italiano",
+              },
+            ],
+          },
+          Object {
+            "id": 79,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 26/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 2,
+                  "conteggio_totale": 14,
+                },
+                "id": 6,
+                "nome": "Flessione nominale",
+              },
+            ],
+          },
+          Object {
+            "id": 1278,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 27/06/18",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 17,
+                  "conteggio_totale": 17,
+                },
+                "id": 160,
+                "nome": "Ripasso analisi periodo",
+              },
+            ],
+          },
+          Object {
+            "id": 1279,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 27/06/18",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 4,
+                  "conteggio_totale": 4,
+                },
+                "id": 355,
+                "nome": "Fonetica",
+              },
+            ],
+          },
+          Object {
+            "id": 1280,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 28/06/18",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 4,
+                  "conteggio_totale": 4,
+                },
+                "id": 356,
+                "nome": "Flessione verbale",
+              },
+            ],
+          },
+        ]
+      }
+      verificheCartacee={Array []}
+      visualizzaStatisticheFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VerificheDocenteView /> !spinner feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova di verifica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <AlertBanner
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VerificheDocenteView /> spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova di verifica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VerificheDocenteView /> verificheCartacee non presenti 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova di verifica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <VerificheLivelloDocenteOverview
+      aggiungiUnitaFunction={[Function]}
+      assegnaFunction={[Function]}
+      datiVerifica={
+        Object {
+          "soloLatino": false,
+          "unitaSelezionate": Array [],
+        }
+      }
+      downloadProtettiFunction={[Function]}
+      hasRisultati={false}
+      ritiraFunction={[Function]}
+      simulaFunction={[Function]}
+      spinner={Object {}}
+      switcherLingua={true}
+      tempoEsecuzione={0}
+      titolo="titolo verifica"
+      toggleSoloLatinoFunction={[Function]}
+      totaleDomande={0}
+      unita={
+        Array [
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 14,
+              "conteggio_totale": 14,
+            },
+            "id": 157,
+            "nome": "Ripasso grammatica italiana: il verbo",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 14,
+              "conteggio_totale": 14,
+            },
+            "id": 161,
+            "nome": "Ripasso analisi logica",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 15,
+              "conteggio_totale": 15,
+            },
+            "id": 5,
+            "nome": "Complementi in italiano",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 17,
+              "conteggio_totale": 17,
+            },
+            "id": 160,
+            "nome": "Ripasso analisi periodo",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 4,
+              "conteggio_totale": 4,
+            },
+            "id": 355,
+            "nome": "Fonetica",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 2,
+              "conteggio_totale": 14,
+            },
+            "id": 6,
+            "nome": "Flessione nominale",
+          },
+          Object {
+            "assegnata": true,
+            "domande": Object {
+              "conteggio_lat_ita": 4,
+              "conteggio_totale": 4,
+            },
+            "id": 356,
+            "nome": "Flessione verbale",
+          },
+        ]
+      }
+      unitaAssegnate={0}
+      verificheAssegnate={
+        Array [
+          Object {
+            "id": 16,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 04/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 14,
+                  "conteggio_totale": 14,
+                },
+                "id": 157,
+                "nome": "Ripasso grammatica italiana: il verbo",
+              },
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 14,
+                  "conteggio_totale": 14,
+                },
+                "id": 161,
+                "nome": "Ripasso analisi logica",
+              },
+            ],
+          },
+          Object {
+            "id": 34,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 12/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 15,
+                  "conteggio_totale": 15,
+                },
+                "id": 5,
+                "nome": "Complementi in italiano",
+              },
+            ],
+          },
+          Object {
+            "id": 79,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 26/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 2,
+                  "conteggio_totale": 14,
+                },
+                "id": 6,
+                "nome": "Flessione nominale",
+              },
+            ],
+          },
+          Object {
+            "id": 1278,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 27/06/18",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 17,
+                  "conteggio_totale": 17,
+                },
+                "id": 160,
+                "nome": "Ripasso analisi periodo",
+              },
+            ],
+          },
+          Object {
+            "id": 1279,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 27/06/18",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 4,
+                  "conteggio_totale": 4,
+                },
+                "id": 355,
+                "nome": "Fonetica",
+              },
+            ],
+          },
+          Object {
+            "id": 1280,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 28/06/18",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 4,
+                  "conteggio_totale": 4,
+                },
+                "id": 356,
+                "nome": "Flessione verbale",
+              },
+            ],
+          },
+        ]
+      }
+      verificheCartacee={Array []}
+      visualizzaStatisticheFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;

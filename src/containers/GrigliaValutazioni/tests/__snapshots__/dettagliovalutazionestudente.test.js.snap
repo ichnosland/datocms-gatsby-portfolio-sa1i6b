@@ -1,0 +1,563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GrigliaValutazioniDettaglioStudenteView /> visualizza il contenuto nel suo stato iniziale 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    button={
+      Object {
+        "bone": true,
+        "buttonIcon": "print",
+        "label": "Stampa",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    title="4 zoo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div
+      margin="0 auto 30px"
+    >
+      <BreadCrumb
+        theme={
+          Object {
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <BreadCrumb__Crumb>
+          <Button__TextButton
+            color="inherit"
+            onClick={[Function]}
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "darken": "#1588AA",
+              }
+            }
+          >
+            Valutazioni
+          </Button__TextButton>
+        </BreadCrumb__Crumb>
+        <BreadCrumb__Crumb>
+          <Button__TextButton
+            color="inherit"
+            onClick={[Function]}
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "darken": "#1588AA",
+              }
+            }
+          >
+            <strong>
+              titolo valutazione
+            </strong>
+             
+          </Button__TextButton>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(100, 20, 100)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                11/11/2011
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </BreadCrumb__Crumb>
+        <BreadCrumb__Crumb>
+          <Text__BrandTxt>
+            <strong>
+              nome cognome
+            </strong>
+             
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              actioncolor="help"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              media: 
+              <strong>
+                5
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </BreadCrumb__Crumb>
+      </BreadCrumb>
+    </Div>
+    <Div
+      key="valutazione_titolo_555_unita"
+      margin="30px auto 10px"
+    >
+      <strong>
+        Unità:
+      </strong>
+    </Div>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "block": "obiettivi",
+          "field": "titolo",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "titolo",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "titolo",
+              },
+            ],
+            "label": "Titolo",
+            "style": Object {
+              "justifyContent": "space-between",
+            },
+            "type": "string",
+          },
+          Object {
+            "field": "voto",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "votoApprossimato",
+              },
+            ],
+            "label": "Punteggio",
+            "type": "number",
+          },
+        ]
+      }
+      key="valutazione_grid_555_unita"
+      mono={true}
+      righe={
+        Array [
+          Object {
+            "titolo": "unita 1",
+            "voto": 3,
+          },
+          Object {
+            "titolo": "unita 2",
+            "voto": 4,
+          },
+          Object {
+            "titolo": "unita 3",
+            "voto": 5,
+          },
+          Object {
+            "titolo": "unita 4",
+            "voto": 6,
+          },
+        ]
+      }
+    />
+    <Div
+      key="valutazione_titolo_555_versioni"
+      margin="30px auto 10px"
+    >
+      <strong>
+        Versioni:
+      </strong>
+    </Div>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "block": "obiettivi",
+          "field": "titolo",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "titolo",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "titolo",
+              },
+            ],
+            "label": "Titolo",
+            "style": Object {
+              "justifyContent": "space-between",
+            },
+            "type": "string",
+          },
+          Object {
+            "field": "voto",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "votoApprossimato",
+              },
+            ],
+            "label": "Punteggio",
+            "type": "number",
+          },
+        ]
+      }
+      key="valutazione_grid_555_versioni"
+      mono={true}
+      righe={
+        Array [
+          Object {
+            "titolo": "versione 1",
+            "voto": 4.4,
+          },
+          Object {
+            "titolo": "versione 2",
+            "voto": 6,
+          },
+          Object {
+            "titolo": "versione 2",
+            "voto": 7,
+          },
+          Object {
+            "titolo": "versione 3",
+            "voto": 5,
+          },
+        ]
+      }
+    />
+    <Div
+      key="valutazione_titolo_555_verifiche"
+      margin="30px auto 10px"
+    >
+      <strong>
+        Verifiche:
+      </strong>
+    </Div>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "block": "obiettivi",
+          "field": "titolo",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "titolo",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "titolo",
+              },
+            ],
+            "label": "Titolo",
+            "style": Object {
+              "justifyContent": "space-between",
+            },
+            "type": "string",
+          },
+          Object {
+            "field": "voto",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "votoApprossimato",
+              },
+            ],
+            "label": "Punteggio",
+            "type": "number",
+          },
+        ]
+      }
+      key="valutazione_grid_555_verifiche"
+      mono={true}
+      righe={
+        Array [
+          Object {
+            "titolo": "verifica 1",
+            "voto": 6,
+          },
+          Object {
+            "titolo": "verifica 3",
+            "voto": 5,
+          },
+        ]
+      }
+    />
+    <Div
+      key="valutazione_titolo_555_proveCompetenza"
+      margin="30px auto 10px"
+    >
+      <strong />
+    </Div>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "block": "obiettivi",
+          "field": "titolo",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "titolo",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "titolo",
+              },
+            ],
+            "label": "Titolo",
+            "style": Object {
+              "justifyContent": "space-between",
+            },
+            "type": "string",
+          },
+          Object {
+            "field": "voto",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "votoApprossimato",
+              },
+            ],
+            "label": "Punteggio",
+            "type": "number",
+          },
+        ]
+      }
+      key="valutazione_grid_555_proveCompetenza"
+      mono={true}
+      righe={
+        Array [
+          Object {
+            "titolo": "prova 1",
+            "voto": 10,
+          },
+          Object {
+            "titolo": "prova 2",
+            "voto": 7,
+          },
+          Object {
+            "titolo": "prova 3",
+            "voto": 5.33,
+          },
+          Object {
+            "titolo": "prova 4",
+            "voto": 7,
+          },
+        ]
+      }
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniDettaglioStudenteView /> visualizza il contenuto quando non ho dati 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    button={
+      Object {
+        "bone": true,
+        "buttonIcon": "print",
+        "label": "Stampa",
+        "onClick": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    title="4 zoo"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Div
+      margin="0 auto 30px"
+    >
+      <BreadCrumb
+        theme={
+          Object {
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <BreadCrumb__Crumb>
+          <Button__TextButton
+            color="inherit"
+            onClick={[Function]}
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "darken": "#1588AA",
+              }
+            }
+          >
+            Valutazioni
+          </Button__TextButton>
+        </BreadCrumb__Crumb>
+        <BreadCrumb__Crumb>
+          <Button__TextButton
+            color="inherit"
+            onClick={[Function]}
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "darken": "#1588AA",
+              }
+            }
+          >
+            <strong>
+              titolo valutazione
+            </strong>
+             
+          </Button__TextButton>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(100, 20, 100)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                11/11/2011
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </BreadCrumb__Crumb>
+        <BreadCrumb__Crumb>
+          <Text__BrandTxt>
+            <strong>
+              nome cognome
+            </strong>
+             
+          </Text__BrandTxt>
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              actioncolor="help"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              media: 
+              <strong>
+                5
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </BreadCrumb__Crumb>
+      </BreadCrumb>
+    </Div>
+  </Container>
+</Page>
+`;

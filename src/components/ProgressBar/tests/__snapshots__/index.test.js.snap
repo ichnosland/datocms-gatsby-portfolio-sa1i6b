@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar/> should render its css w/ props lezione 1`] = `
+<ProgressBar__ProgressBox
+  lezione={true}
+>
+  <ProgressBar__ProgressLine
+    lezione={true}
+  />
+</ProgressBar__ProgressBox>
+`;
+
+exports[`<ProgressBar/> should render its css w/ props steps 1`] = `
+<ProgressBar__ProgressBox
+  steps={true}
+>
+  <ProgressBar__ProgressLine
+    steps={true}
+  />
+</ProgressBar__ProgressBox>
+`;
+
+exports[`<ProgressBar/> should render its css w/ props versione 1`] = `
+<ProgressBar__ProgressBox
+  versione={true}
+>
+  <ProgressBar__ProgressLine
+    versione={true}
+  />
+</ProgressBar__ProgressBox>
+`;
+
+exports[`<ProgressBox /> should render its css w/ props lezione 1`] = `
+.c0 {
+  background-color: rgb(216,216,216);
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    height: 6px;
+    width: 94%;
+    left: 3%;
+    top: -18px;
+    border-radius: 9px;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressBox /> should render its css w/ props percentuale={0} 1`] = `
+.c0 {
+  background-color: rgb(231,236,236);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 10px;
+  height: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(209,209,209);
+  border-radius: 2px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressBox /> should render its css w/ props steps 1`] = `
+.c0 {
+  background-color: rgb(231,236,236);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 10px;
+  height: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1cff00;
+  border-radius: 2px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressBox /> should render its css w/ props versione 1`] = `
+.c0 {
+  background-color: rgb(216,216,216);
+  position: absolute;
+  overflow: visible;
+  z-index: 1;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    height: 2px;
+    width: 100%;
+    top: -12px;
+    left: 0;
+    background-color: rgba(0,0,0,0.08);
+    border-radius: 0;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: rgba(0,0,0,0.1);
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressLine /> should render its css w/ props lezione 1`] = `
+.c0 {
+  width: undefined%;
+  height: 4px;
+  background-color: rgb(153,226,17);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    height: 9px;
+    border-radius: 9px 0 0 9px;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressLine /> should render its css w/ props percentuale 1`] = `
+.c0 {
+  width: 2%;
+  height: 4px;
+  background-color: rgb(153,226,17);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressLine /> should render its css w/ props steps 1`] = `
+.c0 {
+  width: 10px;
+  height: undefined%;
+  background-color: #1cff00;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<ProgressLine /> should render its css w/ props versione 1`] = `
+.c0 {
+  width: undefined%;
+  height: 4px;
+  background-color: rgb(153,226,17);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  top: -1px;
+  position: relative;
+  border-radius: 6px;
+}
+
+<div
+  className="c0"
+/>
+`;

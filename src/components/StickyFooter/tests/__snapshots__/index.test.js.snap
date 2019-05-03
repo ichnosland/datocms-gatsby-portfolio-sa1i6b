@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StickyBottom /> should render a Div tag 1`] = `
+.c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<StickyTop /> should render a Div tag 1`] = `
+.c0 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<StickyWrap /> should render a Div tag 1`] = `
+.c0 {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<Div
+  className="c0"
+/>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerificaResponseView /> visualizza il riepilogo con le informazioni di base se voto < 6 1`] = `
+<ResponseView
+  badSrc="IMAGE_MOCK"
+  goodSrc="IMAGE_MOCK"
+  product="product"
+  resetFunction={[Function]}
+  votoApprossimato={4}
+/>
+`;
+
+exports[`<VerificaResponseView /> visualizza il riepilogo con le informazioni di base se voto >= 6 1`] = `
+<ResponseView
+  badSrc="IMAGE_MOCK"
+  goodSrc="IMAGE_MOCK"
+  product="product"
+  resetFunction={[Function]}
+  votoApprossimato={8}
+/>
+`;

@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HtmlText /> should render its css w/ props color 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4 {
+  color: cyan;
+}
+
+.c0 p {
+  margin: 1em 0;
+}
+
+.c0 ul {
+  padding-left: 24px;
+  word-break: break-word;
+  list-style: square;
+}
+
+.c0 ul li {
+  padding-bottom: 14px;
+  word-break: inherit;
+}
+
+.c0 ul li:last-child {
+  padding-bottom: 0;
+}
+
+.c0 .lesson-highlight {
+  padding: 6px 20px;
+  background-color: #FFFDDE;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.c0 .tip-tag {
+  background-color: #FFFDDE;
+  padding: 1px;
+  -o-box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.c0 img {
+  max-width: 100%;
+}
+
+.c0 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c0 table th {
+  background: rgb(231,236,236);
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 0.62em;
+  border: 1px solid rgb(231,236,236);
+  vertical-align: middle;
+}
+
+.c0 .common-table-wrap {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgb(209,209,209);
+  background-color: rgb(255,255,255);
+}
+
+.c0 .common-table {
+  width: 100% !important;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table th {
+  color: $darker-text-color;
+  font-weight: 400;
+  border: 1px solid rgb(209,209,209);
+  font-size: 21px;
+  padding: 9px 12px;
+}
+
+.c0 .common-table td {
+  padding: 9px 12px;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table p {
+  margin: 6px 0;
+}
+
+.c0 table th {
+  background-color: #00BBEF;
+}
+
+<Div
+  className="c0"
+  color="cyan"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<HtmlText /> should render its css w/ props theme 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4 {
+  color: blue;
+}
+
+.c0 p {
+  margin: 1em 0;
+}
+
+.c0 ul {
+  padding-left: 24px;
+  word-break: break-word;
+  list-style: square;
+}
+
+.c0 ul li {
+  padding-bottom: 14px;
+  word-break: inherit;
+}
+
+.c0 ul li:last-child {
+  padding-bottom: 0;
+}
+
+.c0 .lesson-highlight {
+  padding: 6px 20px;
+  background-color: #FFFDDE;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.c0 .tip-tag {
+  background-color: #FFFDDE;
+  padding: 1px;
+  -o-box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.c0 img {
+  max-width: 100%;
+}
+
+.c0 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c0 table th {
+  background: rgb(231,236,236);
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 0.62em;
+  border: 1px solid rgb(231,236,236);
+  vertical-align: middle;
+}
+
+.c0 .common-table-wrap {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgb(209,209,209);
+  background-color: rgb(255,255,255);
+}
+
+.c0 .common-table {
+  width: 100% !important;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table th {
+  color: $darker-text-color;
+  font-weight: 400;
+  border: 1px solid rgb(209,209,209);
+  font-size: 21px;
+  padding: 9px 12px;
+}
+
+.c0 .common-table td {
+  padding: 9px 12px;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table p {
+  margin: 6px 0;
+}
+
+.c0 table th {
+  background-color: blue;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "blue",
+    }
+  }
+/>
+`;
+
+exports[`<LezioneView /> testo il render quando ho un messaggio di errore 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Lezione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <AlertBanner
+      actioncolor="error"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio di errore
+    </AlertBanner>
+  </Container>
+</Page>
+`;
+
+exports[`<LezioneView /> testo il render quando ho un messaggio di errore 2`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Lezione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <AlertBanner
+      actioncolor="error"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio di errore
+    </AlertBanner>
+  </Container>
+</Page>
+`;
+
+exports[`<LezioneView /> testo il render quando il caricamento è in corso 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Lezione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<LezioneView /> testo il render quando vengono mostrati i contenuti 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Lezione"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Lezione__HtmlText
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      <Heading__H2
+        margin="0 0 1em"
+      >
+        Indicativo presente e infinito attivo e passivo 1ª coniugazione
+      </Heading__H2>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>I verbi latini della 1ª coniugazione sono caratterizzati dalla&nbsp;
+    <span class=\\"tip-tag\\">vocale tematica&nbsp;-<em>ā</em></span>.
+    </p>",
+          }
+        }
+        key="html_html_0"
+      />
+      <CaroselloView
+        key="carosello_carosello_0_1"
+        tabelle={
+          Array [
+            Object {
+              "key": "carosello_0_1_0",
+              "righe": Array [
+                Object {
+                  "label": "presente",
+                  "valore": "laudari",
+                },
+              ],
+              "titolo": "Infinito passivo",
+            },
+            Object {
+              "key": "carosello_0_1_1",
+              "righe": Array [
+                Object {
+                  "label": "presente",
+                  "valore": "laudare",
+                },
+              ],
+              "titolo": "Infinito attivo",
+            },
+          ]
+        }
+      />
+      <CaroselloView
+        key="carosello_carosello_1_2"
+        tabelle={
+          Array [
+            Object {
+              "key": "carosello_1_2_0",
+              "righe": Array [
+                Object {
+                  "label": "1<sup>a</sup> sing.",
+                  "valore": "-o",
+                },
+                Object {
+                  "label": "2<sup>a</sup> sing.",
+                  "valore": "-s",
+                },
+                Object {
+                  "label": "3<sup>a</sup> sing.",
+                  "valore": "-t",
+                },
+                Object {
+                  "label": "1<sup>a</sup> plur.",
+                  "valore": "-mus",
+                },
+                Object {
+                  "label": "2<sup>a</sup> plur.",
+                  "valore": "-tis",
+                },
+                Object {
+                  "label": "3<sup>a</sup> plur.",
+                  "valore": "-nt",
+                },
+              ],
+              "titolo": "Indicativo presente attivo",
+            },
+            Object {
+              "key": "carosello_1_2_1",
+              "righe": Array [
+                Object {
+                  "label": "1<sup>a</sup> sing.",
+                  "valore": "-r",
+                },
+                Object {
+                  "label": "2<sup>a</sup> sing.",
+                  "valore": "-ris, -re",
+                },
+                Object {
+                  "label": "3<sup>a</sup> sing.",
+                  "valore": "-tur",
+                },
+                Object {
+                  "label": "1<sup>a</sup> plur.",
+                  "valore": "-mur",
+                },
+                Object {
+                  "label": "2<sup>a</sup> plur.",
+                  "valore": "-mini",
+                },
+                Object {
+                  "label": "3<sup>a</sup> plur.",
+                  "valore": "-ntur",
+                },
+              ],
+              "titolo": "Indicativo presente passivo",
+            },
+          ]
+        }
+      />
+      <CaroselloView
+        key="carosello_carosello_2_3"
+        tabelle={Array []}
+      />
+      contenuto
+    </Lezione__HtmlText>
+  </Container>
+</Page>
+`;

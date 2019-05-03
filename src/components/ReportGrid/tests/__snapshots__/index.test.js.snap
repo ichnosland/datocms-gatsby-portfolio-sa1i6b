@@ -1,0 +1,559 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlexCell /> should render its css w/ props primo 1`] = `
+.c0 {
+  margin: 0;
+}
+
+.c0:not(:first-child) {
+  margin-left: 6px;
+}
+
+.c0:first-child {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+<FlexBox__FlexChild
+  className="c0"
+  primo={true}
+/>
+`;
+
+exports[`<ReportGrid/> dovrebbe visualizzare la props mono 1`] = `
+<Container>
+  <Grid
+    list={1}
+    templateColumns="1fr auto"
+  >
+    <Grid__GridItem
+      active={false}
+      header={true}
+      key="intestazione_campo3"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 3
+       
+    </Grid__GridItem>
+    <Grid__GridItem
+      active={false}
+      header={true}
+      key="intestazione_campo2"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 2
+       
+    </Grid__GridItem>
+    <Grid__GridItem
+      active={true}
+      header={true}
+      key="intestazione_campo1"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 1
+       
+      <Button__Icon
+        className="mediumUp"
+        fill="rgb(178, 208, 223)"
+        height="18px"
+        path={
+          <path
+            d="M8 14h10v2H8zM8 10h8v2H8zM8 6h6v2H8zM8 2h4v2H8zM2 16h2V6h2L3 2 0 6h2z"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 18 18"
+        width="18px"
+      />
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[1] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo3_campo4"
+        role="presentation"
+      >
+         - 
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo2_campo2"
+        role="presentation"
+      >
+        100
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[1] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[2] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo3_campo4"
+        role="presentation"
+      >
+        valore[2] campo4
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo2_campo2"
+        role="presentation"
+      >
+         - 
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[2] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[3] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo3_campo4"
+        role="presentation"
+      >
+        valore[3] campo4
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo2_campo2"
+        role="presentation"
+      >
+        0
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[3] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+  </Grid>
+</Container>
+`;
+
+exports[`<ReportGrid/> dovrebbe visualizzare una griglia 1`] = `
+<Container>
+  <Grid
+    list={1}
+    templateColumns="auto auto auto"
+  >
+    <Grid__GridItem
+      active={false}
+      header={true}
+      key="intestazione_campo3"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 3
+       
+    </Grid__GridItem>
+    <Grid__GridItem
+      active={false}
+      header={true}
+      key="intestazione_campo2"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 2
+       
+    </Grid__GridItem>
+    <Grid__GridItem
+      active={true}
+      header={true}
+      key="intestazione_campo1"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 1
+       
+      <Button__Icon
+        className="mediumUp"
+        fill="rgb(178, 208, 223)"
+        height="18px"
+        path={
+          <path
+            d="M8 14h10v2H8zM8 10h8v2H8zM8 6h6v2H8zM8 2h4v2H8zM2 16h2V6h2L3 2 0 6h2z"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 18 18"
+        width="18px"
+      />
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[1] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo3_campo4"
+        role="presentation"
+      >
+         - 
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo2_campo2"
+        role="presentation"
+      >
+        100
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[1] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[2] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo3_campo4"
+        role="presentation"
+      >
+        valore[2] campo4
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo2_campo2"
+        role="presentation"
+      >
+         - 
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[2] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[3] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo3_campo4"
+        role="presentation"
+      >
+        valore[3] campo4
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo2_campo2"
+        role="presentation"
+      >
+        0
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[3] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+  </Grid>
+</Container>
+`;
+
+exports[`<ReportGrid/> dovrebbe visualizzare una griglia vuota 1`] = `
+<Container>
+  <Grid
+    list={1}
+    templateColumns=""
+  />
+</Container>
+`;
+
+exports[`<ReportGrid/> le icone sono tutte asc 1`] = `
+<Container>
+  <Grid
+    list={1}
+    templateColumns="auto auto auto"
+  >
+    <Grid__GridItem
+      active={false}
+      header={true}
+      key="intestazione_campo3"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 3
+       
+    </Grid__GridItem>
+    <Grid__GridItem
+      active={false}
+      header={true}
+      key="intestazione_campo2"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 2
+       
+    </Grid__GridItem>
+    <Grid__GridItem
+      active={true}
+      header={true}
+      key="intestazione_campo1"
+      list={1}
+      onClick={[Function]}
+    >
+      Label campo 1
+       
+      <Button__Icon
+        className="mediumUp"
+        fill="rgb(178, 208, 223)"
+        height="18px"
+        path={
+          <path
+            d="M8 14h10v2H8zM8 10h8v2H8zM8 6h6v2H8zM8 2h4v2H8zM2 16h2V6h2L3 2 0 6h2z"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 18 18"
+        width="18px"
+      />
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[1] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo3_campo4"
+        role="presentation"
+      >
+         - 
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo2_campo2"
+        role="presentation"
+      >
+        100
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key1_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key1_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[1] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[2] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo3_campo4"
+        role="presentation"
+      >
+        valore[2] campo4
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo2_campo2"
+        role="presentation"
+      >
+         - 
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key2_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key2_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[2] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo3"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo3_campo3"
+        role="presentation"
+      >
+        valore[3] campo3
+      </ReportGrid__FlexCell>
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo3_campo4"
+        role="presentation"
+      >
+        valore[3] campo4
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo2"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo2_campo2"
+        role="presentation"
+      >
+        0
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+    <Grid__GridItem
+      key="studente_key3_grid_campo1"
+      list={1}
+    >
+      <ReportGrid__FlexCell
+        key="studente_key3_grid_campo1_campo1"
+        role="presentation"
+      >
+        valore[3] campo1
+      </ReportGrid__FlexCell>
+    </Grid__GridItem>
+  </Grid>
+</Container>
+`;

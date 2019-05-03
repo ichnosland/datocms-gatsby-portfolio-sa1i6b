@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegistrationView /> should render one Registration component when hasErrors = true 1`] = `
+<FormElements__FormSection
+  className="Wrap"
+  paddingmobile="20px"
+>
+  <AlertBanner
+    actioncolor="error"
+    key="AlertBanner"
+    margin="0 0 20px"
+    text="message"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    message
+  </AlertBanner>
+  <Div
+    align="center"
+    key="Div_centrato"
+  >
+    <ReduxForm
+      handleSubmit={[Function]}
+      product="product"
+      responseFacebookFunction={[Function]}
+    />
+    <FormElements__FormElement>
+      <Paragraph
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <ClearLink
+          to="/login"
+        >
+          Sei già registrato?
+        </ClearLink>
+      </Paragraph>
+    </FormElements__FormElement>
+    <FormElements__FormElement>
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Assistenza",
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+      />
+    </FormElements__FormElement>
+  </Div>
+  <Paragraph__LegalInfo
+    align="center"
+    key="LegalInfo"
+  >
+    <a
+      href="https://maieuticallabs.it/privacy/"
+      target="_blank"
+    >
+      Termini, condizioni d'uso e normative sulla privacy
+    </a>
+    <br
+      className="mobileOnly"
+    />
+     di 
+    <a
+      href="https://maieuticallabs.it/"
+      target="_blank"
+    >
+      Maieutical Labs
+    </a>
+    .
+  </Paragraph__LegalInfo>
+</FormElements__FormSection>
+`;
+
+exports[`<RegistrationView /> should render one Registration component when spinner = true 1`] = `
+<FormElements__FormSection
+  className="Wrap"
+  paddingmobile="20px"
+>
+  <Spinner
+    key="Spinner"
+    number={3}
+  />
+</FormElements__FormSection>
+`;

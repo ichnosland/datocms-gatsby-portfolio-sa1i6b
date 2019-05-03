@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OpzioneBlocchi />  should render its css w/ props dragColor 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: red;
+  border-radius: 80px;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    margin-bottom: 10px;
+  }
+}
+
+<FlexBox__FlexChild
+  className="c0"
+  dragColor="red"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "80px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<OpzioneBlocchi />  should render its props w/ theme 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 80px;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    margin-bottom: 10px;
+  }
+}
+
+<FlexBox__FlexChild
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "80px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<OpzioniBlocchi />  should render an <div> 1`] = `
+<OpzioniBlocchi__WrapOpzioniBlocchi
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+>
+  <OpzioniBlocchi__TagOpzioniBlocchi>
+    Titolo
+  </OpzioniBlocchi__TagOpzioniBlocchi>
+  <OpzioniBlocchi__OpzioneBlocchi
+    dragColor="#f5ee97"
+    key="blocco_3_1"
+    onClick={[Function]}
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  />
+</OpzioniBlocchi__WrapOpzioniBlocchi>
+`;
+
+exports[`<OpzioniBlocchi />  should work with latex 1`] = `
+<OpzioniBlocchi__WrapOpzioniBlocchi
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+>
+  <OpzioniBlocchi__TagOpzioniBlocchi>
+    <span
+      key="k"
+    >
+      titolo
+    </span>
+  </OpzioniBlocchi__TagOpzioniBlocchi>
+  <OpzioniBlocchi__OpzioneBlocchi
+    dragColor="#f5ee97"
+    key="blocco_123_1"
+    onClick={[Function]}
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <span
+      key="k"
+    >
+      etichetta 1
+    </span>
+  </OpzioniBlocchi__OpzioneBlocchi>
+  <OpzioniBlocchi__OpzioneBlocchi
+    dragColor="#d6f4a0"
+    key="blocco_123_2"
+    onClick={[Function]}
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <span
+      key="l"
+    >
+      etichetta 1
+    </span>
+  </OpzioniBlocchi__OpzioneBlocchi>
+</OpzioniBlocchi__WrapOpzioniBlocchi>
+`;
+
+exports[`<WrapOpzioniBlocchi />  should render its props w/ theme 1`] = `
+.c0 {
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(255,255,255);
+  border-radius: 80px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 10px;
+  }
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "80px",
+      },
+    }
+  }
+/>
+`;

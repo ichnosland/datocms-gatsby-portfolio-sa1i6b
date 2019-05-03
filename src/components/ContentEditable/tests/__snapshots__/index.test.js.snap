@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentEditable /> should render input type=number if mustBeNumeric is provided  1`] = `
+<ContentEditable__EditableField
+  contentEditable={true}
+  type="number"
+  value="contenuto"
+/>
+`;
+
+exports[`<ContentEditable /> should render input type=text if mustBeNumeric is not provided  1`] = `
+<ContentEditable__EditableField
+  contentEditable={true}
+  type="text"
+  value="contenuto"
+/>
+`;
+
+exports[`<ContentEditable /> should render its css w/ props giusto 1`] = `
+<ContentEditable__EditableField
+  contentEditable={true}
+  giusto={true}
+  type="text"
+  value="contenuto"
+/>
+`;
+
+exports[`<ContentEditable /> should render its css w/ props sbagliato 1`] = `
+<ContentEditable__EditableField
+  contentEditable={true}
+  sbagliato={true}
+  type="text"
+  value="contenuto"
+/>
+`;
+
+exports[`<EditableField /> should render a <input> tag 1`] = `
+.c0 {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0::-webkit-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::-moz-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:-ms-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0[type="number"] {
+  text-align: right;
+}
+
+<input
+  className="c0"
+  content="contenuto"
+  label="label"
+/>
+`;
+
+exports[`<EditableField /> should render a its css w/ props bgcolor 1`] = `
+.c0 {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: green;
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0::-webkit-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::-moz-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:-ms-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0[type="number"] {
+  text-align: right;
+}
+
+<input
+  className="c0"
+  content="contenuto"
+  label="label"
+/>
+`;
+
+exports[`<EditableField /> should render a its css w/ props color 1`] = `
+.c0 {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  color: red;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0::-webkit-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::-moz-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:-ms-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0[type="number"] {
+  text-align: right;
+}
+
+<input
+  className="c0"
+  color="red"
+  content="contenuto"
+  label="label"
+/>
+`;
+
+exports[`<EditableField /> should render a its css w/ props padding 1`] = `
+.c0 {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 30px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 3px;
+  background-color: rgb(255,255,255);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0::-webkit-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::-moz-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:-ms-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0[type="number"] {
+  text-align: right;
+}
+
+<input
+  className="c0"
+  content="contenuto"
+  label="label"
+/>
+`;
+
+exports[`<EditableField /> should render a its css w/ props radius 1`] = `
+.c0 {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  padding: 6px;
+  border-top: 1px solid rgb(209,209,209);
+  border-left: 1px solid rgb(209,209,209);
+  border-right: 1px solid rgba(209,209,209,0.5);
+  border-bottom: 1px solid rgba(209,209,209,0.5);
+  border-radius: 6px;
+  background-color: rgb(255,255,255);
+}
+
+.c0:active {
+  background-color: #FFFDDE;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0::-webkit-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::-moz-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0:-ms-input-placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0::placeholder {
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+.c0[type="number"] {
+  text-align: right;
+}
+
+<input
+  className="c0"
+  content="contenuto"
+  label="label"
+  radius="6px"
+/>
+`;

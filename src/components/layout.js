@@ -3,6 +3,27 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { StaticQuery, graphql } from "gatsby"
 import { HelmetDatoCms } from 'gatsby-source-datocms'
+import { compose } from 'redux';
+import { connect } from 'react-redux';
+import styled from 'styled-components';
+import provideScrollPosition from 'react-provide-scroll-position';
+
+import { StickyWrap, StickyTop, StickyBottom } from 'components/StickyFooter';
+import { Section } from 'components/Section';
+import Container from 'components/Container';
+import SubLandingCard from 'components/LandingCard/SubLandingCard';
+import { H1, H2 } from 'components/Heading';
+import { ActionButtonLink } from 'components/ButtonLink';
+import { DesktopImage, MobileImage } from 'components/RespImg';
+import LandingMenuBar from 'components/LandingMenuBar';
+import Footer from 'components/Footer';
+import { colore } from 'style/color';
+import { landingPageToggleMenu } from 'containers/LandingPage/actions';
+
+import libro from './images/libro.png';
+import dashboard from './images/dashboard.png';
+import lezione from './images/lezione.png';
+import andamento from './images/andamento.png';
 
 import '../styles/index.sass'
 

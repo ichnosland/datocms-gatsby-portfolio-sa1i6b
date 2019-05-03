@@ -1,0 +1,18 @@
+/*
+ *
+ * ProvaCompetenzaStatistiche constants
+ *
+ */
+
+export const PROVA_COMPETENZA_STATISTICHE_URI_DATA_FETCH_STUDENTE = 'cicero_academy/api/provecompetenza/statistiche/studente/';
+export const PROVA_COMPETENZA_STATISTICHE_URI_DATA_FETCH_DOCENTE = 'cicero_academy/api/provecompetenza/statistiche/docente/';
+
+export const PROVA_COMPETENZA_STATISTICHE_DATA_FETCH = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_STATISTICHE_DATA_FETCH';
+export const PROVA_COMPETENZA_STATISTICHE_DATA_SET = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_STATISTICHE_DATA_SET';
+export const PROVA_COMPETENZA_STATISTICHE_DATA_RESET = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_STATISTICHE_DATA_RESET';
+export const PROVA_COMPETENZA_STATISTICHE_DATA_SELECT = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_STATISTICHE_DATA_SELECT';
+export const PROVA_COMPETENZA_STATISTICHE_SPINNER_SET = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_STATISTICHE_SPINNER_SET';
+export const PROVA_COMPETENZA_STATISTICHE_FEEDBACK_SET = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_STATISTICHE_FEEDBACK_SET';
+export const PROVA_COMPETENZA_STATISTICHE_FEEDBACK_RESET = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_STATISTICHE_FEEDBACK_RESET';
+export const PROVA_COMPETENZA_DIDASCALIA_SET = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_DIDASCALIA_SET';
+export const PROVA_COMPETENZA_DIDASCALIA_RESET = 'app/ProvaCompetenzaStatistiche/PROVA_COMPETENZA_DIDASCALIA_RESET';

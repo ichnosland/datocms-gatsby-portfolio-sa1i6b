@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopUp /> checks PopUp props when acceptButton provided too 1`] = `
+<Modal__ModalOverlay
+  show={true}
+  theme={
+    Object {
+      "modalbg": "rgba(0, 0, 0, 0.75)",
+    }
+  }
+>
+  <PopUp__PopUpContent>
+    <PopUp__PopUpHeader>
+      Questo è un titolo
+    </PopUp__PopUpHeader>
+    <PopUp__PopUpBody
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Questo è un contenuto",
+        }
+      }
+    />
+    <PopUp__PopUpFooter>
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        outline={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Annulla
+      </Button>
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Ok
+      </Button>
+    </PopUp__PopUpFooter>
+  </PopUp__PopUpContent>
+</Modal__ModalOverlay>
+`;
+
+exports[`<PopUp /> checks PopUp props when acceptButton provided too when label is provided 1`] = `
+<Modal__ModalOverlay
+  show={true}
+  theme={
+    Object {
+      "modalbg": "rgba(0, 0, 0, 0.75)",
+    }
+  }
+>
+  <PopUp__PopUpContent>
+    <PopUp__PopUpHeader>
+      Questo è un titolo
+    </PopUp__PopUpHeader>
+    <PopUp__PopUpBody
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Questo è un contenuto",
+        }
+      }
+    />
+    <PopUp__PopUpFooter>
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        outline={true}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        cancella
+      </Button>
+      <Button
+        actioncolor=""
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        accept
+      </Button>
+    </PopUp__PopUpFooter>
+  </PopUp__PopUpContent>
+</Modal__ModalOverlay>
+`;
+
+exports[`<PopUpBody /> should render a Div 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  margin: 20px 0 30px;
+  text-align: center;
+}
+
+.c0 ul {
+  text-align: left;
+}
+
+.c0 ul.fake-table {
+  list-style: none;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 0;
+  border-radius: 6px;
+}
+
+.c0 ul.fake-table li {
+  padding: 9px 14px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.c0 ul.fake-table li:last-child {
+  border: none;
+}
+
+.c0 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c0 table th {
+  background: rgb(231,236,236);
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 0.62em;
+  border: 1px solid rgb(231,236,236);
+  vertical-align: middle;
+}
+
+.c0 .common-table-wrap {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgb(209,209,209);
+  background-color: rgb(255,255,255);
+}
+
+.c0 .common-table {
+  width: 100% !important;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table th {
+  color: $darker-text-color;
+  font-weight: 400;
+  border: 1px solid rgb(209,209,209);
+  font-size: 21px;
+  padding: 9px 12px;
+}
+
+.c0 .common-table td {
+  padding: 9px 12px;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table p {
+  margin: 6px 0;
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<PopUpBody /> should render its css w/ props color 1`] = `
+.c0 {
+  color: yellow;
+  margin: 20px 0 30px;
+  text-align: center;
+}
+
+.c0 ul {
+  text-align: left;
+}
+
+.c0 ul.fake-table {
+  list-style: none;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 0;
+  border-radius: 6px;
+}
+
+.c0 ul.fake-table li {
+  padding: 9px 14px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.c0 ul.fake-table li:last-child {
+  border: none;
+}
+
+.c0 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c0 table th {
+  background: rgb(231,236,236);
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 0.62em;
+  border: 1px solid rgb(231,236,236);
+  vertical-align: middle;
+}
+
+.c0 .common-table-wrap {
+  width: 100%;
+  min-width: 100%;
+  overflow-x: auto;
+  border: 1px solid rgb(209,209,209);
+  background-color: rgb(255,255,255);
+}
+
+.c0 .common-table {
+  width: 100% !important;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table th {
+  color: $darker-text-color;
+  font-weight: 400;
+  border: 1px solid rgb(209,209,209);
+  font-size: 21px;
+  padding: 9px 12px;
+}
+
+.c0 .common-table td {
+  padding: 9px 12px;
+  border: 1px solid rgb(209,209,209);
+}
+
+.c0 .common-table p {
+  margin: 6px 0;
+}
+
+<Div
+  className="c0"
+  color="yellow"
+/>
+`;
+
+exports[`<PopUpHeader /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: red;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+<h4
+  className="c0"
+/>
+`;

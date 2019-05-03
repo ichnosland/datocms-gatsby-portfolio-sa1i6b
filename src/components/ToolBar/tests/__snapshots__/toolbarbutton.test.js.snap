@@ -1,0 +1,597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToolBarBtn /> should render its css w/ props full & enabled 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+  color: rgb(255,255,255);
+  background-color: rgb(153,226,17);
+  width: 100%;
+  padding: 0 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0::before {
+  content: "";
+  display: inline;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(153,226,17);
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  enabled={true}
+  full={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ToolBarBtn /> should render its props check 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+  width: 60px;
+  padding: 0;
+  border-radius: 100%;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+<Button
+  actioncolor=""
+  check={true}
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ToolBarBtn /> should render its props enabled w/ enabled 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+  color: rgb(255,255,255);
+  background-color: rgb(153,226,17);
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(153,226,17);
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  enabled={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ToolBarBtn /> should render its props full 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  full={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ToolBarBtn /> should render its props help 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+  width: 60px;
+  padding: 0;
+  border-radius: 100%;
+  background-color: rgb(251,158,36);
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(251,158,36);
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  help={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ToolBarBtn /> should render its props hide 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+  display: none;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  hide={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ToolBarBtn /> should render its props skip 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+  width: 60px;
+  padding: 0;
+  border-radius: 100%;
+  background-color: rgb(245,194,35);
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(245,194,35);
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  skip={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ToolBarBtn /> should render some text w/ its props title 1`] = `
+.c0 {
+  color: rgb(164,164,164);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 2.4rem;
+  padding: 0;
+  background-color: #ececec;
+  pointer-events: auto;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    background-color: rgb(216,216,216);
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+  title="Some text"
+/>
+`;
+
+exports[`<ToolBarButton /> should render its props check 1`] = `
+<ToolBarButton__ToolBarBtn
+  check={true}
+>
+  <Svg
+    fill="rgb(255, 255, 255)"
+    height="21px"
+    path={
+      <path
+        d="M20.626 42c-.48 0-.96-.187-1.326-.56L.55 22.35c-.733-.746-.733-1.953 0-2.7.73-.746 1.918-.746 2.65 0l17.426 17.742L56.8.56c.732-.747 1.918-.747 2.652 0 .73.746.73 1.953 0 2.7l-37.5 38.18c-.368.373-.846.56-1.326.56"
+        fillRule="evenodd"
+      />
+    }
+    viewBox="0 0 60 42"
+    width="30px"
+  />
+</ToolBarButton__ToolBarBtn>
+`;
+
+exports[`<ToolBarButton /> should render its props enabled w/ enabled 1`] = `
+<ToolBarButton__ToolBarBtn
+  enabled={true}
+/>
+`;
+
+exports[`<ToolBarButton /> should render its props full 1`] = `
+<ToolBarButton__ToolBarBtn
+  full={true}
+/>
+`;
+
+exports[`<ToolBarButton /> should render its props help 1`] = `
+<ToolBarButton__ToolBarBtn
+  help={true}
+>
+  <Svg
+    fill="rgb(255, 255, 255)"
+    height="30px"
+    path={
+      <path
+        d="M30 0C13.46 0 0 13.458 0 30s13.46 30 30 30c16.543 0 30-13.458 30-30S46.543 0 30 0zm15.248 40.64c2.26-3.106 3.616-6.95 3.616-11.124 0-4.176-1.357-8.02-3.618-11.125l6.708-2.865.097-.04c2.53 4.052 4.016 8.86 4.016 14.03S54.58 39.494 52.05 43.55l-6.802-2.91zM14.754 29.516c0-8.272 6.84-15 15.246-15 8.408 0 15.246 6.728 15.246 15 0 8.27-6.838 15-15.246 15-8.406 0-15.246-6.73-15.246-15zM44.262 8.18l-2.955 7.304C38.15 13.057 34.244 11.6 30 11.6c-4.244 0-8.15 1.457-11.307 3.884L15.738 8.18c4.118-2.713 9.008-4.31 14.26-4.31 5.256 0 10.146 1.597 14.264 4.31zM7.95 15.485l3.647 1.558 3.157 1.35c-2.26 3.105-3.62 6.948-3.62 11.124 0 4.174 1.36 8.02 3.62 11.123L7.95 43.547c-2.53-4.053-4.016-8.864-4.016-14.032 0-5.17 1.487-9.98 4.016-14.032zm7.788 36.335l.04-.102 2.914-7.202c3.157 2.427 7.064 3.885 11.306 3.885 4.244 0 8.15-1.457 11.308-3.884l2.956 7.3c-4.12 2.717-9.008 4.313-14.264 4.313-5.254 0-10.142-1.597-14.26-4.31z"
+        fillRule="evenodd"
+      />
+    }
+    viewBox="0 0 60 60"
+    width="30px"
+  />
+</ToolBarButton__ToolBarBtn>
+`;
+
+exports[`<ToolBarButton /> should render its props hide 1`] = `
+<ToolBarButton__ToolBarBtn
+  hide={true}
+/>
+`;
+
+exports[`<ToolBarButton /> should render its props skip 1`] = `
+<ToolBarButton__ToolBarBtn
+  skip={true}
+>
+  <Svg
+    fill="rgb(255, 255, 255)"
+    height="15px"
+    path={
+      <path
+        d="M.484 27.13L24.536 2.982H1.5c-.88 0-1.5-.64-1.5-1.492C0 .64.596.014 1.46.01L28.5 0c.872 0 1.5.213 1.5 1.278v27.124c0 .852-.643 1.598-1.5 1.598-.88 0-1.5-.723-1.5-1.598V5.326L2.92 29.53c-.59.59-1.767.66-2.436 0-.668-.66-.59-1.81 0-2.4z"
+        fillRule="nonzero"
+      />
+    }
+    viewBox="0 0 30 30"
+    width="15px"
+  />
+</ToolBarButton__ToolBarBtn>
+`;
+
+exports[`<ToolBarButton /> should render some text w/ its props title 1`] = `<ToolBarButton__ToolBarBtn />`;
+
+exports[`<ToolBarButton /> should render title & icon w/ props full, title & enabled 1`] = `
+<ToolBarButton__ToolBarBtn
+  enabled={true}
+  full={true}
+>
+  <span
+    key="toolbarbutton_title"
+  >
+    Some other text
+  </span>
+  <ToolBarButton__RightCareticon
+    height="18px"
+    key="toolbarbutton_caretIcon"
+    path={
+      <path
+        d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+        fillRule="evenodd"
+      />
+    }
+    viewBox="0 0 30 56"
+    width="9px"
+  />
+</ToolBarButton__ToolBarBtn>
+`;

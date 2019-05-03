@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bar /> should render its css w/ props bgColor 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 0 rgba(0,0,0,.1);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+/>
+`;
+
+exports[`<Bar /> should render its css w/ props box 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00BBEF;
+  box-shadow: 0 6px 0 rgba(0,0,0,.1);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    padding-top: 20px;
+  }
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+/>
+`;
+
+exports[`<Bar /> should render its css w/ props color 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00BBEF;
+  box-shadow: 0 6px 0 rgba(0,0,0,.1);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+  color="#fff"
+/>
+`;
+
+exports[`<Bar /> should render its css w/ props noShadow 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00BBEF;
+  box-shadow: none;
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+/>
+`;
+
+exports[`<Bar /> should render its css w/ props pinned 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00BBEF;
+  box-shadow: 0 6px 0 rgba(0,0,0,.1);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+/>
+`;
+
+exports[`<Bar /> should render its css w/ props searchActive 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00BBEF;
+  box-shadow: 0 6px 0 rgba(0,0,0,.1);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: rgb(240,240,240);
+  box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+/>
+`;
+
+exports[`<Bar /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00abe5;
+  box-shadow: 0 6px 0 rgba(0,0,0,.1);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+/>
+`;
+
+exports[`<Bar /> should render its css w/o props 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00BBEF;
+  box-shadow: 0 6px 0 rgba(0,0,0,.1);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<header
+  className="c0"
+/>
+`;

@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VersioneEsecuzioneView /> Mostra lo stato iniziale 1`] = `
+<FlexBox__FlexWrap
+  className="FlexWrap"
+>
+  <EsecuzioneSteps
+    apriModalBox={[MockFunction]}
+    chiudiModalBox={[MockFunction]}
+    correzioneRisposta={
+      Object {
+        "correzioneStep": undefined,
+        "isCheckable": true,
+        "isChecked": true,
+        "isCorrect": false,
+        "isFocusEnabled": false,
+        "isHelpEnabled": true,
+        "isInterfaceLocked": false,
+        "isPristine": true,
+        "mostraCorrezione": false,
+        "mostraSoluzione": true,
+        "risposteInizializza": undefined,
+      }
+    }
+    correzioneRispostaFx={[Function]}
+    disableAutofocus={false}
+    funzioneSelezionaRisposta={[Function]}
+    hasCorreggi={true}
+    hasHelp={true}
+    hasLessico={true}
+    helpButtonFunction={[Function]}
+    helpFunction={[Function]}
+    isVersione={true}
+    key="esecuzione_versione_1_1234"
+    rispostaSelezionata={
+      Array [
+        1,
+        2,
+      ]
+    }
+    stepCaricato={
+      Object {
+        "esercizi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "passivo",
+            "distrattore_2": "imperfetto",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": false,
+            "form": Array [
+              "imperfetto",
+              "passivo",
+              "attivo",
+              "presente",
+            ],
+            "html": null,
+            "id": 94635,
+            "ignora_lessico": false,
+            "inputLessicale": Array [],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "attivo",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "presente",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": "N",
+            "titolo": "Analizza il tempo e la diatesi",
+            "traduci": Array [],
+          },
+        ],
+        "id": 1234,
+        "periodoId": 1,
+        "testi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "",
+            "distrattore_2": "",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": true,
+            "form": null,
+            "html": "<span lessico=\\"Luna\\" idx=\\"0\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">Luna</span> <span class=\\"contesto\\"><span lessico=\\"splendet\\" idx=\\"1\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">splendet</span> </span><span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>, <span lessico=\\"stellae\\" idx=\\"3\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">stellae</span> <span lessico=\\"fulgent\\" idx=\\"4\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">fulgent</span>.",
+            "id": 94634,
+            "ignora_lessico": false,
+            "inputLessicale": Array [
+              Object {
+                "focus": false,
+                "forma": "luna",
+                "lemma": "luna",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "luna",
+              },
+              Object {
+                "focus": false,
+                "forma": "splendet",
+                "lemma": "splendeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "splendere",
+              },
+              Object {
+                "focus": false,
+                "forma": "stellae",
+                "lemma": "stella",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "stella",
+              },
+              Object {
+                "focus": false,
+                "forma": "fulgent",
+                "lemma": "fulgeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "brillare",
+              },
+            ],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": false,
+            "titolo": null,
+            "traduci": Array [],
+          },
+        ],
+      }
+    }
+    stepEseguiti={2}
+    toggleFocusFunction={[Function]}
+    topBarParams={
+      Object {
+        "closeBtn": Object {
+          "enabled": true,
+          "onClickFunction": [Function],
+          "url": "#",
+        },
+        "rightBtn": Object {
+          "icon": "version",
+          "onClickFunction": [Function],
+        },
+        "version": true,
+      }
+    }
+  />
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="product"
+  />
+</FlexBox__FlexWrap>
+`;
+
+exports[`<VersioneEsecuzioneView /> Mostra uno spinner se attivo 1`] = `
+<FlexBox__FlexWrap
+  className="FlexWrap"
+>
+  <Spinner
+    number={3}
+  />
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="product"
+  />
+</FlexBox__FlexWrap>
+`;
+
+exports[`<VersioneEsecuzioneView /> testo TopBar.rightBtn se esiste testo 1`] = `
+<FlexBox__FlexWrap
+  className="FlexWrap"
+>
+  <EsecuzioneSteps
+    apriModalBox={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "bgcolor": "transparent",
+              "contenuto": <Page
+                full={true}
+              >
+                <VersionePeriodiTradotti
+                  modal={true}
+                  periodi={Array []}
+                  sottotitolo="sottotitolo"
+                  titolo="titolo"
+                />
+              </Page>,
+              "isPopup": false,
+              "show": true,
+              "titolo": "Riepilogo",
+              "topbar": true,
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    chiudiModalBox={[MockFunction]}
+    correzioneRisposta={
+      Object {
+        "correzioneStep": undefined,
+        "isCheckable": true,
+        "isChecked": true,
+        "isCorrect": false,
+        "isFocusEnabled": false,
+        "isHelpEnabled": true,
+        "isInterfaceLocked": false,
+        "isPristine": true,
+        "mostraCorrezione": false,
+        "mostraSoluzione": true,
+        "risposteInizializza": undefined,
+      }
+    }
+    correzioneRispostaFx={[Function]}
+    disableAutofocus={false}
+    funzioneSelezionaRisposta={[Function]}
+    hasCorreggi={true}
+    hasHelp={true}
+    hasLessico={true}
+    helpButtonFunction={[Function]}
+    helpFunction={[Function]}
+    isVersione={true}
+    key="esecuzione_versione_1_1234"
+    rispostaSelezionata={
+      Array [
+        1,
+        2,
+      ]
+    }
+    stepCaricato={
+      Object {
+        "esercizi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "passivo",
+            "distrattore_2": "imperfetto",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": false,
+            "form": Array [
+              "imperfetto",
+              "passivo",
+              "attivo",
+              "presente",
+            ],
+            "html": null,
+            "id": 94635,
+            "ignora_lessico": false,
+            "inputLessicale": Array [],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "attivo",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "presente",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": "N",
+            "titolo": "Analizza il tempo e la diatesi",
+            "traduci": Array [],
+          },
+        ],
+        "id": 1234,
+        "periodoId": 1,
+        "testi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "",
+            "distrattore_2": "",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": true,
+            "form": null,
+            "html": "<span lessico=\\"Luna\\" idx=\\"0\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">Luna</span> <span class=\\"contesto\\"><span lessico=\\"splendet\\" idx=\\"1\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">splendet</span> </span><span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>, <span lessico=\\"stellae\\" idx=\\"3\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">stellae</span> <span lessico=\\"fulgent\\" idx=\\"4\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">fulgent</span>.",
+            "id": 94634,
+            "ignora_lessico": false,
+            "inputLessicale": Array [
+              Object {
+                "focus": false,
+                "forma": "luna",
+                "lemma": "luna",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "luna",
+              },
+              Object {
+                "focus": false,
+                "forma": "splendet",
+                "lemma": "splendeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "splendere",
+              },
+              Object {
+                "focus": false,
+                "forma": "stellae",
+                "lemma": "stella",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "stella",
+              },
+              Object {
+                "focus": false,
+                "forma": "fulgent",
+                "lemma": "fulgeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "brillare",
+              },
+            ],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": false,
+            "titolo": null,
+            "traduci": Array [],
+          },
+        ],
+      }
+    }
+    stepEseguiti={2}
+    toggleFocusFunction={[Function]}
+    topBarParams={
+      Object {
+        "closeBtn": Object {
+          "enabled": true,
+          "onClickFunction": [Function],
+          "url": "#",
+        },
+        "rightBtn": Object {
+          "icon": "version",
+          "onClickFunction": [Function],
+        },
+        "version": true,
+      }
+    }
+  />
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="product"
+  />
+</FlexBox__FlexWrap>
+`;
+
+exports[`<VersioneEsecuzioneView /> testo il contenuto se interfaccia bloccata 1`] = `
+<FlexBox__FlexWrap
+  className="FlexWrap"
+>
+  <EsecuzioneSteps
+    apriModalBox={[MockFunction]}
+    chiudiModalBox={[MockFunction]}
+    correzioneRisposta={
+      Object {
+        "correzioneStep": undefined,
+        "isCheckable": true,
+        "isChecked": true,
+        "isCorrect": false,
+        "isFocusEnabled": false,
+        "isHelpEnabled": true,
+        "isInterfaceLocked": true,
+        "isPristine": true,
+        "mostraCorrezione": false,
+        "mostraSoluzione": true,
+        "risposteInizializza": undefined,
+      }
+    }
+    correzioneRispostaFx={[Function]}
+    disableAutofocus={false}
+    funzioneSelezionaRisposta={[Function]}
+    hasCorreggi={true}
+    hasHelp={true}
+    hasLessico={true}
+    helpButtonFunction={[Function]}
+    helpFunction={[Function]}
+    isVersione={true}
+    key="esecuzione_versione_1_1234"
+    rispostaSelezionata={
+      Array [
+        1,
+        2,
+      ]
+    }
+    stepCaricato={
+      Object {
+        "esercizi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "passivo",
+            "distrattore_2": "imperfetto",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": false,
+            "form": Array [
+              "imperfetto",
+              "passivo",
+              "attivo",
+              "presente",
+            ],
+            "html": null,
+            "id": 94635,
+            "ignora_lessico": false,
+            "inputLessicale": Array [],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "attivo",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "presente",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": "N",
+            "titolo": "Analizza il tempo e la diatesi",
+            "traduci": Array [],
+          },
+        ],
+        "id": 1234,
+        "periodoId": 1,
+        "testi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "",
+            "distrattore_2": "",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": true,
+            "form": null,
+            "html": "<span lessico=\\"Luna\\" idx=\\"0\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">Luna</span> <span class=\\"contesto\\"><span lessico=\\"splendet\\" idx=\\"1\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">splendet</span> </span><span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>, <span lessico=\\"stellae\\" idx=\\"3\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">stellae</span> <span lessico=\\"fulgent\\" idx=\\"4\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">fulgent</span>.",
+            "id": 94634,
+            "ignora_lessico": false,
+            "inputLessicale": Array [
+              Object {
+                "focus": false,
+                "forma": "luna",
+                "lemma": "luna",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "luna",
+              },
+              Object {
+                "focus": false,
+                "forma": "splendet",
+                "lemma": "splendeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "splendere",
+              },
+              Object {
+                "focus": false,
+                "forma": "stellae",
+                "lemma": "stella",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "stella",
+              },
+              Object {
+                "focus": false,
+                "forma": "fulgent",
+                "lemma": "fulgeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "brillare",
+              },
+            ],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": false,
+            "titolo": null,
+            "traduci": Array [],
+          },
+        ],
+      }
+    }
+    stepEseguiti={2}
+    toggleFocusFunction={[Function]}
+    topBarParams={
+      Object {
+        "closeBtn": Object {
+          "enabled": true,
+          "onClickFunction": [Function],
+          "url": "#",
+        },
+        "rightBtn": Object {
+          "icon": "version",
+          "onClickFunction": [Function],
+        },
+        "version": true,
+      }
+    }
+  />
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="product"
+  />
+</FlexBox__FlexWrap>
+`;

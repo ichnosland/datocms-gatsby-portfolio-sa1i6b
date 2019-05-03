@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlertBanner /> should render its css 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props actioncolor == action 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(245,194,35);
+  background-color: #fef8e6;
+  color: #aa8308;
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0 svg {
+  fill: #aa8308;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: action;
+}
+
+<FlexBox
+  actioncolor="action"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props actioncolor == error 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(255,0,0);
+  background-color: #fcc;
+  color: #900;
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0 svg {
+  fill: #900;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: error;
+}
+
+<FlexBox
+  actioncolor="error"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props actioncolor == escape 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(251,91,111);
+  background-color: #fff;
+  color: #ea0622;
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0 svg {
+  fill: #ea0622;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: escape;
+}
+
+<FlexBox
+  actioncolor="escape"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props actioncolor == help 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(251,158,36);
+  background-color: #fff7ec;
+  color: #b66903;
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0 svg {
+  fill: #b66903;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: help;
+}
+
+<FlexBox
+  actioncolor="help"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props actioncolor == hint 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(179,166,255);
+  background-color: #fff;
+  color: #5c40ff;
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0 svg {
+  fill: #5c40ff;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: hint;
+}
+
+<FlexBox
+  actioncolor="hint"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props actioncolor == okay 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(153,226,17);
+  background-color: #e8fbc4;
+  color: #59830a;
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0 svg {
+  fill: #59830a;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: okay;
+}
+
+<FlexBox
+  actioncolor="okay"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: red;
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  bgcolor="red"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props border 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid #00BBEF;
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  border="2px solid red"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props color 1`] = `
+.c0 {
+  color: blue;
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: blue;
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  color="blue"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props margin 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 30px;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  margin="30px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props padding 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  padding: 40px;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  padding="40px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props radius 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 30px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  radius="30px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props shadow 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border: none;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.20);
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  shadow={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props tag 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  tag={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<AlertBanner /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid #00abe5;
+  background-color: rgb(255,255,255);
+  padding: 0.6em 1.6em;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: rgb(78,78,78);
+}
+
+<FlexBox
+  actioncolor=""
+  border={true}
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+/>
+`;
+
+exports[`<IconBanner /> should render its css w/ props padding 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 300px;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  margin-right: 12px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 div:last-child {
+  margin-right: 0;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 300px;
+  }
+}
+
+<FlexBox
+  actioncolor=""
+  className="c0"
+  padding="300px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<InfoBanner /> should render its css w/ props padding 1`] = `
+.c0 {
+  padding: 500px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c0 svg {
+    margin: 10px 0;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 500px;
+  }
+}
+
+<AlertBanner
+  actioncolor=""
+  className="c0"
+  padding="500px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;

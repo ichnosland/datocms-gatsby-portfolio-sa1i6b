@@ -1,0 +1,1176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GrigliaValutazioniNewView /> visualizza il contenuto nel suo stato iniziale 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      key="crea_valutazione_nome_classe"
+      margin="0 auto 20px"
+      padding="0 0 10px"
+    >
+      <Heading__H3
+        margin="0"
+      >
+        Nuova valutazione
+      </Heading__H3>
+      <Button
+        actioncolor="okay"
+        disabled={false}
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          left={true}
+          path={
+            <path
+              d="M20 16h8v4h-8v8h-4v-8H8v-4h8V8h4v8z"
+              fillRule="evenodd"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+        Crea
+      </Button>
+    </FlexBox>
+    <Div
+      key="crea_valutazione_titolo_valutazione"
+      margin="0 auto 30px"
+    >
+      <ContentEditable
+        key="nuova_valutazione_titolo"
+        label="Titolo valutazione*"
+        onChangeFunction={[Function]}
+        type="text"
+        width="100%"
+      />
+    </Div>
+    <FlexBox
+      justifyContent="space-around"
+      key="crea_valutazione_blocchi"
+      margin="0 auto"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 0,
+              "label": <div>
+                <span>
+                  Obiettivi
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 1,
+              "label": <div>
+                <span>
+                  Versioni
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 2,
+              "label": <div>
+                <span>
+                  Versioni
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 3,
+              "label": <div>
+                <span>
+                  Verifiche
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 4,
+              "label": <div>
+                <span>
+                  Verifiche
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 5,
+              "label": <div>
+                <span>
+                  Prove competenza
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+        full={true}
+        tabs={true}
+      />
+    </FlexBox>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "field": "titolo",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "blocchi": Array [
+              "blocco",
+            ],
+            "field": "titolo",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "titolo",
+              },
+            ],
+            "label": "Titolo",
+            "type": "string",
+          },
+          Object {
+            "blocchi": Array [
+              "blocco",
+            ],
+            "field": "dataSortable",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "dataCreazione",
+              },
+            ],
+            "label": "Data",
+            "type": "string",
+          },
+          Object {
+            "blocchi": Array [
+              "blocco",
+            ],
+            "field": "checkboxSortable",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "checkbox",
+              },
+            ],
+            "label": "Seleziona",
+            "type": "string",
+          },
+        ]
+      }
+      key="crea_valutazione_report_grid"
+      righe={
+        Array [
+          Object {
+            "checkbox": <input
+              checked={false}
+              onChange={[Function]}
+              onClick={[Function]}
+              prefill="titolo selezionato"
+              type="checkbox"
+            />,
+            "checkboxSortable": -1,
+            "dataCreazione": "01/10/2019",
+            "dataSortable": "2019-10-01",
+            "id": 1,
+            "titolo": "titolo 1",
+          },
+          Object {
+            "checkbox": <input
+              checked={false}
+              onChange={[Function]}
+              onClick={[Function]}
+              prefill="titolo selezionato"
+              type="checkbox"
+            />,
+            "checkboxSortable": -1,
+            "dataCreazione": "01/10/2014",
+            "dataSortable": "2014-10-01",
+            "id": 2,
+            "titolo": "titolo 2",
+          },
+        ]
+      }
+      sortingFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniNewView /> visualizza il contenuto quando feedback = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      key="crea_valutazione_nome_classe"
+      margin="0 auto 20px"
+      padding="0 0 10px"
+    >
+      <Heading__H3
+        margin="0"
+      >
+        Nuova valutazione
+      </Heading__H3>
+      <Button
+        actioncolor="okay"
+        disabled={false}
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          left={true}
+          path={
+            <path
+              d="M20 16h8v4h-8v8h-4v-8H8v-4h8V8h4v8z"
+              fillRule="evenodd"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+        Crea
+      </Button>
+    </FlexBox>
+    <Div
+      key="crea_valutazione_titolo_valutazione"
+      margin="0 auto 30px"
+    >
+      <ContentEditable
+        key="nuova_valutazione_titolo"
+        label="Titolo valutazione*"
+        onChangeFunction={[Function]}
+        type="text"
+        width="100%"
+      />
+    </Div>
+    <FlexBox
+      justifyContent="space-around"
+      key="crea_valutazione_blocchi"
+      margin="0 auto"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 0,
+              "label": <div>
+                <span>
+                  Obiettivi
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 1,
+              "label": <div>
+                <span>
+                  Versioni
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 2,
+              "label": <div>
+                <span>
+                  Versioni
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 3,
+              "label": <div>
+                <span>
+                  Verifiche
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 4,
+              "label": <div>
+                <span>
+                  Verifiche
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 5,
+              "label": <div>
+                <span>
+                  Prove competenza
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+        full={true}
+        tabs={true}
+      />
+    </FlexBox>
+    <AlertBanner
+      actioncolor="errore"
+      key="crea_valutazione_alertbanner"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio
+    </AlertBanner>
+  </Container>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniNewView /> visualizza il contenuto quando ordinamento è per dataSortable 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FlexBox
+      justifyContent="space-between"
+      key="crea_valutazione_nome_classe"
+      margin="0 auto 20px"
+      padding="0 0 10px"
+    >
+      <Heading__H3
+        margin="0"
+      >
+        Nuova valutazione
+      </Heading__H3>
+      <Button
+        actioncolor="okay"
+        disabled={false}
+        onClick={[Function]}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        <Button__Icon
+          height="18px"
+          left={true}
+          path={
+            <path
+              d="M20 16h8v4h-8v8h-4v-8H8v-4h8V8h4v8z"
+              fillRule="evenodd"
+            />
+          }
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+          viewBox="0 0 36 36"
+          width="18px"
+        />
+        Crea
+      </Button>
+    </FlexBox>
+    <Div
+      key="crea_valutazione_titolo_valutazione"
+      margin="0 auto 30px"
+    >
+      <ContentEditable
+        key="nuova_valutazione_titolo"
+        label="Titolo valutazione*"
+        onChangeFunction={[Function]}
+        type="text"
+        width="100%"
+      />
+    </Div>
+    <FlexBox
+      justifyContent="space-around"
+      key="crea_valutazione_blocchi"
+      margin="0 auto"
+    >
+      <ButtonGroup
+        buttons={
+          Array [
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 0,
+              "label": <div>
+                <span>
+                  Obiettivi
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 1,
+              "label": <div>
+                <span>
+                  Versioni
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 2,
+              "label": <div>
+                <span>
+                  Versioni
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 3,
+              "label": <div>
+                <span>
+                  Verifiche
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 4,
+              "label": <div>
+                <span>
+                  Verifiche
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+            Object {
+              "attivo": false,
+              "disabled": true,
+              "id": 5,
+              "label": <div>
+                <span>
+                  Prove competenza
+                </span>
+                <CountBadge
+                  theme={
+                    Object {
+                      "radius": Object {
+                        "countBadge": "90%",
+                      },
+                    }
+                  }
+                >
+                  <CountBadge__CountBadgeItem
+                    bgcolor="rgb(200, 10, 10)"
+                    theme={
+                      Object {
+                        "radius": Object {
+                          "countBadge": "90%",
+                        },
+                      }
+                    }
+                  >
+                    2
+                  </CountBadge__CountBadgeItem>
+                </CountBadge>
+              </div>,
+              "onClickFunction": [Function],
+            },
+          ]
+        }
+        full={true}
+        tabs={true}
+      />
+    </FlexBox>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "field": "dataSortable",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "blocchi": Array [
+              "blocco",
+            ],
+            "field": "titolo",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "titolo",
+              },
+            ],
+            "label": "Titolo",
+            "type": "string",
+          },
+          Object {
+            "blocchi": Array [
+              "blocco",
+            ],
+            "field": "dataSortable",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "dataCreazione",
+              },
+            ],
+            "label": "Data",
+            "type": "string",
+          },
+          Object {
+            "blocchi": Array [
+              "blocco",
+            ],
+            "field": "checkboxSortable",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "checkbox",
+              },
+            ],
+            "label": "Seleziona",
+            "type": "string",
+          },
+        ]
+      }
+      key="crea_valutazione_report_grid"
+      righe={
+        Array [
+          Object {
+            "checkbox": <input
+              checked={false}
+              onChange={[Function]}
+              onClick={[Function]}
+              prefill="titolo selezionato"
+              type="checkbox"
+            />,
+            "checkboxSortable": -1,
+            "dataCreazione": "01/10/2019",
+            "dataSortable": "2019-10-01",
+            "id": 1,
+            "titolo": "titolo 1",
+          },
+          Object {
+            "checkbox": <input
+              checked={false}
+              onChange={[Function]}
+              onClick={[Function]}
+              prefill="titolo selezionato"
+              type="checkbox"
+            />,
+            "checkboxSortable": -1,
+            "dataCreazione": "01/10/2014",
+            "dataSortable": "2014-10-01",
+            "id": 2,
+            "titolo": "titolo 2",
+          },
+        ]
+      }
+      sortingFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniNewView /> visualizza il contenuto quando spinner = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome Corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;

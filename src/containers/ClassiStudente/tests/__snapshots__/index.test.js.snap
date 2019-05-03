@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassiStudenteView /> visualizza il contenuto nel suo stato iniziale 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FormElements__CardForm
+      onSubmit={[Function]}
+    >
+      <Heading__H2>
+        Associa classe
+      </Heading__H2>
+      <Paragraph
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        Inserisci il codice per associarti ad una classe
+      </Paragraph>
+      <FormElements__FormElement>
+        <Field
+          align="center"
+          component={[Function]}
+          label="codice"
+          name="codice"
+          type="text"
+          validate={
+            Array [
+              [Function],
+            ]
+          }
+        />
+      </FormElements__FormElement>
+      <FormElements__FormElement>
+        <Button
+          actioncolor="okay"
+          full={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Salva
+        </Button>
+      </FormElements__FormElement>
+      <Paragraph
+        margin="40px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Text__BrandTxt>
+          <strong>
+            Classi a cui sei iscritto
+          </strong>
+        </Text__BrandTxt>
+      </Paragraph>
+      <div>
+        <Paragraph
+          key="corso_1"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "darken": "#1588AA",
+            }
+          }
+        >
+          corso 1
+        </Paragraph>
+        <Paragraph
+          key="corso_2"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "darken": "#1588AA",
+            }
+          }
+        >
+          corso 2
+        </Paragraph>
+      </div>
+    </FormElements__CardForm>
+  </Container>
+</Page>
+`;
+
+exports[`<ClassiStudenteView /> visualizza il contenuto quando ha un feedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FormElements__CardForm
+      onSubmit={[Function]}
+    >
+      <Heading__H2>
+        Associa classe
+      </Heading__H2>
+      <Paragraph
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        Inserisci il codice per associarti ad una classe
+      </Paragraph>
+      <AlertBanner
+        actioncolor="okay"
+        text="messaggio"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        messaggio
+      </AlertBanner>
+      <FormElements__FormElement>
+        <Field
+          align="center"
+          component={[Function]}
+          label="codice"
+          name="codice"
+          type="text"
+          validate={
+            Array [
+              [Function],
+            ]
+          }
+        />
+      </FormElements__FormElement>
+      <FormElements__FormElement>
+        <Button
+          actioncolor="okay"
+          full={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Salva
+        </Button>
+      </FormElements__FormElement>
+      <Paragraph
+        margin="40px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Text__BrandTxt>
+          <strong>
+            Classi a cui sei iscritto
+          </strong>
+        </Text__BrandTxt>
+      </Paragraph>
+      <div>
+        <Paragraph
+          key="corso_1"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "darken": "#1588AA",
+            }
+          }
+        >
+          corso 1
+        </Paragraph>
+        <Paragraph
+          key="corso_2"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "darken": "#1588AA",
+            }
+          }
+        >
+          corso 2
+        </Paragraph>
+      </div>
+    </FormElements__CardForm>
+  </Container>
+</Page>
+`;
+
+exports[`<ClassiStudenteView /> visualizza il contenuto quando non ho corsi 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <FormElements__CardForm
+      onSubmit={[Function]}
+    >
+      <Heading__H2>
+        Associa classe
+      </Heading__H2>
+      <Paragraph
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        Inserisci il codice per associarti ad una classe
+      </Paragraph>
+      <FormElements__FormElement>
+        <Field
+          align="center"
+          component={[Function]}
+          label="codice"
+          name="codice"
+          type="text"
+          validate={
+            Array [
+              [Function],
+            ]
+          }
+        />
+      </FormElements__FormElement>
+      <FormElements__FormElement>
+        <Button
+          actioncolor="okay"
+          full={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Salva
+        </Button>
+      </FormElements__FormElement>
+      <Paragraph
+        margin="40px auto 20px"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        <Text__BrandTxt>
+          <strong>
+            Classi a cui sei iscritto
+          </strong>
+        </Text__BrandTxt>
+      </Paragraph>
+      <AlertBanner
+        actioncolor="help"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        Non sei iscritto a classi
+      </AlertBanner>
+    </FormElements__CardForm>
+  </Container>
+</Page>
+`;
+
+exports[`<ClassiStudenteView /> visualizza il contenuto quando spinner = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;

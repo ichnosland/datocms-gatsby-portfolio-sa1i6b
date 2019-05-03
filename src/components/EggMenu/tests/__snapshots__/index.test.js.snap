@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EggLi /> should render its css w/ props active = false 1`] = `
+.c0 {
+  display: block;
+  position: absolute;
+  right: 15px;
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+  z-index: 17;
+  -webkit-animation: gFoyaN 0.5s 1 reverse;
+  animation: gFoyaN 0.5s 1 reverse;
+}
+
+<li
+  className="c0"
+/>
+`;
+
+exports[`<EggLi /> should render its css w/ props active 1`] = `
+.c0 {
+  display: block;
+  position: absolute;
+  right: 15px;
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+  z-index: 17;
+  -webkit-animation: gFoyaN 0.3s 1 forwards;
+  animation: gFoyaN 0.3s 1 forwards;
+}
+
+<li
+  className="c0"
+/>
+`;
+
+exports[`<EggMenu /> EggShell > onClick should call toggleEggMenu when animate == false and active == false 1`] = `
+<EggMenu__EggShell
+  onClick={[Function]}
+>
+  <EggMenu__EggUl>
+    <EggMenu__EggLi
+      active={false}
+      animate={false}
+      key="3"
+      stacco={55}
+    >
+      <EggMenuItem
+        fill="fff"
+        icona={
+          Object {
+            "height": "32px",
+            "path": <path
+              d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+              fillRule="evenodd"
+            />,
+            "viewBox": "0 0 32 32",
+            "width": "32px",
+          }
+        }
+        titolo="Voce 1"
+        url="http://acme.com"
+      />
+    </EggMenu__EggLi>
+  </EggMenu__EggUl>
+  <EggButton
+    active={false}
+    product="alatin"
+  />
+</EggMenu__EggShell>
+`;
+
+exports[`<EggMenu /> EggShell > onClick should call toggleEggMenu when animate == false and active == true 1`] = `
+<EggMenu__EggShell
+  onClick={[Function]}
+>
+  <EggMenu__EggUl>
+    <EggMenu__EggLi
+      active={true}
+      animate={false}
+      key="2"
+      stacco={55}
+    >
+      <EggMenuItem
+        fill="fff"
+        icona={
+          Object {
+            "height": "32px",
+            "path": <path
+              d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+              fillRule="evenodd"
+            />,
+            "viewBox": "0 0 32 32",
+            "width": "32px",
+          }
+        }
+        titolo="Voce 1"
+        url="http://acme.com"
+      />
+    </EggMenu__EggLi>
+  </EggMenu__EggUl>
+  <EggButton
+    active={true}
+    product="alatin"
+  />
+</EggMenu__EggShell>
+`;
+
+exports[`<EggMenu /> EggShell > onClick should call toggleEggMenu when animate == true 1`] = `
+<EggMenu__EggShell
+  onClick={[Function]}
+>
+  <EggMenu__EggUl>
+    <EggMenu__EggLi
+      animate={true}
+      key="4"
+      stacco={55}
+    >
+      <EggMenuItem
+        fill="fff"
+        icona={
+          Object {
+            "height": "32px",
+            "path": <path
+              d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+              fillRule="evenodd"
+            />,
+            "viewBox": "0 0 32 32",
+            "width": "32px",
+          }
+        }
+        titolo="Voce 1"
+        url="http://acme.com"
+      />
+    </EggMenu__EggLi>
+  </EggMenu__EggUl>
+  <EggButton
+    product="alatin"
+  />
+</EggMenu__EggShell>
+`;
+
+exports[`<EggMenu /> counts EggMenuItem in EggMenu 1`] = `
+<EggMenu__EggShell
+  onClick={[Function]}
+>
+  <EggMenu__EggUl>
+    <EggMenu__EggLi
+      active={true}
+      animate={true}
+      key="1"
+      stacco={55}
+    >
+      <EggMenuItem
+        fill="fff"
+        icona={
+          Object {
+            "height": "32px",
+            "path": <path
+              d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.336 24.78C23.85 27.708 20.14 29.563 16 29.563c-4.14 0-7.85-1.855-10.336-4.78C8.15 21.855 11.86 20 16 20c4.14 0 7.85 1.856 10.336 4.78zM16 4.75c3.093 0 5.63 2.53 5.63 5.63S19.092 16 16 16s-5.63-2.53-5.63-5.63S12.908 4.75 16 4.75z"
+              fillRule="evenodd"
+            />,
+            "viewBox": "0 0 32 32",
+            "width": "32px",
+          }
+        }
+        titolo="Voce 1"
+        url="http://acme.com"
+      />
+    </EggMenu__EggLi>
+  </EggMenu__EggUl>
+  <EggButton
+    active={true}
+    product="alatin"
+  />
+</EggMenu__EggShell>
+`;

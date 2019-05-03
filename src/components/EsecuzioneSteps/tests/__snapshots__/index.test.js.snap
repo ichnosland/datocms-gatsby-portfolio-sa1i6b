@@ -1,0 +1,2077 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EsecuzioneSteps /> Cosa succede quando hasCorreggi == true 1`] = `
+<Container>
+  <CentralBox>
+    <ProgressBar
+      lezione={true}
+      percentuale={90}
+    />
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      box={true}
+      closeBtn={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      esecuzione={true}
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      noShadow={true}
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <AlertBar
+      aiuto={false}
+      giusto={false}
+      helpFx={[Function]}
+      sbagliato={true}
+      show={false}
+    />
+    <Step
+      apriModalBox={[MockFunction]}
+      audioSettings={
+        Object {
+          "enablePause": true,
+          "maxRepetitions": 2,
+        }
+      }
+      chiudiModalBox={[MockFunction]}
+      correzioneRisposta={
+        Object {
+          "isCheckable": false,
+          "isChecked": true,
+          "isCorrect": false,
+          "isFocusEnabled": false,
+          "isHelpEnabled": false,
+          "isPristine": true,
+          "mostraCorrezione": false,
+          "mostraSoluzione": false,
+        }
+      }
+      correzioneRispostaFx={[MockFunction]}
+      disableAutofocus={false}
+      enableFocusButtonRisposta={[Function]}
+      funzioneSelezionaRisposta={[MockFunction]}
+      hasCorreggi={true}
+      hasHelp={true}
+      hasSkip={false}
+      step={
+        Object {
+          "esercizi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "passivo",
+              "distrattore_2": "imperfetto",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": false,
+              "form": Array [
+                "imperfetto",
+                "passivo",
+                "attivo",
+                "presente",
+              ],
+              "html": null,
+              "id": 94635,
+              "ignora_lessico": false,
+              "inputLessicale": Array [],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "attivo",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testo_principale": "presente",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": "N",
+              "titolo": "Analizza il tempo e la diatesi",
+              "traduci": Array [],
+            },
+          ],
+          "testi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "",
+              "distrattore_2": "",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": true,
+              "form": null,
+              "html": undefined,
+              "id": 94634,
+              "ignora_lessico": false,
+              "inputLessicale": Array [
+                Object {
+                  "focus": false,
+                  "forma": "luna",
+                  "lemma": "luna",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "luna",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "splendet",
+                  "lemma": "splendeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "splendere",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "stellae",
+                  "lemma": "stella",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "stella",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "fulgent",
+                  "lemma": "fulgeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "brillare",
+                },
+              ],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testoConsegna": Array [
+                Object {
+                  "id": "lessico_0_Luna",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "luna",
+                    "lemma": "luna",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "luna",
+                  },
+                  "parola": "Luna",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_1",
+                  "type": "text",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "id": "lessico_0_splendet",
+                      "inputLessicale": Object {
+                        "focus": false,
+                        "forma": "splendet",
+                        "lemma": "splendeo",
+                        "tabelle": null,
+                        "tipo": "v",
+                        "traduzione": "splendere",
+                      },
+                      "parola": "splendet",
+                      "type": "lessico",
+                    },
+                    Object {
+                      "content": " ",
+                      "id": "text_1",
+                      "type": "text",
+                    },
+                  ],
+                  "id": "context_2",
+                  "type": "context",
+                },
+                Object {
+                  "content": "<span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>",
+                  "id": "html_3",
+                  "type": "html",
+                },
+                Object {
+                  "content": ", ",
+                  "id": "text_4",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_5_stellae",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "stellae",
+                    "lemma": "stella",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "stella",
+                  },
+                  "parola": "stellae",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_6",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_7_fulgent",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "fulgent",
+                    "lemma": "fulgeo",
+                    "tabelle": null,
+                    "tipo": "v",
+                    "traduzione": "brillare",
+                  },
+                  "parola": "fulgent",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": ".",
+                  "id": "text_8",
+                  "type": "text",
+                },
+              ],
+              "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": false,
+              "titolo": null,
+              "traduci": Array [],
+            },
+          ],
+        }
+      }
+      toggleFocusFunction={[Function]}
+    />
+    <ToolBar
+      hideOnFocus={false}
+    >
+      <ToolBarButton
+        check={false}
+        enabled={false}
+        full={true}
+        onClickFx={null}
+        refData={
+          Object {
+            "current": null,
+          }
+        }
+        title="Riprova"
+      />
+    </ToolBar>
+  </CentralBox>
+</Container>
+`;
+
+exports[`<EsecuzioneSteps /> Cosa succede quando hasHelp == true & isChecked == false 1`] = `
+<Container>
+  <CentralBox>
+    <ProgressBar
+      lezione={true}
+      percentuale={90}
+    />
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      box={true}
+      closeBtn={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      esecuzione={true}
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      noShadow={true}
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <AlertBar
+      aiuto={false}
+      giusto={false}
+      helpFx={[Function]}
+      sbagliato={true}
+      show={false}
+    />
+    <Step
+      apriModalBox={[MockFunction]}
+      audioSettings={
+        Object {
+          "enablePause": true,
+          "maxRepetitions": 2,
+        }
+      }
+      chiudiModalBox={[MockFunction]}
+      correzioneRisposta={
+        Object {
+          "isCheckable": true,
+          "isChecked": false,
+          "isCorrect": false,
+          "isFocusEnabled": false,
+          "isHelpEnabled": false,
+          "isPristine": true,
+          "mostraCorrezione": false,
+          "mostraSoluzione": false,
+        }
+      }
+      correzioneRispostaFx={[MockFunction]}
+      disableAutofocus={false}
+      enableFocusButtonRisposta={[Function]}
+      funzioneSelezionaRisposta={[MockFunction]}
+      hasCorreggi={true}
+      hasHelp={true}
+      hasSkip={false}
+      step={
+        Object {
+          "esercizi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "passivo",
+              "distrattore_2": "imperfetto",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": false,
+              "form": Array [
+                "imperfetto",
+                "passivo",
+                "attivo",
+                "presente",
+              ],
+              "html": null,
+              "id": 94635,
+              "ignora_lessico": false,
+              "inputLessicale": Array [],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "attivo",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testo_principale": "presente",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": "N",
+              "titolo": "Analizza il tempo e la diatesi",
+              "traduci": Array [],
+            },
+          ],
+          "testi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "",
+              "distrattore_2": "",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": true,
+              "form": null,
+              "html": undefined,
+              "id": 94634,
+              "ignora_lessico": false,
+              "inputLessicale": Array [
+                Object {
+                  "focus": false,
+                  "forma": "luna",
+                  "lemma": "luna",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "luna",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "splendet",
+                  "lemma": "splendeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "splendere",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "stellae",
+                  "lemma": "stella",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "stella",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "fulgent",
+                  "lemma": "fulgeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "brillare",
+                },
+              ],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testoConsegna": Array [
+                Object {
+                  "id": "lessico_0_Luna",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "luna",
+                    "lemma": "luna",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "luna",
+                  },
+                  "parola": "Luna",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_1",
+                  "type": "text",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "id": "lessico_0_splendet",
+                      "inputLessicale": Object {
+                        "focus": false,
+                        "forma": "splendet",
+                        "lemma": "splendeo",
+                        "tabelle": null,
+                        "tipo": "v",
+                        "traduzione": "splendere",
+                      },
+                      "parola": "splendet",
+                      "type": "lessico",
+                    },
+                    Object {
+                      "content": " ",
+                      "id": "text_1",
+                      "type": "text",
+                    },
+                  ],
+                  "id": "context_2",
+                  "type": "context",
+                },
+                Object {
+                  "content": "<span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>",
+                  "id": "html_3",
+                  "type": "html",
+                },
+                Object {
+                  "content": ", ",
+                  "id": "text_4",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_5_stellae",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "stellae",
+                    "lemma": "stella",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "stella",
+                  },
+                  "parola": "stellae",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_6",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_7_fulgent",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "fulgent",
+                    "lemma": "fulgeo",
+                    "tabelle": null,
+                    "tipo": "v",
+                    "traduzione": "brillare",
+                  },
+                  "parola": "fulgent",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": ".",
+                  "id": "text_8",
+                  "type": "text",
+                },
+              ],
+              "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": false,
+              "titolo": null,
+              "traduci": Array [],
+            },
+          ],
+        }
+      }
+      toggleFocusFunction={[Function]}
+    />
+    <ToolBar
+      hideOnFocus={false}
+    >
+      <ToolBarButton
+        help={true}
+      />
+      <ToolBarButton
+        check={true}
+        enabled={true}
+        full={false}
+        onClickFx={[MockFunction]}
+        refData={
+          Object {
+            "current": null,
+          }
+        }
+        title="Continua"
+      />
+    </ToolBar>
+  </CentralBox>
+</Container>
+`;
+
+exports[`<EsecuzioneSteps /> Cosa succede quando il pulsante di skip è abilitato hasSkip == true 1`] = `
+<Container>
+  <CentralBox>
+    <ProgressBar
+      lezione={true}
+      percentuale={90}
+    />
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      box={true}
+      closeBtn={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      esecuzione={true}
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      noShadow={true}
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <AlertBar
+      aiuto={false}
+      giusto={false}
+      helpFx={[Function]}
+      sbagliato={true}
+      show={false}
+    />
+    <Step
+      apriModalBox={[MockFunction]}
+      audioSettings={
+        Object {
+          "enablePause": true,
+          "maxRepetitions": 2,
+        }
+      }
+      chiudiModalBox={[MockFunction]}
+      correzioneRisposta={
+        Object {
+          "isCheckable": false,
+          "isChecked": false,
+          "isCorrect": false,
+          "isFocusEnabled": false,
+          "isHelpEnabled": false,
+          "isPristine": true,
+          "mostraCorrezione": false,
+          "mostraSoluzione": false,
+        }
+      }
+      correzioneRispostaFx={[MockFunction]}
+      disableAutofocus={false}
+      enableFocusButtonRisposta={[Function]}
+      funzioneSelezionaRisposta={[MockFunction]}
+      hasCorreggi={false}
+      hasHelp={false}
+      hasSkip={true}
+      skipFunction={[MockFunction]}
+      step={
+        Object {
+          "esercizi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "passivo",
+              "distrattore_2": "imperfetto",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": false,
+              "form": Array [
+                "imperfetto",
+                "passivo",
+                "attivo",
+                "presente",
+              ],
+              "html": null,
+              "id": 94635,
+              "ignora_lessico": false,
+              "inputLessicale": Array [],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "attivo",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testo_principale": "presente",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": "N",
+              "titolo": "Analizza il tempo e la diatesi",
+              "traduci": Array [],
+            },
+          ],
+          "testi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "",
+              "distrattore_2": "",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": true,
+              "form": null,
+              "html": undefined,
+              "id": 94634,
+              "ignora_lessico": false,
+              "inputLessicale": Array [
+                Object {
+                  "focus": false,
+                  "forma": "luna",
+                  "lemma": "luna",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "luna",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "splendet",
+                  "lemma": "splendeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "splendere",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "stellae",
+                  "lemma": "stella",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "stella",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "fulgent",
+                  "lemma": "fulgeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "brillare",
+                },
+              ],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testoConsegna": Array [
+                Object {
+                  "id": "lessico_0_Luna",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "luna",
+                    "lemma": "luna",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "luna",
+                  },
+                  "parola": "Luna",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_1",
+                  "type": "text",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "id": "lessico_0_splendet",
+                      "inputLessicale": Object {
+                        "focus": false,
+                        "forma": "splendet",
+                        "lemma": "splendeo",
+                        "tabelle": null,
+                        "tipo": "v",
+                        "traduzione": "splendere",
+                      },
+                      "parola": "splendet",
+                      "type": "lessico",
+                    },
+                    Object {
+                      "content": " ",
+                      "id": "text_1",
+                      "type": "text",
+                    },
+                  ],
+                  "id": "context_2",
+                  "type": "context",
+                },
+                Object {
+                  "content": "<span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>",
+                  "id": "html_3",
+                  "type": "html",
+                },
+                Object {
+                  "content": ", ",
+                  "id": "text_4",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_5_stellae",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "stellae",
+                    "lemma": "stella",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "stella",
+                  },
+                  "parola": "stellae",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_6",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_7_fulgent",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "fulgent",
+                    "lemma": "fulgeo",
+                    "tabelle": null,
+                    "tipo": "v",
+                    "traduzione": "brillare",
+                  },
+                  "parola": "fulgent",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": ".",
+                  "id": "text_8",
+                  "type": "text",
+                },
+              ],
+              "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": false,
+              "titolo": null,
+              "traduci": Array [],
+            },
+          ],
+        }
+      }
+      toggleFocusFunction={[Function]}
+    />
+    <ToolBar
+      hideOnFocus={false}
+    >
+      <ToolBarButton
+        onClickFx={[MockFunction]}
+        skip={true}
+      />
+      <ToolBarButton
+        check={true}
+        enabled={false}
+        full={false}
+        onClickFx={null}
+        refData={
+          Object {
+            "current": null,
+          }
+        }
+        title="Controlla"
+      />
+    </ToolBar>
+  </CentralBox>
+</Container>
+`;
+
+exports[`<EsecuzioneSteps /> Cosa succede quando isCheckable == true 1`] = `
+<Container>
+  <CentralBox>
+    <ProgressBar
+      lezione={true}
+      percentuale={90}
+    />
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      box={true}
+      closeBtn={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      esecuzione={true}
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      noShadow={true}
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <AlertBar
+      aiuto={false}
+      giusto={false}
+      helpFx={[Function]}
+      sbagliato={true}
+      show={false}
+    />
+    <Step
+      apriModalBox={[MockFunction]}
+      audioSettings={
+        Object {
+          "enablePause": true,
+          "maxRepetitions": 2,
+        }
+      }
+      chiudiModalBox={[MockFunction]}
+      correzioneRisposta={
+        Object {
+          "isCheckable": true,
+          "isChecked": true,
+          "isCorrect": false,
+          "isFocusEnabled": false,
+          "isHelpEnabled": false,
+          "isPristine": true,
+          "mostraCorrezione": false,
+          "mostraSoluzione": false,
+        }
+      }
+      correzioneRispostaFx={[MockFunction]}
+      disableAutofocus={false}
+      enableFocusButtonRisposta={[Function]}
+      funzioneSelezionaRisposta={[MockFunction]}
+      hasCorreggi={true}
+      hasHelp={true}
+      hasSkip={false}
+      step={
+        Object {
+          "esercizi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "passivo",
+              "distrattore_2": "imperfetto",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": false,
+              "form": Array [
+                "imperfetto",
+                "passivo",
+                "attivo",
+                "presente",
+              ],
+              "html": null,
+              "id": 94635,
+              "ignora_lessico": false,
+              "inputLessicale": Array [],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "attivo",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testo_principale": "presente",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": "N",
+              "titolo": "Analizza il tempo e la diatesi",
+              "traduci": Array [],
+            },
+          ],
+          "testi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "",
+              "distrattore_2": "",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": true,
+              "form": null,
+              "html": undefined,
+              "id": 94634,
+              "ignora_lessico": false,
+              "inputLessicale": Array [
+                Object {
+                  "focus": false,
+                  "forma": "luna",
+                  "lemma": "luna",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "luna",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "splendet",
+                  "lemma": "splendeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "splendere",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "stellae",
+                  "lemma": "stella",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "stella",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "fulgent",
+                  "lemma": "fulgeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "brillare",
+                },
+              ],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testoConsegna": Array [
+                Object {
+                  "id": "lessico_0_Luna",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "luna",
+                    "lemma": "luna",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "luna",
+                  },
+                  "parola": "Luna",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_1",
+                  "type": "text",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "id": "lessico_0_splendet",
+                      "inputLessicale": Object {
+                        "focus": false,
+                        "forma": "splendet",
+                        "lemma": "splendeo",
+                        "tabelle": null,
+                        "tipo": "v",
+                        "traduzione": "splendere",
+                      },
+                      "parola": "splendet",
+                      "type": "lessico",
+                    },
+                    Object {
+                      "content": " ",
+                      "id": "text_1",
+                      "type": "text",
+                    },
+                  ],
+                  "id": "context_2",
+                  "type": "context",
+                },
+                Object {
+                  "content": "<span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>",
+                  "id": "html_3",
+                  "type": "html",
+                },
+                Object {
+                  "content": ", ",
+                  "id": "text_4",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_5_stellae",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "stellae",
+                    "lemma": "stella",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "stella",
+                  },
+                  "parola": "stellae",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_6",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_7_fulgent",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "fulgent",
+                    "lemma": "fulgeo",
+                    "tabelle": null,
+                    "tipo": "v",
+                    "traduzione": "brillare",
+                  },
+                  "parola": "fulgent",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": ".",
+                  "id": "text_8",
+                  "type": "text",
+                },
+              ],
+              "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": false,
+              "titolo": null,
+              "traduci": Array [],
+            },
+          ],
+        }
+      }
+      toggleFocusFunction={[Function]}
+    />
+    <ToolBar
+      hideOnFocus={false}
+    >
+      <ToolBarButton
+        check={false}
+        enabled={true}
+        full={true}
+        onClickFx={[MockFunction]}
+        refData={
+          Object {
+            "current": null,
+          }
+        }
+        title="Riprova"
+      />
+    </ToolBar>
+  </CentralBox>
+</Container>
+`;
+
+exports[`<EsecuzioneSteps /> Cosa succede quando isCorrect == true 1`] = `
+<Container>
+  <CentralBox>
+    <ProgressBar
+      lezione={true}
+      percentuale={90}
+    />
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      box={true}
+      closeBtn={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      esecuzione={true}
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      noShadow={true}
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <AlertBar
+      aiuto={false}
+      giusto={false}
+      helpFx={[Function]}
+      sbagliato={true}
+      show={false}
+    />
+    <Step
+      apriModalBox={[MockFunction]}
+      audioSettings={
+        Object {
+          "enablePause": true,
+          "maxRepetitions": 2,
+        }
+      }
+      chiudiModalBox={[MockFunction]}
+      correzioneRisposta={
+        Object {
+          "isCheckable": false,
+          "isChecked": true,
+          "isCorrect": false,
+          "isFocusEnabled": false,
+          "isHelpEnabled": false,
+          "isPristine": true,
+          "mostraCorrezione": false,
+          "mostraSoluzione": false,
+        }
+      }
+      correzioneRispostaFx={[MockFunction]}
+      disableAutofocus={false}
+      enableFocusButtonRisposta={[Function]}
+      funzioneSelezionaRisposta={[MockFunction]}
+      hasCorreggi={false}
+      hasHelp={true}
+      hasSkip={false}
+      step={
+        Object {
+          "esercizi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "passivo",
+              "distrattore_2": "imperfetto",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": false,
+              "form": Array [
+                "imperfetto",
+                "passivo",
+                "attivo",
+                "presente",
+              ],
+              "html": null,
+              "id": 94635,
+              "ignora_lessico": false,
+              "inputLessicale": Array [],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "attivo",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testo_principale": "presente",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": "N",
+              "titolo": "Analizza il tempo e la diatesi",
+              "traduci": Array [],
+            },
+          ],
+          "testi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "",
+              "distrattore_2": "",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": true,
+              "form": null,
+              "html": undefined,
+              "id": 94634,
+              "ignora_lessico": false,
+              "inputLessicale": Array [
+                Object {
+                  "focus": false,
+                  "forma": "luna",
+                  "lemma": "luna",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "luna",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "splendet",
+                  "lemma": "splendeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "splendere",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "stellae",
+                  "lemma": "stella",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "stella",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "fulgent",
+                  "lemma": "fulgeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "brillare",
+                },
+              ],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testoConsegna": Array [
+                Object {
+                  "id": "lessico_0_Luna",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "luna",
+                    "lemma": "luna",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "luna",
+                  },
+                  "parola": "Luna",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_1",
+                  "type": "text",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "id": "lessico_0_splendet",
+                      "inputLessicale": Object {
+                        "focus": false,
+                        "forma": "splendet",
+                        "lemma": "splendeo",
+                        "tabelle": null,
+                        "tipo": "v",
+                        "traduzione": "splendere",
+                      },
+                      "parola": "splendet",
+                      "type": "lessico",
+                    },
+                    Object {
+                      "content": " ",
+                      "id": "text_1",
+                      "type": "text",
+                    },
+                  ],
+                  "id": "context_2",
+                  "type": "context",
+                },
+                Object {
+                  "content": "<span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>",
+                  "id": "html_3",
+                  "type": "html",
+                },
+                Object {
+                  "content": ", ",
+                  "id": "text_4",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_5_stellae",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "stellae",
+                    "lemma": "stella",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "stella",
+                  },
+                  "parola": "stellae",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_6",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_7_fulgent",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "fulgent",
+                    "lemma": "fulgeo",
+                    "tabelle": null,
+                    "tipo": "v",
+                    "traduzione": "brillare",
+                  },
+                  "parola": "fulgent",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": ".",
+                  "id": "text_8",
+                  "type": "text",
+                },
+              ],
+              "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": false,
+              "titolo": null,
+              "traduci": Array [],
+            },
+          ],
+        }
+      }
+      toggleFocusFunction={[Function]}
+    />
+    <ToolBar
+      hideOnFocus={false}
+    >
+      <ToolBarButton
+        check={false}
+        enabled={false}
+        full={true}
+        onClickFx={null}
+        refData={
+          Object {
+            "current": null,
+          }
+        }
+        title="Continua"
+      />
+    </ToolBar>
+  </CentralBox>
+</Container>
+`;
+
+exports[`<EsecuzioneSteps /> Renderizza lo step in esecuzione e una topbar 1`] = `
+<Container>
+  <CentralBox>
+    <ProgressBar
+      lezione={true}
+      percentuale={90}
+    />
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      box={true}
+      closeBtn={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      esecuzione={true}
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      noShadow={true}
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <AlertBar
+      aiuto={false}
+      giusto={false}
+      helpFx={[Function]}
+      sbagliato={true}
+      show={false}
+    />
+    <Step
+      apriModalBox={[MockFunction]}
+      audioSettings={
+        Object {
+          "enablePause": true,
+          "maxRepetitions": 2,
+        }
+      }
+      chiudiModalBox={[MockFunction]}
+      correzioneRisposta={
+        Object {
+          "isCheckable": false,
+          "isChecked": false,
+          "isCorrect": false,
+          "isFocusEnabled": false,
+          "isHelpEnabled": false,
+          "isPristine": true,
+          "mostraCorrezione": false,
+          "mostraSoluzione": false,
+        }
+      }
+      correzioneRispostaFx={[MockFunction]}
+      disableAutofocus={false}
+      enableFocusButtonRisposta={[Function]}
+      funzioneSelezionaRisposta={[MockFunction]}
+      hasCorreggi={false}
+      hasHelp={false}
+      hasSkip={false}
+      step={
+        Object {
+          "esercizi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "passivo",
+              "distrattore_2": "imperfetto",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": false,
+              "form": Array [
+                "imperfetto",
+                "passivo",
+                "attivo",
+                "presente",
+              ],
+              "html": null,
+              "id": 94635,
+              "ignora_lessico": false,
+              "inputLessicale": Array [],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "attivo",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testo_principale": "presente",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": "N",
+              "titolo": "Analizza il tempo e la diatesi",
+              "traduci": Array [],
+            },
+          ],
+          "testi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "",
+              "distrattore_2": "",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": true,
+              "form": null,
+              "html": undefined,
+              "id": 94634,
+              "ignora_lessico": false,
+              "inputLessicale": Array [
+                Object {
+                  "focus": false,
+                  "forma": "luna",
+                  "lemma": "luna",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "luna",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "splendet",
+                  "lemma": "splendeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "splendere",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "stellae",
+                  "lemma": "stella",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "stella",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "fulgent",
+                  "lemma": "fulgeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "brillare",
+                },
+              ],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testoConsegna": Array [
+                Object {
+                  "id": "lessico_0_Luna",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "luna",
+                    "lemma": "luna",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "luna",
+                  },
+                  "parola": "Luna",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_1",
+                  "type": "text",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "id": "lessico_0_splendet",
+                      "inputLessicale": Object {
+                        "focus": false,
+                        "forma": "splendet",
+                        "lemma": "splendeo",
+                        "tabelle": null,
+                        "tipo": "v",
+                        "traduzione": "splendere",
+                      },
+                      "parola": "splendet",
+                      "type": "lessico",
+                    },
+                    Object {
+                      "content": " ",
+                      "id": "text_1",
+                      "type": "text",
+                    },
+                  ],
+                  "id": "context_2",
+                  "type": "context",
+                },
+                Object {
+                  "content": "<span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>",
+                  "id": "html_3",
+                  "type": "html",
+                },
+                Object {
+                  "content": ", ",
+                  "id": "text_4",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_5_stellae",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "stellae",
+                    "lemma": "stella",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "stella",
+                  },
+                  "parola": "stellae",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_6",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_7_fulgent",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "fulgent",
+                    "lemma": "fulgeo",
+                    "tabelle": null,
+                    "tipo": "v",
+                    "traduzione": "brillare",
+                  },
+                  "parola": "fulgent",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": ".",
+                  "id": "text_8",
+                  "type": "text",
+                },
+              ],
+              "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": false,
+              "titolo": null,
+              "traduci": Array [],
+            },
+          ],
+        }
+      }
+      toggleFocusFunction={[Function]}
+    />
+    <ToolBar
+      hideOnFocus={false}
+    >
+      <ToolBarButton
+        check={false}
+        enabled={false}
+        full={true}
+        onClickFx={null}
+        refData={
+          Object {
+            "current": null,
+          }
+        }
+        title="Controlla"
+      />
+    </ToolBar>
+  </CentralBox>
+</Container>
+`;
+
+exports[`<EsecuzioneSteps /> Renderizza lo step in esecuzione e una topbar quando la percentuale non è calcolata 1`] = `
+<Container>
+  <CentralBox>
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      box={true}
+      closeBtn={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      esecuzione={true}
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      noShadow={true}
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <AlertBar
+      aiuto={false}
+      giusto={false}
+      helpFx={[Function]}
+      sbagliato={true}
+      show={false}
+    />
+    <Step
+      apriModalBox={[MockFunction]}
+      audioSettings={
+        Object {
+          "enablePause": true,
+          "maxRepetitions": 2,
+        }
+      }
+      chiudiModalBox={[MockFunction]}
+      correzioneRisposta={
+        Object {
+          "isCheckable": false,
+          "isChecked": false,
+          "isCorrect": false,
+          "isFocusEnabled": false,
+          "isHelpEnabled": false,
+          "isPristine": true,
+          "mostraCorrezione": false,
+          "mostraSoluzione": false,
+        }
+      }
+      correzioneRispostaFx={[MockFunction]}
+      disableAutofocus={false}
+      enableFocusButtonRisposta={[Function]}
+      funzioneSelezionaRisposta={[MockFunction]}
+      hasCorreggi={false}
+      hasHelp={false}
+      hasSkip={false}
+      step={
+        Object {
+          "esercizi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "passivo",
+              "distrattore_2": "imperfetto",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": false,
+              "form": Array [
+                "imperfetto",
+                "passivo",
+                "attivo",
+                "presente",
+              ],
+              "html": null,
+              "id": 94635,
+              "ignora_lessico": false,
+              "inputLessicale": Array [],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "attivo",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testo_principale": "presente",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": "N",
+              "titolo": "Analizza il tempo e la diatesi",
+              "traduci": Array [],
+            },
+          ],
+          "testi": Array [
+            Object {
+              "continua": false,
+              "distrattore_1": "",
+              "distrattore_2": "",
+              "distrattore_3": "",
+              "distrattore_4": "",
+              "esercizioId": 97552,
+              "etichetta_1": null,
+              "etichetta_2": null,
+              "etichetta_3": null,
+              "etichetta_4": null,
+              "etichetta_5": null,
+              "focus": true,
+              "form": null,
+              "html": undefined,
+              "id": 94634,
+              "ignora_lessico": false,
+              "inputLessicale": Array [
+                Object {
+                  "focus": false,
+                  "forma": "luna",
+                  "lemma": "luna",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "luna",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "splendet",
+                  "lemma": "splendeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "splendere",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "stellae",
+                  "lemma": "stella",
+                  "tabelle": null,
+                  "tipo": "n",
+                  "traduzione": "stella",
+                },
+                Object {
+                  "focus": false,
+                  "forma": "fulgent",
+                  "lemma": "fulgeo",
+                  "tabelle": null,
+                  "tipo": "v",
+                  "traduzione": "brillare",
+                },
+              ],
+              "italiano": false,
+              "parole_gia_ricostruite": "",
+              "risposta_1": "",
+              "risposta_2": "",
+              "risposta_3": "",
+              "risposta_4": "",
+              "testoConsegna": Array [
+                Object {
+                  "id": "lessico_0_Luna",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "luna",
+                    "lemma": "luna",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "luna",
+                  },
+                  "parola": "Luna",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_1",
+                  "type": "text",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "id": "lessico_0_splendet",
+                      "inputLessicale": Object {
+                        "focus": false,
+                        "forma": "splendet",
+                        "lemma": "splendeo",
+                        "tabelle": null,
+                        "tipo": "v",
+                        "traduzione": "splendere",
+                      },
+                      "parola": "splendet",
+                      "type": "lessico",
+                    },
+                    Object {
+                      "content": " ",
+                      "id": "text_1",
+                      "type": "text",
+                    },
+                  ],
+                  "id": "context_2",
+                  "type": "context",
+                },
+                Object {
+                  "content": "<span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>",
+                  "id": "html_3",
+                  "type": "html",
+                },
+                Object {
+                  "content": ", ",
+                  "id": "text_4",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_5_stellae",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "stellae",
+                    "lemma": "stella",
+                    "tabelle": null,
+                    "tipo": "n",
+                    "traduzione": "stella",
+                  },
+                  "parola": "stellae",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": " ",
+                  "id": "text_6",
+                  "type": "text",
+                },
+                Object {
+                  "id": "lessico_7_fulgent",
+                  "inputLessicale": Object {
+                    "focus": false,
+                    "forma": "fulgent",
+                    "lemma": "fulgeo",
+                    "tabelle": null,
+                    "tipo": "v",
+                    "traduzione": "brillare",
+                  },
+                  "parola": "fulgent",
+                  "type": "lessico",
+                },
+                Object {
+                  "content": ".",
+                  "id": "text_8",
+                  "type": "text",
+                },
+              ],
+              "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+              "testo_principale_post": "",
+              "testo_principale_pre": "",
+              "tipo": false,
+              "titolo": null,
+              "traduci": Array [],
+            },
+          ],
+        }
+      }
+      toggleFocusFunction={[Function]}
+    />
+    <ToolBar
+      hideOnFocus={false}
+    >
+      <ToolBarButton
+        check={false}
+        enabled={false}
+        full={true}
+        onClickFx={null}
+        refData={
+          Object {
+            "current": null,
+          }
+        }
+        title="Controlla"
+      />
+    </ToolBar>
+  </CentralBox>
+</Container>
+`;

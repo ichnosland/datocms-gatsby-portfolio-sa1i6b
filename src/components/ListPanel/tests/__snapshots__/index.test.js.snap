@@ -1,0 +1,1507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemTitle /> should render a Div 1`] = `
+.c0 {
+  color: rgb(51,51,51);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 22px 16px;
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<ItemTitle /> should render its css w/ props locked 1`] = `
+.c0 {
+  color: rgb(51,51,51);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 22px 16px;
+  color: rgb(209,209,209);
+  cursor: default;
+}
+
+<Div
+  className="c0"
+  locked={true}
+/>
+`;
+
+exports[`<ItemTitle /> should render its css w/ props noPrint 1`] = `
+.c0 {
+  color: rgb(51,51,51);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 22px 16px;
+}
+
+<Div
+  className="c0"
+  noPrint={true}
+/>
+`;
+
+exports[`<ItemTitle /> should render its css w/ props unit 1`] = `
+.c0 {
+  color: rgb(51,51,51);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px 56px 16px 12px;
+}
+
+<Div
+  className="c0"
+  unit={true}
+/>
+`;
+
+exports[`<ListItem /> should render its css w/ props isSelected 1`] = `
+.c0 {
+  position: relative;
+  border-bottom: 1px solid rgb(231,236,236);
+}
+
+.c0:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 30px 30px 0;
+  border-color: transparent rgb(153,226,17) transparent transparent;
+}
+
+.c0:last-child {
+  border-bottom: none;
+}
+
+@media print {
+  .c0 {
+    border: none;
+  }
+}
+
+<Div
+  className="c0"
+  isSelected={true}
+/>
+`;
+
+exports[`<ListItem /> should render its css w/ props locked 1`] = `
+.c0 {
+  position: relative;
+  border-bottom: 1px solid rgb(231,236,236);
+}
+
+.c0:last-child {
+  border-bottom: none;
+}
+
+@media print {
+  .c0 {
+    border: none;
+  }
+}
+
+<Div
+  className="c0"
+  locked={true}
+/>
+`;
+
+exports[`<ListItem /> should render its css w/ props unit 1`] = `
+.c0 {
+  position: relative;
+  border-bottom: 1px solid rgb(231,236,236);
+}
+
+.c0:last-child {
+  border-bottom: none;
+}
+
+@media print {
+  .c0 {
+    border: none;
+  }
+}
+
+<Div
+  className="c0"
+  unit={true}
+/>
+`;
+
+exports[`<ListPanel /> should render PanelHeader w/ props header 1`] = `
+<ListPanel__PanelListWrap>
+  <ListPanel__PanelHeader
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+  >
+    Titolo
+  </ListPanel__PanelHeader>
+  <ListPanel__PanelList>
+    <ListPanel__ListItem
+      key="1"
+    >
+      <ListPanel__ItemTitle
+        noPrint={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Come
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListLink
+      key="6"
+      to="/path"
+    >
+      <ListPanel__ListItem
+        key="2"
+      >
+        <ListPanel__ItemTitle
+          noPrint={false}
+        >
+          <FlexBox__FlexChild
+            flexGrow="1"
+            justifyContent="flex-start"
+          >
+            fosse
+          </FlexBox__FlexChild>
+        </ListPanel__ItemTitle>
+      </ListPanel__ListItem>
+    </ListPanel__ListLink>
+    <ListPanel__ListItem
+      key="3"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          antani
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="4"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          un bel
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="5"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          campo
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="6"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Non ne sono tanto sicuro
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="7"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Testo &lt;strong&gt;in&lt;/strong&gt; HTML
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+      <HtmlInjector
+        editor={Object {}}
+      />
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="8"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          link_bloccato
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="9"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          nome
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild
+          justifyContent="flex-end"
+          key="flexchild_undefined"
+        >
+          <ContentEditable
+            content="contenuto"
+            key="opzione_1"
+            label="label opzione editabile"
+            tipo="contenteditable"
+            width="60px"
+          />
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+  </ListPanel__PanelList>
+</ListPanel__PanelListWrap>
+`;
+
+exports[`<ListPanel /> should render a ButtonGroup w/ props ContentEditable if provided 1`] = `
+<ListPanel__PanelListWrap>
+  <ListPanel__PanelList>
+    <ListPanel__ListItem
+      key="1"
+    >
+      <ListPanel__ItemTitle
+        noPrint={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Come
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListLink
+      key="9"
+      to="/path"
+    >
+      <ListPanel__ListItem
+        key="2"
+      >
+        <ListPanel__ItemTitle
+          noPrint={false}
+        >
+          <FlexBox__FlexChild
+            flexGrow="1"
+            justifyContent="flex-start"
+          >
+            fosse
+          </FlexBox__FlexChild>
+        </ListPanel__ItemTitle>
+      </ListPanel__ListItem>
+    </ListPanel__ListLink>
+    <ListPanel__ListItem
+      key="3"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          antani
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="4"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          un bel
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="5"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          campo
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="6"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Non ne sono tanto sicuro
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="7"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Testo &lt;strong&gt;in&lt;/strong&gt; HTML
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+      <HtmlInjector
+        editor={Object {}}
+      />
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="8"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          link_bloccato
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="9"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          nome
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild
+          justifyContent="flex-end"
+          key="flexchild_undefined"
+        >
+          <ContentEditable
+            content="contenuto"
+            key="opzione_1"
+            label="label opzione editabile"
+            tipo="contenteditable"
+            width="60px"
+          />
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+  </ListPanel__PanelList>
+  <ButtonGroup
+    buttons={
+      Array [
+        Object {
+          "icona": "eye",
+          "id": 1,
+          "label": "Vedi",
+        },
+        Object {
+          "icona": "modifica",
+          "id": 2,
+          "label": "Modifica",
+        },
+      ]
+    }
+    half={true}
+    margin="20px auto 40px auto"
+  />
+</ListPanel__PanelListWrap>
+`;
+
+exports[`<ListPanel /> should render a ButtonGroup w/ props buttons 1`] = `
+<ListPanel__PanelListWrap>
+  <ListPanel__PanelList>
+    <ListPanel__ListItem
+      key="1"
+    >
+      <ListPanel__ItemTitle
+        noPrint={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Come
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListLink
+      key="7"
+      to="/path"
+    >
+      <ListPanel__ListItem
+        key="2"
+      >
+        <ListPanel__ItemTitle
+          noPrint={false}
+        >
+          <FlexBox__FlexChild
+            flexGrow="1"
+            justifyContent="flex-start"
+          >
+            fosse
+          </FlexBox__FlexChild>
+        </ListPanel__ItemTitle>
+      </ListPanel__ListItem>
+    </ListPanel__ListLink>
+    <ListPanel__ListItem
+      key="3"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          antani
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="4"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          un bel
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="5"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          campo
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="6"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Non ne sono tanto sicuro
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="7"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Testo &lt;strong&gt;in&lt;/strong&gt; HTML
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+      <HtmlInjector
+        editor={Object {}}
+      />
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="8"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          link_bloccato
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="9"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          nome
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild
+          justifyContent="flex-end"
+          key="flexchild_undefined"
+        >
+          <ContentEditable
+            content="contenuto"
+            key="opzione_1"
+            label="label opzione editabile"
+            tipo="contenteditable"
+            width="60px"
+          />
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+  </ListPanel__PanelList>
+  <ButtonGroup
+    buttons={
+      Array [
+        Object {
+          "icona": "eye",
+          "id": 1,
+          "label": "Vedi",
+        },
+        Object {
+          "icona": "modifica",
+          "id": 2,
+          "label": "Modifica",
+        },
+      ]
+    }
+    half={true}
+    margin="20px auto 40px auto"
+  />
+</ListPanel__PanelListWrap>
+`;
+
+exports[`<ListPanel /> should render a ButtonGroup w/ props buttonsSpinner 1`] = `
+<ListPanel__PanelListWrap>
+  <ListPanel__PanelList>
+    <ListPanel__ListItem
+      key="1"
+    >
+      <ListPanel__ItemTitle
+        noPrint={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Come
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListLink
+      key="8"
+      to="/path"
+    >
+      <ListPanel__ListItem
+        key="2"
+      >
+        <ListPanel__ItemTitle
+          noPrint={false}
+        >
+          <FlexBox__FlexChild
+            flexGrow="1"
+            justifyContent="flex-start"
+          >
+            fosse
+          </FlexBox__FlexChild>
+        </ListPanel__ItemTitle>
+      </ListPanel__ListItem>
+    </ListPanel__ListLink>
+    <ListPanel__ListItem
+      key="3"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          antani
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="4"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          un bel
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="5"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          campo
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="6"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Non ne sono tanto sicuro
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="7"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Testo &lt;strong&gt;in&lt;/strong&gt; HTML
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+      <HtmlInjector
+        editor={Object {}}
+      />
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="8"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          link_bloccato
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="9"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          nome
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild
+          justifyContent="flex-end"
+          key="flexchild_undefined"
+        >
+          <ContentEditable
+            content="contenuto"
+            key="opzione_1"
+            label="label opzione editabile"
+            tipo="contenteditable"
+            width="60px"
+          />
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+  </ListPanel__PanelList>
+  <Spinner
+    number={3}
+  />
+</ListPanel__PanelListWrap>
+`;
+
+exports[`<ListPanel /> should render a PanelListWrap 1`] = `
+<ListPanel__PanelListWrap>
+  <ListPanel__PanelList>
+    <ListPanel__ListItem
+      key="1"
+    >
+      <ListPanel__ItemTitle
+        noPrint={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Come
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListLink
+      key="1"
+      to="/path"
+    >
+      <ListPanel__ListItem
+        key="2"
+      >
+        <ListPanel__ItemTitle
+          noPrint={false}
+        >
+          <FlexBox__FlexChild
+            flexGrow="1"
+            justifyContent="flex-start"
+          >
+            fosse
+          </FlexBox__FlexChild>
+        </ListPanel__ItemTitle>
+      </ListPanel__ListItem>
+    </ListPanel__ListLink>
+    <ListPanel__ListItem
+      key="3"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          antani
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="4"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          un bel
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="5"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          campo
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="6"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Non ne sono tanto sicuro
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="7"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Testo &lt;strong&gt;in&lt;/strong&gt; HTML
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+      <HtmlInjector
+        editor={Object {}}
+      />
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="8"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          link_bloccato
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="9"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          nome
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild
+          justifyContent="flex-end"
+          key="flexchild_undefined"
+        >
+          <ContentEditable
+            content="contenuto"
+            key="opzione_1"
+            label="label opzione editabile"
+            tipo="contenteditable"
+            width="60px"
+          />
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+  </ListPanel__PanelList>
+</ListPanel__PanelListWrap>
+`;
+
+exports[`<ListPanel /> should render its css w/ props percentuale 1`] = `
+<ListPanel__PanelListWrap>
+  <ListPanel__PanelList>
+    <ListPanel__ListItem
+      key="1"
+    >
+      <ListPanel__ItemTitle
+        noPrint={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Come
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListLink
+      key="4"
+      to="/path"
+    >
+      <ListPanel__ListItem
+        key="2"
+      >
+        <ListPanel__ItemTitle
+          noPrint={false}
+        >
+          <FlexBox__FlexChild
+            flexGrow="1"
+            justifyContent="flex-start"
+          >
+            fosse
+          </FlexBox__FlexChild>
+        </ListPanel__ItemTitle>
+      </ListPanel__ListItem>
+    </ListPanel__ListLink>
+    <ListPanel__ListItem
+      key="3"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          antani
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="4"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          un bel
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="5"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          campo
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="6"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Non ne sono tanto sicuro
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="7"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Testo &lt;strong&gt;in&lt;/strong&gt; HTML
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+      <HtmlInjector
+        editor={Object {}}
+      />
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="8"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          link_bloccato
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="9"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          nome
+        </FlexBox__FlexChild>
+        <FlexBox__FlexChild
+          justifyContent="flex-end"
+          key="flexchild_undefined"
+        >
+          <ContentEditable
+            content="contenuto"
+            key="opzione_1"
+            label="label opzione editabile"
+            tipo="contenteditable"
+            width="60px"
+          />
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+  </ListPanel__PanelList>
+</ListPanel__PanelListWrap>
+`;
+
+exports[`<ListPanel /> should render its css w/ props unit 1`] = `
+<ListPanel__PanelListWrap>
+  <ListPanel__PanelList>
+    <ListPanel__ListItem
+      key="1"
+    >
+      <ListPanel__ItemTitle
+        noPrint={true}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Come
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons>
+          <ProgressBar
+            percentuale={20}
+            steps={true}
+          />
+        </ListPanel__ItemIcons>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListLink
+      key="5"
+      to="/path"
+    >
+      <ListPanel__ListItem
+        key="2"
+      >
+        <ListPanel__ItemTitle
+          noPrint={false}
+          unit={true}
+        >
+          <FlexBox__FlexChild
+            flexGrow="1"
+            justifyContent="flex-start"
+          >
+            fosse
+          </FlexBox__FlexChild>
+          <ListPanel__ItemIcons>
+            <Svg
+              fill="rgb(251, 158, 36)"
+              height="18px"
+              path={
+                <path
+                  d="M200 468c21.31 0 42-22.5 42-50h-92c0 27.5 20.707 50 50 50zm142-267c-3.172-75.01-51.73-135.115-117-151V33c.88-17.974-13.8-33-33-33s-33.88 15.026-33 33v17C93.748 65.885 45.172 125.99 42 201v125L0 393h384l-42-67V201z"
+                  fillRule="evenodd"
+                />
+              }
+              viewBox="0 0 384 468"
+              width="15px"
+            />
+          </ListPanel__ItemIcons>
+        </ListPanel__ItemTitle>
+      </ListPanel__ListItem>
+    </ListPanel__ListLink>
+    <ListPanel__ListItem
+      key="3"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          antani
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons>
+          <Svg
+            fill="rgb(209, 209, 209)"
+            height="18px"
+            path={
+              <path
+                d="M174.9 349.8h278.48V244.28q0-57.65-41-98.69t-98.69-40.06q-57.65 1-98.69 40.06t-40.06 98.69V349.8zm453.37 51.79v314.62a47.59 47.59 0 0 1-15.63 36.15A56.39 56.39 0 0 1 575.51 768H52.77q-22.47 0-37.13-15.63T.01 716.22V401.59q0-21.5 15.63-37.13t37.13-14.66h16.61V244.27q0-99.66 72.31-172T313.65 0q99.67 0 172.95 72.3t71.33 172v105.5h17.59q22.47 0 37.13 14.66t15.63 37.13z"
+              />
+            }
+            viewBox="0 0 628.27 768"
+            width="15px"
+          />
+        </ListPanel__ItemIcons>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="4"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          un bel
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons>
+          <input
+            type="checkbox"
+          />
+        </ListPanel__ItemIcons>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="5"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          campo
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons>
+          <input
+            type="radio"
+          />
+        </ListPanel__ItemIcons>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="6"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Non ne sono tanto sicuro
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons>
+          <ListPanel__Studenti>
+            <span>
+              <ListPanel__Usericon
+                fill="rgb(231, 236, 236)"
+                height="16px"
+                path={
+                  <g
+                    fillRule="nonzero"
+                  >
+                    <path
+                      d="M0 446.93V512h512v-65.07C512 362.73 341.03 320 256 320S0 362.844 0 446.93zM128 128c0 70.4 57.6 128 128 128s128-57.6 128-128S326.4 0 256 0 128 57.6 128 128z"
+                    />
+                  </g>
+                }
+                viewBox="0 0 512 512"
+                width="16px"
+              />
+              22
+            </span>
+            <ListPanel__RightCareticon
+              height="18px"
+              path={
+                <path
+                  d="M29.38 26.528L3.674.634c-.838-.84-2.2-.847-3.037-.006-.848.84-.848 2.207-.01 3.048L24.823 28.05.63 52.32c-.84.843-.84 2.208 0 3.05.42.422.965.63 1.518.63.548 0 1.1-.21 1.52-.63L29.37 29.576c.84-.84.84-2.2.01-3.048z"
+                  fillRule="evenodd"
+                />
+              }
+              viewBox="0 0 30 56"
+              width="9px"
+            />
+          </ListPanel__Studenti>
+        </ListPanel__ItemIcons>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="7"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          Testo &lt;strong&gt;in&lt;/strong&gt; HTML
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons />
+      </ListPanel__ItemTitle>
+      <HtmlInjector
+        editor={Object {}}
+      />
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="8"
+    >
+      <ListPanel__ItemTitle
+        locked={true}
+        noPrint={false}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          link_bloccato
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons>
+          <Svg
+            fill="rgb(209, 209, 209)"
+            height="18px"
+            path={
+              <path
+                d="M174.9 349.8h278.48V244.28q0-57.65-41-98.69t-98.69-40.06q-57.65 1-98.69 40.06t-40.06 98.69V349.8zm453.37 51.79v314.62a47.59 47.59 0 0 1-15.63 36.15A56.39 56.39 0 0 1 575.51 768H52.77q-22.47 0-37.13-15.63T.01 716.22V401.59q0-21.5 15.63-37.13t37.13-14.66h16.61V244.27q0-99.66 72.31-172T313.65 0q99.67 0 172.95 72.3t71.33 172v105.5h17.59q22.47 0 37.13 14.66t15.63 37.13z"
+              />
+            }
+            viewBox="0 0 628.27 768"
+            width="15px"
+          />
+          <Svg
+            fill="rgb(251, 158, 36)"
+            height="18px"
+            path={
+              <path
+                d="M200 468c21.31 0 42-22.5 42-50h-92c0 27.5 20.707 50 50 50zm142-267c-3.172-75.01-51.73-135.115-117-151V33c.88-17.974-13.8-33-33-33s-33.88 15.026-33 33v17C93.748 65.885 45.172 125.99 42 201v125L0 393h384l-42-67V201z"
+                fillRule="evenodd"
+              />
+            }
+            viewBox="0 0 384 468"
+            width="15px"
+          />
+        </ListPanel__ItemIcons>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+    <ListPanel__ListItem
+      key="9"
+    >
+      <ListPanel__ItemTitle
+        noPrint={false}
+        unit={true}
+      >
+        <FlexBox__FlexChild
+          flexGrow="1"
+          justifyContent="flex-start"
+        >
+          nome
+        </FlexBox__FlexChild>
+        <ListPanel__ItemIcons />
+        <FlexBox__FlexChild
+          justifyContent="flex-end"
+          key="flexchild_undefined"
+        >
+          <ContentEditable
+            content="contenuto"
+            key="opzione_1"
+            label="label opzione editabile"
+            tipo="contenteditable"
+            width="60px"
+          />
+        </FlexBox__FlexChild>
+      </ListPanel__ItemTitle>
+    </ListPanel__ListItem>
+  </ListPanel__PanelList>
+</ListPanel__PanelListWrap>
+`;
+
+exports[`<PanelHeader /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 40px 0 20px;
+  color: #000;
+  font-weight: normal;
+  text-align: center;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`<PanelList /> should render its css 1`] = `
+.c0 {
+  text-align: left;
+  background-color: rgb(255,255,255);
+  margin-bottom: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<PanelList /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  text-align: left;
+  background-color: red;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+<Div
+  bgcolor="red"
+  className="c0"
+/>
+`;
+
+exports[`<PanelListWrap /> should render a Div 1`] = `
+.c0 {
+  margin: 0 0 10px 0;
+  page-break-inside: avoid;
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<PanelListWrap /> should render its css w/ props margin 1`] = `
+.c0 {
+  margin: 15px;
+  page-break-inside: avoid;
+}
+
+<Div
+  className="c0"
+  margin="15px"
+/>
+`;
+
+exports[`<Studenti /> should render its css 1`] = `
+.c0 {
+  max-width: 120px;
+  padding-left: 6px;
+  font-size: 14px;
+}
+
+.c0 span {
+  position: relative;
+  top: 1px;
+  padding: 6px 10px;
+  margin-left: 4px;
+  margin-bottom: -2px;
+  border: 1px solid rgb(209,209,209);
+  color: rgb(209,209,209);
+  border-radius: 2px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    font-size: 12px;
+  }
+
+  .c0 span {
+    top: 2px;
+  }
+}
+
+<Div
+  className="c0"
+/>
+`;

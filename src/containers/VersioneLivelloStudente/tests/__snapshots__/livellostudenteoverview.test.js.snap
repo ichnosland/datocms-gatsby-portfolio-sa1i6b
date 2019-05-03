@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VersioniLivelloOverview /> !spinner 1`] = `
+<Div>
+  <div
+    key="versione_assegnata_div_100"
+  >
+    <NewListPanels__ListItem
+      justifyContent="center"
+      key="versione_assegnata_titolo_100"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo versione 1
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="versione_assegnata_riepilogo_100"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande:
+            </Text__BrandTxt>
+             
+            12
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca:
+            </Text__BrandTxt>
+             
+            12'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={false}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Esegui
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div
+    key="versione_assegnata_div_200"
+  >
+    <NewListPanels__ListItem
+      justifyContent="center"
+      key="versione_assegnata_titolo_200"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo versione 2
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="versione_assegnata_riepilogo_200"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande:
+            </Text__BrandTxt>
+             
+            13
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca:
+            </Text__BrandTxt>
+             
+            13'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={false}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Riprendi
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div
+    key="versione_assegnata_div_300"
+  >
+    <NewListPanels__ListItem
+      justifyContent="center"
+      key="versione_assegnata_titolo_300"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo versione 3
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="versione_assegnata_riepilogo_300"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande:
+            </Text__BrandTxt>
+             
+            14
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca:
+            </Text__BrandTxt>
+             
+            14'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={true}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Consegnata
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div
+    key="versione_assegnata_div_400"
+  >
+    <NewListPanels__ListItem
+      justifyContent="center"
+      key="versione_assegnata_titolo_400"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo versione 4
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="versione_assegnata_riepilogo_400"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande:
+            </Text__BrandTxt>
+             
+            15
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca:
+            </Text__BrandTxt>
+             
+            15'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={false}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Statistiche
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div
+    key="versione_assegnata_div_500"
+  >
+    <NewListPanels__ListItem
+      justifyContent="center"
+      key="versione_assegnata_titolo_500"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        titolo versione 5
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="versione_assegnata_riepilogo_500"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande:
+            </Text__BrandTxt>
+             
+            16
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca:
+            </Text__BrandTxt>
+             
+            16'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={false}
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Statistiche
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</Div>
+`;

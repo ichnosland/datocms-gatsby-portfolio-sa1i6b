@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyBox /> should render text w/ props text 1`] = `
+<Div
+  align="center"
+  color="rgb(164, 164, 164)"
+>
+  <EmptyBox__Folder
+    src="IMAGE_MOCK"
+  />
+  <p>
+    Questo è un testo
+  </p>
+</Div>
+`;
+
+exports[`<Folder /> should render an <img> 1`] = `
+.c0 {
+  width: 30%;
+  padding: 40px 0;
+}
+
+<img
+  className="c0"
+  src="IMAGE_MOCK"
+/>
+`;

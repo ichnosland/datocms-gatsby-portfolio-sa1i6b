@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToolBar /> should render its children 1`] = `
+<ToolBar__ToolBarWrap>
+  <ToolBar__ToolBarContainer>
+    ciao
+  </ToolBar__ToolBarContainer>
+</ToolBar__ToolBarWrap>
+`;
+
+exports[`<ToolBar /> should render its css w/ props hideOnFocus 1`] = `
+<ToolBar__ToolBarWrap
+  hideOnFocus={true}
+>
+  <ToolBar__ToolBarContainer>
+    ciao
+  </ToolBar__ToolBarContainer>
+</ToolBar__ToolBarWrap>
+`;
+
+exports[`<ToolBarWrap /> should render its css w/ props hideOnFocus 1`] = `
+.c0 {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    position: absolute;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    position: fixed;
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width:48em) and (max-device-width:64em) {
+  .c0 {
+    height: 160px;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

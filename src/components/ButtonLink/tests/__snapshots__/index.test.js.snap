@@ -1,0 +1,1736 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionButtonLink /> should render its css 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: 2px solid white;
+  color: rgb(255,255,255);
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+<ButtonLink
+  actioncolor=""
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ActionButtonLink /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  background-color: yellow;
+  border: 2px solid white;
+  color: rgb(255,255,255);
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #ff9;
+  color: rgba(255,255,0,0.5);
+}
+
+<ButtonLink
+  actioncolor=""
+  bgcolor="yellow"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ActionButtonLink /> should render its css w/ props border 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: none;
+  color: rgb(255,255,255);
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+<ButtonLink
+  actioncolor=""
+  border="none"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ActionButtonLink /> should render its css w/ props center 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: 2px solid white;
+  color: rgb(255,255,255);
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+<ButtonLink
+  actioncolor=""
+  center="none"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ActionButtonLink /> should render its css w/ props color 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: 2px solid white;
+  color: blue;
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+<ButtonLink
+  actioncolor=""
+  className="c0"
+  color="blue"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props actioncolor == action 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(245,194,35);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fcebb5;
+  color: #f7d054;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor="action"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props actioncolor == error 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(255,0,0);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #f99;
+  color: #f33;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor="error"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props actioncolor == escape 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(251,91,111);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fff0f2;
+  color: #fc8d9b;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor="escape"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props actioncolor == help 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(251,158,36);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fee1ba;
+  color: #fcb456;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor="help"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props actioncolor == hint 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(179,166,255);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fff;
+  color: #dfd9ff;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor="hint"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props actioncolor == okay 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(153,226,17);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #d5f795;
+  color: #aff036;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor="okay"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: red;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #f99;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  bgcolor="red"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props border 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 2px solid red;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  border="2px solid red"
+  className="c0"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props color 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: blue;
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(0,0,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  color="blue"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props full 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  width: 100% !important;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  full={true}
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props half 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  width: 50% !important;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  half={true}
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props inactive & bgcolor 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: cyan;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #9ff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled {
+  background-color: #9ff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  bgcolor="cyan"
+  className="c0"
+  inactive={true}
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props inactive & color 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: brown;
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #7fdfff;
+  color: rgba(165,42,42,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(165,42,42,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  color="brown"
+  inactive={true}
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props inactive 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  inactive={true}
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props margin 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  margin: 30px;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  margin="30px"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props padding 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 40px;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 40px;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  padding="40px"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props radius 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 30px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  radius="30px"
+  replace={false}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<ButtonLink /> should render its css w/ props standard 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  min-width: 180px;
+  max-width: 320px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    min-width: 140px;
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<Link
+  actioncolor=""
+  className="c0"
+  replace={false}
+  standard={true}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  to="/#"
+/>
+`;

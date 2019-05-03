@@ -1,0 +1,462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerificheLivelloStudenteOverview /> mostra elenco verifiche di livello assegnate 1`] = `
+<div>
+  <div
+    key="verifica_assegnata_div_34"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Test di ingresso - 12/10/16
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_titolo_34"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        <Text__BrandTxt>
+          Unità della verifica:
+        </Text__BrandTxt>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_unita_34_5"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Complementi in italiano
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="verifica_assegnata_riepilogo_34"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande: 
+            </Text__BrandTxt>
+            15
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca: 
+            </Text__BrandTxt>
+            15'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={false}
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Riprendi
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div
+    key="verifica_assegnata_div_79"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Test di ingresso - 26/10/16
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_titolo_79"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        <Text__BrandTxt>
+          Unità della verifica:
+        </Text__BrandTxt>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_unita_79_6"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Flessione nominale
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="verifica_assegnata_riepilogo_79"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande: 
+            </Text__BrandTxt>
+            14
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca: 
+            </Text__BrandTxt>
+            14'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={true}
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Consegnata
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div
+    key="verifica_assegnata_div_709"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Test di ingresso - 11/10/13
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_titolo_709"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        <Text__BrandTxt>
+          Unità della verifica:
+        </Text__BrandTxt>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_unita_709_16"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Titolo unità
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="verifica_assegnata_riepilogo_709"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande: 
+            </Text__BrandTxt>
+            22
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca: 
+            </Text__BrandTxt>
+            22'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={false}
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          Esegui
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+  <div
+    key="verifica_assegnata_div_16"
+  >
+    <NewListPanels__ListPanelHeader
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      Test di ingresso - 04/10/16
+    </NewListPanels__ListPanelHeader>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_titolo_16"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        <Text__BrandTxt>
+          Unità della verifica:
+        </Text__BrandTxt>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_unita_16_1570"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Ripasso grammatica italiana: il verbo
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      key="verifica_assegnata_unita_16_161"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <NewListPanels__ListItemText>
+        Ripasso analisi logica
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+    <NewListPanels__ListItem
+      justifyContent="space-around"
+      key="verifica_assegnata_riepilogo_16"
+      theme={
+        Object {
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Totale domande: 
+            </Text__BrandTxt>
+            14
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <span
+        className="mediumUp"
+      >
+        <NewListPanels__ListItemText>
+          <span>
+            <Text__BrandTxt>
+              Tempo di esecuzione ca: 
+            </Text__BrandTxt>
+            14'
+          </span>
+        </NewListPanels__ListItemText>
+      </span>
+      <NewListPanels__ListItemText>
+        <Button
+          actioncolor="okay"
+          disabled={false}
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M27 4h4v28h-4V4zm-7 16h4v12h-4V20zm-7-7h4v19h-4V13zM6 23h4v9H6v-9z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Statistiche
+        </Button>
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListItem>
+  </div>
+</div>
+`;

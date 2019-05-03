@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormMessage /> should render its css w/ props color 1`] = `
+.c0 {
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  color: yellow;
+  padding: 6px 9px;
+  margin-top: 9px;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+<span
+  className="c0"
+  color="yellow"
+/>
+`;
+
+exports[`<FormMessage /> should render its css w/ props landing 1`] = `
+.c0 {
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  color: rgb(255,0,0);
+  padding: 6px 9px;
+  margin-top: 9px;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  font-size: smaller;
+  padding: 2px 12px;
+  border-radius: 60px;
+  margin-bottom: 3px;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.20);
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<FormMessage /> should render its css w/ props theme 1`] = `
+.c0 {
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  color: rgb(255,0,0);
+  padding: 6px 9px;
+  margin-top: 9px;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`CardForm should render its css w/ props product 1`] = `
+.c0 {
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    width: 240px;
+  }
+}
+
+<form
+  className="c0"
+/>
+`;
+
+exports[`FormElement should render its css w/ props errore 1`] = `
+.c0 {
+  position: relative;
+  margin: 0 auto 18px;
+  margin-bottom: 9px;
+}
+
+<Div
+  className="c0"
+  errore={true}
+/>
+`;
+
+exports[`FormElement should render its css w/ props margin 1`] = `
+.c0 {
+  position: relative;
+  margin: 0;
+}
+
+<Div
+  className="c0"
+  margin="0"
+/>
+`;

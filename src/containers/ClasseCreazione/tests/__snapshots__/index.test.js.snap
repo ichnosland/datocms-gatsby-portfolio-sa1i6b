@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegistrationView /> should match snapshot 1`] = `
+<div>
+  <FormElements__FormSection
+    paddingmobile="20px"
+  >
+    <ReduxForm
+      data={
+        Object {
+          "cercaAltraScuola": Object {
+            "comuni": Array [],
+            "indirizziDiStudio": Array [],
+            "isComuneSelezionato": false,
+            "isIndirizzoDiStudioSelezionato": false,
+            "isProvinciaSelezionata": false,
+            "isScuolaSelezionata": true,
+            "province": Array [],
+            "scuole": Array [],
+            "selezionaComune": [Function],
+            "selezionaIndirizzoDiStudio": [Function],
+            "selezionaProvincia": [Function],
+            "selezionaScuola": [Function],
+          },
+          "classeDocente": Object {
+            "aggiungiCampoNuovaClasse": [Function],
+            "creaDaClasseEsistenteFunction": [Function],
+            "creaNuovaClasseFunction": [Function],
+            "isClasseSelezionata": false,
+            "isCreaNuovaClasse": false,
+            "isDatiNuovaClasseValid": undefined,
+            "items": Array [],
+            "onChangeDatiClasse": [Function],
+            "selectionFx": [Function],
+            "titolo": "nome",
+          },
+          "scuoleAttive": Object {
+            "cercaAltraScuolaFunction": [Function],
+            "items": Array [],
+            "selectionFx": [Function],
+          },
+        }
+      }
+      display=""
+      product="product"
+    />
+    <ButtonGroup
+      buttons={
+        Array [
+          Object {
+            "actioncolor": "action",
+            "id": 1,
+            "label": "Cancella",
+            "onClickFunction": [Function],
+          },
+          Object {
+            "id": 2,
+            "label": "Esci",
+            "onClickFunction": [Function],
+          },
+        ]
+      }
+    />
+  </FormElements__FormSection>
+</div>
+`;

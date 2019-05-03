@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BreadCrumb /> should render its children content 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+>
+  &lt;span&gt;ciao&lt;/span&gt;
+</Div>
+`;
+
+exports[`<BreadCrumb /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgb(231,236,236);
+  background-color: green;
+  border-radius: 6px;
+}
+
+<Div
+  bgcolor="green"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<BreadCrumb /> should render its css w/ props border 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 6px dotted yelow;
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+<Div
+  border="6px dotted yelow"
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<BreadCrumb /> should render its css w/ props color 1`] = `
+.c0 {
+  color: red;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+<Div
+  className="c0"
+  color="red"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<BreadCrumb /> should render its css w/ props display 1`] = `
+.c0 {
+  position: relative;
+  display: table;
+  text-align: center;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+<Div
+  className="c0"
+  display="table"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<BreadCrumb /> should render its css w/ props noPrint 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<Div
+  className="c0"
+  noPrint={true}
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<BreadCrumb /> should render its css w/ props radius 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  border-radius: 100px;
+}
+
+<Div
+  className="c0"
+  radius="100px"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;

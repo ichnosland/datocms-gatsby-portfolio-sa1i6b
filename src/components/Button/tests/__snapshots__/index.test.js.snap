@@ -1,0 +1,2139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionButton theme={theme} /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  background-color: yellow;
+  border: 2px solid white;
+  color: rgb(255,255,255);
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #ff9;
+  color: rgba(255,255,0,0.5);
+}
+
+<Button
+  actioncolor=""
+  bgcolor="yellow"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+/>
+`;
+
+exports[`<ActionButton theme={theme} /> should render its css w/ props border 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: none;
+  color: rgb(255,255,255);
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+<Button
+  actioncolor=""
+  border="none"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+/>
+`;
+
+exports[`<ActionButton theme={theme} /> should render its css w/ props color 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: 2px solid white;
+  color: blue;
+  font-weight: 600;
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  color="blue"
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+/>
+`;
+
+exports[`<ActionButton theme={theme} /> should render its css w/ props sectionbutton 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: 2px solid white;
+  color: rgb(255,255,255);
+  font-weight: 600;
+  min-width: 50%;
+  font-size: 18px;
+  padding: 14px 30px;
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    font-size: 16px;
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  sectionbutton={true}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+/>
+`;
+
+exports[`<ActionButton theme={theme} /> should render its css w/ props shadow 1`] = `
+.c0 {
+  font-size: 21px;
+  padding: 21px 30px;
+  border: 2px solid white;
+  color: rgb(255,255,255);
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.20);
+}
+
+.c0:disabled {
+  background-color: #def4c0;
+  color: rgba(255,255,255,0.5);
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  shadow={true}
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+/>
+`;
+
+exports[`<Button /> should render its css 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props actioncolor == action 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(245,194,35);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fcebb5;
+  color: #f7d054;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props actioncolor == error 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(255,0,0);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #f99;
+  color: #f33;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props actioncolor == escape 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(251,91,111);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fff0f2;
+  color: #fc8d9b;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props actioncolor == help 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(251,158,36);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fee1ba;
+  color: #fcb456;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props actioncolor == hint 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(179,166,255);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #fff;
+  color: #dfd9ff;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props actioncolor == okay 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  background-color: rgb(153,226,17);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #d5f795;
+  color: #aff036;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props admin 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  color: #00abe5;
+  border: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #b2ebff;
+}
+
+.c0:active {
+  background-color: #e6e6e6;
+  border-color: #cbd5d5;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: red;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #f99;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props bone 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  color: rgb(255,255,255);
+  border: 2px solid rgb(255,255,255);
+  background-color: rgba(255,255,255,0);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:hover,
+.c0:active {
+  background-color: rgba(0,0,0,.1);
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props border 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 2px solid red;
+  background-color: #00abe5;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props color 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: blue;
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(0,0,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+  color="blue"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props full 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  width: 100% !important;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props half 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  width: 50% !important;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props margin 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  margin: 30px;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props outline 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  color: #00abe5;
+  border: 1px solid #00abe5;
+  background-color: rgb(255,255,255);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #b2ebff;
+}
+
+.c0:active {
+  background-color: #e6e6e6;
+  border-color: #cbd5d5;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props outline and fill 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  color: #00abe5;
+  border: 1px solid #00abe5;
+  background-color: rgb(255,255,255);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #b2ebff;
+}
+
+.c0:active {
+  background-color: #e6e6e6;
+  border-color: #cbd5d5;
+}
+
+.c0 svg {
+  fill: red;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+  fill="red"
+>
+  <Button__Icon
+    height="18px"
+    path={
+      <path
+        d="M256 512l256-256H363V0H149v256H0"
+        fillRule="nonzero"
+      />
+    }
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    viewBox="0 0 512 512"
+    width="18px"
+  />
+</button>
+`;
+
+exports[`<Button /> should render its css w/ props outline, an icon and theme 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  color: #00abe5;
+  border: 1px solid #00abe5;
+  background-color: rgb(255,255,255);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #b2ebff;
+}
+
+.c0:active {
+  background-color: #e6e6e6;
+  border-color: #cbd5d5;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+>
+  <Button__Icon
+    height="18px"
+    path={
+      <path
+        d="M256 512l256-256H363V0H149v256H0"
+        fillRule="nonzero"
+      />
+    }
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    viewBox="0 0 512 512"
+    width="18px"
+  />
+</button>
+`;
+
+exports[`<Button /> should render its css w/ props padding 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 40px;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 40px;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props radius 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 30px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+  radius="30px"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props round 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  padding: 0;
+  border-radius: 100%;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props shadow 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.20);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its css w/ props standard 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  min-width: 180px;
+  max-width: 320px;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    min-width: 140px;
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Button /> should render its height equal to width w/ props round + width 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+<button
+  className="c0"
+  width="100px"
+/>
+`;
+
+exports[`<GhostButton /> should render its css w/ props fill 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0 svg {
+  fill: red;
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<button
+  className="c0"
+  fill="red"
+>
+  <Svg
+    path={
+      <path
+        d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+      />
+    }
+    viewBox="0 0 8.34 16"
+  />
+</button>
+`;
+
+exports[`<GhostButton /> should render its css w/ props margin 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin: 30px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<GhostButton /> should render its css w/ props padding 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 60px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<Icon /> should render a Svg 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  fill: rgb(255,255,255);
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<Svg
+  className="c0"
+  path={
+    <path
+      d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+      data-name="Livello 1"
+      fill="#ffffff"
+    />
+  }
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+/>
+`;
+
+exports[`<Icon /> should render its css w/ props brandColor 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  fill: rgb(255,255,255);
+  fill: #00abe5;
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<Svg
+  brandColor={true}
+  className="c0"
+  path={
+    <path
+      d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    />
+  }
+  theme={
+    Object {
+      "brand": "#00abe5",
+      "dark": "rgb(0, 114, 205)",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+      "light": "rgb(109, 210, 240)",
+      "pale": "rgb(199, 231, 245)",
+      "radius": Object {
+        "buttons": "50px",
+      },
+      "subtle": "rgb(178, 208, 223)",
+    }
+  }
+  viewBox="0 0 8.34 16"
+/>
+`;
+
+exports[`<Icon /> should render its css w/ props fill 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  fill: rgb(0,0,0);
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<Svg
+  className="c0"
+  fill="rgb(0, 0, 0)"
+  path={
+    <path
+      d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    />
+  }
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+/>
+`;
+
+exports[`<Icon /> should render its css w/ props left 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  fill: rgb(255,255,255);
+  margin: 0 6px 0 -6px;
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<Svg
+  className="c0"
+  left={true}
+  path={
+    <path
+      d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    />
+  }
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+/>
+`;
+
+exports[`<Icon /> should render its css w/ props margin 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  margin: 100px auto;
+  fill: rgb(255,255,255);
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<Svg
+  className="c0"
+  margin="100px auto"
+  path={
+    <path
+      d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    />
+  }
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+/>
+`;
+
+exports[`<Icon /> should render its css w/ props right 1`] = `
+.c0 {
+  width: 18px;
+  height: 18px;
+  fill: rgb(255,255,255);
+  margin: 0 -6px 0 6px;
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<Svg
+  className="c0"
+  path={
+    <path
+      d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    />
+  }
+  right={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+/>
+`;
+
+exports[`<Icon /> should render its css w/ props size 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  fill: rgb(255,255,255);
+}
+
+@media (max-width:667px) {
+  .c0.mediumUp {
+    display: none;
+  }
+}
+
+<Svg
+  className="c0"
+  path={
+    <path
+      d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+    />
+  }
+  size="24px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  viewBox="0 0 8.34 16"
+/>
+`;
+
+exports[`<TextButton /> should render its css w/ props color 1`] = `
+.c0 {
+  color: red;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  color="red"
+/>
+`;

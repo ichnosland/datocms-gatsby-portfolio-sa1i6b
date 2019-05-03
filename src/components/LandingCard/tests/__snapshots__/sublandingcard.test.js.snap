@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubCardContainer /> should render a FlexBox 1`] = `
+.c0 {
+  padding: 20px 0;
+}
+
+<LandingCard__FlexSwitch
+  className="c0"
+/>
+`;
+
+exports[`<SubCardContainer /> should render its css w/ props color 1`] = `
+.c0 {
+  padding: 20px 0;
+  color: green;
+}
+
+<LandingCard__FlexSwitch
+  className="c0"
+  color="green"
+/>
+`;
+
+exports[`<SubCardContainer /> should render its css w/ props dashed 1`] = `
+.c0 {
+  padding: 20px 0;
+  border-bottom-style: dashed;
+  border-bottom-color: rgba(255,255,255,0.4);
+  border-bottom-width: 2px;
+}
+
+<LandingCard__FlexSwitch
+  className="c0"
+  dashed={true}
+/>
+`;
+
+exports[`<SubCardContainer /> should render its css w/ props padding 1`] = `
+.c0 {
+  padding: 100px;
+}
+
+<LandingCard__FlexSwitch
+  className="c0"
+  padding="100px"
+/>
+`;
+
+exports[`<SubCardContainer /> should render its css w/ props single 1`] = `
+.c0 {
+  padding: 20px 0;
+  position: relative;
+}
+
+.c0::before {
+  content: " ";
+  display: block;
+}
+
+<LandingCard__FlexSwitch
+  className="c0"
+  single={true}
+/>
+`;
+
+exports[`<SubLandingCard /> should render a SubCardContainer 1`] = `
+<SubLandingCard__SubCardContainer
+  maxWidth="860px"
+>
+  <LandingCard__Image
+    role="presentation"
+    src="IMAGE"
+  />
+  <LandingCard__CardBox />
+</SubLandingCard__SubCardContainer>
+`;
+
+exports[`<SubLandingCard /> should render its css w/ props padding 1`] = `
+<SubLandingCard__SubCardContainer
+  maxWidth="860px"
+  padding="30px"
+>
+  <LandingCard__CardBox />
+</SubLandingCard__SubCardContainer>
+`;

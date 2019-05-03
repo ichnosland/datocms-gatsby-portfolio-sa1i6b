@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Academy /> should render a StickyWrap 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section
+      bgColor="#00abe5"
+      first={true}
+    >
+      <LandingCard
+        color="#fff"
+        flexorder={2}
+        src="IMAGE_MOCK"
+      >
+        <Heading__H1
+          color="#fff"
+          margin="0"
+        >
+          Alatin Academy
+        </Heading__H1>
+        <p>
+          Alatin è un corso di lingua basato sull’apprendimento per padronanza o 
+          <strong>
+            “Mastery Learning”
+          </strong>
+          . Il docente non assegna un compito, bensì un obiettivo comune a tutta la classe, ad esempio “3ª declinazione”. Gli studenti sono tenuti a completare tutte le lezioni pratiche comprese nella 3ª declinazione, ma la mole di esercizi che toccherà loro varierà in base al numero degli errori compiuti nel corso delle lezioni.
+        </p>
+        <p>
+          In ogni lezione pratica, lo studente è tenuto a raggiungere 12 risposte corrette; ogni volta che sbaglia, gli viene proposto un nuovo esercizio; in coda, per chiudere la lezione, dovrà correggere tutte le domande che ha sbagliato.
+        </p>
+        <p>
+          Completata una lezione lo studente sblocca e accede alle lezioni successive, con domande ed esercizi via via più difficili, fino al raggiungimento dell’obiettivo.
+        </p>
+      </LandingCard>
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+    >
+      <Container>
+        <Heading__H2
+          color="#00abe5"
+          margin="0"
+        >
+          Struttura del corso
+        </Heading__H2>
+        <p>
+          Alatin è organizzato in 
+          <strong>
+            180 unità
+          </strong>
+           (obiettivi di apprendimento), scandite in 
+          <strong>
+            40 missioni
+          </strong>
+          , raggruppate a loro volta in 
+          <strong>
+            14 livelli
+          </strong>
+          . Ogni unità (es. «1ª declinazione») contiene un numero variabile di 
+          <strong>
+            lezioni pratiche
+          </strong>
+          , in cui lo studente affronta esercizi di morfologia, morfosintassi e sintassi a difficoltà crescente, dall’analisi dei verbi alla traduzione di frasi.
+        </p>
+        <RespImg__DesktopImage
+          src="IMAGE_MOCK"
+        />
+        <RespImg__MobileImage
+          src="IMAGE_MOCK"
+        />
+        <Heading__H4
+          color="#000"
+        >
+          Le lezioni pratiche
+        </Heading__H4>
+        <p>
+          Ogni lezione pratica di 
+          <em>
+            traduzione
+          </em>
+           è scandita da una continua dialettica fra le lingue: si traduce cioè non solo dal latino all’italiano ma, in egual misura, dall’italiano al latino.
+        </p>
+        <p>
+          Ciascuna missione è organizzata in modo da consentire allo studente un’acquisizione mirata e progressiva del lessico di base. Il vocabolario è in linea, dunque lo studente trova il lemma della parola direttamente sul testo. Se la parola è focus, cioè si tratta di una parola-chiave per il tipo di esercizio richiesto (nome, verbo, aggettivo), è corredata dalla rispettiva tabella morfologica che ne riporta il quadro dei casi o della coniugazione.
+        </p>
+        <RespImg__DesktopImage
+          src="IMAGE_MOCK"
+        />
+        <RespImg__MobileImage
+          src="IMAGE_MOCK"
+        />
+        <p>
+          Oltre al lessico, gli studenti trovano in Alatin anche la teoria. Ciascuna unità, infatti, è dotata di una breve lezione teorica di supporto all’argomento trattato, in linea con quanto avviene nei laboratori tradizionali.
+        </p>
+        <RespImg__DesktopImage
+          src="IMAGE_MOCK"
+        />
+        <RespImg__MobileImage
+          src="IMAGE_MOCK"
+        />
+        <Heading__H4
+          color="#000"
+        >
+          La valutazione degli obiettivi
+        </Heading__H4>
+        <p>
+           Per ogni unità il docente ha a disposizione un tasto “Andamento” che gli consente di monitorare in tempo reale, su 3 indici, il comportamento della classe rispetto al lavoro assegnato. I 3 indici rappresentati sono: 
+        </p>
+        <ul>
+           
+          <li>
+            grado di completamento dell’obiettivo
+          </li>
+           
+          <li>
+            numero di errori commessi
+          </li>
+           
+          <li>
+            punteggio esperienza complessivo (XP) raggiunto in 
+            <strong>
+              tutti
+            </strong>
+             gli obiettivi
+          </li>
+           
+        </ul>
+        <RespImg__DesktopImage
+          src="IMAGE_MOCK"
+        />
+        <RespImg__MobileImage
+          src="IMAGE_MOCK"
+        />
+        <Heading__H4
+          color="#000"
+        >
+          Le verifiche e le versioni
+        </Heading__H4>
+        <p>
+          In ogni missione il docente dispone di 3 o più 
+          <strong>
+            versioni
+          </strong>
+          , che può decidere se assegnare tutte o in parte a scuola, a titolo di compito in classe, o a casa. Le versioni sono valutate in 
+          <strong>
+            decimi
+          </strong>
+          .
+          <br />
+           Ciascuna versione è scandita per periodi, che lo studente deve prima analizzare e poi tradurre passo a passo. La valutazione tiene conto in egual misura degli step di analisi e di quelli di traduzione.
+        </p>
+        <p>
+           Per ogni livello il docente può creare delle 
+          <strong>
+            verifiche sommative
+          </strong>
+           personalizzabili sulla base delle unità assegnate, dalla morfologia alla traduzione, basate rigorosamente sul medesimo lessico che i ragazzi trovano nel lavoro a casa.
+          <br />
+           Le verifiche tuttavia, a differenza degli obiettivi assegnati per casa, non hanno feedback immediato e non hanno i traducenti in linea: solo chi si esercita costantemente a casa riuscirà a prendere un buon voto nelle verifiche!
+        </p>
+        <RespImg__DesktopImage
+          src="IMAGE_MOCK"
+        />
+        <RespImg__MobileImage
+          src="IMAGE_MOCK"
+        />
+        <Heading__H4
+          color="#000"
+        >
+          Perché provare Alatin?
+        </Heading__H4>
+        <p>
+          Da sempre il Mastery Learning si scontra con le difficoltà dei docenti di compensare gli squilibri fisiologici di una classe con compiti mirati al singolo studente. Alatin è pensato per offrire al docente la possibilità di superare questa impasse.
+          <br />
+          Monitorando minuziosamente tutto il lavoro di ogni studente Alatin è in grado di ponderare automaticamente il suo carico di lavoro, fino a fargli raggiungere il traguardo fissato. Al tempo stesso, Alatin riporta al docente le difficoltà incontrate dalla classe nel raggiungimento dei singoli traguardi, offrendo ottimi spunti anche per la lezione frontale.
+          <br />
+          È possibile utilizzare le lezioni di Alatin sia come attività di pratica e consolidamento dell’argomento appena trattato in classe, indicando quest’ultimo come traguardo da superare per la volta successiva, sia come prologo dell’argomento non ancora affrontato in classe, proprio a partire dagli errori più frequenti che la classe ha commesso a casa.
+          <br />
+          E ciò che vale per la fase lineare della programmazione tradizionale, vale a maggior ragione per i momenti puntuali di potenziamento e di recupero.
+        </p>
+      </Container>
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+      padding="0 50px 50px"
+      paddingmobile="0 20px 30px"
+    >
+      <Container
+        align="center"
+      >
+        <ButtonLink__ActionButtonLink
+          bgcolor="#fe9d3e"
+          sectionbutton={1}
+          shadow={1}
+          to="/contatti"
+        >
+          Scrivici per saperne di più
+        </ButtonLink__ActionButtonLink>
+      </Container>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

@@ -1,0 +1,689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GrigliaValutazioniDettaglioView /> studenteDetailFunction non deve chiamare onGrigliaValutazioneDettaglioStudenteFetch se spinner.dettaglioStudente 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="main_container"
+  >
+    <Div
+      margin="0 auto 30px"
+    >
+      <BreadCrumb
+        theme={
+          Object {
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <BreadCrumb__Crumb>
+          <Button__TextButton
+            color="inherit"
+            onClick={[Function]}
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "darken": "#1588AA",
+              }
+            }
+          >
+            Valutazioni
+          </Button__TextButton>
+        </BreadCrumb__Crumb>
+        <BreadCrumb__Crumb>
+          <Text__BrandTxt>
+            <strong>
+              titolo valutazione
+            </strong>
+          </Text__BrandTxt>
+           
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(100, 20, 100)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                1/11/2014
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </BreadCrumb__Crumb>
+      </BreadCrumb>
+    </Div>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "field": "titolo",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "nome",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "nome",
+              },
+              Object {
+                "field": "studenteOpenDetailIcon",
+                "function": "studenteDetailFunction",
+              },
+            ],
+            "label": "Studente",
+            "type": "string",
+          },
+          Object {
+            "field": "voto",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "voto",
+              },
+            ],
+            "label": "Voto",
+            "type": "number",
+          },
+        ]
+      }
+      key="riepilogo"
+      mono={true}
+      righe={
+        Array [
+          Object {
+            "id": 1,
+            "nome": "nome studente 1",
+            "studente": 10,
+            "studenteDetailFunction": null,
+            "studenteOpenDetailIcon": "",
+            "voto": 10,
+          },
+          Object {
+            "id": 2,
+            "nome": "nome studente 2",
+            "studente": 20,
+            "studenteDetailFunction": null,
+            "studenteOpenDetailIcon": "",
+            "voto": 4.5,
+          },
+          Object {
+            "id": 3,
+            "nome": "nome studente 3",
+            "studente": 30,
+            "studenteDetailFunction": null,
+            "studenteOpenDetailIcon": "",
+            "voto": 5,
+          },
+          Object {
+            "id": 4,
+            "nome": "nome studente 4",
+            "studente": 40,
+            "studenteDetailFunction": null,
+            "studenteOpenDetailIcon": "",
+            "voto": 7,
+          },
+        ]
+      }
+      sortingFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniDettaglioView /> visualizza il contenuto nel suo stato iniziale 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="main_container"
+  >
+    <Div
+      margin="0 auto 30px"
+    >
+      <BreadCrumb
+        theme={
+          Object {
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <BreadCrumb__Crumb>
+          <Button__TextButton
+            color="inherit"
+            onClick={[Function]}
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "darken": "#1588AA",
+              }
+            }
+          >
+            Valutazioni
+          </Button__TextButton>
+        </BreadCrumb__Crumb>
+        <BreadCrumb__Crumb>
+          <Text__BrandTxt>
+            <strong>
+              titolo valutazione
+            </strong>
+          </Text__BrandTxt>
+           
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(100, 20, 100)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                1/11/2014
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </BreadCrumb__Crumb>
+      </BreadCrumb>
+    </Div>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "field": "titolo",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "nome",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "nome",
+              },
+              Object {
+                "field": "studenteOpenDetailIcon",
+                "function": "studenteDetailFunction",
+              },
+            ],
+            "label": "Studente",
+            "type": "string",
+          },
+          Object {
+            "field": "voto",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "voto",
+              },
+            ],
+            "label": "Voto",
+            "type": "number",
+          },
+        ]
+      }
+      key="riepilogo"
+      mono={true}
+      righe={
+        Array [
+          Object {
+            "id": 1,
+            "nome": "nome studente 1",
+            "studente": 10,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 10,
+          },
+          Object {
+            "id": 2,
+            "nome": "nome studente 2",
+            "studente": 20,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 4.5,
+          },
+          Object {
+            "id": 3,
+            "nome": "nome studente 3",
+            "studente": 30,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 5,
+          },
+          Object {
+            "id": 4,
+            "nome": "nome studente 4",
+            "studente": 40,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 7,
+          },
+        ]
+      }
+      sortingFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniDettaglioView /> visualizza il contenuto quando feedback = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <AlertBanner
+    actioncolor="errore"
+    key="feedback"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    messaggio
+  </AlertBanner>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniDettaglioView /> visualizza il contenuto quando ordinamento è per dataSortable 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    key="main_container"
+  >
+    <Div
+      margin="0 auto 30px"
+    >
+      <BreadCrumb
+        theme={
+          Object {
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <BreadCrumb__Crumb>
+          <Button__TextButton
+            color="inherit"
+            onClick={[Function]}
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "darken": "#1588AA",
+              }
+            }
+          >
+            Valutazioni
+          </Button__TextButton>
+        </BreadCrumb__Crumb>
+        <BreadCrumb__Crumb>
+          <Text__BrandTxt>
+            <strong>
+              titolo valutazione
+            </strong>
+          </Text__BrandTxt>
+           
+          <CountBadge
+            radius="3px"
+            theme={
+              Object {
+                "radius": Object {
+                  "countBadge": "90%",
+                },
+              }
+            }
+          >
+            <CountBadge__CountBadgeItem
+              bgcolor="rgb(100, 20, 100)"
+              theme={
+                Object {
+                  "radius": Object {
+                    "countBadge": "90%",
+                  },
+                }
+              }
+            >
+              <strong>
+                1/11/2014
+              </strong>
+            </CountBadge__CountBadgeItem>
+          </CountBadge>
+        </BreadCrumb__Crumb>
+      </BreadCrumb>
+    </Div>
+    <ReportGrid
+      filtriAttivi={
+        Object {
+          "field": "dataSortable",
+          "sort": "asc",
+          "type": "string",
+        }
+      }
+      intestazioniColonna={
+        Array [
+          Object {
+            "field": "nome",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "nome",
+              },
+              Object {
+                "field": "studenteOpenDetailIcon",
+                "function": "studenteDetailFunction",
+              },
+            ],
+            "label": "Studente",
+            "type": "string",
+          },
+          Object {
+            "field": "voto",
+            "fieldsDisplay": Array [
+              Object {
+                "field": "voto",
+              },
+            ],
+            "label": "Voto",
+            "type": "number",
+          },
+        ]
+      }
+      key="riepilogo"
+      mono={true}
+      righe={
+        Array [
+          Object {
+            "id": 1,
+            "nome": "nome studente 1",
+            "studente": 10,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 10,
+          },
+          Object {
+            "id": 2,
+            "nome": "nome studente 2",
+            "studente": 20,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 4.5,
+          },
+          Object {
+            "id": 3,
+            "nome": "nome studente 3",
+            "studente": 30,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 5,
+          },
+          Object {
+            "id": 4,
+            "nome": "nome studente 4",
+            "studente": 40,
+            "studenteDetailFunction": [Function],
+            "studenteOpenDetailIcon": "",
+            "voto": 7,
+          },
+        ]
+      }
+      sortingFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniDettaglioView /> visualizza il contenuto quando sortedData.length === 0 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <AlertBanner
+    actioncolor="error"
+    key="feedback_empty"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    Non sono presenti dati da visualizzare
+  </AlertBanner>
+</Page>
+`;
+
+exports[`<GrigliaValutazioniDettaglioView /> visualizza il contenuto quando spinner = true 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="nome corso"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Spinner
+    number={3}
+  />
+</Page>
+`;

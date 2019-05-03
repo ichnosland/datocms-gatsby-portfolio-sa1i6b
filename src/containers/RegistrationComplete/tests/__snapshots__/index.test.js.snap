@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegistrationCompleteView /> Visualizza il form di registrazione 1`] = `
+<Section
+  full={true}
+>
+  <ReduxForm
+    handleSubmit={[Function]}
+    product="product"
+  />
+</Section>
+`;
+
+exports[`<RegistrationCompleteView /> Visualizza un messaggio di feedback 1`] = `
+<Section
+  full={true}
+>
+  <AlertBanner
+    actioncolor="error"
+    text="messaggio di errore"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    messaggio di errore
+  </AlertBanner>
+  <ReduxForm
+    handleSubmit={[Function]}
+    product="product"
+  />
+</Section>
+`;
+
+exports[`<RegistrationCompleteView /> Visualizza uno spinner 1`] = `
+<Section
+  full={true}
+>
+  <Spinner
+    number={3}
+  />
+</Section>
+`;

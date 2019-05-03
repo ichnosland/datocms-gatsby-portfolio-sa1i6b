@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AcquistaForm /> se selectedValue non fa il match, non mostro il pulsante paypal 1`] = `
+<FormElements__CardForm>
+  <div
+    key="scelta_prodotto"
+  >
+    <Heading__H3
+      margin="1em 0"
+    >
+      Seleziona i prodotti che desideri acquistare:
+    </Heading__H3>
+    <FormElements__FormElement>
+      <Field
+        component={[Function]}
+        htmlFor="prodotto"
+        id="prodotto_1"
+        key="prodotto_1"
+        label="descrizione 3.4€"
+        name="prodotto"
+        type="radio"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+        value="order_data_1"
+      />
+      <Field
+        component={[Function]}
+        htmlFor="prodotto"
+        id="prodotto_2"
+        key="prodotto_2"
+        label="scrizionede 5.5€"
+        name="prodotto"
+        type="radio"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+        value="order_data_2"
+      />
+    </FormElements__FormElement>
+  </div>
+  <Button
+    actioncolor=""
+    full={true}
+    key="button_annulla"
+    onClick={[Function]}
+    outline={1}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "fonts": Object {
+          "buttons": Object {
+            "fontFamily": "inherit",
+            "fontWeight": "inherit",
+          },
+        },
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+    type="button"
+  >
+    Annulla e inserisci codice
+  </Button>
+</FormElements__CardForm>
+`;
+
+exports[`<AcquistaForm /> visualizza un container con il form di scelta prodotto al suo interno 1`] = `
+<FormElements__CardForm>
+  <div
+    key="prodotto_selezionato"
+  >
+    <Div
+      bgColor="white"
+      padding="10px"
+      radius="3px"
+    >
+      <p>
+        <strong>
+          <Text__BrandTxt>
+            Prodotto selezionato:
+          </Text__BrandTxt>
+        </strong>
+        <br />
+        descrizione
+        <br />
+        <br />
+        <strong>
+          <Text__BrandTxt>
+            Prezzo:
+          </Text__BrandTxt>
+        </strong>
+        <br />
+        3.4
+        €
+      </p>
+    </Div>
+    <Paragraph__Separator
+      theme={
+        Object {
+          "light": "#C9E4FF",
+        }
+      }
+    >
+      <Paragraph__SeparatorText>
+        Procedi all'acquisto
+      </Paragraph__SeparatorText>
+    </Paragraph__Separator>
+    <FormElements__FormElement>
+      <_class
+        client={
+          Object {
+            "production": "Af-XsMlYBYe5w4OgNp30JXRAQuZARRXy3hYvthX9ykcWfnLJkCPgF7_x4XqxhSV_tKo8aYV9B-XcpuR2",
+            "sandbox": "AVol_NFSaqTRXxctR7AoFPY1_QNhx78dvFPhEul-f9_KJJLLCBHZzyglOwJ-ueZZjHVU3tWP5BJOBjCF",
+          }
+        }
+        commit={true}
+        env="sandbox"
+        locale="it_IT"
+        onAuthorize={[Function]}
+        payment={[Function]}
+        style={
+          Object {
+            "color": "gold",
+            "fundingicons": true,
+            "label": "checkout",
+            "size": "responsive",
+            "tagline": true,
+          }
+        }
+      />
+    </FormElements__FormElement>
+    <Paragraph__Separator
+      theme={
+        Object {
+          "light": "#C9E4FF",
+        }
+      }
+    >
+      <Paragraph__SeparatorText>
+        Oppure
+      </Paragraph__SeparatorText>
+    </Paragraph__Separator>
+  </div>
+  <Button
+    actioncolor=""
+    full={true}
+    key="button_annulla"
+    onClick={[Function]}
+    outline={1}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "fonts": Object {
+          "buttons": Object {
+            "fontFamily": "inherit",
+            "fontWeight": "inherit",
+          },
+        },
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+    type="button"
+  >
+    Annulla e inserisci codice
+  </Button>
+</FormElements__CardForm>
+`;
+
+exports[`<AcquistaForm /> visualizza un container con un messaggio di feedback 1`] = `
+<FormElements__CardForm>
+  <AlertBanner
+    actioncolor="help"
+    text="messaggio"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    messaggio
+  </AlertBanner>
+</FormElements__CardForm>
+`;

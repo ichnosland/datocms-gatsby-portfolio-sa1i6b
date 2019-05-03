@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlertCookies /> should test onClickFunction 1`] = `
+<AlertCookies__AlertCookiesWrap
+  show={true}
+>
+  <AlertCookies__CookiesBanner>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Al fine di offrire il miglior servizio possibile questo sito utilizza cookies tecnici e di terze parti per funzionalità quali l'accesso tramite social network e/o la visualizzazione di media. Se non acconsenti all'utilizzo dei cookie di terze parti, alcune di queste funzionalità potrebbero essere non disponibili. Chiudendo questo banner o proseguendo con la navigazione acconsentirai al loro impiego. Per saperne di più o negare il consenso a tutti o ad alcuni cookie puoi consultare 
+      <a
+        href="https://maieuticallabs.it/privacy"
+        target="_blank"
+      >
+        <span>
+          l'informativa sulla privacy
+        </span>
+      </a>
+      .
+    </Paragraph>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      <Button
+        actioncolor="hint"
+        onClick={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        standard={1}
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "fonts": Object {
+              "buttons": Object {
+                "fontFamily": "inherit",
+                "fontWeight": "inherit",
+              },
+            },
+            "radius": Object {
+              "buttons": "6px",
+            },
+          }
+        }
+      >
+        Chiudi
+      </Button>
+    </Paragraph>
+  </AlertCookies__CookiesBanner>
+</AlertCookies__AlertCookiesWrap>
+`;
+
+exports[`<AlertCookiesWrap /> should not render if show != true 1`] = `
+.c0 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px 20px;
+  z-index: 1;
+  display: none;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0 10px 30px;
+  }
+}
+
+<Div
+  className="c0"
+  show={false}
+/>
+`;
+
+exports[`<CookiesBanner /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  max-width: 860px;
+  margin: 0 auto;
+  font-size: 14px;
+  background-color: red;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,.15);
+  box-shadow: 0 2px 1px rgba(0,0,0,.25);
+}
+
+.c0 p {
+  padding: 20px;
+  margin: 0;
+}
+
+.c0 p:last-child {
+  padding: 0 20px 10px;
+  text-align: right;
+}
+
+@media (max-width:30em) {
+  .c0 p:last-child {
+    padding: 0 20px 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<Div
+  bgcolor="red"
+  className="c0"
+/>
+`;
+
+exports[`<CookiesBanner /> should render its css w/ props border 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  max-width: 860px;
+  margin: 0 auto;
+  font-size: 14px;
+  border: 3px dotted green;
+  background-color: rgba(255,255,255,.95);
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,.15);
+  box-shadow: 0 2px 1px rgba(0,0,0,.25);
+}
+
+.c0 p {
+  padding: 20px;
+  margin: 0;
+}
+
+.c0 p:last-child {
+  padding: 0 20px 10px;
+  text-align: right;
+}
+
+@media (max-width:30em) {
+  .c0 p:last-child {
+    padding: 0 20px 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<Div
+  border="3px dotted green"
+  className="c0"
+/>
+`;
+
+exports[`<CookiesBanner /> should render its css w/ props color 1`] = `
+.c0 {
+  color: #ffcc00;
+  max-width: 860px;
+  margin: 0 auto;
+  font-size: 14px;
+  background-color: rgba(255,255,255,.95);
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,.15);
+  box-shadow: 0 2px 1px rgba(0,0,0,.25);
+}
+
+.c0 p {
+  padding: 20px;
+  margin: 0;
+}
+
+.c0 p:last-child {
+  padding: 0 20px 10px;
+  text-align: right;
+}
+
+@media (max-width:30em) {
+  .c0 p:last-child {
+    padding: 0 20px 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<Div
+  className="c0"
+  color="#ffcc00"
+/>
+`;

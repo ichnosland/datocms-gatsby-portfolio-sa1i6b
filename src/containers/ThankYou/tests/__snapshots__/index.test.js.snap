@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThankYou /> should render a Section 1`] = `
+<Section
+  flextop={true}
+  full={true}
+>
+  <Container
+    align="center"
+    maxWidth="280px"
+  >
+    <Heading__H2
+      margin="0"
+    >
+      Grazie
+    </Heading__H2>
+    <p>
+      La licenza Premium è stata attivata. Puoi controllare la scadenza
+      <br />
+      sul tuo 
+      <a
+        href="/profilo"
+      >
+        <Text__BrandTxt>
+          profilo
+        </Text__BrandTxt>
+      </a>
+      .
+    </p>
+    <ButtonLink
+      actioncolor=""
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      to="/"
+    >
+      Vai alla dashboard
+    </ButtonLink>
+  </Container>
+  <LogoPlatform
+    height="40px"
+    margin="0 0 20px"
+    product="landingalatin"
+  />
+</Section>
+`;

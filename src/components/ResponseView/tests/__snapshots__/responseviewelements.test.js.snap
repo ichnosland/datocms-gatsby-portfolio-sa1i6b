@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedbackSteps /> default 1`] = `
+.c0 {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c0 p {
+  margin-bottom: 0;
+}
+
+.c0 ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+
+.c0 li {
+  color: rgb(255,255,255);
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin: 2px;
+  padding: 8px;
+  border-radius: 3px;
+  -webkit-transition: all 1s linear 0s;
+  transition: all 1s linear 0s;
+}
+
+.c0 li.stepsDone {
+  color: rgb(153,226,17);
+  background-color: rgb(240,240,240);
+}
+
+@media (max-width:64em) {
+  .c0 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<FeedbackSteps /> stepsDone = 1 1`] = `
+.c0 {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c0 p {
+  margin-bottom: 0;
+}
+
+.c0 ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+
+.c0 li {
+  color: rgb(255,255,255);
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin: 2px;
+  padding: 8px;
+  border-radius: 3px;
+  -webkit-transition: all 1s linear 0s;
+  transition: all 1s linear 0s;
+  color: rgb(153,226,17);
+  background-color: rgb(240,240,240);
+}
+
+.c0 li.stepsDone {
+  color: rgb(153,226,17);
+  background-color: rgb(240,240,240);
+}
+
+@media (max-width:64em) {
+  .c0 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+<Div
+  className="c0"
+  stepsDone={1}
+/>
+`;
+
+exports[`<ResponseWrap /> should render its css w/ props votoFinale < 6 1`] = `
+.c0 {
+  color: rgb(255,255,255);
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #ed5b53;
+}
+
+<FlexBox
+  className="c0"
+  votoFinale={4}
+/>
+`;
+
+exports[`<ResponseWrap /> should render its css w/ props votoFinale > 6 1`] = `
+.c0 {
+  color: rgb(255,255,255);
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: rgb(153,226,17);
+}
+
+<FlexBox
+  className="c0"
+  votoFinale={8}
+/>
+`;

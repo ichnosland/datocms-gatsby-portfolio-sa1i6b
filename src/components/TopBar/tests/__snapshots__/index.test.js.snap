@@ -1,0 +1,997 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BarTitle /> should render its css w/ props esecuzione == false 1`] = `
+.c0 {
+  color: rgb(255,255,255);
+}
+
+<Heading__H3
+  className="c0"
+  esecuzione={false}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<BarTitle /> should render its css w/ props esecuzione 1`] = `
+<Heading__H3
+  className=""
+  esecuzione={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<BarTitle /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: rgb(255,255,255);
+}
+
+<Heading__H3
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00abe5",
+    }
+  }
+/>
+`;
+
+exports[`<IconBtn /> should render its css w/ props esecuzione 1`] = `
+.c0 {
+  width: 36px;
+  height: 36px;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+<FlexBox
+  className="c0"
+  esecuzione={true}
+  theme={
+    Object {
+      "brand": "#00abe5",
+    }
+  }
+/>
+`;
+
+exports[`<IconBtn /> should render its css w/ props theme 1`] = `
+.c0 {
+  width: 36px;
+  height: 36px;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00abe5",
+    }
+  }
+/>
+`;
+
+exports[`<TopBar /> should not render TopBarLogoLeft when !searchActive and product == unknown 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should not render TopBarLogoLeft when searchActive and product == mytest 1`] = `
+<Bar
+  searchActive={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should not render TopBarLogoRight when !searchActive and product == unknown 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should not render TopBarLogoRight when searchActive and product == mytest 1`] = `
+<Bar
+  searchActive={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should render TopBarLogoLeft when !searchActive and product == mytest 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <TopBar__TopBarLogoLeft
+      product="mytestitaliano"
+      theme={
+        Object {
+          "topBarLogoLeft": Object {
+            "style": Array [
+              "background-color:transparent;",
+            ],
+          },
+        }
+      }
+    />
+    <TopBar__TopBarLogoRight
+      path={
+        <g
+          fillRule="evenodd"
+        >
+          <path
+            d="M0 16.307v23.39h11.01V35.73H4.557V16.306M21.102 15.687l-9.12 24.01h4.808l1.924-4.933h8.126l1.8 4.933h4.87l-8.872-24.01h-3.536zm1.488 6.857h.063l2.916 8.5h-5.554l2.574-8.5zM59.167 18.29c-1.426-1.58-4.31-2.603-6.39-2.603-3.94 0-6.824 3.13-6.824 7.008 0 3.63 2.2 5.152 5.21 6.394 1.83.712 4.067 1.394 4.067 3.815 0 1.8-1.15 3.383-3.012 3.383-1.956 0-3.6-1.614-4.22-3.414l-2.945 2.885c1.613 2.697 3.97 4.557 7.196 4.557 4.778 0 7.692-3.316 7.692-8 0-7.853-9.277-6.208-9.277-10.15 0-1.52 1.398-2.637 2.857-2.637 1.522 0 2.638.745 3.506 1.924l2.14-3.164zM78.898 17.05c-1.582-.867-3.382-1.363-5.213-1.363-6.856 0-11.537 5.86-11.537 12.5 0 6.457 4.867 12.13 11.445 12.13 1.892 0 3.6-.59 5.305-1.395v-5.427c-1.272 1.458-3.227 2.482-5.18 2.482-4.252 0-6.858-3.94-6.858-7.882 0-4.034 2.513-8.068 6.888-8.068 1.954 0 3.878.93 5.15 2.482v-5.46zM82.718 30.3c0 5.708 2.417 10.018 8.684 10.018 6.27 0 8.686-4.31 8.686-10.018V16.307h-4.556V29.4c0 2.885-.25 6.95-4.13 6.95s-4.127-4.065-4.127-6.95V16.307h-4.557V30.3zM121.56 27.785c0 3.538-2.977 8.037-6.857 8.037-3.88 0-6.858-4.5-6.858-8.037 0-3.787 2.855-7.603 6.858-7.603s6.858 3.816 6.858 7.603m4.713.186c0-6.547-4.743-12.283-11.57-12.283s-11.57 5.736-11.57 12.284c0 6.705 4.743 12.348 11.57 12.348s11.57-5.643 11.57-12.347M133.998 16.307h-4.557v23.39h11.01V35.73H134M155.033 31.045h-5.553l2.575-8.5h.062l2.916 8.5zm7.94 8.65l-8.87-24.008h-3.537l-9.12 24.01h4.808l1.923-4.933h8.127l1.8 4.932h4.87zM6.242 3.038V.99H0v12.07h6.242V11.01h-3.89V7.745h3.746V5.697H2.35v-2.66M27.94 7.025c0 2.386-1.122 3.987-4.02 3.987h-.385V3.038h.384c2.674 0 4.02 1.36 4.02 3.987m2.43.016c0-3.44-2.335-6.05-5.826-6.05h-3.36v12.07h3.344c3.444 0 5.843-2.624 5.843-6.02M46.01 13.06h2.35V.99h-2.35M67.923 3.038h2.433V.99H63.14V3.04h2.43v10.02h2.353M89.74 4.687c0 1.473-.914 1.857-2.212 1.857h-.304V2.91h.32c1.25 0 2.195.288 2.195 1.777m2.35-.064c0-2.577-1.647-3.632-4.033-3.632h-3.184v12.07h2.35V8.192h.033l2.93 4.866h2.85l-3.41-5.09c1.617-.274 2.464-1.81 2.464-3.347M108.01 13.06h2.352V.99h-2.35M134.07 1.374c-.815-.447-1.744-.703-2.69-.703-3.536 0-5.952 3.025-5.952 6.45 0 3.332 2.512 6.26 5.906 6.26.976 0 1.856-.305 2.737-.72v-2.8c-.656.752-1.664 1.28-2.673 1.28-2.192 0-3.537-2.033-3.537-4.067 0-2.08 1.296-4.163 3.554-4.163 1.008 0 2 .48 2.657 1.28V1.375zM155.795 3.038V.99h-6.242v12.07h6.242V11.01h-3.89V7.745h3.746V5.697h-3.746v-2.66"
+          />
+        </g>
+      }
+      theme={
+        Object {
+          "topBarLogoRight": Object {
+            "style": Array [
+              "background-color:transparent;",
+            ],
+          },
+        }
+      }
+      viewBox="0 0 163 41"
+    />
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render TopBarLogoRight when !searchActive and product == mytest 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <TopBar__TopBarLogoLeft
+      product="mytestitaliano"
+      theme={
+        Object {
+          "topBarLogoLeft": Object {
+            "style": Array [
+              "background-color:transparent;",
+            ],
+          },
+        }
+      }
+    />
+    <TopBar__TopBarLogoRight
+      path={
+        <g
+          fillRule="evenodd"
+        >
+          <path
+            d="M0 16.307v23.39h11.01V35.73H4.557V16.306M21.102 15.687l-9.12 24.01h4.808l1.924-4.933h8.126l1.8 4.933h4.87l-8.872-24.01h-3.536zm1.488 6.857h.063l2.916 8.5h-5.554l2.574-8.5zM59.167 18.29c-1.426-1.58-4.31-2.603-6.39-2.603-3.94 0-6.824 3.13-6.824 7.008 0 3.63 2.2 5.152 5.21 6.394 1.83.712 4.067 1.394 4.067 3.815 0 1.8-1.15 3.383-3.012 3.383-1.956 0-3.6-1.614-4.22-3.414l-2.945 2.885c1.613 2.697 3.97 4.557 7.196 4.557 4.778 0 7.692-3.316 7.692-8 0-7.853-9.277-6.208-9.277-10.15 0-1.52 1.398-2.637 2.857-2.637 1.522 0 2.638.745 3.506 1.924l2.14-3.164zM78.898 17.05c-1.582-.867-3.382-1.363-5.213-1.363-6.856 0-11.537 5.86-11.537 12.5 0 6.457 4.867 12.13 11.445 12.13 1.892 0 3.6-.59 5.305-1.395v-5.427c-1.272 1.458-3.227 2.482-5.18 2.482-4.252 0-6.858-3.94-6.858-7.882 0-4.034 2.513-8.068 6.888-8.068 1.954 0 3.878.93 5.15 2.482v-5.46zM82.718 30.3c0 5.708 2.417 10.018 8.684 10.018 6.27 0 8.686-4.31 8.686-10.018V16.307h-4.556V29.4c0 2.885-.25 6.95-4.13 6.95s-4.127-4.065-4.127-6.95V16.307h-4.557V30.3zM121.56 27.785c0 3.538-2.977 8.037-6.857 8.037-3.88 0-6.858-4.5-6.858-8.037 0-3.787 2.855-7.603 6.858-7.603s6.858 3.816 6.858 7.603m4.713.186c0-6.547-4.743-12.283-11.57-12.283s-11.57 5.736-11.57 12.284c0 6.705 4.743 12.348 11.57 12.348s11.57-5.643 11.57-12.347M133.998 16.307h-4.557v23.39h11.01V35.73H134M155.033 31.045h-5.553l2.575-8.5h.062l2.916 8.5zm7.94 8.65l-8.87-24.008h-3.537l-9.12 24.01h4.808l1.923-4.933h8.127l1.8 4.932h4.87zM6.242 3.038V.99H0v12.07h6.242V11.01h-3.89V7.745h3.746V5.697H2.35v-2.66M27.94 7.025c0 2.386-1.122 3.987-4.02 3.987h-.385V3.038h.384c2.674 0 4.02 1.36 4.02 3.987m2.43.016c0-3.44-2.335-6.05-5.826-6.05h-3.36v12.07h3.344c3.444 0 5.843-2.624 5.843-6.02M46.01 13.06h2.35V.99h-2.35M67.923 3.038h2.433V.99H63.14V3.04h2.43v10.02h2.353M89.74 4.687c0 1.473-.914 1.857-2.212 1.857h-.304V2.91h.32c1.25 0 2.195.288 2.195 1.777m2.35-.064c0-2.577-1.647-3.632-4.033-3.632h-3.184v12.07h2.35V8.192h.033l2.93 4.866h2.85l-3.41-5.09c1.617-.274 2.464-1.81 2.464-3.347M108.01 13.06h2.352V.99h-2.35M134.07 1.374c-.815-.447-1.744-.703-2.69-.703-3.536 0-5.952 3.025-5.952 6.45 0 3.332 2.512 6.26 5.906 6.26.976 0 1.856-.305 2.737-.72v-2.8c-.656.752-1.664 1.28-2.673 1.28-2.192 0-3.537-2.033-3.537-4.067 0-2.08 1.296-4.163 3.554-4.163 1.008 0 2 .48 2.657 1.28V1.375zM155.795 3.038V.99h-6.242v12.07h6.242V11.01h-3.89V7.745h3.746V5.697h-3.746v-2.66"
+          />
+        </g>
+      }
+      theme={
+        Object {
+          "topBarLogoRight": Object {
+            "style": Array [
+              "background-color:transparent;",
+            ],
+          },
+        }
+      }
+      viewBox="0 0 163 41"
+    />
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props backArrow with onClickFunction 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <TopBar__IconBtn
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      <Svg
+        height="18px"
+        path={
+          <path
+            d="M17.343 8.25H2.426l7.016-7.068c.272-.272.272-.713-.005-.98-.272-.27-.708-.267-.975 0L.2 8.528c-.268.27-.268.708.004.98L8.467 17.8c.135.135.313.2.487.2.18 0 .352-.065.488-.2.272-.273.272-.71 0-.98L2.4 9.75h14.943c.366 0 .657-.337.657-.75s-.29-.75-.657-.75"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 18 18"
+        width="18px"
+      />
+    </TopBar__IconBtn>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props backArrow with url 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Link
+      replace={false}
+      to="/path"
+    >
+      <TopBar__IconBtn
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="18px"
+          path={
+            <path
+              d="M17.343 8.25H2.426l7.016-7.068c.272-.272.272-.713-.005-.98-.272-.27-.708-.267-.975 0L.2 8.528c-.268.27-.268.708.004.98L8.467 17.8c.135.135.313.2.487.2.18 0 .352-.065.488-.2.272-.273.272-.71 0-.98L2.4 9.75h14.943c.366 0 .657-.337.657-.75s-.29-.75-.657-.75"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 18 18"
+          width="18px"
+        />
+      </TopBar__IconBtn>
+    </Link>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props backNav with onClickFunction 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <TopBar__IconBtn
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </TopBar__IconBtn>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props backNav with url 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Link
+      replace={false}
+      to="/path"
+    >
+      <TopBar__IconBtn
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="20px"
+          path={
+            <path
+              d="M31.557 36.443L28 40 8 20 28 0l3.557 3.557L15.113 20l16.444 16.443z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 40 40"
+          width="20px"
+        />
+      </TopBar__IconBtn>
+    </Link>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props bgColor 1`] = `
+<Bar
+  bgColor="#fff"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props box 1`] = `
+<Bar
+  box={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props closeBtn with onClickFunction 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <TopBar__IconBtn
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </TopBar__IconBtn>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props closeBtn with url 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Link
+      replace={false}
+      to="/path"
+    >
+      <TopBar__IconBtn
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="20px"
+          path={
+            <path
+              d="M23.557 20l14.665 14.665L40 36.443 36.443 40l-1.778-1.778L20 23.557 5.335 38.222 3.557 40 0 36.443l1.778-1.778L16.443 20 1.778 5.335 0 3.557 3.557 0l1.778 1.778L20 16.443 34.665 1.778 36.443 0 40 3.557l-1.778 1.778L23.557 20z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 40 40"
+          width="20px"
+        />
+      </TopBar__IconBtn>
+    </Link>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props esecuzione 1`] = `
+<Bar
+  esecuzione={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props lesson with onClickFunction 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <TopBar__IconBtn
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      <Svg
+        height="20px"
+        path={
+          <path
+            d="M23 0h16c.42 0 1 .895 1 2s-.58 2-1 2H23c-.42 0-1-.895-1-2s.58-2 1-2zm0 12h16c.42 0 1 .895 1 2s-.58 2-1 2H23c-.42 0-1-.895-1-2s.58-2 1-2zM1 24h38c.347 0 1 .895 1 2s-.653 2-1 2H1c-.347 0-1-.895-1-2s.653-2 1-2zm0 12h38c.347 0 1 .895 1 2s-.653 2-1 2H1c-.347 0-1-.895-1-2s.653-2 1-2zM8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 40 40"
+        width="20px"
+      />
+    </TopBar__IconBtn>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props lesson with url 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Link
+      replace={false}
+      to="/path"
+    >
+      <TopBar__IconBtn
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="20px"
+          path={
+            <path
+              d="M23 0h16c.42 0 1 .895 1 2s-.58 2-1 2H23c-.42 0-1-.895-1-2s.58-2 1-2zm0 12h16c.42 0 1 .895 1 2s-.58 2-1 2H23c-.42 0-1-.895-1-2s.58-2 1-2zM1 24h38c.347 0 1 .895 1 2s-.653 2-1 2H1c-.347 0-1-.895-1-2s.653-2 1-2zm0 12h38c.347 0 1 .895 1 2s-.653 2-1 2H1c-.347 0-1-.895-1-2s.653-2 1-2zM8 0C3.582 0 0 3.582 0 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 40 40"
+          width="20px"
+        />
+      </TopBar__IconBtn>
+    </Link>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props noShadow 1`] = `
+<Bar
+  noShadow={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props pinned 1`] = `
+<Bar
+  pinned={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  />
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props rightBtn when onClickFunction is provided 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Link
+      onClick={[Function]}
+      replace={false}
+      to="#"
+    >
+      <TopBar__IconBtn
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="36px"
+          path={
+            <path
+              d="M30.01 55.526c2.92 0 5.697-.576 8.212-1.605.06-.03.11-.05.172-.07.01 0 .02 0 .02-.01.354-.13.737-.202 1.13-.202.436 0 .85.08 1.224.242L49.252 57l-2.232-8.925c0-.535.152-1.04.394-1.474.08-.13.162-.262.253-.373C49.777 43.067 51 39.312 51 35.283 51.02 24.076 41.616 15 30.01 15 18.404 15 9 24.076 9 35.263c0 11.197 9.404 20.263 21.01 20.263zM30 41.316c1.34 0 2.42 1.08 2.42 2.42 0 1.34-1.08 2.42-2.42 2.42-1.34 0-2.42-1.08-2.42-2.42 0-1.34 1.08-2.42 2.42-2.42zm-2.296-15.473c.973-2.747 3.945-2.295 4.764 0 .82 2.295-.482 8.17-1.162 10.09-.68 1.92-1.24 3.277-2.41 0-1.17-3.277-2.164-7.343-1.192-10.09z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 60 72"
+          width="30px"
+        />
+      </TopBar__IconBtn>
+    </Link>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props rightBtn when url is provided 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Link
+      replace={false}
+      to="/url"
+    >
+      <TopBar__IconBtn
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+      >
+        <Svg
+          height="36px"
+          path={
+            <path
+              d="M30.01 55.526c2.92 0 5.697-.576 8.212-1.605.06-.03.11-.05.172-.07.01 0 .02 0 .02-.01.354-.13.737-.202 1.13-.202.436 0 .85.08 1.224.242L49.252 57l-2.232-8.925c0-.535.152-1.04.394-1.474.08-.13.162-.262.253-.373C49.777 43.067 51 39.312 51 35.283 51.02 24.076 41.616 15 30.01 15 18.404 15 9 24.076 9 35.263c0 11.197 9.404 20.263 21.01 20.263zM30 41.316c1.34 0 2.42 1.08 2.42 2.42 0 1.34-1.08 2.42-2.42 2.42-1.34 0-2.42-1.08-2.42-2.42 0-1.34 1.08-2.42 2.42-2.42zm-2.296-15.473c.973-2.747 3.945-2.295 4.764 0 .82 2.295-.482 8.17-1.162 10.09-.68 1.92-1.24 3.277-2.41 0-1.17-3.277-2.164-7.343-1.192-10.09z"
+              fillRule="evenodd"
+            />
+          }
+          viewBox="0 0 60 72"
+          width="30px"
+        />
+      </TopBar__IconBtn>
+    </Link>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props searchBox & premiumActive 1`] = `
+<Bar
+  searchActive={false}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <SearchBox
+      onActivateSearch={[Function]}
+      onFiltraUnita={[Function]}
+      premiumActive={true}
+      searchActive={false}
+    />
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props searchBox 1`] = `
+<Bar
+  searchActive={false}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <SearchBox
+      onActivateSearch={[Function]}
+      onFiltraUnita={[Function]}
+      searchActive={false}
+    />
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props single 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <TopBar__Space />
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its css w/ props topSwitcher 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Select
+      margin="0 16px 0 0"
+      onChangeFunction={[Function]}
+      selectItems={
+        Array [
+          Object {
+            "key": "1",
+            "name": "nome",
+          },
+        ]
+      }
+    />
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its props button 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Button
+      actioncolor="okay"
+      margin="-2px 0 0"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    />
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its props buttonIcon 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Button
+      actioncolor="okay"
+      buttonIcon="print"
+      label="stampa"
+      margin="-2px 0 0"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <Button__Icon
+        height="16px"
+        left={true}
+        path={
+          <path
+            d="M27 24h6V8H3v16h6v-7h18v7zM9 27H2a2 2 0 0 1-2-2V8c0-1.768 1.437-3.2 3-3h2V3a3 3 0 0 1 3-3h20a3 3 0 0 1 3 3v2h2c1.568-.2 3 1.235 3 3v17a2 2 0 0 1-2 2h-7v5H9v-5zM7 3v2h22V3a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1z"
+            fillRule="evenodd"
+          />
+        }
+        theme={
+          Object {
+            "brand": "#00BBEF",
+          }
+        }
+        viewBox="0 0 36 32"
+        width="18px"
+      />
+      stampa
+    </Button>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its props itemCount insidde button 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Button
+      actioncolor="help"
+      itemCount="25"
+      margin="-2px 0 0"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <ItemCounter
+        hidden={false}
+        theme={
+          Object {
+            "radius": Object {
+              "buttons": "3px",
+            },
+          }
+        }
+      >
+        25
+      </ItemCounter>
+    </Button>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its props label 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Button
+      actioncolor="action"
+      label="Push the button"
+      margin="-2px 0 0"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      Push the button
+    </Button>
+  </Container__ContainerFlex>
+</Bar>
+`;
+
+exports[`<TopBar /> should render its props scores 1`] = `
+<Bar
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+>
+  <Container__ContainerFlex
+    height="100%"
+    justifyContent="space-between"
+  >
+    <Scores
+      score="360"
+    />
+  </Container__ContainerFlex>
+</Bar>
+`;

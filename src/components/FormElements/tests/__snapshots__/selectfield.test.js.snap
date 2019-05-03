@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectField /> deve visualizzare SelectMenu e SelectChevron e options.length == 3 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    key="select_box"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> deve visualizzare un messaggio se touched == false !!error == true 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    key="select_box"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> deve visualizzare un messaggio se touched == true !!error == true 1`] = `
+Array [
+  <FormElements__FormMessage
+    key="select_message"
+    landing={true}
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    error
+  </FormElements__FormMessage>,
+  <Select__SelectBox
+    key="select_box"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> deve visualizzare uno spinner se asyncValidating == true 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    key="select_box"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  <Spinner
+    key="select_spinner"
+    number={3}
+    size="small"
+  />,
+]
+`;
+
+exports[`<SelectField /> should render its css w/ props bgColor 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    bgColor="green"
+    key="select_box"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> should render its css w/ props color 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    color="red"
+    key="select_box"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu
+      color="red"
+    >
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> should render its css w/ props margin 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    key="select_box"
+    margin="100px"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> should render its css w/ props optioncolor 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    key="select_box"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu
+      optioncolor="yellow"
+    >
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> should render its css w/ props padding 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    key="select_box"
+    padding="50px"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;
+
+exports[`<SelectField /> should render its css w/ props radius 1`] = `
+Array [
+  "",
+  <Select__SelectBox
+    key="select_box"
+    radius="20px"
+    theme={
+      Object {
+        "darken": "#1588AA",
+      }
+    }
+  >
+    <Select__SelectMenu>
+      <option>
+        uno
+      </option>
+      <option>
+        due
+      </option>
+      <option>
+        tre
+      </option>
+    </Select__SelectMenu>
+    <Select__SelectChevron>
+      <Svg
+        height="14px"
+        path={
+          <path
+            d="M7 10.82a.37.37 0 0 1-.28-.1L.11 4.56a.32.32 0 0 1 0-.47L1 3.28a.38.38 0 0 1 .51 0L7 8.42l5.52-5.14a.37.37 0 0 1 .51 0l.87.81a.32.32 0 0 1 0 .47l-6.62 6.16a.37.37 0 0 1-.28.1z"
+          />
+        }
+        viewBox="0 0 14 14"
+        width="14px"
+      />
+    </Select__SelectChevron>
+  </Select__SelectBox>,
+  "",
+]
+`;

@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EsecuzionePreviewStep /> visualizza dati 1`] = `
+<FlexBox__FlexWrap>
+  <EsecuzioneSteps
+    apriModalBox={[Function]}
+    chiudiModalBox={[Function]}
+    correzioneRisposta={
+      Object {
+        "correzioneStep": Object {
+          "corrette": Array [],
+          "sbagliate": Array [],
+        },
+        "isCheckable": true,
+        "isChecked": false,
+        "isCorrect": true,
+        "isFocusEnabled": false,
+        "isHelpEnabled": true,
+        "isInterfaceLocked": false,
+        "isPristine": true,
+        "mostraCorrezione": true,
+        "mostraSoluzione": false,
+        "risposteInizializza": false,
+      }
+    }
+    correzioneRispostaFx={[Function]}
+    funzioneSelezionaRisposta={[Function]}
+    hasCorreggi={false}
+    hasHelp={true}
+    hasLessico={true}
+    helpFunction={[Function]}
+    key="esecuzione_preview_0"
+    rispostaSelezionata={Object {}}
+    stepCaricato={
+      Object {
+        "esercizi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "passivo",
+            "distrattore_2": "imperfetto",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": false,
+            "form": Array [
+              "imperfetto",
+              "passivo",
+              "attivo",
+              "presente",
+            ],
+            "html": null,
+            "id": 94635,
+            "ignora_lessico": false,
+            "inputLessicale": Array [],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "attivo",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "presente",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": "N",
+            "titolo": "Analizza il tempo e la diatesi",
+            "traduci": Array [],
+          },
+        ],
+        "isStepLoaded": true,
+        "numeroProgressivoStep": 0,
+        "testi": Array [
+          Object {
+            "continua": false,
+            "distrattore_1": "",
+            "distrattore_2": "",
+            "distrattore_3": "",
+            "distrattore_4": "",
+            "esercizioId": 97552,
+            "etichetta_1": null,
+            "etichetta_2": null,
+            "etichetta_3": null,
+            "etichetta_4": null,
+            "etichetta_5": null,
+            "focus": true,
+            "form": null,
+            "html": "<span lessico=\\"Luna\\" idx=\\"0\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">Luna</span> <span class=\\"contesto\\"><span lessico=\\"splendet\\" idx=\\"1\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">splendet</span> </span><span lessico=\\"\\" idx=\\"2\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\"></span>, <span lessico=\\"stellae\\" idx=\\"3\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">stellae</span> <span lessico=\\"fulgent\\" idx=\\"4\\" testo=\\"testo\\" show-modal=\\"setModal()\\" tables=\\"updateTables(input)\\">fulgent</span>.",
+            "id": 94634,
+            "ignora_lessico": false,
+            "inputLessicale": Array [
+              Object {
+                "focus": false,
+                "forma": "luna",
+                "lemma": "luna",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "luna",
+              },
+              Object {
+                "focus": false,
+                "forma": "splendet",
+                "lemma": "splendeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "splendere",
+              },
+              Object {
+                "focus": false,
+                "forma": "stellae",
+                "lemma": "stella",
+                "tabelle": null,
+                "tipo": "n",
+                "traduzione": "stella",
+              },
+              Object {
+                "focus": false,
+                "forma": "fulgent",
+                "lemma": "fulgeo",
+                "tabelle": null,
+                "tipo": "v",
+                "traduzione": "brillare",
+              },
+            ],
+            "italiano": false,
+            "parole_gia_ricostruite": "",
+            "risposta_1": "",
+            "risposta_2": "",
+            "risposta_3": "",
+            "risposta_4": "",
+            "testo_principale": "Luna <span class=\\"contesto\\">splendet</span>, stellae fulgent.",
+            "testo_principale_post": "",
+            "testo_principale_pre": "",
+            "tipo": false,
+            "titolo": null,
+            "traduci": Array [],
+          },
+        ],
+      }
+    }
+    stepEseguiti={2}
+    stepTotali={3}
+    toggleFocusFunction={[Function]}
+    topBarParams={
+      Object {
+        "closeBtn": Object {
+          "enabled": true,
+          "url": "/back-url",
+        },
+      }
+    }
+  />
+  <LogoPlatform
+    desktopOnly={true}
+    execLogo={true}
+    margin="0 0 20px"
+    product="product"
+  />
+</FlexBox__FlexWrap>
+`;

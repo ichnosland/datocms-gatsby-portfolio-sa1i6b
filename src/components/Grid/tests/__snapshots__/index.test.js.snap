@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Grid /> should render its css w/ props inline 1`] = `
+.c0 {
+  display: grid;
+  display: inline-grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
+}
+
+<Div
+  className="c0"
+  inline={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<Grid /> should render its css w/ props list & templateColumns 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: 1fr auto 150px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr auto 150px;
+}
+
+<Div
+  className="c0"
+  list={true}
+  templateColumns="1fr auto 150px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<Grid /> should render its css w/ props list 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr auto;
+}
+
+<Div
+  className="c0"
+  list={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<Grid /> should render its css w/ props templateColumns 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+<Div
+  className="c0"
+  templateColumns="1fr 1fr 1fr"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<Grid /> should render its css w/ props templateRows 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr auto;
+}
+
+<Div
+  className="c0"
+  templateRows="1fr auto"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<Grid /> should render its css w/ props theme 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<GridItem /> should render its css w/ props list + header + active 1`] = `
+.c0 {
+  border-bottom: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  padding: 16px;
+  color: #00BBEF;
+  font-weight: 400;
+  border-bottom: 1px solid #00BBEF;
+  background-image: url();
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: 4px;
+}
+
+.c0:hover {
+  background-color: rgb(231,236,236);
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 12px 8px;
+  }
+}
+
+<FlexBox
+  active={true}
+  className="c0"
+  header={true}
+  list={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<GridItem /> should render its css w/ props list + header 1`] = `
+.c0 {
+  border-bottom: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  padding: 16px;
+  color: #00BBEF;
+  font-weight: 400;
+  border-bottom: 1px solid #00BBEF;
+}
+
+.c0:hover {
+  background-color: rgb(231,236,236);
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 12px 8px;
+  }
+}
+
+<FlexBox
+  className="c0"
+  header={true}
+  list={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<GridItem /> should render its css w/ props list 1`] = `
+.c0 {
+  border-bottom: 1px solid rgb(231,236,236);
+  background-color: rgb(255,255,255);
+  padding: 16px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 12px 8px;
+  }
+}
+
+<FlexBox
+  className="c0"
+  list={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<GridItem /> should render its css w/ props textTransform 1`] = `
+.c0 {
+  text-transform: uppercase;
+}
+
+<FlexBox
+  className="c0"
+  textTransform="uppercase"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<GridItem /> should render its css w/ props theme 1`] = `
+<FlexBox
+  className=""
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;

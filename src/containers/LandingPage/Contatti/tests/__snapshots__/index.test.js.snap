@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContattiView /> mostro il form nelle condizioni iniziali 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop
+    bgColor="blue"
+  >
+    <ComponentWithScrollPosition />
+    <Section
+      bgColor="yellow"
+      direction="column"
+      first={true}
+    >
+      <Heading__H1
+        color="red"
+        margin="20px auto"
+      >
+        Richiesta informazioni
+      </Heading__H1>
+      <ReduxForm
+        buttonBg="pink"
+        feedback={
+          Object {
+            "hasFeedback": false,
+            "messaggio": "messaggio errore",
+            "tipologia": "error",
+          }
+        }
+        handleSubmit={[Function]}
+      />
+    </Section>
+    <Section
+      bgColor="green"
+    >
+      <LandingCard__FlexSwitch
+        maxWidth="960px"
+      >
+        <LandingCard__CardBox
+          padding="0 30px 0 0"
+        >
+          <Heading__H3
+            color="#fff"
+            margin="0"
+          >
+            I nostri recapiti
+          </Heading__H3>
+          <Heading__H2
+            color="#fff"
+            margin="20px auto 0"
+          >
+            Maieutical Labs
+          </Heading__H2>
+          <Contatti__HalfBox>
+            <p>
+              <strong>
+                Sede operativa
+              </strong>
+              <br />
+              Via Abate Vassalli Eandi, 5
+              <br />
+              10138 • Torino
+            </p>
+            <p>
+              <strong>
+                Sede legale
+              </strong>
+              <br />
+              Via Pietro Regis, 26
+              <br />
+               10064 • Pinerolo (TO)
+            </p>
+            <p>
+              <strong>
+                Telefono
+              </strong>
+              <br />
+               (+39) 011 19705073
+            </p>
+          </Contatti__HalfBox>
+          <Contatti__HalfBox>
+            <p>
+              P. IVA 10623350013
+              <br />
+              C.F. e n. iscriz.
+              <br />
+              Reg. Imp. di TO
+              <br />
+              10623350013
+              <br />
+              REA: TO -1149034
+              <br />
+              PEC: maieuticallabs@legalmail.it
+              <br />
+              Capitale in bilancio: € 11.000
+            </p>
+          </Contatti__HalfBox>
+        </LandingCard__CardBox>
+        <LandingCard__Image
+          role="presentation"
+          src="undefinedcontatti.png"
+        />
+      </LandingCard__FlexSwitch>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;
+
+exports[`<ContattiView /> mostro il form nelle condizioni iniziali con basename 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop
+    bgColor="blue"
+  >
+    <ComponentWithScrollPosition />
+    <Section
+      bgColor="yellow"
+      direction="column"
+      first={true}
+    >
+      <Heading__H1
+        color="red"
+        margin="20px auto"
+      >
+        Richiesta informazioni
+      </Heading__H1>
+      <ReduxForm
+        buttonBg="pink"
+        feedback={
+          Object {
+            "hasFeedback": false,
+            "messaggio": "messaggio errore",
+            "tipologia": "error",
+          }
+        }
+        handleSubmit={[Function]}
+      />
+    </Section>
+    <Section
+      bgColor="green"
+    >
+      <LandingCard__FlexSwitch
+        maxWidth="960px"
+      >
+        <LandingCard__CardBox
+          padding="0 30px 0 0"
+        >
+          <Heading__H3
+            color="#fff"
+            margin="0"
+          >
+            I nostri recapiti
+          </Heading__H3>
+          <Heading__H2
+            color="#fff"
+            margin="20px auto 0"
+          >
+            Maieutical Labs
+          </Heading__H2>
+          <Contatti__HalfBox>
+            <p>
+              <strong>
+                Sede operativa
+              </strong>
+              <br />
+              Via Abate Vassalli Eandi, 5
+              <br />
+              10138 • Torino
+            </p>
+            <p>
+              <strong>
+                Sede legale
+              </strong>
+              <br />
+              Via Pietro Regis, 26
+              <br />
+               10064 • Pinerolo (TO)
+            </p>
+            <p>
+              <strong>
+                Telefono
+              </strong>
+              <br />
+               (+39) 011 19705073
+            </p>
+          </Contatti__HalfBox>
+          <Contatti__HalfBox>
+            <p>
+              P. IVA 10623350013
+              <br />
+              C.F. e n. iscriz.
+              <br />
+              Reg. Imp. di TO
+              <br />
+              10623350013
+              <br />
+              REA: TO -1149034
+              <br />
+              PEC: maieuticallabs@legalmail.it
+              <br />
+              Capitale in bilancio: € 11.000
+            </p>
+          </Contatti__HalfBox>
+        </LandingCard__CardBox>
+        <LandingCard__Image
+          role="presentation"
+          src="/basename/contatti.png"
+        />
+      </LandingCard__FlexSwitch>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;
+
+exports[`<ContattiView /> nascondo il form in presenza dello spinner 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop
+    bgColor="blue"
+  >
+    <ComponentWithScrollPosition />
+    <Section
+      bgColor="yellow"
+      direction="column"
+      first={true}
+    >
+      <Heading__H1
+        color="red"
+        margin="20px auto"
+      >
+        Richiesta informazioni
+      </Heading__H1>
+      <Spinner
+        number={3}
+      />
+    </Section>
+    <Section
+      bgColor="green"
+    >
+      <LandingCard__FlexSwitch
+        maxWidth="960px"
+      >
+        <LandingCard__CardBox
+          padding="0 30px 0 0"
+        >
+          <Heading__H3
+            color="#fff"
+            margin="0"
+          >
+            I nostri recapiti
+          </Heading__H3>
+          <Heading__H2
+            color="#fff"
+            margin="20px auto 0"
+          >
+            Maieutical Labs
+          </Heading__H2>
+          <Contatti__HalfBox>
+            <p>
+              <strong>
+                Sede operativa
+              </strong>
+              <br />
+              Via Abate Vassalli Eandi, 5
+              <br />
+              10138 • Torino
+            </p>
+            <p>
+              <strong>
+                Sede legale
+              </strong>
+              <br />
+              Via Pietro Regis, 26
+              <br />
+               10064 • Pinerolo (TO)
+            </p>
+            <p>
+              <strong>
+                Telefono
+              </strong>
+              <br />
+               (+39) 011 19705073
+            </p>
+          </Contatti__HalfBox>
+          <Contatti__HalfBox>
+            <p>
+              P. IVA 10623350013
+              <br />
+              C.F. e n. iscriz.
+              <br />
+              Reg. Imp. di TO
+              <br />
+              10623350013
+              <br />
+              REA: TO -1149034
+              <br />
+              PEC: maieuticallabs@legalmail.it
+              <br />
+              Capitale in bilancio: € 11.000
+            </p>
+          </Contatti__HalfBox>
+        </LandingCard__CardBox>
+        <LandingCard__Image
+          role="presentation"
+          src="undefinedcontatti.png"
+        />
+      </LandingCard__FlexSwitch>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;
+
+exports[`<ContattiView /> senza enableZigZagBorder 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop
+    bgColor="blue"
+  >
+    <ComponentWithScrollPosition />
+    <Section
+      bgColor="yellow"
+      direction="column"
+      first={true}
+    >
+      <Heading__H1
+        color="red"
+        margin="20px auto"
+      >
+        Richiesta informazioni
+      </Heading__H1>
+      <ReduxForm
+        buttonBg="pink"
+        feedback={
+          Object {
+            "hasFeedback": false,
+            "messaggio": "messaggio errore",
+            "tipologia": "error",
+          }
+        }
+        handleSubmit={[Function]}
+      />
+    </Section>
+    <Section
+      bgColor="green"
+    >
+      <LandingCard__FlexSwitch
+        maxWidth="960px"
+      >
+        <LandingCard__CardBox
+          padding="0 30px 0 0"
+        >
+          <Heading__H3
+            color="#fff"
+            margin="0"
+          >
+            I nostri recapiti
+          </Heading__H3>
+          <Heading__H2
+            color="#fff"
+            margin="20px auto 0"
+          >
+            Maieutical Labs
+          </Heading__H2>
+          <Contatti__HalfBox>
+            <p>
+              <strong>
+                Sede operativa
+              </strong>
+              <br />
+              Via Abate Vassalli Eandi, 5
+              <br />
+              10138 • Torino
+            </p>
+            <p>
+              <strong>
+                Sede legale
+              </strong>
+              <br />
+              Via Pietro Regis, 26
+              <br />
+               10064 • Pinerolo (TO)
+            </p>
+            <p>
+              <strong>
+                Telefono
+              </strong>
+              <br />
+               (+39) 011 19705073
+            </p>
+          </Contatti__HalfBox>
+          <Contatti__HalfBox>
+            <p>
+              P. IVA 10623350013
+              <br />
+              C.F. e n. iscriz.
+              <br />
+              Reg. Imp. di TO
+              <br />
+              10623350013
+              <br />
+              REA: TO -1149034
+              <br />
+              PEC: maieuticallabs@legalmail.it
+              <br />
+              Capitale in bilancio: € 11.000
+            </p>
+          </Contatti__HalfBox>
+        </LandingCard__CardBox>
+        <LandingCard__Image
+          role="presentation"
+          src="undefinedcontatti.png"
+        />
+      </LandingCard__FlexSwitch>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

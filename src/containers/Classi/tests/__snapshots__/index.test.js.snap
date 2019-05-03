@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassiView /> testo che appaia un messaggio di errore se non ho classi 1`] = `
+<Div>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px"
+  >
+    <div>
+      <AlertBanner
+        actioncolor="error"
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        Non sono presenti classi
+      </AlertBanner>
+      <Div
+        align="center"
+        margin="42px auto 0"
+      >
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M20 16h8v4h-8v8h-4v-8H8v-4h8V8h4v8z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Richiedi una classe
+        </Button>
+      </Div>
+    </div>
+  </Container>
+</Div>
+`;
+
+exports[`<ClassiView /> testo il render quando ho un messaggio di errore 1`] = `
+<Div>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px"
+  >
+    <AlertBanner
+      actioncolor="error"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio di errore
+    </AlertBanner>
+  </Container>
+</Div>
+`;
+
+exports[`<ClassiView /> testo il render quando il caricamento è in corso 1`] = `
+<Div>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px"
+  >
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Div>
+`;
+
+exports[`<ClassiView /> testo il render quando vengono mostrati i contenuti 1`] = `
+<Div>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "onClickFunction": [Function],
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Classi"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px"
+  >
+    <div>
+      <div
+        key="1234"
+      >
+        <NewListPanels__ListPanelHeader
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          nome
+        </NewListPanels__ListPanelHeader>
+        <NewListPanels__ListLink
+          key="4321"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+          to="/classe-dettaglio/4321"
+        >
+          <NewListPanels__ListItemText>
+            nomeCorso
+          </NewListPanels__ListItemText>
+          <ListSideBox
+            studenti={18}
+          />
+        </NewListPanels__ListLink>
+      </div>
+      <div
+        key="1234"
+      >
+        <NewListPanels__ListPanelHeader
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          nome
+        </NewListPanels__ListPanelHeader>
+        <NewListPanels__ListLink
+          key="4321"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+          to="/classe-dettaglio/4321"
+        >
+          <NewListPanels__ListItemText>
+            nomeCorso
+          </NewListPanels__ListItemText>
+          <ListSideBox
+            studenti={0}
+          />
+        </NewListPanels__ListLink>
+      </div>
+      <div
+        key="1234"
+      >
+        <NewListPanels__ListPanelHeader
+          theme={
+            Object {
+              "brand": "#00BBEF",
+            }
+          }
+        >
+          nome
+        </NewListPanels__ListPanelHeader>
+        <NewListPanels__ListLink
+          key="4321"
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "pale": "#999",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+          to="/classe-dettaglio/4321"
+        >
+          <NewListPanels__ListItemText>
+            nomeCorso
+          </NewListPanels__ListItemText>
+          <ListSideBox
+            studenti={0}
+          />
+        </NewListPanels__ListLink>
+      </div>
+      <Div
+        align="center"
+        margin="42px auto 0"
+      >
+        <Button
+          actioncolor=""
+          onClick={[Function]}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M20 16h8v4h-8v8h-4v-8H8v-4h8V8h4v8z"
+                fillRule="evenodd"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 36 36"
+            width="18px"
+          />
+          Richiedi una classe
+        </Button>
+      </Div>
+    </div>
+  </Container>
+</Div>
+`;

@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlertBar /> should render its css w/ props aiuto 1`] = `
+<AlertBar__AlertWrap
+  aiuto={true}
+  show={true}
+>
+  <AlertBar__BarContainer>
+    <Heading__H3>
+      Aiuto
+    </Heading__H3>
+  </AlertBar__BarContainer>
+</AlertBar__AlertWrap>
+`;
+
+exports[`<AlertBar /> should render its css w/ props giusto 1`] = `
+<AlertBar__AlertWrap
+  giusto={true}
+  show={true}
+>
+  <AlertBar__BarContainer>
+    <Heading__H3>
+      Risposta corretta!
+    </Heading__H3>
+  </AlertBar__BarContainer>
+</AlertBar__AlertWrap>
+`;
+
+exports[`<AlertBar /> should render its css w/ props helpFx 1`] = `
+<AlertBar__AlertWrap
+  show={true}
+>
+  <AlertBar__BarContainer
+    helpFx={[Function]}
+  >
+    <TopBar__IconBtn
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+    >
+      <Svg
+        height="36px"
+        path={
+          <path
+            d="M30.01 55.526c2.92 0 5.697-.576 8.212-1.605.06-.03.11-.05.172-.07.01 0 .02 0 .02-.01.354-.13.737-.202 1.13-.202.436 0 .85.08 1.224.242L49.252 57l-2.232-8.925c0-.535.152-1.04.394-1.474.08-.13.162-.262.253-.373C49.777 43.067 51 39.312 51 35.283 51.02 24.076 41.616 15 30.01 15 18.404 15 9 24.076 9 35.263c0 11.197 9.404 20.263 21.01 20.263zM30 41.316c1.34 0 2.42 1.08 2.42 2.42 0 1.34-1.08 2.42-2.42 2.42-1.34 0-2.42-1.08-2.42-2.42 0-1.34 1.08-2.42 2.42-2.42zm-2.296-15.473c.973-2.747 3.945-2.295 4.764 0 .82 2.295-.482 8.17-1.162 10.09-.68 1.92-1.24 3.277-2.41 0-1.17-3.277-2.164-7.343-1.192-10.09z"
+            fillRule="evenodd"
+          />
+        }
+        viewBox="0 0 60 72"
+        width="30px"
+      />
+    </TopBar__IconBtn>
+    <Heading__H3 />
+  </AlertBar__BarContainer>
+</AlertBar__AlertWrap>
+`;
+
+exports[`<AlertBar /> should render its css w/ props sbagliato 1`] = `
+<AlertBar__AlertWrap
+  sbagliato={true}
+  show={true}
+>
+  <AlertBar__BarContainer>
+    <Heading__H3>
+      Hai sbagliato!
+    </Heading__H3>
+  </AlertBar__BarContainer>
+</AlertBar__AlertWrap>
+`;
+
+exports[`<AlertBar /> should render its css w/ props show 1`] = `
+<AlertBar__AlertWrap
+  show={false}
+>
+  <AlertBar__BarContainer>
+    <Heading__H3 />
+  </AlertBar__BarContainer>
+</AlertBar__AlertWrap>
+`;
+
+exports[`<AlertBar /> should render its css w/ props theme 1`] = `
+<AlertBar__AlertWrap
+  show={true}
+>
+  <AlertBar__BarContainer>
+    <Heading__H3 />
+  </AlertBar__BarContainer>
+</AlertBar__AlertWrap>
+`;
+
+exports[`<AlertWrap /> should render its css w/ props aiuto 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: rgb(251,158,36);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+<Div
+  aiuto={true}
+  className="c0"
+  show={true}
+/>
+`;
+
+exports[`<AlertWrap /> should render its css w/ props giusto 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: rgb(153,226,17);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+<Div
+  className="c0"
+  giusto={true}
+  show={true}
+/>
+`;
+
+exports[`<AlertWrap /> should render its css w/ props sbagliato 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: rgb(255,0,0);
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+<Div
+  className="c0"
+  sbagliato={true}
+  show={true}
+/>
+`;
+
+exports[`<AlertWrap /> should render its css w/ props show 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: none;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+<Div
+  className="c0"
+  show={false}
+/>
+`;
+
+exports[`<AlertWrap /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  background-color: #00abe5;
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+<Div
+  className="c0"
+  show={true}
+  theme={
+    Object {
+      "brand": "#00abe5",
+    }
+  }
+/>
+`;
+
+exports[`<AlertWrap /> should render its css w/ props versione 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 100%;
+  height: 56px;
+  padding: 0 20px;
+  z-index: 8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+}
+
+<Div
+  className="c0"
+  show={true}
+  versione={true}
+/>
+`;
+
+exports[`<BarContainer /> should render its css w/ props helpFx 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0::after {
+  content: "";
+  display: inline;
+}
+
+.c0 h3 {
+  color: rgb(255,255,255);
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    max-width: 860px;
+  }
+}
+
+<FlexBox
+  className="c0"
+  helpFx={[Function]}
+/>
+`;

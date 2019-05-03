@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Registration /> should render a CardForm 1`] = `
+<FormElements__CardForm
+  onSubmit={[Function]}
+>
+  <FormElements__FormElement
+    margin="0 auto 36px"
+  >
+    <LogoPlatform
+      formLogo={true}
+      product="product"
+    />
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <t
+      appId={476698685826665}
+      authType=""
+      callback={[Function]}
+      cookie={false}
+      disableMobileRedirect={true}
+      fields="name,email"
+      isMobile={true}
+      language="it_IT"
+      onFailure={null}
+      redirectUri="http://localhost/"
+      render={[Function]}
+      responseType="code"
+      returnScopes={false}
+      scope="public_profile,email"
+      state="facebookdirect"
+      version={3.1}
+      xfbml={false}
+    />
+  </FormElements__FormElement>
+  <Paragraph__Separator
+    theme={
+      Object {
+        "light": "#C9E4FF",
+      }
+    }
+  >
+    <Paragraph__SeparatorText>
+      oppure
+    </Paragraph__SeparatorText>
+  </Paragraph__Separator>
+  <FormElements__FormElement>
+    <Field
+      component={[Function]}
+      label="Indirizzo email"
+      name="email"
+      type="email"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <Field
+      component={[Function]}
+      label="Scegli una password"
+      name="password"
+      type="password"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <Field
+      component={[Function]}
+      label="Verifica la password"
+      name="password2"
+      type="password"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <Paragraph__LegalInfo>
+      <Field
+        component="input"
+        id="privacy"
+        name="privacy"
+        type="checkbox"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+       
+      <label
+        htmlFor="privacy"
+      >
+          Ho letto ed accetto le 
+        <a
+          href="https://maieuticallabs.it/privacy"
+          target="_blank"
+        >
+          normative sulla privacy
+        </a>
+      </label>
+    </Paragraph__LegalInfo>
+  </FormElements__FormElement>
+  <FormElements__FormElement>
+    <Button
+      actioncolor="okay"
+      disabled={false}
+      full={true}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "fonts": Object {
+            "buttons": Object {
+              "fontFamily": "inherit",
+              "fontWeight": "inherit",
+            },
+          },
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+      type="submit"
+    >
+      Invia
+    </Button>
+  </FormElements__FormElement>
+</FormElements__CardForm>
+`;

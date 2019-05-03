@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HtmlWrap /> should render its css w/ props inline 1`] = `
+.c0 {
+  width: 100%;
+  display: inline;
+}
+
+.c0 .segnaposto-admin {
+  display: none;
+}
+
+.c0 .consegna__titolo {
+  display: block;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+.c0 .consegna__contenuto {
+  color: #000;
+}
+
+.c0 .opzioni {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(96,141,212,0.1);
+  border: 1px solid rgba(35,56,89,.1);
+  border-radius: 2px;
+}
+
+.c0 .opzioni__titolo {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.c0 .opzioni__contenuto {
+  color: #000;
+  display: inline-block;
+  font-style: italic;
+  padding-left: 6px;
+}
+
+.c0 .opzioni__contenuto .radiocheck-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.c0 .opzioni .radio,
+.c0 .opzioni .checkbox {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+
+.c0 .opzioni .radio:after,
+.c0 .opzioni .checkbox:after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid;
+  background: white;
+}
+
+.c0 .opzioni .checkbox:after {
+  border-radius: 2px;
+}
+
+.c0 .opzioni .radio:after {
+  border-radius: 100px;
+}
+
+.c0 .consegna__contenuto--esercizio {
+  margin-top: 20px;
+}
+
+.c0 .completa {
+  line-height: 2em;
+}
+
+.c0 .completa:after {
+  content: "........................................";
+  font-weight: 400;
+}
+
+.c0 .completa.full--width {
+  display: block;
+  height: 0;
+  border-bottom: 1px dashed;
+  margin: 2em 0;
+}
+
+.c0 .completa.full--width:after {
+  content: "";
+}
+
+.c0 .completa.full--width:last-child {
+  margin-bottom: 1em;
+}
+
+.c0 .mytestitaliano .contesto {
+  border-bottom: 1px dotted;
+}
+
+.c0 .consegna__blocchi {
+  margin-top: 10px;
+}
+
+.c0 .consegna__blocchi .consegna__blocchi-blocco {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+.c0 .consegna__blocchi .consegna__blocchi-blocco span {
+  padding: 4px 0;
+}
+
+.c0 .consegna__blocchi .consegna__blocchi-blocco.analizza {
+  border: 1px solid rgba(0,0,0,.4);
+}
+
+.c0 .consegna__blocchi .consegna__blocchi-blocco.analizza .segnaposto {
+  border-bottom: 1px dashed rgba(0,0,0,.4);
+}
+
+.c0 p:first-child {
+  margin-top: 0;
+}
+
+.c0 p:last-child {
+  margin-bottom: 0;
+}
+
+.c0 img {
+  max-width: 100%;
+}
+
+.c0 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c0 table th {
+  background: rgb(231,236,236);
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 0.62em;
+  border: 1px solid rgb(231,236,236);
+  vertical-align: middle;
+}
+
+.c0 .numero-esercizio {
+  float: right;
+  background-color: rgb(209,209,209);
+  color: rgb(255,255,255);
+  padding: 3px 6px;
+  border-radius: 3px;
+  text-align: right;
+}
+
+.c0 .editor {
+  border: 1px dashed rgb(251,91,111);
+}
+
+.c0 .MathJax {
+  font-size: 0.9em;
+}
+
+@media print {
+  .c0 .opzioni {
+    background: none;
+  }
+}
+
+<Div
+  className="c0"
+  inline={true}
+/>
+`;

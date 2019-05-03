@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardBox /> should render its css 1`] = `
+.c0 {
+  width: 80%;
+  max-width: 640px;
+  padding: 0 0 0 30px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .c0 h2 {
+    font-size: 2.4em;
+    line-height: 1em;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<CardBox /> should render its css w/ props inverse if inverse === 2 1`] = `
+.c0 {
+  width: 80%;
+  max-width: 640px;
+  padding: 0 0 0 30px;
+  padding: 0 30px 0 0;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .c0 h2 {
+    font-size: 2.4em;
+    line-height: 1em;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<CardBox /> should render its css w/ props padding 1`] = `
+.c0 {
+  width: 80%;
+  max-width: 640px;
+  padding: 0 20px 0 30px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .c0 h2 {
+    font-size: 2.4em;
+    line-height: 1em;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Image /> should render its css 1`] = `
+.c0 {
+  width: 25%;
+  -webkit-order: auto;
+  -ms-flex-order: auto;
+  order: auto;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    width: 65%;
+    margin: 10px 30px 30px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+}
+
+<img
+  className="c0"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props alignThumb 1`] = `
+.c0 {
+  width: 25%;
+  -webkit-order: auto;
+  -ms-flex-order: auto;
+  order: auto;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    width: 65%;
+    margin: 10px 30px 30px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+}
+
+<img
+  className="c0"
+/>
+`;
+
+exports[`<Image /> should render its css w/ props flexorder 1`] = `
+.c0 {
+  width: 25%;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    width: 65%;
+    margin: 10px 30px 30px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+}
+
+<img
+  className="c0"
+/>
+`;
+
+exports[`<LandingCard /> should render a FlexSwitch 1`] = `
+<LandingCard__FlexSwitch
+  maxWidth="820px"
+>
+  <LandingCard__Image
+    role="presentation"
+    src="IMAGE"
+  />
+  <LandingCard__CardBox>
+    <Heading__H2
+      margin="0"
+    >
+      title
+    </Heading__H2>
+    <LandingCard__Body
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "body",
+        }
+      }
+    />
+    <StyledButtonGroup
+      bottomSpace="30px"
+      justifyContent="flex-start"
+      theme={
+        Object {
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <ButtonLink__ActionButtonLink
+        bone={1}
+        sectionbutton={1}
+      >
+        button
+      </ButtonLink__ActionButtonLink>
+    </StyledButtonGroup>
+  </LandingCard__CardBox>
+</LandingCard__FlexSwitch>
+`;
+
+exports[`<LandingCard /> should render a LegalInfo w/ props footNote.text 1`] = `
+<LandingCard__FlexSwitch
+  maxWidth="820px"
+>
+  <LandingCard__Image
+    role="presentation"
+    src="IMAGE"
+  />
+  <LandingCard__CardBox>
+    <Heading__H2
+      margin="0"
+    >
+      title
+    </Heading__H2>
+    <LandingCard__Body
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "body",
+        }
+      }
+    />
+    <StyledButtonGroup
+      bottomSpace="30px"
+      justifyContent="flex-start"
+      theme={
+        Object {
+          "radius": Object {
+            "buttons": "6px",
+          },
+        }
+      }
+    >
+      <ButtonLink__ActionButtonLink
+        bone={1}
+        sectionbutton={1}
+      >
+        button
+      </ButtonLink__ActionButtonLink>
+    </StyledButtonGroup>
+    <Paragraph__LegalInfo
+      color="black"
+      margin="12px 12px 0 12px"
+    >
+      Nota in calce
+    </Paragraph__LegalInfo>
+  </LandingCard__CardBox>
+</LandingCard__FlexSwitch>
+`;

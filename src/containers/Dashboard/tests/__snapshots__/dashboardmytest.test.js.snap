@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardViewMyTest /> should render one Dashboard component with no spinner in it 1`] = `
+<div>
+  <Modal__ModalOverlay
+    show={false}
+    theme={
+      Object {
+        "modalbg": "rgba(0, 0, 0, 0.75)",
+      }
+    }
+  />
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "onClickFunction": [Function],
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    onActivateSearch={[Function]}
+    onFiltraUnita={[Function]}
+    pinned={true}
+    placeholder="Cerca"
+    product="product"
+    searchActive={false}
+    searchBox={true}
+    searchResetFunction={[Function]}
+    searchValue=""
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px 34px"
+  >
+    <DashboardLine
+      display="none"
+    />
+    <Dashboard
+      livelli={Array []}
+      product="product"
+      searchActive={false}
+    />
+  </Container>
+  <EggMenu
+    active={false}
+    animate={false}
+    product="product"
+    toggleEggMenu={[Function]}
+    vociMenu={Array []}
+  />
+</div>
+`;
+
+exports[`<DashboardViewMyTest /> should render one Dashboard with a spinner component 1`] = `
+<div>
+  <Modal__ModalOverlay
+    show={false}
+    theme={
+      Object {
+        "modalbg": "rgba(0, 0, 0, 0.75)",
+      }
+    }
+  />
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "onClickFunction": [Function],
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    onActivateSearch={[Function]}
+    onFiltraUnita={[Function]}
+    pinned={true}
+    placeholder="Cerca"
+    product="product"
+    searchActive={false}
+    searchBox={true}
+    searchResetFunction={[Function]}
+    searchValue=""
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+  <EggMenu
+    active={false}
+    animate={false}
+    product="product"
+    toggleEggMenu={[Function]}
+    vociMenu={Array []}
+  />
+</div>
+`;
+
+exports[`<DashboardViewMyTest /> should render one dashboard component with switcher with default pos (undefined) 1`] = `
+<div>
+  <Modal__ModalOverlay
+    show={false}
+    theme={
+      Object {
+        "modalbg": "rgba(0, 0, 0, 0.75)",
+      }
+    }
+  />
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "onClickFunction": [Function],
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    onActivateSearch={[Function]}
+    onFiltraUnita={[Function]}
+    pinned={true}
+    placeholder="Cerca"
+    product="product"
+    searchActive={false}
+    searchBox={true}
+    searchResetFunction={[Function]}
+    searchValue=""
+    topSwitcher={
+      Object {
+        "itemSelected": undefined,
+        "items": Array [
+          Object {
+            "key": "materia1",
+            "name": "materia1",
+            "pos": 0,
+          },
+        ],
+        "onChangeFunction": [Function],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px 34px"
+  >
+    <DashboardLine
+      display="none"
+    />
+    <Dashboard
+      livelli={Array []}
+      product="product"
+      searchActive={false}
+    />
+  </Container>
+  <EggMenu
+    active={false}
+    animate={false}
+    product="product"
+    toggleEggMenu={[Function]}
+    vociMenu={Array []}
+  />
+</div>
+`;
+
+exports[`<DashboardViewMyTest /> should render one dashboard component with switcher with pos 1`] = `
+<div>
+  <Modal__ModalOverlay
+    show={false}
+    theme={
+      Object {
+        "modalbg": "rgba(0, 0, 0, 0.75)",
+      }
+    }
+  />
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "onClickFunction": [Function],
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    onActivateSearch={[Function]}
+    onFiltraUnita={[Function]}
+    pinned={true}
+    placeholder="Cerca"
+    product="product"
+    searchActive={false}
+    searchBox={true}
+    searchResetFunction={[Function]}
+    searchValue=""
+    topSwitcher={
+      Object {
+        "itemSelected": "materia2",
+        "items": Array [
+          Object {
+            "key": "materia1",
+            "name": "materia1",
+            "pos": 1,
+          },
+          Object {
+            "key": "materia2",
+            "name": "materia2",
+            "pos": 2,
+          },
+        ],
+        "onChangeFunction": [Function],
+      }
+    }
+  />
+  <Container
+    padding="64px 20px 30px 34px"
+  >
+    <DashboardLine
+      display="none"
+    />
+    <Dashboard
+      livelli={Array []}
+      product="product"
+      searchActive={false}
+    />
+  </Container>
+  <EggMenu
+    active={false}
+    animate={false}
+    product="product"
+    toggleEggMenu={[Function]}
+    vociMenu={Array []}
+  />
+</div>
+`;

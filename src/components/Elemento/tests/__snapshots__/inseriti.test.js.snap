@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Inseriti /> should render its css w/ props giusto 1`] = `
+.c0 {
+  min-height: 34px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: rgb(255,255,255);
+  border-radius: 3px;
+  border: 2px solid rgb(153,226,17);
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    min-height: 41px;
+    border: 1px solid rgba(209,209,209,0.5);
+    border: 2px solid rgb(153,226,17);
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Inseriti /> should render its css w/ props sbagliato 1`] = `
+.c0 {
+  min-height: 34px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: rgb(255,255,255);
+  border-radius: 3px;
+  border: 2px solid rgb(255,0,0);
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    min-height: 41px;
+    border: 1px solid rgba(209,209,209,0.5);
+    border: 2px solid rgb(255,0,0);
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

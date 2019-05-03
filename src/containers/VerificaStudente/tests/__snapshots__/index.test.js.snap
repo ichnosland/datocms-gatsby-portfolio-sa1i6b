@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerificheStudenteView /> !spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova di verifica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <VerificheLivelloStudenteOverview
+      eseguiFunction={[Function]}
+      verificheAssegnate={
+        Array [
+          Object {
+            "consegnata": false,
+            "id": 16,
+            "ritirata": true,
+            "solo_latino": true,
+            "titolo": "Test di ingresso - 04/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 7,
+                  "conteggio_totale": 14,
+                },
+                "id": 1570,
+                "nome": "Ripasso grammatica italiana: il verbo",
+              },
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 7,
+                  "conteggio_totale": 14,
+                },
+                "id": 161,
+                "nome": "Ripasso analisi logica",
+              },
+            ],
+          },
+          Object {
+            "consegnata": false,
+            "id": 34,
+            "in_corso": true,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 12/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 6,
+                  "conteggio_totale": 15,
+                },
+                "id": 5,
+                "nome": "Complementi in italiano",
+              },
+            ],
+          },
+          Object {
+            "consegnata": true,
+            "id": 79,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 26/10/16",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 2,
+                  "conteggio_totale": 14,
+                },
+                "id": 6,
+                "nome": "Flessione nominale",
+              },
+            ],
+          },
+          Object {
+            "consegnata": false,
+            "id": 709,
+            "ritirata": false,
+            "solo_latino": false,
+            "titolo": "Test di ingresso - 11/10/13",
+            "unita": Array [
+              Object {
+                "domande": Object {
+                  "conteggio_lat_ita": 5,
+                  "conteggio_totale": 22,
+                },
+                "id": 16,
+                "nome": "Titolo unità",
+              },
+            ],
+          },
+        ]
+      }
+      visualizzaStatisticheFunction={[Function]}
+    />
+  </Container>
+</Page>
+`;
+
+exports[`<VerificheStudenteView /> !spinner feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova di verifica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <AlertBanner
+      actioncolor="error"
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+    >
+      messaggio
+    </AlertBanner>
+  </Container>
+</Page>
+`;
+
+exports[`<VerificheStudenteView /> spinner !feedback.hasFeedback 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": true,
+        "url": "/homepage",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    pinned={true}
+    single={true}
+    title="Prova di verifica"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Spinner
+      number={3}
+    />
+  </Container>
+</Page>
+`;

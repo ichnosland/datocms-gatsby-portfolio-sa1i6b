@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemCounter /> should render its css w/ props hidden 1`] = `
+.c0 {
+  margin-right: 0.5em;
+  margin-left: -0.5em;
+  padding: 0 0.5em;
+  color: rgb(96,96,96);
+  background-color: rgb(255,255,255);
+  border-radius: 12px;
+  display: none;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    padding: 2px 12px;
+  }
+}
+
+@media (min-device-width:20em) and (max-device-height:30em) {
+  .c0 {
+    margin-left: 0;
+  }
+}
+
+<Div
+  className="c0"
+  hidden={true}
+  theme={
+    Object {
+      "radius": Object {
+        "buttons": "12px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ItemCounter /> should render its css w/ props theme 1`] = `
+.c0 {
+  margin-right: 0.5em;
+  margin-left: -0.5em;
+  padding: 0 0.5em;
+  color: rgb(96,96,96);
+  background-color: rgb(255,255,255);
+  border-radius: 12px;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    padding: 2px 12px;
+  }
+}
+
+@media (min-device-width:20em) and (max-device-height:30em) {
+  .c0 {
+    margin-left: 0;
+  }
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "buttons": "12px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<ItemCounter /> should render its props padding 1`] = `
+.c0 {
+  margin-right: 0.5em;
+  margin-left: -0.5em;
+  padding: 30px;
+  color: rgb(96,96,96);
+  background-color: rgb(255,255,255);
+  border-radius: 3px;
+}
+
+@media (min-width:64.0625em) {
+  .c0 {
+    padding: 2px 12px;
+  }
+}
+
+@media (min-device-width:20em) and (max-device-height:30em) {
+  .c0 {
+    margin-left: 0;
+  }
+}
+
+<Div
+  className="c0"
+  padding="30px"
+  theme={
+    Object {
+      "radius": Object {
+        "buttons": "3px",
+      },
+    }
+  }
+/>
+`;

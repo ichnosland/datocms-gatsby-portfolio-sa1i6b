@@ -1,0 +1,552 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FirstSection /> should render its css w/ props minHeight 1`] = `
+.c0 {
+  position: relative;
+  min-height: 200px;
+  padding-top: 126px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding-top: 76px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props bgColor 1`] = `
+.c0 {
+  background-color: blue;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props direction 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  padding: 50px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+  direction="column"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props esecuzione 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width:64em) {
+  .c0 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 0;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props first 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+  padding-top: 156px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding-top: 76px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props full + direction 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+  height: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+  direction="row"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props full + flexbottom 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0:after {
+  content: '';
+  display: block;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props full + flextop 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0:before {
+  content: '';
+  display: block;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props full 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props height 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+  height="30px"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props justify 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props padding 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 30px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<Section /> should render its css w/ props padding mobile 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding: 50px;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 30px 20px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`<SkySection /> should render its css 1`] = `
+.c0 {
+  position: relative;
+  min-height: 530px;
+  padding-top: 126px;
+  margin-bottom: -5px;
+  background-image: url(IMAGE_MOCK),linear-gradient(0deg,rgba(255,255,255,0.00) 33%,rgba(0,171,229,0.65) 100%);
+  background-size: 1078px 139px,100%;
+  background-repeat: no-repeat,no-repeat;
+  background-position: center 30%,center;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding-top: 76px;
+    background-image: url(IMAGE_MOCK),linear-gradient(0deg,rgba(255,255,255,0.00) 33%,rgba(0,171,229,0.15) 100%);
+  }
+}
+
+<section
+  className="c0"
+/>
+`;

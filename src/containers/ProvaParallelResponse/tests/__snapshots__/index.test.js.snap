@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProvaParallelResponseView /> visualizza il riepilogo con le informazioni di base se voto < 6 1`] = `
+<ResponseView
+  goodSrc="IMAGE_MOCK"
+  nascondiVoto={true}
+  product="product"
+  resetFunction={[Function]}
+  titolo="Hai completato la prova"
+  votoApprossimato={10}
+/>
+`;

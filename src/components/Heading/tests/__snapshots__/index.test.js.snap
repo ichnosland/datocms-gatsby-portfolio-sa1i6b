@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H1 /> should render its css 1`] = `
+<h1
+  className=""
+/>
+`;
+
+exports[`<H1 /> should render its css w/ props center 1`] = `
+.c0 {
+  text-align: center;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`<H1 /> should render its css w/ props color 1`] = `
+.c0 {
+  color: blue;
+}
+
+<h1
+  className="c0"
+  color="blue"
+/>
+`;
+
+exports[`<H1 /> should render its css w/ props margin 1`] = `
+.c0 {
+  margin: 100px;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`<H1 /> should render its css w/ props normal 1`] = `
+.c0 {
+  font-weight: normal;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`<H1 /> should render its css w/ props padding 1`] = `
+.c0 {
+  padding: 32px;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`<H1 /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: #00BBEF;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`<H2 /> should render its css 1`] = `
+<h2
+  className=""
+/>
+`;
+
+exports[`<H2 /> should render its css w/ props center 1`] = `
+.c0 {
+  text-align: center;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`<H2 /> should render its css w/ props color 1`] = `
+.c0 {
+  color: blue;
+}
+
+<h2
+  className="c0"
+  color="blue"
+/>
+`;
+
+exports[`<H2 /> should render its css w/ props margin 1`] = `
+.c0 {
+  margin: 100px;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`<H2 /> should render its css w/ props normal 1`] = `
+.c0 {
+  font-weight: normal;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`<H2 /> should render its css w/ props opacity 1`] = `
+<h2
+  className=""
+  opacity="0.6"
+/>
+`;
+
+exports[`<H2 /> should render its css w/ props padding 1`] = `
+.c0 {
+  padding: 50px;
+}
+
+<h2
+  className="c0"
+/>
+`;
+
+exports[`<H3 /> should render its css 1`] = `
+<h3
+  className=""
+/>
+`;
+
+exports[`<H3 /> should render its css w/ props center 1`] = `
+.c0 {
+  text-align: center;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`<H3 /> should render its css w/ props color 1`] = `
+.c0 {
+  color: blue;
+}
+
+<h3
+  className="c0"
+  color="blue"
+/>
+`;
+
+exports[`<H3 /> should render its css w/ props margin 1`] = `
+.c0 {
+  margin: 100px;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`<H3 /> should render its css w/ props normal 1`] = `
+.c0 {
+  font-weight: normal;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`<H3 /> should render its css w/ props opacity 1`] = `
+<h3
+  className=""
+  opacity="0.7"
+/>
+`;
+
+exports[`<H3 /> should render its css w/ props padding 1`] = `
+.c0 {
+  padding: 70px;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`<H4 /> should render its css 1`] = `
+.c0 {
+  margin: margin:0;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`<H4 /> should render its css w/ props center 1`] = `
+.c0 {
+  text-align: center;
+  margin: margin:0;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`<H4 /> should render its css w/ props color 1`] = `
+.c0 {
+  color: blue;
+  margin: margin:0;
+}
+
+<h4
+  className="c0"
+  color="blue"
+/>
+`;
+
+exports[`<H4 /> should render its css w/ props margin 1`] = `
+.c0 {
+  margin: 100px;
+  margin: 100px;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`<H4 /> should render its css w/ props normal 1`] = `
+.c0 {
+  font-weight: normal;
+  margin: margin:0;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`<H4 /> should render its css w/ props opacity 1`] = `
+.c0 {
+  margin: margin:0;
+}
+
+<h4
+  className="c0"
+  opacity="0.7"
+/>
+`;
+
+exports[`<H4 /> should render its css w/ props padding 1`] = `
+.c0 {
+  padding: 30px;
+  margin: margin:0;
+}
+
+<h4
+  className="c0"
+/>
+`;
+
+exports[`<HiddenH1 /> should render its css 1`] = `
+.c0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+<h1
+  className="c0"
+/>
+`;

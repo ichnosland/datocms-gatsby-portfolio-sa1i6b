@@ -1,0 +1,866 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardToolbox /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 16px;
+  border-left: 1px solid #222;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+}
+
+@media print {
+  .c0 {
+    border: none;
+  }
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "brand": "#111",
+      "darken": "#222",
+      "pale": "#333",
+    }
+  }
+/>
+`;
+
+exports[`<CloseSideBarBtn /> should render its css w/ props theme 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  height: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 6px solid rgba(0,0,0,0.1);
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  width: 22px;
+  height: 13px;
+  display: block;
+  -webkit-transform: rotate(-360deg) scaleX(-1);
+  -ms-transform: rotate(-360deg) scaleX(-1);
+  transform: rotate(-360deg) scaleX(-1);
+  fill: #111;
+}
+
+@media (min-width:48.0625em) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<button
+  className="c0"
+>
+  <Svg
+    path={
+      <path
+        d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+        data-name="Livello 1"
+        fill="#ffffff"
+      />
+    }
+    viewBox="0 0 8.34 16"
+  />
+</button>
+`;
+
+exports[`<DomandaRisposta /> should render its css w/ props rops risultato === bene 1`] = `
+.c0 {
+  padding: 20px;
+  background-color: rgb(255,255,255);
+  color: #87deca;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+}
+
+<Div
+  className="c0"
+  risultato="bene"
+/>
+`;
+
+exports[`<DomandaRisposta /> should render its css w/ props rops risultato === male 1`] = `
+.c0 {
+  padding: 20px;
+  background-color: rgb(255,255,255);
+  color: #df2e6d;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+}
+
+<Div
+  className="c0"
+  risultato="male"
+/>
+`;
+
+exports[`<DomandaRisposta /> should render its css w/ props rops risultato === media 1`] = `
+.c0 {
+  padding: 20px;
+  background-color: rgb(255,255,255);
+  color: #ffe06e;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+}
+
+<Div
+  className="c0"
+  risultato="media"
+/>
+`;
+
+exports[`<ReportCardToolbar /> should render its css w/ props inattiva 1`] = `
+.c0 {
+  position: relative;
+  color: rgb(255,255,255);
+  padding: 10px 38px;
+  background-color: #00BBEF;
+  background-color: #ccc;
+}
+
+@media print {
+  .c0 {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+  }
+}
+
+<Div
+  className="c0"
+  inattiva={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ReportCardToolbar /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: relative;
+  color: rgb(255,255,255);
+  padding: 10px 38px;
+  background-color: #111;
+}
+
+@media print {
+  .c0 {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+  }
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#111",
+      "darken": "#222",
+      "pale": "#333",
+    }
+  }
+/>
+`;
+
+exports[`<SideBarReportistica /> should render its css w/ props active 1`] = `
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+@media (min-width:48.0625em) {
+  .c0 {
+    width: 24%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(255,255,255);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  }
+
+  .c0 .context {
+    color: #ff6400;
+  }
+}
+
+@media (max-width:48em) {
+  .c0 {
+    position: fixed;
+    top: 0;
+    left: -50%;
+    z-index: 100;
+    width: 50%;
+    height: 100%;
+    float: none;
+    background-color: rgb(255,255,255);
+    overflow: auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    left: 0;
+    box-shadow: 3px 6px 14px rgba(0,0,0,0.3);
+  }
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`<SideBarReportistica /> should render its css w/ props isDocente 1`] = `
+.c0 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+@media (min-width:48.0625em) {
+  .c0 {
+    width: 24%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(255,255,255);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  }
+
+  .c0 .context {
+    color: #ff6400;
+  }
+}
+
+@media (max-width:48em) {
+  .c0 {
+    position: fixed;
+    top: 0;
+    left: -50%;
+    z-index: 100;
+    width: 50%;
+    height: 100%;
+    float: none;
+    background-color: rgb(255,255,255);
+    overflow: auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`<StatsCurrentUser /> <VotoSelectedUser /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 42px;
+  padding: 0 10px;
+  color: #111;
+  border-left: 1px solid rgb(231,236,236);
+}
+
+@media print {
+  .c0 {
+    position: relative;
+    font-size: 24pt;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    color: 'black';
+  }
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "brand": "#111",
+      "darken": "#222",
+      "pale": "#333",
+    }
+  }
+/>
+`;
+
+exports[`<StatsCurrentUser /> should render its css w/ props theme 1`] = `
+.c0 {
+  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: rgb(255,255,255);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.c0 .context {
+  color: #ff6400;
+}
+
+.c0 button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #111;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 42px;
+  display: none;
+}
+
+.c0 button:active,
+.c0 button:focus {
+  outline: none;
+}
+
+.c0 button svg {
+  display: block;
+}
+
+@media print {
+  .c0 .context {
+    border-bottom: 1px dotted black;
+  }
+}
+
+@media print {
+  .c0 {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    page-break-inside: avoid;
+  }
+}
+
+@media (max-width:48em) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media print {
+  .c0 button {
+    display: none;
+  }
+}
+
+@media print {
+  .c0 {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+    border: none;
+  }
+
+  .c0 .studente__score {
+    font-size: 24pt;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    color: 'black';
+  }
+
+  .c0 span {
+    padding: 0 10px;
+  }
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "brand": "#111",
+      "darken": "#222",
+      "pale": "#333",
+    }
+  }
+>
+  <Svg
+    path={
+      <path
+        d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+        data-name="Livello 1"
+        fill="#ffffff"
+      />
+    }
+    viewBox="0 0 8.34 16"
+  />
+</FlexBox>
+`;
+
+exports[`<Studente /> should render its css w/ props attivo 1`] = `
+.c0 {
+  position: relative;
+  border-bottom: 1px solid rgba(212,211,211,0.7);
+}
+
+.c0 button {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.c0 button:active,
+.c0 button:focus {
+  outline: none;
+}
+
+.c0 button:active,
+.c0 button:focus {
+  outline: none;
+}
+
+.c0 button:active {
+  background-color: rgb(231,236,236);
+}
+
+.c0 button {
+  background-color: rgb(231,236,236);
+}
+
+.c0 span {
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  padding: 2px 16px 4px 4px;
+}
+
+@media (min-width:48.0625em) {
+  .c0 button:hover {
+    background-color: rgba(0,0,0,0.03);
+  }
+
+  .c0:last-child {
+    border-bottom: none;
+  }
+
+  .c0 button {
+    color: rgb(255,255,255);
+  }
+
+  .c0 button:hover {
+    color: rgb(78,78,78);
+    background-color: rgba(0,0,0,0.1);
+  }
+}
+
+<li
+  className="c0"
+/>
+`;
+
+exports[`<Studente /> should render its css w/ props ennecci 1`] = `
+.c0 {
+  position: relative;
+  border-bottom: 1px solid rgba(212,211,211,0.7);
+  pointer-events: none;
+}
+
+.c0 button {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.c0 button:active,
+.c0 button:focus {
+  outline: none;
+}
+
+.c0 button:active,
+.c0 button:focus {
+  outline: none;
+}
+
+.c0 button:active {
+  background-color: rgb(231,236,236);
+}
+
+.c0 button:active span {
+  color: #111;
+}
+
+.c0 button {
+  pointer-events: none;
+  color: rgb(209,209,209);
+}
+
+.c0 span {
+  color: #df2e6d;
+}
+
+.c0 span {
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  padding: 2px 16px 4px 4px;
+}
+
+@media (min-width:48.0625em) {
+  .c0 button:hover {
+    background-color: rgba(0,0,0,0.03);
+  }
+
+  .c0:last-child {
+    border-bottom: none;
+  }
+}
+
+<li
+  className="c0"
+>
+  <span>
+    span
+  </span>
+  <button>
+    button
+  </button>
+</li>
+`;
+
+exports[`<Studente /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: relative;
+  border-bottom: 1px solid rgba(212,211,211,0.7);
+}
+
+.c0 button {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.c0 button:active,
+.c0 button:focus {
+  outline: none;
+}
+
+.c0 button:active,
+.c0 button:focus {
+  outline: none;
+}
+
+.c0 button:active {
+  background-color: rgb(231,236,236);
+}
+
+.c0 button:active span {
+  color: #111;
+}
+
+.c0 button {
+  background-color: rgb(231,236,236);
+}
+
+.c0 span {
+  color: #111;
+}
+
+.c0 span {
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  padding: 2px 16px 4px 4px;
+}
+
+@media (min-width:48.0625em) {
+  .c0 button:hover {
+    background-color: rgba(0,0,0,0.03);
+  }
+
+  .c0:last-child {
+    border-bottom: none;
+  }
+
+  .c0 button {
+    color: rgb(255,255,255);
+    background-color: #111;
+  }
+
+  .c0 button:hover {
+    color: rgb(78,78,78);
+    background-color: rgba(0,0,0,0.1);
+  }
+}
+
+<li
+  className="c0"
+>
+  <span>
+    span
+  </span>
+  <button>
+    button
+  </button>
+</li>
+`;
+
+exports[`<ToggleDomanda /> should render its css w/ props rops risultato === bene 1`] = `
+.c0 {
+  width: 32px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #87deca;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+  width: 14px;
+  height: 14px;
+}
+
+<FlexBox
+  className="c0"
+  risultato="bene"
+/>
+`;
+
+exports[`<ToggleDomanda /> should render its css w/ props rops risultato === male 1`] = `
+.c0 {
+  width: 32px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #df2e6d;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+  width: 14px;
+  height: 14px;
+}
+
+<FlexBox
+  className="c0"
+  risultato="male"
+/>
+`;
+
+exports[`<ToggleDomanda /> should render its css w/ props rops risultato === media 1`] = `
+.c0 {
+  width: 32px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffe06e;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+  width: 14px;
+  height: 14px;
+}
+
+<FlexBox
+  className="c0"
+  risultato="media"
+/>
+`;
+
+exports[`<ToggleRisposta /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: #222;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #333;
+  padding: 6px 8px;
+  text-align: center;
+}
+
+.c0 svg {
+  fill: #222;
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  vertical-align: baseline;
+}
+
+.c0 span {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#111",
+      "darken": "#222",
+      "pale": "#333",
+    }
+  }
+>
+  <Svg
+    path={
+      <path
+        d="M8.34.13v2.53H6.81c-.54 0-.91.11-1.06.34a1.46 1.46 0 0 0-.34 1.06v1.82h2.87l-.4 2.84H5.41V16H2.47V8.72H0V5.88h2.47V3.72a3.59 3.59 0 0 1 1-2.72 3.61 3.61 0 0 1 2.69-1 14.31 14.31 0 0 1 2.18.13z"
+        data-name="Livello 1"
+        fill="#ffffff"
+      />
+    }
+    viewBox="0 0 8.34 16"
+  />
+</Div>
+`;
+
+exports[`<WrapReportistica /> should render its css w/ props isDocente 1`] = `
+.c0 {
+  width: 74%;
+  float: right;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (max-width:48em) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+@media print {
+  .c0 {
+    width: 100%;
+  }
+
+  .c0 * {
+    color: black !important;
+    background: none !important;
+  }
+}
+
+<Div
+  className="c0"
+  isDocente={true}
+/>
+`;

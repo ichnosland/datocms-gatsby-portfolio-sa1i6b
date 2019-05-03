@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EggItem /> should render a Div 1`] = `
+.c0 {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: rgb(255,255,255);
+  overflow: visible;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "menu": Object {
+        "itemBorder": "2px solid green",
+        "itemHeight": "32px",
+        "itemWidth": "32px",
+      },
+      "radius": Object {
+        "buttons": "50px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<EggLink /> should render a ClearLink 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  width: 32px;
+  height: 32px;
+  border: 2px solid green;
+  background-color: rgb(255,255,255);
+  outline: none;
+  padding: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  -webkit-user-drag: none;
+}
+
+.c0 svg {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+<ClearLink
+  className="c0"
+  theme={
+    Object {
+      "menu": Object {
+        "itemBorder": "2px solid green",
+        "itemHeight": "32px",
+        "itemWidth": "32px",
+      },
+      "radius": Object {
+        "buttons": "50px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<EggLink /> should render its css w/ props fill 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  width: 32px;
+  height: 32px;
+  border: 2px solid green;
+  background-color: rgb(255,255,255);
+  outline: none;
+  padding: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  -webkit-user-drag: none;
+}
+
+.c0 svg {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+<ClearLink
+  className="c0"
+  fill="#000"
+  theme={
+    Object {
+      "menu": Object {
+        "itemBorder": "2px solid green",
+        "itemHeight": "32px",
+        "itemWidth": "32px",
+      },
+      "radius": Object {
+        "buttons": "50px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<EggLink /> should render its css w/ props iconbg 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  width: 32px;
+  height: 32px;
+  border: 2px solid green;
+  background-color: red;
+  outline: none;
+  padding: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  -webkit-user-drag: none;
+}
+
+.c0 svg {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+<ClearLink
+  className="c0"
+  iconbg="red"
+  theme={
+    Object {
+      "menu": Object {
+        "itemBorder": "2px solid green",
+        "itemHeight": "32px",
+        "itemWidth": "32px",
+      },
+      "radius": Object {
+        "buttons": "50px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<EggLink /> should render its css w/o props border if not defined in theme 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: rgb(255,255,255);
+  outline: none;
+  padding: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  -webkit-user-drag: none;
+}
+
+.c0 svg {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+<ClearLink
+  className="c0"
+  theme={
+    Object {
+      "menu": Object {
+        "itemHeight": "32px",
+        "itemWidth": "32px",
+      },
+      "radius": Object {
+        "buttons": "50px",
+      },
+    }
+  }
+  to="/#"
+/>
+`;
+
+exports[`<EggMenuItem /> counts EggMenuItem children with empty url attribute 1`] = `
+<EggMenuItem__EggItem>
+  <EggMenuItem__EggLink
+    onClick={[Function]}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "menu": Object {
+          "itemBorder": "none",
+          "itemHeight": "32px",
+          "itemWidth": "32px",
+        },
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+    to="#"
+  >
+    <Svg
+      fill="#000"
+      height="33px"
+      path={
+        <path
+          d="M228 132.228c11.886-33.486 48.114-28 58.057 0 9.943 28-5.828 99.543-14.17 122.97-8.344 23.43-15.087 40-29.373 0-14.285-40-26.4-89.485-14.514-122.97zM256 320.8c16.343 0 29.486 13.143 29.486 29.486 0 16.342-13.143 29.485-29.486 29.485s-29.486-13.14-29.486-29.484c0-16.343 13.143-29.486 29.486-29.486zm.114 173.257c35.543 0 69.486-6.97 100.114-19.543.686-.343 1.37-.57 2.057-.914.114 0 .23 0 .23-.114 4.342-1.6 9.027-2.515 13.827-2.515 5.257 0 10.4 1.03 14.857 2.973L490.627 512l-27.2-108.8c0-6.514 1.83-12.686 4.8-17.943 1.03-1.6 1.943-3.2 3.086-4.57C497.144 342.17 512 296.342 512 247.314 512.228 110.63 397.6 0 256.114 0S0 110.63 0 246.973c0 136.57 114.628 247.086 256.114 247.086z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 512 512"
+      width="33px"
+    />
+    <EggMenuItem__EggLinkLabel>
+      Questo è un titolo
+    </EggMenuItem__EggLinkLabel>
+  </EggMenuItem__EggLink>
+</EggMenuItem__EggItem>
+`;
+
+exports[`<EggMenuItem /> counts EggMenuItem children with url attribute 1`] = `
+<EggMenuItem__EggItem>
+  <EggMenuItem__EggLink
+    onClick={[Function]}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "menu": Object {
+          "itemBorder": "none",
+          "itemHeight": "32px",
+          "itemWidth": "32px",
+        },
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+    to="/path"
+  >
+    <Svg
+      fill="#000"
+      height="33px"
+      path={
+        <path
+          d="M228 132.228c11.886-33.486 48.114-28 58.057 0 9.943 28-5.828 99.543-14.17 122.97-8.344 23.43-15.087 40-29.373 0-14.285-40-26.4-89.485-14.514-122.97zM256 320.8c16.343 0 29.486 13.143 29.486 29.486 0 16.342-13.143 29.485-29.486 29.485s-29.486-13.14-29.486-29.484c0-16.343 13.143-29.486 29.486-29.486zm.114 173.257c35.543 0 69.486-6.97 100.114-19.543.686-.343 1.37-.57 2.057-.914.114 0 .23 0 .23-.114 4.342-1.6 9.027-2.515 13.827-2.515 5.257 0 10.4 1.03 14.857 2.973L490.627 512l-27.2-108.8c0-6.514 1.83-12.686 4.8-17.943 1.03-1.6 1.943-3.2 3.086-4.57C497.144 342.17 512 296.342 512 247.314 512.228 110.63 397.6 0 256.114 0S0 110.63 0 246.973c0 136.57 114.628 247.086 256.114 247.086z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 512 512"
+      width="33px"
+    />
+    <EggMenuItem__EggLinkLabel>
+      Questo è un titolo
+    </EggMenuItem__EggLinkLabel>
+  </EggMenuItem__EggLink>
+</EggMenuItem__EggItem>
+`;
+
+exports[`<EggMenuItem /> counts EggMenuItem with one child and no url attribute 1`] = `<EggMenuItem__EggItem />`;

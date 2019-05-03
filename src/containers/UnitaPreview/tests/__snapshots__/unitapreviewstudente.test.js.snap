@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnitaPreviewStudente /> visualizzo carosello 1`] = `
+<Carousel
+  buttonHeight="112px"
+  buttonWidth="40px"
+  displayIndex={0}
+  iconFill="#fff"
+  iconSize="32px"
+  slides={
+    Array [
+      <Div
+        margin="0 auto"
+        maxWidth="480px"
+      >
+        <UnitaPreviewStudente__DifficultyAvatar>
+          <img
+            alt="emoji 1"
+          />
+        </UnitaPreviewStudente__DifficultyAvatar>
+        <Button
+          actioncolor="okay"
+          bone={false}
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="13px"
+            left={true}
+            path={
+              <path
+                d="M7.37 11.626L18 2.52 15.92 0 6.13 8.42 2.476 3.95 0 6.012 5.737 13"
+                fillRule="nonzero"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 18 13"
+            width="18px"
+          />
+          buttonLabel1
+        </Button>
+      </Div>,
+      <Div
+        margin="0 auto"
+        maxWidth="480px"
+      >
+        <UnitaPreviewStudente__DifficultyAvatar>
+          <img
+            alt="emoji 2"
+          />
+        </UnitaPreviewStudente__DifficultyAvatar>
+        <Button
+          actioncolor={false}
+          bone={true}
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M174.9 349.8h278.48V244.28q0-57.65-41-98.69t-98.69-40.06q-57.65 1-98.69 40.06t-40.06 98.69V349.8zm453.37 51.79v314.62a47.59 47.59 0 0 1-15.63 36.15A56.39 56.39 0 0 1 575.51 768H52.77q-22.47 0-37.13-15.63T.01 716.22V401.59q0-21.5 15.63-37.13t37.13-14.66h16.61V244.27q0-99.66 72.31-172T313.65 0q99.67 0 172.95 72.3t71.33 172v105.5h17.59q22.47 0 37.13 14.66t15.63 37.13z"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 628.27 768"
+            width="15px"
+          />
+          buttonLabel2
+        </Button>
+      </Div>,
+      <Div
+        margin="0 auto"
+        maxWidth="480px"
+      >
+        <UnitaPreviewStudente__DifficultyAvatar>
+          <img
+            alt="emoji 3"
+          />
+        </UnitaPreviewStudente__DifficultyAvatar>
+        <Button
+          actioncolor={false}
+          bone={true}
+          onClick={[Function]}
+          standard={true}
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "fonts": Object {
+                "buttons": Object {
+                  "fontFamily": "inherit",
+                  "fontWeight": "inherit",
+                },
+              },
+              "radius": Object {
+                "buttons": "6px",
+              },
+            }
+          }
+        >
+          <Button__Icon
+            height="18px"
+            left={true}
+            path={
+              <path
+                d="M174.9 349.8h278.48V244.28q0-57.65-41-98.69t-98.69-40.06q-57.65 1-98.69 40.06t-40.06 98.69V349.8zm453.37 51.79v314.62a47.59 47.59 0 0 1-15.63 36.15A56.39 56.39 0 0 1 575.51 768H52.77q-22.47 0-37.13-15.63T.01 716.22V401.59q0-21.5 15.63-37.13t37.13-14.66h16.61V244.27q0-99.66 72.31-172T313.65 0q99.67 0 172.95 72.3t71.33 172v105.5h17.59q22.47 0 37.13 14.66t15.63 37.13z"
+              />
+            }
+            theme={
+              Object {
+                "brand": "#00BBEF",
+              }
+            }
+            viewBox="0 0 628.27 768"
+            width="15px"
+          />
+          buttonLabel3
+        </Button>
+      </Div>,
+    ]
+  }
+/>
+`;
+
+exports[`<UnitaPreviewStudente /> visualizzo carosello senza lezioni 1`] = `
+<Carousel
+  buttonHeight="112px"
+  buttonWidth="40px"
+  displayIndex={0}
+  iconFill="#fff"
+  iconSize="32px"
+  slides={Array []}
+/>
+`;

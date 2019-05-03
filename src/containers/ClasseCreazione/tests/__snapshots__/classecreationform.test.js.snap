@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClasseCreazioneForm /> should match snapshot 1`] = `
+<Connect(Form(ClasseCreazioneForm))
+  data={
+    Object {
+      "creaNuovaClasse": false,
+      "display": "",
+      "nuova": false,
+      "scuolaSelezionata": Object {
+        "classi": Array [],
+        "nome": "nome",
+        "pk": 2,
+      },
+    }
+  }
+  destroyOnUnmount={true}
+  display=""
+  enableReinitialize={false}
+  forceUnregisterOnUnmount={false}
+  form="creazioneClasse"
+  getFormState={[Function]}
+  keepDirtyOnReinitialize={false}
+  persistentSubmitErrors={false}
+  product="product"
+  pure={true}
+  shouldAsyncValidate={[Function]}
+  shouldError={[Function]}
+  shouldValidate={[Function]}
+  shouldWarn={[Function]}
+  touchOnBlur={true}
+  touchOnChange={false}
+  updateUnregisteredFields={false}
+/>
+`;

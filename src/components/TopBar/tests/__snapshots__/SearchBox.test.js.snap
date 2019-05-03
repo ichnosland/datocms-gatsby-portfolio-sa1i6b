@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CancelBtn /> should render its css /w props searchActive 1`] = `
+.c0 {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 36px;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  visibility: hidden;
+  visibility: visible;
+}
+
+.c0 svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-device-width:20em) and (max-device-height:30em) {
+  .c0 {
+    padding: 0;
+  }
+
+  .c0 svg {
+    margin: 0;
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  searchActive={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<CancelBtn /> should render its css 1`] = `
+.c0 {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 36px;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  visibility: hidden;
+}
+
+.c0 svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-device-width:20em) and (max-device-height:30em) {
+  .c0 {
+    padding: 0;
+  }
+
+  .c0 svg {
+    margin: 0;
+  }
+}
+
+<Button
+  actioncolor=""
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+        },
+      },
+      "radius": Object {
+        "buttons": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<Lens /> should render its css 1`] = `
+.c0 {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 36px;
+  left: 0;
+}
+
+.c0 svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.c0 svg {
+  fill: rgb(209,209,209);
+}
+
+<FlexBox
+  className="c0"
+/>
+`;
+
+exports[`<SearchBox /> should render its css /w props premiumActive 1`] = `
+<SearchBox__SearchBoxWrap
+  searchActive={false}
+>
+  <SearchBox__Lens>
+    <Svg
+      height="18px"
+      path={
+        <path
+          d="M7.17 15.624c0-4.665 3.797-8.454 8.458-8.454 4.66 0 8.456 3.795 8.456 8.454 0 4.66-3.796 8.454-8.456 8.454-4.661 0-8.457-3.795-8.457-8.454zm17.628 5.338a10.553 10.553 0 0 0 1.457-5.338C26.255 9.764 21.49 5 15.628 5 9.765 5 5 9.764 5 15.624s4.765 10.624 10.628 10.624c1.95 0 3.766-.534 5.34-1.45l5.409 5.407a2.709 2.709 0 0 0 3.83 0 2.717 2.717 0 0 0 0-3.835l-5.409-5.408z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+  </SearchBox__Lens>
+  <SearchBox__SearchField
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="search"
+  />
+  <SearchBox__PremiumIcon>
+    <Svg
+      height="32px"
+      path={
+        <path
+          d="M16 0C7.164 0 0 7.164 0 16s7.164 16 16 16 16-7.164 16-16S24.836 0 16 0zm10.98 12.21c-.103-.215-.31-.376-.515-.376h-7.423l-2.527-7.458C16.412 4.16 16.205 4 16 4c-.207 0-.413.16-.516.376l-2.526 7.458H5.534c-.206 0-.412.16-.515.376-.053.215 0 .483.205.59L11 17.63l-2.58 7.618c-.102.215 0 .483.156.59.155.162.413.215.62.055L16 21.653l6.804 4.24c.103.054.207.107.26.107.154 0 .257-.054.36-.16.155-.11.258-.377.155-.592L21 17.628l5.775-4.827c.206-.107.258-.375.206-.59z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 32 32"
+      width="32px"
+    />
+  </SearchBox__PremiumIcon>
+</SearchBox__SearchBoxWrap>
+`;
+
+exports[`<SearchBox /> should render its css /w props searchActive 1`] = `
+<SearchBox__SearchBoxWrap
+  searchActive={true}
+>
+  <SearchBox__Lens>
+    <Svg
+      height="18px"
+      path={
+        <path
+          d="M7.17 15.624c0-4.665 3.797-8.454 8.458-8.454 4.66 0 8.456 3.795 8.456 8.454 0 4.66-3.796 8.454-8.456 8.454-4.661 0-8.457-3.795-8.457-8.454zm17.628 5.338a10.553 10.553 0 0 0 1.457-5.338C26.255 9.764 21.49 5 15.628 5 9.765 5 5 9.764 5 15.624s4.765 10.624 10.628 10.624c1.95 0 3.766-.534 5.34-1.45l5.409 5.407a2.709 2.709 0 0 0 3.83 0 2.717 2.717 0 0 0 0-3.835l-5.409-5.408z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+  </SearchBox__Lens>
+  <SearchBox__SearchField
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="search"
+  />
+</SearchBox__SearchBoxWrap>
+`;
+
+exports[`<SearchBox /> should render its css /w props searchResetFunction & searchActive & value 1`] = `
+<SearchBox__SearchBoxWrap
+  searchActive={true}
+>
+  <SearchBox__Lens>
+    <Svg
+      height="18px"
+      path={
+        <path
+          d="M7.17 15.624c0-4.665 3.797-8.454 8.458-8.454 4.66 0 8.456 3.795 8.456 8.454 0 4.66-3.796 8.454-8.456 8.454-4.661 0-8.457-3.795-8.457-8.454zm17.628 5.338a10.553 10.553 0 0 0 1.457-5.338C26.255 9.764 21.49 5 15.628 5 9.765 5 5 9.764 5 15.624s4.765 10.624 10.628 10.624c1.95 0 3.766-.534 5.34-1.45l5.409 5.407a2.709 2.709 0 0 0 3.83 0 2.717 2.717 0 0 0 0-3.835l-5.409-5.408z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+  </SearchBox__Lens>
+  <SearchBox__SearchField
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="search"
+    value="ciao"
+  />
+  <SearchBox__CancelBtn
+    onClick={[Function]}
+    searchActive="ciao"
+  >
+    <Svg
+      height="18px"
+      path={
+        <path
+          d="M18 34C9.163 34 2 26.837 2 18S9.163 2 18 2s16 7.163 16 16-7.163 16-16 16zm3-16l6-6-3-3-6 6-6-6-3 3 6 6-6 6 3 3 6-6 6 6 3-3-6-6z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+  </SearchBox__CancelBtn>
+</SearchBox__SearchBoxWrap>
+`;
+
+exports[`<SearchBox /> should render its props value 1`] = `
+<SearchBox__SearchBoxWrap
+  searchActive={false}
+>
+  <SearchBox__Lens>
+    <Svg
+      height="18px"
+      path={
+        <path
+          d="M7.17 15.624c0-4.665 3.797-8.454 8.458-8.454 4.66 0 8.456 3.795 8.456 8.454 0 4.66-3.796 8.454-8.456 8.454-4.661 0-8.457-3.795-8.457-8.454zm17.628 5.338a10.553 10.553 0 0 0 1.457-5.338C26.255 9.764 21.49 5 15.628 5 9.765 5 5 9.764 5 15.624s4.765 10.624 10.628 10.624c1.95 0 3.766-.534 5.34-1.45l5.409 5.407a2.709 2.709 0 0 0 3.83 0 2.717 2.717 0 0 0 0-3.835l-5.409-5.408z"
+          fillRule="evenodd"
+        />
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+  </SearchBox__Lens>
+  <SearchBox__SearchField
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="search"
+    value="test"
+  />
+</SearchBox__SearchBoxWrap>
+`;
+
+exports[`<SearchBoxWrap /> should render its css /w props searchActive true 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 80px;
+  height: 56px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 100;
+  width: 100%;
+  margin-left: 10px;
+}
+
+<FlexBox
+  className="c0"
+  searchActive={true}
+/>
+`;
+
+exports[`<SearchBoxWrap /> should render its css 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  min-width: 80px;
+  height: 56px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+<FlexBox
+  className="c0"
+/>
+`;
+
+exports[`<SearchField /> should render its css 1`] = `
+.c0 {
+  color: rgb(78,78,78);
+  padding-left: 32px;
+  padding-right: 26px;
+  margin: 0;
+  border: none;
+  font-size: 18px;
+}
+
+.c0::-webkit-input-placeholder {
+  color: rgb(209,209,209);
+}
+
+.c0::-moz-placeholder {
+  color: rgb(209,209,209);
+}
+
+.c0:-ms-input-placeholder {
+  color: rgb(209,209,209);
+}
+
+.c0::placeholder {
+  color: rgb(209,209,209);
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+<Field__Input
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "searchBox": "100px",
+      },
+    }
+  }
+  type="text"
+/>
+`;

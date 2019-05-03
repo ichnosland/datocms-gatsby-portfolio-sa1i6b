@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterBlock /> should render a green bg if APPLICATION === LandingAlatin 1`] = `
+<footer
+  className="hevhiW"
+/>
+`;
+
+exports[`<FooterBlock /> should render a red bg if APPLICATION === LandingItaca 1`] = `
+<footer
+  className="iXbYXs"
+/>
+`;

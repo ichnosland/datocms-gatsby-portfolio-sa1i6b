@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegalInfo /> should render its css w/ props color 1`] = `
+.c0 {
+  color: red;
+  font-size: 12px;
+}
+
+.c0 label {
+  display: inline-block;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    font-size: 10px;
+  }
+}
+
+<Paragraph
+  className="c0"
+  color="red"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "darken": "#1588AA",
+    }
+  }
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props align 1`] = `
+.c0 {
+  color: inherit;
+  text-align: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props bgColor 1`] = `
+.c0 {
+  color: inherit;
+  padding: 0;
+  border: none;
+  background-color: yellow;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props border 1`] = `
+.c0 {
+  color: inherit;
+  padding: 0;
+  border: 2px solid red;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props color 1`] = `
+.c0 {
+  color: ffcc00;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+  color="ffcc00"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props fontSize 1`] = `
+.c0 {
+  color: inherit;
+  font-size: 32px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+  fontSize="32px"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props margin 1`] = `
+.c0 {
+  color: inherit;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props noPrint 1`] = `
+.c0 {
+  color: inherit;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+@media print {
+  .c0 {
+    display: none;
+  }
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props padding 1`] = `
+.c0 {
+  color: inherit;
+  padding: 20px;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: inherit;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+>
+  <a
+    href="/#"
+  >
+    Ciao
+  </a>
+</p>
+`;
+
+exports[`<Paragraph /> should render its css w/ props transform 1`] = `
+.c0 {
+  color: inherit;
+  text-transform: uppercase;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+  transform="uppercase"
+/>
+`;
+
+exports[`<Paragraph /> should render its css w/ props userSelect 1`] = `
+.c0 {
+  color: inherit;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 a {
+  color: #00BBEF;
+}
+
+@media (min-width:64.0625em) {
+  .c0 a:hover {
+    color: #1588AA;
+  }
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`<Separator /> should render its css w/ props inverse 1`] = `
+.c0 {
+  border-top: 1px solid #C9E4FF;
+  display: block;
+  margin: 24px auto;
+  height: 1px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid rgb(255,255,255);
+}
+
+.c0 span {
+  color: rgb(255,255,255);
+}
+
+<Paragraph
+  className="c0"
+  inverse={true}
+  theme={
+    Object {
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<Separator /> should render its css w/ props margin 1`] = `
+.c0 {
+  border-top: 1px solid #C9E4FF;
+  display: block;
+  margin: 0 auto;
+  height: 1px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+<Paragraph
+  className="c0"
+  margin="0 auto"
+  theme={
+    Object {
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<Separator /> should render its css w/ props noPrint 1`] = `
+.c0 {
+  border-top: 1px solid #C9E4FF;
+  display: block;
+  margin: 24px auto;
+  height: 1px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+<Paragraph
+  className="c0"
+  noPrint={true}
+  theme={
+    Object {
+      "light": "#C9E4FF",
+    }
+  }
+/>
+`;
+
+exports[`<SeparatorText /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0.5em;
+  position: relative;
+  top: -1.1em;
+  background-color: blue;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<SeparatorText /> should render its css w/ props color 1`] = `
+.c0 {
+  color: yellow;
+  display: inline-block;
+  padding: 0.5em;
+  position: relative;
+  top: -1.1em;
+  background-color: rgb(240,240,240);
+}
+
+<span
+  className="c0"
+  color="yellow"
+/>
+`;

@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowBox /> should render its css w/ props dx 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  dx={true}
+/>
+`;
+
+exports[`<ArrowBox /> should render its css w/ props height 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 300px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  height="300px"
+/>
+`;
+
+exports[`<ArrowBox /> should render its css w/ props height 2`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  hidden={true}
+/>
+`;
+
+exports[`<ArrowBox /> should render its css w/ props sx 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 0;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<ArrowBox /> should render its css w/ props width 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  width="80px"
+/>
+`;
+
+exports[`<CarouselContainer /> should do not animate if noTransform === true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+<Div
+  className="c0"
+  noTransforms={true}
+>
+  <div>
+    <p>
+      Ciao
+    </p>
+  </div>
+</Div>
+`;
+
+exports[`<CarouselContainer /> should it should animate backwards if props props sliding is true and direction === "prev" 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: translateX(calc(2 * (-100%)));
+  -ms-transform: translateX(calc(2 * (-100%)));
+  transform: translateX(calc(2 * (-100%)));
+}
+
+<Div
+  className="c0"
+  direction="prev"
+  sliding={true}
+>
+  <div>
+    <p>
+      Ciao
+    </p>
+  </div>
+</Div>
+`;
+
+exports[`<CarouselContainer /> should it should animate onwards if props sliding is true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+<Div
+  className="c0"
+  sliding={true}
+>
+  <div>
+    <p>
+      Ciao
+    </p>
+  </div>
+</Div>
+`;
+
+exports[`<CarouselContainer /> should render its childrens css w/ props next 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: translateX(calc(-100%));
+  -ms-transform: translateX(calc(-100%));
+  transform: translateX(calc(-100%));
+}
+
+<Div
+  className="c0"
+  next={true}
+>
+  <table>
+    <tr>
+      <td>
+        table
+      </td>
+    </tr>
+  </table>
+</Div>
+`;
+
+exports[`<CarouselContainer /> should render its childrens css w/ props prev 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: translateX(calc(-100%));
+  -ms-transform: translateX(calc(-100%));
+  transform: translateX(calc(-100%));
+}
+
+<Div
+  className="c0"
+  prev={true}
+>
+  <div>
+    <p>
+      Ciao
+    </p>
+  </div>
+</Div>
+`;
+
+exports[`<CarouselContainer /> should render its css w/ props flexGrow 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: translateX(calc(-100%));
+  -ms-transform: translateX(calc(-100%));
+  transform: translateX(calc(-100%));
+}
+
+<Div
+  className="c0"
+  flexGrow="0"
+/>
+`;
+
+exports[`<CarouselWrap /> should calc its width 100% minus double the props buttonWidth 1`] = `
+.c0 {
+  width: calc(100% - (10px * 2));
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+<Div
+  buttonWidth="10px"
+  className="c0"
+/>
+`;

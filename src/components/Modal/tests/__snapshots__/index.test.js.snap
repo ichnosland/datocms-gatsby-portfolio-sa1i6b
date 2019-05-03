@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> if topbar prop is true it should render its css w/ props barcolor 1`] = `
+<Modal__ModalOverlay
+  show={true}
+  theme={
+    Object {
+      "modalbg": "rgba(0, 0, 0, 0.75)",
+    }
+  }
+  topbar={true}
+>
+  <Modal__ModalContent
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    topbar={true}
+  >
+    <TopBar
+      backArrow={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      backNav={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      bgColor="yellow"
+      closeBtn={
+        Object {
+          "enabled": true,
+          "onClickFunction": [MockFunction],
+          "url": "#",
+        }
+      }
+      lesson={
+        Object {
+          "enabled": false,
+          "url": "",
+        }
+      }
+      pinned={true}
+      single={true}
+      title="Questo è un titolo"
+      topSwitcher={
+        Object {
+          "items": Array [],
+        }
+      }
+    />
+    <p>
+      Questo è un contenuto
+    </p>
+  </Modal__ModalContent>
+</Modal__ModalOverlay>
+`;
+
+exports[`<ModalContent /> should render a Div 1`] = `
+.c0 {
+  max-width: 860px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ModalContent /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  max-width: 860px;
+  background-color: green;
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+<Div
+  bgcolor="green"
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ModalContent /> should render its css w/ props formBox & props bgcolor 1`] = `
+.c0 {
+  max-width: 860px;
+  background-color: blu;
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  width: 100%;
+  background-color: blu;
+  color: rgb(255,255,255);
+}
+
+.c0 h2 {
+  color: currentColor;
+  margin-top: 0;
+}
+
+.c0 p {
+  margin-bottom: 6px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+}
+
+<Div
+  bgcolor="blu"
+  className="c0"
+  formBox={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ModalContent /> should render its css w/ props formBox & props color 1`] = `
+.c0 {
+  max-width: 860px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  width: 100%;
+  background-color: #00BBEF;
+  color: red;
+}
+
+.c0 h2 {
+  color: currentColor;
+  margin-top: 0;
+}
+
+.c0 p {
+  margin-bottom: 6px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+}
+
+<Div
+  className="c0"
+  color="red"
+  formBox={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ModalContent /> should render its css w/ props formBox & theme 1`] = `
+.c0 {
+  max-width: 860px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  width: 100%;
+  background-color: #00BBEF;
+  color: rgb(255,255,255);
+}
+
+.c0 h2 {
+  color: currentColor;
+  margin-top: 0;
+}
+
+.c0 p {
+  margin-bottom: 6px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+}
+
+<Div
+  className="c0"
+  formBox={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ModalContent /> should render its css w/ props formBox 1`] = `
+.c0 {
+  max-width: 860px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  width: 100%;
+  background-color: #00BBEF;
+  color: rgb(255,255,255);
+}
+
+.c0 h2 {
+  color: currentColor;
+  margin-top: 0;
+}
+
+.c0 p {
+  margin-bottom: 6px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+}
+
+<Div
+  className="c0"
+  formBox={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ModalContent /> should render its css w/ props maxWidth 1`] = `
+.c0 {
+  max-width: 400px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  width: 100%;
+  background-color: #00BBEF;
+  color: rgb(255,255,255);
+}
+
+.c0 h2 {
+  color: currentColor;
+  margin-top: 0;
+}
+
+.c0 p {
+  margin-bottom: 6px;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+@media (max-width:30em) {
+  .c0 {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    border-radius: 0;
+  }
+}
+
+<Div
+  className="c0"
+  formBox={true}
+  maxWidth="400px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+/>
+`;
+
+exports[`<ModalContent /> should render its css w/ props topbar 1`] = `
+.c0 {
+  max-width: 860px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+@media (max-width:64em) {
+  .c0 {
+    margin: 10px;
+  }
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  topbar={true}
+/>
+`;
+
+exports[`<ModalFooter /> should render a Div 1`] = `
+.c0 {
+  padding: 10px 30px 20px;
+}
+
+<Div
+  className="c0"
+/>
+`;
+
+exports[`<ModalHeader /> should render its css w/ props theme 1`] = `
+.c0 {
+  color: red;
+  margin: 0;
+  padding: 30px 30px 10px;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`<ModalOverlay /> should render its css w/ props overlaybg 1`] = `
+.c0 {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 16;
+  overflow: auto;
+  display: none;
+}
+
+<FlexBox
+  className="c0"
+  overlaybg="green"
+  theme={
+    Object {
+      "modalbg": "rgba(0, 0, 0, 0.75)",
+    }
+  }
+/>
+`;
+
+exports[`<ModalOverlay /> should render its css w/ props show 1`] = `
+.c0 {
+  background-color: rgba(0,0,0,0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 16;
+  overflow: auto;
+  display: none;
+}
+
+<FlexBox
+  className="c0"
+  show={false}
+  theme={
+    Object {
+      "modalbg": "rgba(0, 0, 0, 0.75)",
+    }
+  }
+/>
+`;
+
+exports[`<ModalOverlay /> should render its css w/ props theme 1`] = `
+.c0 {
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 16;
+  overflow: auto;
+  display: none;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "modalbg": "yellow",
+    }
+  }
+/>
+`;
+
+exports[`<ModalOverlay /> should render its css w/ props topbar 1`] = `
+.c0 {
+  background-color: rgba(0,0,0,0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 16;
+  overflow: auto;
+  display: none;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  overflow: scroll;
+}
+
+<FlexBox
+  className="c0"
+  theme={
+    Object {
+      "modalbg": "rgba(0, 0, 0, 0.75)",
+    }
+  }
+  topbar={true}
+/>
+`;

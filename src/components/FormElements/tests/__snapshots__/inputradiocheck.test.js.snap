@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputRadioCheck /> should render its css w/ props bgcolor 1`] = `
+<RadioCheck__RadioCheckLabel
+  bgcolor="green"
+  checked={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  type="radio"
+>
+  <InputRadioCheck__RadioCheckInput
+    checked={true}
+    type="radio"
+  />
+  <RadioCheck__FakeRadioCheck
+    checked={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    type="radio"
+  />
+</RadioCheck__RadioCheckLabel>
+`;
+
+exports[`<InputRadioCheck /> should render its css w/ props checked 1`] = `
+<RadioCheck__RadioCheckLabel
+  checked={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  type="radio"
+>
+  <InputRadioCheck__RadioCheckInput
+    checked={true}
+    type="radio"
+  />
+  <RadioCheck__FakeRadioCheck
+    checked={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    type="radio"
+  />
+</RadioCheck__RadioCheckLabel>
+`;
+
+exports[`<InputRadioCheck /> should render its css w/ props name 1`] = `
+<RadioCheck__RadioCheckLabel
+  checked={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  type="radio"
+>
+  <InputRadioCheck__RadioCheckInput
+    checked={true}
+    type="radio"
+  />
+  <RadioCheck__FakeRadioCheck
+    checked={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    type="radio"
+  />
+</RadioCheck__RadioCheckLabel>
+`;
+
+exports[`<InputRadioCheck /> should render its css w/ props type 1`] = `
+<RadioCheck__RadioCheckLabel
+  checked={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  type="radio"
+>
+  <InputRadioCheck__RadioCheckInput
+    checked={true}
+    type="radio"
+  />
+  <RadioCheck__FakeRadioCheck
+    checked={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    type="radio"
+  />
+</RadioCheck__RadioCheckLabel>
+`;
+
+exports[`<InputRadioCheck /> should render its label w/ props label 1`] = `
+<RadioCheck__RadioCheckLabel
+  checked={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+    }
+  }
+  type="radio"
+>
+  <InputRadioCheck__RadioCheckInput
+    checked={true}
+    type="radio"
+  />
+  <RadioCheck__FakeRadioCheck
+    checked={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+      }
+    }
+    type="radio"
+  />
+  Etichetta
+</RadioCheck__RadioCheckLabel>
+`;
+
+exports[`<RadioCheckInput /> should be checked w/ props checked 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+<input
+  checked={true}
+  className="c0"
+  type="radio"
+/>
+`;
+
+exports[`<RadioCheckInput /> should render a <input> tag 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+<input
+  className="c0"
+  type="radio"
+/>
+`;
+
+exports[`<RadioCheckInput /> should render its type w/ props name 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+<input
+  className="c0"
+  name="myInputComponent"
+  type="radio"
+/>
+`;
+
+exports[`<RadioCheckInput /> should render its type w/ props type 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+<input
+  className="c0"
+  type="radio"
+/>
+`;

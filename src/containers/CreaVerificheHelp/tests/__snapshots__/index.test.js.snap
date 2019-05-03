@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreaVerificheHelpView /> should render a Container 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    single={true}
+    title="Aiuto"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Heading__H2>
+      Che cos’è 
+      MyTest
+      ?
+    </Heading__H2>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      MyTest
+       è un’applicazione web fruibile da qualsiasi dispositivo (pc, tablet, smartphone). Uno strumento pensato per il docente, per creare e modificare una verifica sugli argomenti desiderati in pochi click.
+    </Paragraph>
+    <Heading__H2>
+      Gli argomenti
+    </Heading__H2>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Entrando in 
+      MyTest
+      , trovi gli argomenti già organizzati in base al sillabo della disciplina. Un campo di ricerca, in alto, ti permette la 
+      <strong>
+        ricerca rapida
+      </strong>
+      .
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Dashboard"
+      responsive={true}
+      src="/basename/help_matematica_dashboard.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Scegliendo un argomento, 
+      MyTest
+       ti presenta la sinossi degli esercizi disponibili. L’anteprima di ogni esercizio ti consente una scelta rapida e puntuale, con la possibilità di vederne la soluzione e aggiungerlo al tuo carrello.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Argomento scelto"
+      responsive={true}
+      src="/basename/help_matematica_argomento.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Un 
+      <strong>
+        triangolino verde
+      </strong>
+       segnala gli esercizi selezionati. Puoi aggiungere o rimuovere esercizi a tuo piacimento e, volendo, puoi anche selezionare esercizi da argomenti diversi: cliccando sulla X in alto a sinistra potrai tornare all'indice e da lì aprire un altro argomento. Nel 
+      <strong>
+        carrello
+      </strong>
+       in alto a destra avrai sempre il conto aggiornato degli esercizi che hai scelto di mettere nella tua verifica.
+    </Paragraph>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Quando la tua verifica è pronta, clicca sul tasto "Crea verifica".
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Selezione esercizi"
+      responsive={true}
+      src="/basename/help_matematica_selezione.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Potrai ancora intervenire sul numero degli esercizi (rimuovendone alcuni o aggiungendone altri); dove previsto, potrai 
+      <strong>
+        modificare
+      </strong>
+       gli esercizi scelti (la consegna, il testo, le risposte); potrai 
+      <strong>
+        ordinare
+      </strong>
+       gli esercizi rinumerandoli. Infine dai un titolo alla verifica, e se ne hai bisogno aggiungi le tue note, prima di cliccare su "Salva".
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Salvataggio verifica"
+      responsive={true}
+      src="/basename/help_matematica_salvataggio.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Una volta salvata, puoi stampare la verifica già pronta per la somministrazione alla classe; puoi anche 
+      <strong>
+        stampare
+      </strong>
+       una versione con le 
+      <strong>
+        soluzioni
+      </strong>
+       per agevolarti la correzione.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Stampa verifica"
+      responsive={true}
+      src="/basename/help_matematica_stampa.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Nel menu principale, che apri cliccando sul pulsante in basso a destra nella pagina dell'indice, alla voce "Le tue verifiche" troverai tutte le prove che hai creato e salvato precedentemente.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Menu"
+      responsive={true}
+      src="/basename/help_matematica_menu.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Le tue verifiche, salvate, saranno sempre a tua disposizione per essere modificate e ristampate!
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Verifiche salvate"
+      responsive={true}
+      src="/basename/help_matematica_tueverifiche.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Buon lavoro!
+    </Paragraph>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Il team di 
+      MyTest
+       - La Scuola
+    </Paragraph>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheHelpView /> should render a Container w/ custom !firma & productName 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    single={true}
+    title="Aiuto"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Heading__H2>
+      Che cos’è 
+      nome prodotto
+      ?
+    </Heading__H2>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      nome prodotto
+       è un’applicazione web fruibile da qualsiasi dispositivo (pc, tablet, smartphone). Uno strumento pensato per il docente, per creare e modificare una verifica sugli argomenti desiderati in pochi click.
+    </Paragraph>
+    <Heading__H2>
+      Gli argomenti
+    </Heading__H2>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Entrando in 
+      nome prodotto
+      , trovi gli argomenti già organizzati in base al sillabo della disciplina. Un campo di ricerca, in alto, ti permette la 
+      <strong>
+        ricerca rapida
+      </strong>
+      .
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Dashboard"
+      responsive={true}
+      src="/basename/help_matematica_dashboard.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Scegliendo un argomento, 
+      nome prodotto
+       ti presenta la sinossi degli esercizi disponibili. L’anteprima di ogni esercizio ti consente una scelta rapida e puntuale, con la possibilità di vederne la soluzione e aggiungerlo al tuo carrello.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Argomento scelto"
+      responsive={true}
+      src="/basename/help_matematica_argomento.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Un 
+      <strong>
+        triangolino verde
+      </strong>
+       segnala gli esercizi selezionati. Puoi aggiungere o rimuovere esercizi a tuo piacimento e, volendo, puoi anche selezionare esercizi da argomenti diversi: cliccando sulla X in alto a sinistra potrai tornare all'indice e da lì aprire un altro argomento. Nel 
+      <strong>
+        carrello
+      </strong>
+       in alto a destra avrai sempre il conto aggiornato degli esercizi che hai scelto di mettere nella tua verifica.
+    </Paragraph>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Quando la tua verifica è pronta, clicca sul tasto "Crea verifica".
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Selezione esercizi"
+      responsive={true}
+      src="/basename/help_matematica_selezione.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Potrai ancora intervenire sul numero degli esercizi (rimuovendone alcuni o aggiungendone altri); dove previsto, potrai 
+      <strong>
+        modificare
+      </strong>
+       gli esercizi scelti (la consegna, il testo, le risposte); potrai 
+      <strong>
+        ordinare
+      </strong>
+       gli esercizi rinumerandoli. Infine dai un titolo alla verifica, e se ne hai bisogno aggiungi le tue note, prima di cliccare su "Salva".
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Salvataggio verifica"
+      responsive={true}
+      src="/basename/help_matematica_salvataggio.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Una volta salvata, puoi stampare la verifica già pronta per la somministrazione alla classe; puoi anche 
+      <strong>
+        stampare
+      </strong>
+       una versione con le 
+      <strong>
+        soluzioni
+      </strong>
+       per agevolarti la correzione.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Stampa verifica"
+      responsive={true}
+      src="/basename/help_matematica_stampa.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Nel menu principale, che apri cliccando sul pulsante in basso a destra nella pagina dell'indice, alla voce "Le tue verifiche" troverai tutte le prove che hai creato e salvato precedentemente.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Menu"
+      responsive={true}
+      src="/basename/help_matematica_menu.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Le tue verifiche, salvate, saranno sempre a tua disposizione per essere modificate e ristampate!
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Verifiche salvate"
+      responsive={true}
+      src="/basename/help_matematica_tueverifiche.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Buon lavoro!
+    </Paragraph>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Il team di 
+      nome prodotto
+    </Paragraph>
+  </Container>
+</Page>
+`;
+
+exports[`<CreaVerificheHelpView /> should render a Container w/ custom firma & productName 1`] = `
+<Page>
+  <TopBar
+    backArrow={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    backNav={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    closeBtn={
+      Object {
+        "enabled": true,
+        "url": "/",
+      }
+    }
+    lesson={
+      Object {
+        "enabled": false,
+        "url": "",
+      }
+    }
+    noShadow={true}
+    pinned={true}
+    single={true}
+    title="Aiuto"
+    topSwitcher={
+      Object {
+        "items": Array [],
+      }
+    }
+  />
+  <Container>
+    <Heading__H2>
+      Che cos’è 
+      nome prodotto
+      ?
+    </Heading__H2>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      nome prodotto
+       è un’applicazione web fruibile da qualsiasi dispositivo (pc, tablet, smartphone). Uno strumento pensato per il docente, per creare e modificare una verifica sugli argomenti desiderati in pochi click.
+    </Paragraph>
+    <Heading__H2>
+      Gli argomenti
+    </Heading__H2>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Entrando in 
+      nome prodotto
+      , trovi gli argomenti già organizzati in base al sillabo della disciplina. Un campo di ricerca, in alto, ti permette la 
+      <strong>
+        ricerca rapida
+      </strong>
+      .
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Dashboard"
+      responsive={true}
+      src="/basename/help_matematica_dashboard.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Scegliendo un argomento, 
+      nome prodotto
+       ti presenta la sinossi degli esercizi disponibili. L’anteprima di ogni esercizio ti consente una scelta rapida e puntuale, con la possibilità di vederne la soluzione e aggiungerlo al tuo carrello.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Argomento scelto"
+      responsive={true}
+      src="/basename/help_matematica_argomento.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Un 
+      <strong>
+        triangolino verde
+      </strong>
+       segnala gli esercizi selezionati. Puoi aggiungere o rimuovere esercizi a tuo piacimento e, volendo, puoi anche selezionare esercizi da argomenti diversi: cliccando sulla X in alto a sinistra potrai tornare all'indice e da lì aprire un altro argomento. Nel 
+      <strong>
+        carrello
+      </strong>
+       in alto a destra avrai sempre il conto aggiornato degli esercizi che hai scelto di mettere nella tua verifica.
+    </Paragraph>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Quando la tua verifica è pronta, clicca sul tasto "Crea verifica".
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Selezione esercizi"
+      responsive={true}
+      src="/basename/help_matematica_selezione.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Potrai ancora intervenire sul numero degli esercizi (rimuovendone alcuni o aggiungendone altri); dove previsto, potrai 
+      <strong>
+        modificare
+      </strong>
+       gli esercizi scelti (la consegna, il testo, le risposte); potrai 
+      <strong>
+        ordinare
+      </strong>
+       gli esercizi rinumerandoli. Infine dai un titolo alla verifica, e se ne hai bisogno aggiungi le tue note, prima di cliccare su "Salva".
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Salvataggio verifica"
+      responsive={true}
+      src="/basename/help_matematica_salvataggio.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Una volta salvata, puoi stampare la verifica già pronta per la somministrazione alla classe; puoi anche 
+      <strong>
+        stampare
+      </strong>
+       una versione con le 
+      <strong>
+        soluzioni
+      </strong>
+       per agevolarti la correzione.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Stampa verifica"
+      responsive={true}
+      src="/basename/help_matematica_stampa.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Nel menu principale, che apri cliccando sul pulsante in basso a destra nella pagina dell'indice, alla voce "Le tue verifiche" troverai tutte le prove che hai creato e salvato precedentemente.
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Menu"
+      responsive={true}
+      src="/basename/help_matematica_menu.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Le tue verifiche, salvate, saranno sempre a tua disposizione per essere modificate e ristampate!
+    </Paragraph>
+    <CreaVerificheHelp__Img
+      alt="Verifiche salvate"
+      responsive={true}
+      src="/basename/help_matematica_tueverifiche.png"
+    />
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Buon lavoro!
+    </Paragraph>
+    <Paragraph
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "darken": "#1588AA",
+        }
+      }
+    >
+      Il team di 
+      nome prodotto
+       - firma
+    </Paragraph>
+  </Container>
+</Page>
+`;

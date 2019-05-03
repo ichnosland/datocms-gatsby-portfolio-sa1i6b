@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Col /> should render its css w/ props due 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0 10px;
+  vertical-align: top;
+  width: 50%;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    display: block;
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<Col /> should render its css w/ props tre 1`] = `
+.c0 {
+  display: inline-block;
+  padding: 0 10px;
+  vertical-align: top;
+  width: 33.33333%;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    display: block;
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`<TestimonialsComposed /> should render a StickyWrap 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section
+      bgColor="#00abe5"
+      direction="column"
+      first={true}
+    >
+      <Container
+        align="center"
+      >
+        <Heading__H1
+          color="#fff"
+          margin="20px 0 0"
+        >
+          Testimonianze
+        </Heading__H1>
+      </Container>
+      <Container
+        align="center"
+      >
+        <Heading__H4
+          color="#000"
+          padding="36px 0"
+        >
+          I video del Convegno:
+        </Heading__H4>
+        <Testimonials__ColWrap>
+          <Testimonials__Col
+            tre={true}
+          >
+            <Testimonials__VideoBox>
+              <Testimonials__FlexMedia>
+                <iframe
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height="315"
+                  src="https://www.youtube.com/embed/W6Oqv9AaTvo?rel=0"
+                  title="Lo stato del latino in Italia: i dati"
+                  width="560"
+                />
+              </Testimonials__FlexMedia>
+            </Testimonials__VideoBox>
+            <Testimonials__Caption>
+              Lo stato del latino in Italia: i dati
+            </Testimonials__Caption>
+          </Testimonials__Col>
+          <Testimonials__Col
+            tre={true}
+          >
+            <Testimonials__VideoBox>
+              <Testimonials__FlexMedia>
+                <iframe
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height="315"
+                  src="https://www.youtube.com/embed/5inrptQIBSw?rel=0"
+                  title="Alatin al liceo Classico"
+                  width="560"
+                />
+              </Testimonials__FlexMedia>
+            </Testimonials__VideoBox>
+            <Testimonials__Caption>
+              Alatin al liceo Classico
+            </Testimonials__Caption>
+          </Testimonials__Col>
+          <Testimonials__Col
+            tre={true}
+          >
+            <Testimonials__VideoBox>
+              <Testimonials__FlexMedia>
+                <iframe
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height="315"
+                  src="https://www.youtube.com/embed/fO7ZMkpln4U?rel=0"
+                  title="Alatin al liceo Scentifico"
+                  width="560"
+                />
+              </Testimonials__FlexMedia>
+            </Testimonials__VideoBox>
+            <Testimonials__Caption>
+              Alatin al liceo Scentifico
+            </Testimonials__Caption>
+          </Testimonials__Col>
+        </Testimonials__ColWrap>
+      </Container>
+    </Section>
+    <Section
+      bgColor="#00abe5"
+    >
+      <Container
+        align="center"
+      >
+        <Testimonials__ColWrap>
+          <Testimonials__Col
+            tre={true}
+          >
+            <Testimonials__VideoBox>
+              <Testimonials__FlexMedia>
+                <iframe
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height="315"
+                  src="https://www.youtube.com/embed/dhHJIW6m8-E?rel=0"
+                  title="Alatin per il triennio: Testimonials"
+                  width="560"
+                />
+              </Testimonials__FlexMedia>
+            </Testimonials__VideoBox>
+            <Testimonials__Caption>
+              Alatin per il triennio: Testimonials
+            </Testimonials__Caption>
+          </Testimonials__Col>
+          <Testimonials__Col
+            tre={true}
+          >
+            <Testimonials__VideoBox>
+              <Testimonials__FlexMedia>
+                <iframe
+                  allowFullScreen={true}
+                  frameBorder="0"
+                  height="315"
+                  src="https://www.youtube.com/embed/I8LATKc-8C0?rel=0"
+                  title="Intervista TGR"
+                  width="560"
+                />
+              </Testimonials__FlexMedia>
+            </Testimonials__VideoBox>
+            <Testimonials__Caption>
+              Intervista TGR
+            </Testimonials__Caption>
+          </Testimonials__Col>
+        </Testimonials__ColWrap>
+      </Container>
+    </Section>
+    <Section
+      bgColor="#00abe5"
+    >
+      <Container
+        align="center"
+      >
+        <Heading__H4
+          color="#000"
+          padding="36px 0"
+        >
+          I materiali:
+        </Heading__H4>
+        <Testimonials__ColWrap>
+          <Testimonials__Col
+            due={true}
+          >
+            <Testimonials__A
+              href="handout_convegno.pdf"
+              target="_blank"
+            >
+              <div>
+                <RespImg
+                  maxWidth="30%"
+                  src="IMAGE_MOCK"
+                />
+              </div>
+              <Testimonials__Caption>
+                Handout convegno
+              </Testimonials__Caption>
+            </Testimonials__A>
+          </Testimonials__Col>
+          <Testimonials__Col
+            due={true}
+          >
+            <Testimonials__A
+              href="intervista_redana.pdf"
+              target="_blank"
+            >
+              <div>
+                <RespImg
+                  maxWidth="30%"
+                  src="IMAGE_MOCK"
+                />
+              </div>
+              <Testimonials__Caption>
+                Intervista al professore
+              </Testimonials__Caption>
+            </Testimonials__A>
+          </Testimonials__Col>
+        </Testimonials__ColWrap>
+      </Container>
+    </Section>
+    <Section
+      bgColor="#00abe5"
+    >
+      <Container
+        align="center"
+        padding="0 0 60px 0"
+      >
+        <Heading__H4
+          color="#000"
+          padding="36px 0"
+        >
+          Rassegna stampa:
+        </Heading__H4>
+        <Testimonials__ColWrap>
+          <Testimonials__Col
+            due={true}
+          >
+            <Testimonials__A
+              href="http://www.lastampa.it/2018/02/26/societa/sfregando-la-lampada-di-alatin-il-latino-diventa-un-gioco-online-z9gSIKOefTv9XW0IpNTyWL/pagina.html"
+              target="_blank"
+            >
+              <div>
+                <RespImg
+                  maxWidth="90%"
+                  src="IMAGE_MOCK"
+                />
+              </div>
+              <Testimonials__Caption>
+                La Stampa.it
+              </Testimonials__Caption>
+            </Testimonials__A>
+          </Testimonials__Col>
+          <Testimonials__Col
+            due={true}
+          >
+            <Testimonials__A
+              href="http://torino.repubblica.it/cronaca/2018/02/27/news/ora_i_latino_a_scuola_si_studia_con_lo_smartphone_e_copiare_i_compiti_non_conviene-189916501"
+              target="_blank"
+            >
+              <div>
+                <RespImg
+                  maxWidth="90%"
+                  src="IMAGE_MOCK"
+                />
+              </div>
+              <Testimonials__Caption>
+                Repubblica.it
+              </Testimonials__Caption>
+            </Testimonials__A>
+          </Testimonials__Col>
+        </Testimonials__ColWrap>
+      </Container>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <ZigZagBorder />
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

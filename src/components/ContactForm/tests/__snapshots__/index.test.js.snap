@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactFormView /> should render its button bgColor w/ props buttonBg 1`] = `
+<Container
+  color="#12334e"
+>
+  <form>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_nome"
+    >
+      <Field
+        component={[Function]}
+        id="nome"
+        label="Nome e cognome*"
+        landing={true}
+        name="nome"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_email"
+    >
+      <Field
+        component={[Function]}
+        id="email"
+        label="Email*"
+        landing={true}
+        name="email"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_scuola"
+    >
+      <Field
+        component={[Function]}
+        id="scuola"
+        label="Scuola*"
+        landing={true}
+        name="scuola"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_ruolo"
+    >
+      <Field
+        component={[Function]}
+        id="ruolo"
+        label="Ruolo*"
+        landing={true}
+        name="ruolo"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow>
+      <Field
+        component={[Function]}
+        id="descrizione"
+        label="Scrivi qui*"
+        landing={true}
+        name="descrizione"
+        validate={
+          Array [
+            [Function],
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <Field
+      bgcolor="rgba(255, 255, 255, 0.2)"
+      component={[Function]}
+      id="privacy"
+      label={
+        <small
+          htmlFor="privacy"
+        >
+          Ho letto e accetto le 
+          <a
+            href="https://maieuticallabs.it/privacy"
+            target="_blank"
+          >
+            normative sulla Privacy
+          </a>
+        </small>
+      }
+      name="privacy"
+      type="checkbox"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Div
+      align="center"
+    >
+      <Paragraph
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        * campi obbligatori
+      </Paragraph>
+      <ContactForm__FormButton
+        bgcolor="red"
+        disabled={true}
+        onClick={[Function]}
+        shadow={1}
+        type="button"
+      >
+        Invia
+      </ContactForm__FormButton>
+    </Div>
+  </form>
+</Container>
+`;
+
+exports[`<ContactFormView /> should render its button color w/ props buttonColor 1`] = `
+<Container
+  color="#12334e"
+>
+  <form>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_nome"
+    >
+      <Field
+        component={[Function]}
+        id="nome"
+        label="Nome e cognome*"
+        landing={true}
+        name="nome"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_email"
+    >
+      <Field
+        component={[Function]}
+        id="email"
+        label="Email*"
+        landing={true}
+        name="email"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_scuola"
+    >
+      <Field
+        component={[Function]}
+        id="scuola"
+        label="Scuola*"
+        landing={true}
+        name="scuola"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow
+      key="richiesta_informazioni_form_ruolo"
+    >
+      <Field
+        component={[Function]}
+        id="ruolo"
+        label="Ruolo*"
+        landing={true}
+        name="ruolo"
+        type="text"
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <ContactForm__InputRow>
+      <Field
+        component={[Function]}
+        id="descrizione"
+        label="Scrivi qui*"
+        landing={true}
+        name="descrizione"
+        validate={
+          Array [
+            [Function],
+            [Function],
+          ]
+        }
+      />
+    </ContactForm__InputRow>
+    <Field
+      bgcolor="rgba(255, 255, 255, 0.2)"
+      component={[Function]}
+      id="privacy"
+      label={
+        <small
+          htmlFor="privacy"
+        >
+          Ho letto e accetto le 
+          <a
+            href="https://maieuticallabs.it/privacy"
+            target="_blank"
+          >
+            normative sulla Privacy
+          </a>
+        </small>
+      }
+      name="privacy"
+      type="checkbox"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Div
+      align="center"
+    >
+      <Paragraph
+        theme={
+          Object {
+            "brand": "#00BBEF",
+            "darken": "#1588AA",
+          }
+        }
+      >
+        * campi obbligatori
+      </Paragraph>
+      <ContactForm__FormButton
+        color="green"
+        disabled={true}
+        onClick={[Function]}
+        shadow={1}
+        type="button"
+      >
+        Invia
+      </ContactForm__FormButton>
+    </Div>
+  </form>
+</Container>
+`;

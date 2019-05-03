@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Scores /> should render its css w/ props theme 1`] = `
+<Scores__ScoresWrap
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "buttons": "3px",
+      },
+    }
+  }
+>
+  350
+</Scores__ScoresWrap>
+`;
+
+exports[`<Scores /> should render its props score 1`] = `
+<Scores__ScoresWrap
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "buttons": "3px",
+      },
+    }
+  }
+>
+  350
+</Scores__ScoresWrap>
+`;

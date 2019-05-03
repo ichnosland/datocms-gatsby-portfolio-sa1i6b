@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormazioneComposed /> should render a StickyWrap 1`] = `
+<StickyFooter__StickyWrap>
+  <StickyFooter__StickyTop>
+    <ComponentWithScrollPosition />
+    <Section
+      bgColor="rgb(92, 164, 221)"
+      padding="100px 50px 0"
+      paddingmobile="76px 20px 0"
+    >
+      <LandingCard
+        color="white"
+        flexorder={2}
+        padding="20px 0 0"
+        src="IMAGE_MOCK"
+      >
+        <Heading__H1
+          color="#fff"
+          margin="0"
+        >
+          Formazione per i docenti
+        </Heading__H1>
+        <p>
+          (Corso accreditato MIUR ai fini del conseguimento di CFU - accredito SOFIA 26185)
+        </p>
+      </LandingCard>
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+      padding="10px 50px 50px"
+      paddingmobile="10px 20px 30px"
+    >
+      <Container>
+        <Heading__H3
+          color="#000"
+          margin="23px auto 18px"
+        >
+          Descrizione
+        </Heading__H3>
+        <ul>
+          <li>
+            Impostare un sillabo di lingua italiana per padronanza.
+          </li>
+          <li>
+            L’apprendimento personalizzato attraverso i software adattivi.
+          </li>
+          <li>
+            L’analisi dei risultati; gli errori tipici.
+          </li>
+          <li>
+            La programmazione: come individuare gli argomenti sensibili nei limiti del quadro orario della disciplina al biennio.
+          </li>
+          <li>
+            La verifica degli apprendimenti.
+          </li>
+        </ul>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Obiettivi
+        </Heading__H3>
+        <p>
+          Il corso ha natura laboratoriale e si prefigge di fornire ai docenti partecipanti i rudimenti metodologici del 
+          <strong>
+            Mastery Learning
+          </strong>
+           (apprendimento per padronanza) e del 
+          <strong>
+            Digital Authentic Learning
+          </strong>
+           (le competenze digitali previste dalla legge 107/2015) applicati alla didattica della lingua italiana.
+        </p>
+        <p>
+          Il corso prevede la sperimentazione gratuita della piattaforma online di Itaca, corso di grammatica italiana per padronanza.
+        </p>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Programma
+        </Heading__H3>
+        <p>
+          Il programma è articolato in 
+          <strong>
+            4 moduli
+          </strong>
+          :
+        </p>
+        <ol>
+          <li>
+            Lezione mattutina con le classi (1 ora): durante l’incontro si invitano  ragazzi a iscriversi e provare la piattaforma in una situazione informale, cimentandosi con un argomento affrontato di recente.
+          </li>
+          <li>
+            Lezione pomeridiana con i docenti (2 ore).
+          </li>
+          <li>
+            Laboratorio online (22 ore): si svolge online nelle settimane successive all’incontro in presenza e consiste nella somministrazione di (minimo) 11 unità di apprendimento (argomenti grammaticali) a scelta dei docenti, seguendo la propria programmazione.
+          </li>
+          <li>
+            Valutazione delle unità affrontate.
+          </li>
+        </ol>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Brevi profili dei formatori
+        </Heading__H3>
+        <p>
+          <strong>
+            Zoe Martini
+          </strong>
+           (1983), linguista. Si è laureata con lode a Torino in Scienze della Mediazione Linguistica con una tesi in Italiano L2 su didattica e BES. Ha lavorato come tutor con studenti delle medie e del liceo e come insegnante di italiano per stranieri. Dopo varie collaborazioni con Loescher e Maieutical Labs, è entrata stabilmente in quest’ultima all’inizio del 2016, come autrice per le medie e il biennio. Nel 2017 ha curato Argonauta, un libro per le vacanze digital first, di italiano, storia, geografia e cittadinanza, per la Scuola secondaria di 1° grado, scrivendo inoltre i contenuti di grammatica italiana. È suo il coordinamento redazionale cartaceo e digitale di Itaca, un corso di grammatica italiana strutturato per obiettivi, basato sul Mastery Learning, “apprendimento per padronanza”.
+        </p>
+        <p>
+          <strong>
+            Matteo Boero
+          </strong>
+           (1978), linguista. È stato editor e multimedia consultant per Loescher, Mondadori Education, Zanichelli. Project manager per la Fondazione Agnelli e l’Ansas, l’Agenzia Nazionale per l’Autonomia Scolastica del MIUR (attuale INDIRE). Collaboratore di Rai Educational. Nel 2012 insieme ad Adriano Allora e Ivan Molineris ha fondato i Maieutical Labs, “laboratori maieutici”, primo centro di ricerca in Italia per webapp e tutoring sulle lingue classiche. Ideatore e creatore tra gli altri di Cloudschooling, Alatin, Itaca (Accademia di Italiano), piattaforme di apprendimento con oltre 25.000 studenti attivi e 100.000 sessioni di lavoro mensili. Da anni si occupa di digitalizzazione della didattica nell’ambito umanistico.
+        </p>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Mappatura delle competenze
+        </Heading__H3>
+        <ul>
+          <li>
+            Impostare un sillabo per padronanza.
+          </li>
+          <li>
+            Applicare le basi del cloud computing e del Digital Authentic Learning nella didattica della lingua italiana.
+          </li>
+          <li>
+            Definire una programmazione in modo oggettivo, partendo dai dati.
+          </li>
+        </ul>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Ambiti specifici
+        </Heading__H3>
+        <ul>
+          <li>
+            Sviluppo della cultura digitale ed educazione ai media.
+          </li>
+          <li>
+            Didattica delle singole discipline previste dagli ordinamenti.
+          </li>
+        </ul>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Ambiti trasversali
+        </Heading__H3>
+        <ul>
+          <li>
+            Didattica e metodologie.
+          </li>
+          <li>
+            Metodologie e attività laboratoriali.
+          </li>
+          <li>
+            Innovazione e didattica digitale.
+          </li>
+        </ul>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Destinatari
+        </Heading__H3>
+        <p>
+          Docenti classi A11, A12, A23 (lingua italiana L2).
+        </p>
+        <Heading__H3
+          color="#000"
+          margin="42px auto 16px"
+        >
+          Durata ore
+        </Heading__H3>
+        <p>
+          25h
+        </p>
+      </Container>
+    </Section>
+    <Section
+      bgColor="#F2F2F2"
+      padding="0 50px 50px"
+      paddingmobile="0 20px 30px"
+    >
+      <Container
+        align="center"
+      >
+        <ButtonLink__ActionButtonLink
+          bgcolor="rgb(92, 164, 221)"
+          sectionbutton={1}
+          shadow={1}
+          to="/contatti"
+        >
+          Scrivici per saperne di più
+        </ButtonLink__ActionButtonLink>
+      </Container>
+    </Section>
+  </StickyFooter__StickyTop>
+  <StickyFooter__StickyBottom>
+    <Footer />
+  </StickyFooter__StickyBottom>
+</StickyFooter__StickyWrap>
+`;

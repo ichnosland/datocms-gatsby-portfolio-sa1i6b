@@ -1,0 +1,1783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroup /> should render its css w/ props full 1`] = `
+<ButtonGroup__Group
+  full={true}
+  noPrint={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+    }
+  }
+>
+  <ButtonGroup__InnerButton
+    full={true}
+    key="1"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    center button
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    full={true}
+    key="2"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    la nonna
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    full={true}
+    key="3"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    zio
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    full={true}
+    key="4"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button__Icon
+      height="18px"
+      left={true}
+      path={
+        <path
+          d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+          fillRule="evenodd"
+        />
+      }
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    ezechiele
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    full={true}
+    key="5"
+    onClick={[Function]}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    con funzione
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    full={true}
+    hideOnMobile={true}
+    key="6"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    nascosto su mobile
+  </ButtonGroup__InnerButton>
+</ButtonGroup__Group>
+`;
+
+exports[`<ButtonGroup /> should render its css w/ props half 1`] = `
+<ButtonGroup__Group
+  noPrint={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+    }
+  }
+>
+  <ButtonGroup__InnerButton
+    half={true}
+    key="1"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    center button
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    half={true}
+    key="2"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    la nonna
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    half={true}
+    key="3"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    zio
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    half={true}
+    key="4"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button__Icon
+      height="18px"
+      left={true}
+      path={
+        <path
+          d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+          fillRule="evenodd"
+        />
+      }
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    ezechiele
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    half={true}
+    key="5"
+    onClick={[Function]}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    con funzione
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    half={true}
+    hideOnMobile={true}
+    key="6"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    nascosto su mobile
+  </ButtonGroup__InnerButton>
+</ButtonGroup__Group>
+`;
+
+exports[`<ButtonGroup /> should render its css w/ props margin 1`] = `
+<ButtonGroup__Group
+  margin="30px"
+  noPrint={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+    }
+  }
+>
+  <ButtonGroup__InnerButton
+    key="1"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    center button
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="2"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    la nonna
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="3"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    zio
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="4"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button__Icon
+      height="18px"
+      left={true}
+      path={
+        <path
+          d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+          fillRule="evenodd"
+        />
+      }
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    ezechiele
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="5"
+    onClick={[Function]}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    con funzione
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    hideOnMobile={true}
+    key="6"
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    nascosto su mobile
+  </ButtonGroup__InnerButton>
+</ButtonGroup__Group>
+`;
+
+exports[`<ButtonGroup /> should render its css w/ props tabs 1`] = `
+<ButtonGroup__Group
+  noPrint={true}
+  tabs={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+    }
+  }
+>
+  <ButtonGroup__InnerButton
+    key="1"
+    tabs={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    center button
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="2"
+    tabs={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    la nonna
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="3"
+    tabs={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    zio
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="4"
+    tabs={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    <Button__Icon
+      height="18px"
+      left={true}
+      path={
+        <path
+          d="M18 27.692c-5.914 0-11.464-2.77-15.221-7.605A3.65 3.65 0 0 1 2 17.847c0-.796.279-1.598.779-2.242C6.536 10.77 12.086 8 18 8s11.464 2.771 15.221 7.605A3.65 3.65 0 0 1 34 17.846c0 .795-.279 1.597-.779 2.241-3.757 4.834-9.307 7.605-15.221 7.605zm0-16.744c3.797 0 6.875 3.088 6.875 6.898 0 3.81-3.078 6.899-6.875 6.899s-6.875-3.089-6.875-6.899 3.078-6.898 6.875-6.898z"
+          fillRule="evenodd"
+        />
+      }
+      theme={
+        Object {
+          "brand": "#00BBEF",
+        }
+      }
+      viewBox="0 0 36 36"
+      width="18px"
+    />
+    ezechiele
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    key="5"
+    onClick={[Function]}
+    tabs={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    con funzione
+  </ButtonGroup__InnerButton>
+  <ButtonGroup__InnerButton
+    hideOnMobile={true}
+    key="6"
+    tabs={true}
+    theme={
+      Object {
+        "brand": "#00BBEF",
+        "radius": Object {
+          "buttons": "6px",
+        },
+      }
+    }
+  >
+    nascosto su mobile
+  </ButtonGroup__InnerButton>
+</ButtonGroup__Group>
+`;
+
+exports[`<Group /> should render its css w/ props full 1`] = `
+.c0 {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+<FlexBox
+  className="c0"
+  full={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`<Group /> should render its css w/ props margin 1`] = `
+.c0 {
+  text-align: center;
+  margin: 50px;
+}
+
+<FlexBox
+  className="c0"
+  margin="50px"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`<Group /> should render its css w/ props tabs 1`] = `
+.c0 {
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #00BBEF;
+}
+
+<FlexBox
+  className="c0"
+  tabs={true}
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "fonts": Object {
+        "buttons": Object {
+          "fontFamily": "Quicksand",
+          "fontWeight": "400",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props acitvebgColor 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #444;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props activeColor 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: #444;
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props attivo 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+  position: relative;
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0 svg {
+  fill: rgb(255,255,255);
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props bgcolor 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #444;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: #444;
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #919191;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #2b2b2b;
+  color: #111;
+}
+
+.c0:disabled svg {
+  fill: #111;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props bgcolor when disabled 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #ffbb00;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: #ffbb00;
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #ffe499;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #cc9600;
+  color: #997000;
+}
+
+.c0:disabled svg {
+  fill: #997000;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props border 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 3px solid green;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 3px solid green;
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props color 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #444;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(68,68,68,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #444;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+  color="#444"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props full 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  width: 100% !important;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props half 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  width: 50% !important;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props hideOnMobile 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+    display: none;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<InnerButton /> should render its css w/ props tabs 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Quicksand;
+  font-weight: 400;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding: 0.4em 1.4em;
+  border: 1px solid transparent;
+  background-color: #00abe5;
+  border-radius: 50px;
+  position: relative;
+  margin-left: -1px;
+  color: #00abe5;
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(231,236,236);
+  border-radius: 0;
+  margin: 0 1px;
+  border-bottom: none;
+  border-radius: 0 0;
+  margin-left: 0;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-right: 0;
+}
+
+.c0:disabled {
+  background-color: #7fdfff;
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.c0:disabled svg {
+  opacity: .3;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled {
+  background-color: #e6e6e6;
+  color: #ccc;
+}
+
+.c0:disabled svg {
+  fill: #ccc;
+}
+
+.c0 svg {
+  fill: #00abe5;
+}
+
+.c0:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.c0:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.c0:first-child:last-child {
+  border-radius: 50px;
+}
+
+.c0:first-child {
+  border-radius: 0 0;
+}
+
+.c0:last-child {
+  border-radius: 0 0;
+}
+
+.c0:active {
+  background-color: #00abe5;
+  color: rgb(255,255,255);
+}
+
+.c0:active svg {
+  fill: rgb(255,255,255);
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+
+  .c0 svg {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    padding: 0.4em 0.8em;
+  }
+}
+
+@media (max-device-width:20em) {
+  .c0 {
+    padding: 0.4em 0.6em;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;

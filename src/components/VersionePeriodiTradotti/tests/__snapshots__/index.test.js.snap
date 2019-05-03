@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BranoTradotto /> should render a Div 1`] = `
+.c0 {
+  position: relative;
+  padding: 18px 20px;
+  margin: 0 9px 9px;
+  border: 2px dashed #00BBEF;
+  border-radius: 6px;
+  background-color: #FFFDDE;
+}
+
+.c0 div {
+  background-color: inherit;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "#00BBEF",
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<BranoTradotto /> should render its props w/ theme 1`] = `
+.c0 {
+  position: relative;
+  padding: 18px 20px;
+  margin: 0 9px 9px;
+  border: 2px dashed green;
+  border-radius: 80px;
+  background-color: #FFFDDE;
+}
+
+.c0 div {
+  background-color: inherit;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "brand": "green",
+      "radius": Object {
+        "general": "80px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<HeaderRiepilogo /> should render a Div 1`] = `
+.c0 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<HeaderRiepilogo /> should render its css w/ props modal & bgcolor 1`] = `
+.c0 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: red;
+  border-radius: 6px;
+}
+
+.c0 h2 {
+  padding: 14px 16px 10px;
+  background-color: rgb(240,240,240);
+}
+
+.c0 div {
+  padding: 16px;
+}
+
+<Div
+  bgcolor="red"
+  className="c0"
+  modal={true}
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<HeaderRiepilogo /> should render its css w/ props modal 1`] = `
+.c0 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+}
+
+.c0 h2 {
+  padding: 14px 16px 10px;
+  background-color: rgb(240,240,240);
+}
+
+.c0 div {
+  padding: 16px;
+}
+
+<Div
+  className="c0"
+  modal={true}
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<HeaderRiepilogo /> should render its props w/ theme 1`] = `
+.c0 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: rgb(255,255,255);
+  border-radius: 80px;
+}
+
+.c0 h2 {
+  padding: 14px 16px 10px;
+  background-color: rgb(240,240,240);
+}
+
+.c0 div {
+  padding: 16px;
+}
+
+<Div
+  className="c0"
+  modal={true}
+  theme={
+    Object {
+      "radius": Object {
+        "general": "80px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<TagTraduzione /> should render a <span> tag 1`] = `
+.c0 {
+  display: inline-block;
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  padding: 4px 14px;
+  color: rgb(255,255,255);
+  background-color: #00BBEF;
+  font-size: 14px;
+  border-radius: 100px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<TagTraduzione /> should render its props w/ theme 1`] = `
+.c0 {
+  display: inline-block;
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  padding: 4px 14px;
+  color: rgb(255,255,255);
+  background-color: red;
+  font-size: 14px;
+  border-radius: 100px;
+}
+
+@media (max-width:41.6875em) {
+  .c0 {
+    font-size: 12px;
+  }
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`<VersionePeriodiTradotti /> fa il render di un paragrafo quando goto = undefined 1`] = `
+<Container>
+  <VersionePeriodiTradotti__HeaderRiepilogo
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <Heading__H2
+      margin="0"
+      padding="0 0 10px"
+    >
+      titolo
+    </Heading__H2>
+    <div>
+      sottotitolo
+    </div>
+  </VersionePeriodiTradotti__HeaderRiepilogo>
+  <Div
+    key="1"
+    userSelect="none"
+  >
+    <div>
+      <NewListPanels__ListItem
+        alignItems="stretch"
+        direction="column"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          justifyContent="flex-start"
+          width="100%"
+        >
+          testo da tradurre
+        </NewListPanels__ListItemText>
+        <VersionePeriodiTradotti__BranoTradotto
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <VersionePeriodiTradotti__TagTraduzione
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "radius": Object {
+                  "general": "6px",
+                },
+              }
+            }
+          >
+            Traduzione
+          </VersionePeriodiTradotti__TagTraduzione>
+          <HtmlBlock
+            text="testo tradotto"
+          />
+        </VersionePeriodiTradotti__BranoTradotto>
+      </NewListPanels__ListItem>
+    </div>
+  </Div>
+</Container>
+`;
+
+exports[`<VersionePeriodiTradotti /> fa il render di un paragrafo quando goto.enabled = false 1`] = `
+<Container>
+  <VersionePeriodiTradotti__HeaderRiepilogo
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <Heading__H2
+      margin="0"
+      padding="0 0 10px"
+    >
+      titolo
+    </Heading__H2>
+    <div>
+      sottotitolo
+    </div>
+  </VersionePeriodiTradotti__HeaderRiepilogo>
+  <Div
+    key="1"
+    userSelect="none"
+  >
+    <div>
+      <NewListPanels__ListItem
+        alignItems="stretch"
+        direction="column"
+        theme={
+          Object {
+            "pale": "#999",
+            "radius": Object {
+              "general": "6px",
+            },
+          }
+        }
+      >
+        <NewListPanels__ListItemText
+          justifyContent="flex-start"
+          width="100%"
+        >
+          testo da tradurre
+        </NewListPanels__ListItemText>
+        <VersionePeriodiTradotti__BranoTradotto
+          theme={
+            Object {
+              "brand": "#00BBEF",
+              "radius": Object {
+                "general": "6px",
+              },
+            }
+          }
+        >
+          <VersionePeriodiTradotti__TagTraduzione
+            theme={
+              Object {
+                "brand": "#00BBEF",
+                "radius": Object {
+                  "general": "6px",
+                },
+              }
+            }
+          >
+            Traduzione
+          </VersionePeriodiTradotti__TagTraduzione>
+          <HtmlBlock
+            text="testo tradotto"
+          />
+        </VersionePeriodiTradotti__BranoTradotto>
+      </NewListPanels__ListItem>
+    </div>
+  </Div>
+</Container>
+`;
+
+exports[`<VersionePeriodiTradotti /> fa il render di un paragrafo quando la funzione di goTo è abilitata 1`] = `
+<Container>
+  <VersionePeriodiTradotti__HeaderRiepilogo
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <Heading__H2
+      margin="0"
+      padding="0 0 10px"
+    >
+      titolo
+    </Heading__H2>
+    <div>
+      sottotitolo
+    </div>
+  </VersionePeriodiTradotti__HeaderRiepilogo>
+  <Div
+    key="1"
+    userSelect="none"
+  >
+    <NewListPanels__ListLink
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+      to="#"
+    >
+      <NewListPanels__ListItemText
+        justifyContent="flex-start"
+        width="100%"
+      >
+        testo da tradurre
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListLink>
+  </Div>
+</Container>
+`;
+
+exports[`<VersionePeriodiTradotti /> fa il render di un paragrafo se non ho specificato un titolo 1`] = `
+<Container>
+  <VersionePeriodiTradotti__HeaderRiepilogo
+    theme={
+      Object {
+        "radius": Object {
+          "general": "6px",
+        },
+      }
+    }
+  >
+    <div>
+      sottotitolo
+    </div>
+  </VersionePeriodiTradotti__HeaderRiepilogo>
+  <Div
+    key="1"
+    userSelect="none"
+  >
+    <NewListPanels__ListLink
+      onClick={[Function]}
+      theme={
+        Object {
+          "brand": "#00BBEF",
+          "pale": "#999",
+          "radius": Object {
+            "general": "6px",
+          },
+        }
+      }
+      to="#"
+    >
+      <NewListPanels__ListItemText
+        justifyContent="flex-start"
+        width="100%"
+      >
+        testo da tradurre
+      </NewListPanels__ListItemText>
+    </NewListPanels__ListLink>
+  </Div>
+</Container>
+`;

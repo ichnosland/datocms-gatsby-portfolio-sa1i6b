@@ -1,0 +1,1445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LessicoContainer /> should render its css w/ props hideTooltip 1`] = `
+.c0 {
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  color: rgb(51,51,51);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0,0,0,.25);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 12;
+  top: 33px;
+  left: 21px;
+  display: none;
+}
+
+<Div
+  className="c0"
+  hideTooltip={true}
+  left={21}
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+  top={33}
+/>
+`;
+
+exports[`<LessicoContainer /> should render its css w/ props theme 1`] = `
+.c0 {
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  color: rgb(51,51,51);
+  background-color: rgb(255,255,255);
+  border-radius: 50px;
+  box-shadow: 0 0 3px rgba(0,0,0,.25);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 12;
+  top: undefinedpx;
+  left: undefinedpx;
+}
+
+<Div
+  className="c0"
+  theme={
+    Object {
+      "radius": Object {
+        "general": "50px",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<LessicoContainer /> should render top and left 1`] = `
+.c0 {
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  color: rgb(51,51,51);
+  background-color: rgb(255,255,255);
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0,0,0,.25);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 12;
+  top: 33px;
+  left: 21px;
+}
+
+<Div
+  className="c0"
+  left={21}
+  theme={
+    Object {
+      "radius": Object {
+        "general": "6px",
+      },
+    }
+  }
+  top={33}
+/>
+`;
+
+exports[`<TestoConsegna /> mostra latex 1`] = `
+<TestoConsegna__NoSelect>
+  <FlexBox
+    justifyContent="space-between"
+    margin="0 0 20px"
+  >
+    <Heading__H2
+      margin="0"
+    >
+      titolo esercizio
+    </Heading__H2>
+  </FlexBox>
+  <TestoConsegna__BloccoConsegna
+    margin="0 auto"
+  >
+    <div
+      key="consegna_2006"
+    >
+      <s
+        key="latex_latex_0"
+        math="\\\\sqrt(3+4)"
+      />
+      testo
+    </div>
+  </TestoConsegna__BloccoConsegna>
+</TestoConsegna__NoSelect>
+`;
+
+exports[`<TestoConsegna /> mostra player audio 1`] = `
+<TestoConsegna__NoSelect>
+  <FlexBox
+    justifyContent="space-between"
+    margin="0 0 20px"
+  >
+    <Heading__H2
+      margin="0"
+    >
+      fallback titolo
+    </Heading__H2>
+    <AudioPlayer
+      disablePause={true}
+      key="audio_player_2006"
+      locked={false}
+      pauseFunction={[Function]}
+      paused={false}
+      playFunction={[Function]}
+      playing={false}
+      titolo="fallback titolo"
+    />
+  </FlexBox>
+  <TestoConsegna__BloccoConsegna
+    margin="0 auto"
+  >
+    <div
+      key="consegna_2006"
+    >
+      <Text__Lessico
+        key="lessico_block_lessico_0_Hinc"
+        onClick={[Function]}
+      >
+        Hi nc
+      </Text__Lessico>
+       te xt 
+      <Text__Lessico
+        key="lessico_block_lessico_2_ille"
+        onClick={[Function]}
+      >
+        ille
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_4_Gyges"
+        onClick={[Function]}
+      >
+        Gyges
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_6_inducitur"
+        onClick={[Function]}
+      >
+        inducitur
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_8_a"
+        onClick={[Function]}
+      >
+        a
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_10_Platone"
+        onClick={[Function]}
+      >
+        Platone
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_12_qui"
+        onClick={[Function]}
+      >
+        qui
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_14_cum"
+        onClick={[Function]}
+      >
+        cum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_16_terra"
+        onClick={[Function]}
+      >
+        terra
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_18_discessisset"
+        onClick={[Function]}
+      >
+        discessisset
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_20_magnis"
+        onClick={[Function]}
+      >
+        magnis
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_22_quibusdam"
+        onClick={[Function]}
+      >
+        quibusdam
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_24_imbribus"
+        onClick={[Function]}
+      >
+        imbribus
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_26_descendit"
+        onClick={[Function]}
+      >
+        descendit
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_28_in"
+        onClick={[Function]}
+      >
+        in
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_30_illum"
+        onClick={[Function]}
+      >
+        illum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_32_hiatum"
+        onClick={[Function]}
+      >
+        hiatum
+      </Text__Lessico>
+       
+      <Text__Contesto
+        key="contesto_context_34"
+      >
+        <Text__Lessico
+          key="lessico_block_lessico_0_aeneumque"
+          onClick={[Function]}
+        >
+          aeneumque
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_2_equum"
+          onClick={[Function]}
+        >
+          equum
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_4_ut"
+          onClick={[Function]}
+        >
+          ut
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_6_ferunt"
+          onClick={[Function]}
+        >
+          ferunt
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_8_fabulae"
+          onClick={[Function]}
+        >
+          fabulae
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_10_animadvertit"
+          onClick={[Function]}
+        >
+          animadvertit
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_12_cuius"
+          onClick={[Function]}
+        >
+          cuius
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_14_in"
+          onClick={[Function]}
+        >
+          in
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_16_lateribus"
+          onClick={[Function]}
+        >
+          lateribus
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_18_fores"
+          onClick={[Function]}
+        >
+          fores
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_20_essent"
+          onClick={[Function]}
+        >
+          essent
+        </Text__Lessico>
+         
+      </Text__Contesto>
+      .
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<strong>blocco html</strong>",
+          }
+        }
+        inline={true}
+        key="html_text_36"
+      />
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<img src=\\"immagine.png\\" />",
+          }
+        }
+        key="image_image_36"
+      />
+    </div>
+  </TestoConsegna__BloccoConsegna>
+</TestoConsegna__NoSelect>
+`;
+
+exports[`<TestoConsegna /> mostra solo parole quando il lessico è attivato 1`] = `
+<TestoConsegna__NoSelect>
+  <FlexBox
+    justifyContent="space-between"
+    margin="0 0 20px"
+  >
+    <Heading__H2
+      margin="0"
+    >
+      titolo esercizio
+    </Heading__H2>
+  </FlexBox>
+  <TestoConsegna__BloccoConsegna
+    margin="0 auto"
+  >
+    <div
+      key="consegna_2006"
+    >
+      <Text__Lessico
+        key="lessico_block_lessico_0_Hinc"
+        onClick={[Function]}
+      >
+        Hi nc
+      </Text__Lessico>
+       te xt 
+      <Text__Lessico
+        key="lessico_block_lessico_2_ille"
+        onClick={[Function]}
+      >
+        ille
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_4_Gyges"
+        onClick={[Function]}
+      >
+        Gyges
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_6_inducitur"
+        onClick={[Function]}
+      >
+        inducitur
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_8_a"
+        onClick={[Function]}
+      >
+        a
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_10_Platone"
+        onClick={[Function]}
+      >
+        Platone
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_12_qui"
+        onClick={[Function]}
+      >
+        qui
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_14_cum"
+        onClick={[Function]}
+      >
+        cum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_16_terra"
+        onClick={[Function]}
+      >
+        terra
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_18_discessisset"
+        onClick={[Function]}
+      >
+        discessisset
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_20_magnis"
+        onClick={[Function]}
+      >
+        magnis
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_22_quibusdam"
+        onClick={[Function]}
+      >
+        quibusdam
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_24_imbribus"
+        onClick={[Function]}
+      >
+        imbribus
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_26_descendit"
+        onClick={[Function]}
+      >
+        descendit
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_28_in"
+        onClick={[Function]}
+      >
+        in
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_30_illum"
+        onClick={[Function]}
+      >
+        illum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_32_hiatum"
+        onClick={[Function]}
+      >
+        hiatum
+      </Text__Lessico>
+       
+      <Text__Contesto
+        key="contesto_context_34"
+      >
+        <Text__Lessico
+          key="lessico_block_lessico_0_aeneumque"
+          onClick={[Function]}
+        >
+          aeneumque
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_2_equum"
+          onClick={[Function]}
+        >
+          equum
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_4_ut"
+          onClick={[Function]}
+        >
+          ut
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_6_ferunt"
+          onClick={[Function]}
+        >
+          ferunt
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_8_fabulae"
+          onClick={[Function]}
+        >
+          fabulae
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_10_animadvertit"
+          onClick={[Function]}
+        >
+          animadvertit
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_12_cuius"
+          onClick={[Function]}
+        >
+          cuius
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_14_in"
+          onClick={[Function]}
+        >
+          in
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_16_lateribus"
+          onClick={[Function]}
+        >
+          lateribus
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_18_fores"
+          onClick={[Function]}
+        >
+          fores
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_20_essent"
+          onClick={[Function]}
+        >
+          essent
+        </Text__Lessico>
+         
+      </Text__Contesto>
+      .
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<strong>blocco html</strong>",
+          }
+        }
+        inline={true}
+        key="html_text_36"
+      />
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<img src=\\"immagine.png\\" />",
+          }
+        }
+        key="image_image_36"
+      />
+    </div>
+  </TestoConsegna__BloccoConsegna>
+</TestoConsegna__NoSelect>
+`;
+
+exports[`<TestoConsegna /> mostra solo parole quando il lessico è disattivato 1`] = `
+<TestoConsegna__NoSelect>
+  <FlexBox
+    justifyContent="space-between"
+    margin="0 0 20px"
+  >
+    <Heading__H2
+      margin="0"
+    >
+      titolo esercizio
+    </Heading__H2>
+  </FlexBox>
+  <TestoConsegna__BloccoConsegna
+    margin="0 auto"
+  >
+    <div
+      key="consegna_2006"
+    >
+      Hi nc
+       te xt 
+      ille
+       
+      Gyges
+       
+      inducitur
+       
+      a
+       
+      Platone
+      , 
+      qui
+       
+      cum
+       
+      terra
+       
+      discessisset
+       
+      magnis
+       
+      quibusdam
+       
+      imbribus
+      , 
+      descendit
+       
+      in
+       
+      illum
+       
+      hiatum
+       
+      <Text__Contesto
+        key="contesto_context_34"
+      >
+        aeneumque
+         
+        equum
+        , 
+        ut
+         
+        ferunt
+         
+        fabulae
+        , 
+        animadvertit
+        , 
+        cuius
+         
+        in
+         
+        lateribus
+         
+        fores
+         
+        essent
+         
+      </Text__Contesto>
+      .
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<strong>blocco html</strong>",
+          }
+        }
+        inline={true}
+        key="html_text_36"
+      />
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<img src=\\"immagine.png\\" />",
+          }
+        }
+        key="image_image_36"
+      />
+    </div>
+  </TestoConsegna__BloccoConsegna>
+</TestoConsegna__NoSelect>
+`;
+
+exports[`<TestoConsegna /> nascondo il titolo 1`] = `
+<TestoConsegna__NoSelect>
+  <TestoConsegna__BloccoConsegna
+    margin="0 auto"
+  >
+    <div
+      key="consegna_2006"
+    >
+      <Text__Lessico
+        key="lessico_block_lessico_0_Hinc"
+        onClick={[Function]}
+      >
+        Hi nc
+      </Text__Lessico>
+       te xt 
+      <Text__Lessico
+        key="lessico_block_lessico_2_ille"
+        onClick={[Function]}
+      >
+        ille
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_4_Gyges"
+        onClick={[Function]}
+      >
+        Gyges
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_6_inducitur"
+        onClick={[Function]}
+      >
+        inducitur
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_8_a"
+        onClick={[Function]}
+      >
+        a
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_10_Platone"
+        onClick={[Function]}
+      >
+        Platone
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_12_qui"
+        onClick={[Function]}
+      >
+        qui
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_14_cum"
+        onClick={[Function]}
+      >
+        cum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_16_terra"
+        onClick={[Function]}
+      >
+        terra
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_18_discessisset"
+        onClick={[Function]}
+      >
+        discessisset
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_20_magnis"
+        onClick={[Function]}
+      >
+        magnis
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_22_quibusdam"
+        onClick={[Function]}
+      >
+        quibusdam
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_24_imbribus"
+        onClick={[Function]}
+      >
+        imbribus
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_26_descendit"
+        onClick={[Function]}
+      >
+        descendit
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_28_in"
+        onClick={[Function]}
+      >
+        in
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_30_illum"
+        onClick={[Function]}
+      >
+        illum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_32_hiatum"
+        onClick={[Function]}
+      >
+        hiatum
+      </Text__Lessico>
+       
+      <Text__Contesto
+        key="contesto_context_34"
+      >
+        <Text__Lessico
+          key="lessico_block_lessico_0_aeneumque"
+          onClick={[Function]}
+        >
+          aeneumque
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_2_equum"
+          onClick={[Function]}
+        >
+          equum
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_4_ut"
+          onClick={[Function]}
+        >
+          ut
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_6_ferunt"
+          onClick={[Function]}
+        >
+          ferunt
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_8_fabulae"
+          onClick={[Function]}
+        >
+          fabulae
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_10_animadvertit"
+          onClick={[Function]}
+        >
+          animadvertit
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_12_cuius"
+          onClick={[Function]}
+        >
+          cuius
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_14_in"
+          onClick={[Function]}
+        >
+          in
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_16_lateribus"
+          onClick={[Function]}
+        >
+          lateribus
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_18_fores"
+          onClick={[Function]}
+        >
+          fores
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_20_essent"
+          onClick={[Function]}
+        >
+          essent
+        </Text__Lessico>
+         
+      </Text__Contesto>
+      .
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<strong>blocco html</strong>",
+          }
+        }
+        inline={true}
+        key="html_text_36"
+      />
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<img src=\\"immagine.png\\" />",
+          }
+        }
+        key="image_image_36"
+      />
+    </div>
+  </TestoConsegna__BloccoConsegna>
+</TestoConsegna__NoSelect>
+`;
+
+exports[`<TestoConsegna /> quando è attiva la flag mostraPerStampa mi deve mostrare anche il testo esercizio 1`] = `
+<TestoConsegna__NoSelect>
+  <FlexBox
+    justifyContent="space-between"
+    margin="0 0 20px"
+  >
+    <Heading__H2
+      margin="0"
+    >
+      Completa la traduzione
+    </Heading__H2>
+  </FlexBox>
+  <TestoConsegna__BloccoConsegna
+    margin="0 auto"
+  >
+    <div
+      key="consegna_2006"
+    >
+      <Text__Lessico
+        key="lessico_block_lessico_0_Hinc"
+        onClick={[Function]}
+      >
+        Hi nc
+      </Text__Lessico>
+       te xt 
+      <Text__Lessico
+        key="lessico_block_lessico_2_ille"
+        onClick={[Function]}
+      >
+        ille
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_4_Gyges"
+        onClick={[Function]}
+      >
+        Gyges
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_6_inducitur"
+        onClick={[Function]}
+      >
+        inducitur
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_8_a"
+        onClick={[Function]}
+      >
+        a
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_10_Platone"
+        onClick={[Function]}
+      >
+        Platone
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_12_qui"
+        onClick={[Function]}
+      >
+        qui
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_14_cum"
+        onClick={[Function]}
+      >
+        cum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_16_terra"
+        onClick={[Function]}
+      >
+        terra
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_18_discessisset"
+        onClick={[Function]}
+      >
+        discessisset
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_20_magnis"
+        onClick={[Function]}
+      >
+        magnis
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_22_quibusdam"
+        onClick={[Function]}
+      >
+        quibusdam
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_24_imbribus"
+        onClick={[Function]}
+      >
+        imbribus
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_26_descendit"
+        onClick={[Function]}
+      >
+        descendit
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_28_in"
+        onClick={[Function]}
+      >
+        in
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_30_illum"
+        onClick={[Function]}
+      >
+        illum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_32_hiatum"
+        onClick={[Function]}
+      >
+        hiatum
+      </Text__Lessico>
+       
+      <Text__Contesto
+        key="contesto_context_34"
+      >
+        <Text__Lessico
+          key="lessico_block_lessico_0_aeneumque"
+          onClick={[Function]}
+        >
+          aeneumque
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_2_equum"
+          onClick={[Function]}
+        >
+          equum
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_4_ut"
+          onClick={[Function]}
+        >
+          ut
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_6_ferunt"
+          onClick={[Function]}
+        >
+          ferunt
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_8_fabulae"
+          onClick={[Function]}
+        >
+          fabulae
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_10_animadvertit"
+          onClick={[Function]}
+        >
+          animadvertit
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_12_cuius"
+          onClick={[Function]}
+        >
+          cuius
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_14_in"
+          onClick={[Function]}
+        >
+          in
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_16_lateribus"
+          onClick={[Function]}
+        >
+          lateribus
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_18_fores"
+          onClick={[Function]}
+        >
+          fores
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_20_essent"
+          onClick={[Function]}
+        >
+          essent
+        </Text__Lessico>
+         
+      </Text__Contesto>
+      .
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<strong>blocco html</strong>",
+          }
+        }
+        inline={true}
+        key="html_text_36"
+      />
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<img src=\\"immagine.png\\" />",
+          }
+        }
+        key="image_image_36"
+      />
+    </div>
+    <div>
+      Il contadino
+      <Text__Contesto
+        key="contesto_undefined"
+      >
+         ... 
+      </Text__Contesto>
+      , poi
+      <Text__Contesto
+        key="contesto_undefined"
+      >
+        ...
+      </Text__Contesto>
+    </div>
+  </TestoConsegna__BloccoConsegna>
+</TestoConsegna__NoSelect>
+`;
+
+exports[`<TestoConsegna /> visualizza il titolo se !step.esercizi[0].titolo usando step.testi[0].titolo 1`] = `
+<TestoConsegna__NoSelect>
+  <FlexBox
+    justifyContent="space-between"
+    margin="0 0 20px"
+  >
+    <Heading__H2
+      margin="0"
+    >
+      fallback titolo
+    </Heading__H2>
+  </FlexBox>
+  <TestoConsegna__BloccoConsegna
+    margin="0 auto"
+  >
+    <div
+      key="consegna_2006"
+    >
+      <Text__Lessico
+        key="lessico_block_lessico_0_Hinc"
+        onClick={[Function]}
+      >
+        Hi nc
+      </Text__Lessico>
+       te xt 
+      <Text__Lessico
+        key="lessico_block_lessico_2_ille"
+        onClick={[Function]}
+      >
+        ille
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_4_Gyges"
+        onClick={[Function]}
+      >
+        Gyges
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_6_inducitur"
+        onClick={[Function]}
+      >
+        inducitur
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_8_a"
+        onClick={[Function]}
+      >
+        a
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_10_Platone"
+        onClick={[Function]}
+      >
+        Platone
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_12_qui"
+        onClick={[Function]}
+      >
+        qui
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_14_cum"
+        onClick={[Function]}
+      >
+        cum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_16_terra"
+        onClick={[Function]}
+      >
+        terra
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_18_discessisset"
+        onClick={[Function]}
+      >
+        discessisset
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_20_magnis"
+        onClick={[Function]}
+      >
+        magnis
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_22_quibusdam"
+        onClick={[Function]}
+      >
+        quibusdam
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_24_imbribus"
+        onClick={[Function]}
+      >
+        imbribus
+      </Text__Lessico>
+      , 
+      <Text__Lessico
+        key="lessico_block_lessico_26_descendit"
+        onClick={[Function]}
+      >
+        descendit
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_28_in"
+        onClick={[Function]}
+      >
+        in
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_30_illum"
+        onClick={[Function]}
+      >
+        illum
+      </Text__Lessico>
+       
+      <Text__Lessico
+        key="lessico_block_lessico_32_hiatum"
+        onClick={[Function]}
+      >
+        hiatum
+      </Text__Lessico>
+       
+      <Text__Contesto
+        key="contesto_context_34"
+      >
+        <Text__Lessico
+          key="lessico_block_lessico_0_aeneumque"
+          onClick={[Function]}
+        >
+          aeneumque
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_2_equum"
+          onClick={[Function]}
+        >
+          equum
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_4_ut"
+          onClick={[Function]}
+        >
+          ut
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_6_ferunt"
+          onClick={[Function]}
+        >
+          ferunt
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_8_fabulae"
+          onClick={[Function]}
+        >
+          fabulae
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_10_animadvertit"
+          onClick={[Function]}
+        >
+          animadvertit
+        </Text__Lessico>
+        , 
+        <Text__Lessico
+          key="lessico_block_lessico_12_cuius"
+          onClick={[Function]}
+        >
+          cuius
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_14_in"
+          onClick={[Function]}
+        >
+          in
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_16_lateribus"
+          onClick={[Function]}
+        >
+          lateribus
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_18_fores"
+          onClick={[Function]}
+        >
+          fores
+        </Text__Lessico>
+         
+        <Text__Lessico
+          key="lessico_block_lessico_20_essent"
+          onClick={[Function]}
+        >
+          essent
+        </Text__Lessico>
+         
+      </Text__Contesto>
+      .
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<strong>blocco html</strong>",
+          }
+        }
+        inline={true}
+        key="html_text_36"
+      />
+      <utils__HtmlWrap
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<img src=\\"immagine.png\\" />",
+          }
+        }
+        key="image_image_36"
+      />
+    </div>
+  </TestoConsegna__BloccoConsegna>
+</TestoConsegna__NoSelect>
+`;

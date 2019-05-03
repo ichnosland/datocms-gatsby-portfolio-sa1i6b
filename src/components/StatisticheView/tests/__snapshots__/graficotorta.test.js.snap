@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GraficoMedieVotiClasse /> Mostro la condizione iniziale 1`] = `
+<StatsElements__ChartBox
+  className="ChartBox torta"
+>
+  <StatsElements__LegendaChartBox>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio 7 -10
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#87deca"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio 5 - 6,99
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#ffe06e"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio 1 - 4,99
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#df2e6d"
+      />
+    </div>
+  </StatsElements__LegendaChartBox>
+  <Div
+    height="250px"
+    margin="0 auto"
+    width="250px"
+  >
+    <FlexibleRadialChart
+      animation={true}
+      colorDomain={
+        Array [
+          2,
+          1,
+          0,
+        ]
+      }
+      colorRange={
+        Array [
+          "#fff",
+          "#ff0",
+          "#00e",
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "colour": "#fff",
+            "count": 12,
+            "title": "titolo",
+          },
+          Object {
+            "colour": "#ff0",
+            "count": 5,
+            "title": "titolo 2",
+          },
+          Object {
+            "colour": "#00e",
+            "count": 0,
+            "title": "titolo 2",
+          },
+        ]
+      }
+      getAngle={[Function]}
+      onValueMouseOut={[Function]}
+      onValueMouseOver={[Function]}
+    />
+  </Div>
+</StatsElements__ChartBox>
+`;
+
+exports[`<GraficoMedieVotiClasse /> Mostro la condizione se hint è visibile 1`] = `
+<StatsElements__ChartBox
+  className="ChartBox torta"
+>
+  <StatsElements__LegendaChartBox>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio 7 -10
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#87deca"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio 5 - 6,99
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#ffe06e"
+      />
+    </div>
+    <div>
+      <StatsElements__SwatchLabel>
+        Punteggio 1 - 4,99
+      </StatsElements__SwatchLabel>
+      <StatsElements__Swatch
+        bgColor="#df2e6d"
+      />
+    </div>
+  </StatsElements__LegendaChartBox>
+  <Div
+    height="250px"
+    margin="0 auto"
+    width="250px"
+  >
+    <FlexibleRadialChart
+      animation={true}
+      colorDomain={
+        Array [
+          2,
+          1,
+          0,
+        ]
+      }
+      colorRange={
+        Array [
+          "#fff",
+          "#ff0",
+          "#00e",
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "colour": "#fff",
+            "count": 12,
+            "title": "titolo",
+          },
+          Object {
+            "colour": "#ff0",
+            "count": 5,
+            "title": "titolo 2",
+          },
+          Object {
+            "colour": "#00e",
+            "count": 0,
+            "title": "titolo 2",
+          },
+        ]
+      }
+      getAngle={[Function]}
+      onValueMouseOut={[Function]}
+      onValueMouseOver={[Function]}
+    >
+      <Hint
+        align={
+          Object {
+            "horizontal": "auto",
+            "vertical": "auto",
+          }
+        }
+        format={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "borderRadius": "6px",
+            "color": "#fff",
+            "fontSize": "14px",
+            "padding": "6px 10px",
+          }
+        }
+        value={
+          Object {
+            "campioni": 1,
+            "display": true,
+            "tipologia": "tipologia",
+            "tipologiaGrafico": "votiClasse",
+            "titolo": "titolo",
+            "x": "#1",
+            "y": 1,
+          }
+        }
+      >
+        <div>
+          <p>
+            tipologia
+            : 
+            titolo
+          </p>
+        </div>
+      </Hint>
+    </FlexibleRadialChart>
+  </Div>
+</StatsElements__ChartBox>
+`;

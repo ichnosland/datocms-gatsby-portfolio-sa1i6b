@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Page /> should render its css w/ props full 1`] = `
+.c0 {
+  position: relative;
+  padding: 94px 20px 30px;
+  width: 100vw;
+  height: 100%;
+  overflow-y: auto;
+}
+
+@media (max-width:30em) {
+  .c0 {
+    padding: 84px 16px 30px;
+  }
+}
+
+@media print {
+  .c0 {
+    padding: 20px;
+  }
+}
+
+<Div
+  className="c0"
+  full={true}
+/>
+`;
