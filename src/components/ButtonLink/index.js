@@ -6,7 +6,7 @@
 import styled, { css } from 'styled-components';
 
 import { Link } from 'react-router-dom';
-import { ButtonStyle, ActionButtonStyle } from 'components/Button';
+import { ButtonStyle, ActionButtonStyle } from './Button';
 import { lighten, transparentize } from 'polished';
 import { colore } from 'style/color';
 
