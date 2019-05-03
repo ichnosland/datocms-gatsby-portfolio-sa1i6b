@@ -8,17 +8,17 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import provideScrollPosition from 'react-provide-scroll-position';
 
-import { StickyWrap, StickyTop, StickyBottom } from 'components/StickyFooter';
-import { Section } from 'components/Section';
-import Container from 'components/Container';
-import SubLandingCard from 'components/LandingCard/SubLandingCard';
-import { H1, H2 } from 'components/Heading';
-import { ActionButtonLink } from 'components/ButtonLink';
-import { DesktopImage, MobileImage } from 'components/RespImg';
-import LandingMenuBar from 'components/LandingMenuBar';
-import Footer from 'components/Footer';
+import { StickyWrap, StickyTop, StickyBottom } from 'StickyFooter';
+import { Section } from 'Section';
+import Container from 'Container';
+import SubLandingCard from 'LandingCard/SubLandingCard';
+import { H1, H2 } from 'Heading';
+import { ActionButtonLink } from 'ButtonLink';
+import { DesktopImage, MobileImage } from 'RespImg';
+import LandingMenuBar from 'LandingMenuBar';
+import Footer from 'Footer';
 import { colore } from 'style/color';
-import { landingPageToggleMenu } from 'containers/LandingPage/actions';
+//import { landingPageToggleMenu } from '../containers/LandingPage/actions';
 /*
 import libro from './images/libro.png';
 import dashboard from './images/dashboard.png';
