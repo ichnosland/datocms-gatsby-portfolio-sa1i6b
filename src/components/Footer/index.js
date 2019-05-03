@@ -20,9 +20,7 @@ export const FooterBlock = styled.footer`
 position: relative;
 width: 100%;
 background-color: ${() => {
-    if (APPLICATION === 'LandingAlatin') return colore.landing.green;
-    if (APPLICATION === 'LandingItaca') return colore.itaca.brand;
-    return 'transparent';
+     return colore.landing.green;
   }};;
 `;
 
