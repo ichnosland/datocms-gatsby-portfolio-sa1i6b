@@ -5,7 +5,7 @@
 */
 
 import styled, { css } from 'styled-components';
-import { lighten, darken, transparentize } from 'polished';
+//import { lighten, darken, transparentize } from 'polished';
 import media from 'style/mediainjector';
 import { colore, transparent } from 'style/color';
 import Svg from '../Svg';
